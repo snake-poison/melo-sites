@@ -138,8 +138,8 @@ static assets. The endpoint rejects submissions from other origins, honeypot sub
 invalid fields, and failed or reused Turnstile tokens. A failed submission displays retry
 and phone contact options. Pipedrive needs no LeadBooster subscription for this integration.
 
-The national site keeps the phone/email fallback until its own form service is set in
-`sites/national/site.ts`. It receives neither the Charlotte Worker nor its secrets.
+The national and Atlanta sites keep the phone/email fallback until their own form service is
+set in their `site.ts`. They receive neither the Charlotte Worker nor its secrets.
 
 ## Commands
 
