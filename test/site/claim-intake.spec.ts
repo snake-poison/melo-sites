@@ -5,7 +5,8 @@ import { pages, publicDir, readPage } from './site'
 describe('Contract intake deployment', () => {
   it('ships the shared Pages worker and routes with every site build', () => {
     expect(readFileSync(join(publicDir, '_worker.js'), 'utf8')).toBe(readFileSync('layers/melo/public/_worker.js', 'utf8'))
-    expect(JSON.parse(readFileSync(join(publicDir, '_routes.json'), 'utf8')).include).toContain('/*')
+    const routes = JSON.parse(readFileSync(join(publicDir, '_routes.json'), 'utf8')) as { include: string[] }
+    expect(routes.include).toContain('/*')
   })
   it('provides contract fields on every page containing the intake', () => {
     let count = 0
