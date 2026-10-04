@@ -1,0 +1,1 @@
+{ "version": 1, "include": ["/*"], "exclude": ["/_ipx/*", "/_nuxt/*", "/wp-content/*", "/images/*", "/fonts/*", "/og-fonts/*", "/raw/*", "/sitemap.xml", "/robots.txt", "/llms.txt", "/llms-full.txt", "/favicon.ico"] }

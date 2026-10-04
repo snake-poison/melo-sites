@@ -116,14 +116,29 @@ the licensed adjuster who wrote or reviewed a post would help search engines tru
 
 ## The claim form
 
-The site is static, so the free claims review form posts to a form service, which emails the
-lead and sends the visitor on to `/thank-you-page/`. Until one is set up, the block shows
-the phone and email buttons instead of the form.
+Charlotte posts its plain HTML claim form to `/api/claim-review`, handled by the Pages
+advanced-mode Worker in `sites/charlotte/public/_worker.js`. The Worker verifies Cloudflare
+Turnstile, validates the fields, and creates a Pipedrive person, a lead titled
+`Charlotte website — <name>`, and a note with all loss details. It redirects to the existing
+`/thank-you-page/` only after the lead is saved. Leads belong to the API credential's user.
+A contact's note preserves the request even if attaching that note to the lead fails.
 
-To turn it on, sign up with a form service (Web3Forms, Formspree or Basin all work without
-JavaScript), then fill in `claimForm` in each site's `site.ts`: `action` is the URL the
-service gives you, and `hidden` holds any fields it needs with every submission, such as an
-access key and a redirect to the site's `/thank-you-page/`.
+Set these encrypted **production Pages secrets before deployment** with
+`wrangler pages secret bulk <private-json-file> --project-name=publicadjusterscharlotte`:
+`PIPEDRIVE_API_TOKEN`, `TURNSTILE_SECRET_KEY`, and `TURNSTILE_SITE_KEY` (the last is public,
+but keeping it in the same configuration simplifies setup). Never put API tokens in
+`site.ts`, hidden form inputs, or the repository. The Turnstile widget must allow
+`publicadjusterscharlotte.pages.dev`, `publicadjusterscharlotte.com`, and
+`www.publicadjusterscharlotte.com`. It uses managed mode and the `claim-review` action.
+
+The Worker adds Turnstile only to pages containing `data-claim-captcha`; the static build
+retains its no-runtime output. `_routes.json` bypasses the Worker for images and other
+static assets. The endpoint rejects submissions from other origins, honeypot submissions,
+invalid fields, and failed or reused Turnstile tokens. A failed submission displays retry
+and phone contact options. Pipedrive needs no LeadBooster subscription for this integration.
+
+The national site keeps the phone/email fallback until its own form service is set in
+`sites/national/site.ts`. It receives neither the Charlotte Worker nor its secrets.
 
 ## Commands
 

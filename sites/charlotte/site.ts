@@ -176,12 +176,11 @@ export const featuredReview = {
 } as const
 
 /**
- * The free claim review form. The site is static, so the form posts to a form service, which
- * emails the lead and sends the visitor to /thank-you-page/. Until `action` is set, the form
- * is left out and the block offers the phone and email instead. README.md has the setup.
+ * The free claim review form posts to the Charlotte Pages Worker, which verifies Turnstile,
+ * saves the intake in Pipedrive, and redirects to /thank-you-page/. README.md has the setup.
  */
 export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[] } = {
-  action: '',
+  action: '/api/claim-review',
   // Fields the service needs with every submission, such as its access key.
   hidden: {},
   // The checkboxes of the old form's first step.
