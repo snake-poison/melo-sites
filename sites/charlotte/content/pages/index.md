@@ -17,22 +17,23 @@ secondOpinion: true
 
 ## Max claim valuation without the anxiety.
 
-::page-section{image="/wp-content/uploads/2020/05/Graph-showing-public-adjuster-claims-value.png" alt="Bar chart of median claim payments: $2,029 without a public adjuster, $17,187 with one" caption="Chart Data Source: Office of Program Policy Analysis and Government Accountability (OPPAGA) analysis. Data refers to the median payment." plain checks}
+::page-section{image="/wp-content/uploads/2020/05/Graph-showing-public-adjuster-claims-value.png" alt="Bar chart of median claim payments: $2,029 without a public adjuster, $17,187 with one" caption="Chart Data Source: Florida Office of Program Policy Analysis and Government Accountability (OPPAGA) analysis of Florida claims. Data refers to the median payment." plain checks}
 ### Fees Based on Contingency
 
-- Don't pay anything, accept on claim overage
-- Business Risk & Interruption
+- Nothing up front: our fee comes from the extra we recover
+- Homes, businesses and business interruption
 
 ### Variety of Insurance Claims
 
 - Mold & Water Damage
 - Smoke & Fire Damage
 - Hail & Roof Damage
+- Storm & Wind Damage
 
 ### Wide Area of Service
 
-- Storm & Wind Damage
-- Greater Charlotte
+- Greater Charlotte and Mecklenburg County
+- Huntersville, Concord, Gastonia, Monroe and Matthews
 
 :page-cta{kind="call" label="Call (704) 286-0707"}
 ::
@@ -40,9 +41,9 @@ secondOpinion: true
 ::page-section{video="Vk0F9WxIHcA" videoTitle="Melo Public Adjusters Charlotte - Insurance Claims Adjusters in North Carolina Who Are On Your Side" reverse}
 ## About Melo Public Adjusters Charlotte
 
-Ramon Melo has over 20 years in the industry and 16 years dealing with insurance claims for property damage. He is passionate about getting clients the valuation they deserve and making sure the insurance companies do not take advantage of disasters, as they so often do.
+Ramon Melo has been a licensed insurance adjuster since 2011 and a North Carolina public adjuster since 2019 (license #8627837). He is passionate about getting Charlotte-area clients the valuation they deserve and making sure the insurance companies do not take advantage of disasters, as they so often do.
 
-On average, Melo Public Adjusters Charlotte gets a 76% higher valuation for our clients' insurance claims than by going through insurance alone. The best part is that it costs nothing up front, and we only get compensated a small fee based on the excess valuation over the original amount. The initial consultation is free too, so give us a call now!
+Hurricane Hugo, the remnants of Helene, spring hail, winter ice storms, pipes that burst in a hard freeze: the Charlotte area sees its share of property damage, and every claim is a negotiation. The best part is that our help costs nothing up front, and we only get compensated a small fee based on the excess valuation over the original amount. The initial consultation is free too, so give us a call now!
 
 :page-cta{kind="review" label="Start a consultation"}
 ::
@@ -52,7 +53,7 @@ On average, Melo Public Adjusters Charlotte gets a 76% higher valuation for our 
 ::page-intro
 :page-kicker{text="disappointed with your claim?"}
 
-## Get the Settlement You Deserve FAST With Our Team Of Certified Public Adjusters in Charlotte, NC
+## Get the Settlement You Deserve FAST With Our Team Of Licensed Public Adjusters in Charlotte, NC
 
 Melo Public Adjusters Charlotte works day and night to help you hold the insurance companies accountable to quickly release insurance claim money so you can begin to rebuild your life. The team understands your frustration, and they want to help!
 ::
@@ -62,7 +63,7 @@ Melo Public Adjusters Charlotte works day and night to help you hold the insuran
 Our public adjuster in Charlotte, NC, will help you better understand your insurance policy so that you know precisely the compensation that is due to you. You never have to simply settle for what the insurance company is offering.
 :::
 :::page-feature{title="Insurance Dispute Mediation" icon="carbon--scales"}
-When the insurance company isn't holding up to their end of the bargain, our public adjusters will hold them accountable through professional mitigation services. You can always count on us to have your back and get you the settlement you deserve.
+When the insurance company isn't holding up to their end of the bargain, our public adjusters will hold them accountable through professional mediation services. You can always count on us to have your back and get you the settlement you deserve.
 :::
 :::page-feature{title="Pre-Loss & Disaster Planning" icon="carbon--calendar"}
 Disaster can strike at any moment without any warning signs. When it does, and property loss occurs, you'll want to be ready with pre-loss and emergency planning. Our public adjuster in Charlotte makes sure all documents are in order for when/if you need them.
@@ -83,7 +84,7 @@ Melo Public Adjusters Charlotte is proud to partner with local contractors in th
 ::page-intro
 ## Public Adjuster Services in Charlotte, NC
 
-Melo Public Adjusters Charlotte offers a full array of services for both home and business owners. It's overwhelming enough to suffer a property loss without the insurance companies trying to make matters worse. Contact us now so we can help you navigate your claim.
+Melo Public Adjusters Charlotte offers a full array of services for home and business owners, from older houses in Plaza Midwood and Dilworth to new builds and storefronts across Mecklenburg County. It's overwhelming enough to suffer a property loss without the insurance companies trying to make matters worse. Contact us now so we can help you navigate your claim.
 ::
 
 ::page-section{image="/images/photos/homeowner-shows-assessors-storm-damage.jpg" alt="Homeowner showing storm damage to assessors outside his house" reverse}
@@ -119,10 +120,10 @@ Our company has been mediating property claims for many years in the Charlotte, 
 ::page-section{image="/images/photos/sandbag-wall-protecting-home-from-flood.jpg" alt="Sandbag wall protecting a home from rising floodwater" reverse}
 ### Pre-Loss & Disaster Planning Public Adjuster in Charlotte, NC
 
-The after-effects of property loss due to disaster can be a hard pill to swallow, especially when your insurance company isn't following through with a suitable claim settlement. [Pre-loss and disaster planning](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-charlotte/) will eradicate any document preparation and proof of loss. You can count on our team to:
+The after-effects of property loss due to disaster can be a hard pill to swallow, especially when your insurance company isn't following through with a suitable claim settlement. [Pre-loss and disaster planning](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-charlotte/) gets your documents and proof of loss ready before you need them. You can count on our team for:
 
-- Evaluating the condition of the property
-- Taking record of any inventory
+- Evaluation of the property's condition
+- A record of any inventory
 - Professional & accurate risk analysis
 - Expert assistance after property-loss
 
@@ -132,7 +133,7 @@ It's difficult to plan for a potential disaster - we 100% understand that. Howev
 ::
 
 ::page-section{image="/images/photos/framer-on-roof-trusses-new-house.jpg" alt="Framer working on the roof trusses of a new house"}
-### Top-Rated Builders Risk Insurance Public Adjuster in Charlotte, NC
+### Builders Risk Insurance Public Adjuster in Charlotte, NC
 
 Builders' risk insurance policies can be really tricky to navigate. All of the legal jargon can make your head spin. That's where our team of advanced public adjusters come in. We know all the ins and outs surrounding your insurance policy and how to explain them to you in great detail. Some of what we do includes:
 
@@ -140,7 +141,7 @@ Builders' risk insurance policies can be really tricky to navigate. All of the l
 - Communicating with the insurance company on your behalf
 - Adjusting any unfair settlements that the insurance company offers
 
-If you're a home or business owner who has a builders' risk insurance policy and you want to understand your coverage better, reach out to Melo Insurance Adjusters. Our team is waiting for your call.
+If you're a home or business owner who has a builders' risk insurance policy and you want to understand your coverage better, reach out to Melo Public Adjusters Charlotte. With so much building going on around Charlotte, our team is ready for your call.
 
 :page-cta{kind="call" label="Call now (704) 286-0707"}
 ::
@@ -150,9 +151,9 @@ If you're a home or business owner who has a builders' risk insurance policy and
 
 There are many types of insurance claims that our public adjusters in Charlotte, NC, help process so you can get the settlement that you're entitled to. We believe that any property loss is devastating enough for the insured, which is why we hold the insurance company's feet to the fire. The [insurance claim types](/insurance-claim-type/) that we most often process include:
 
-- Mold & water damage
-- Storm & wind damage
-- Hail & roof damage
+- Mold & water damage, from burst pipes to creek flooding
+- Storm & wind damage, from hurricane remnants, tornadoes and ice storms
+- Hail & roof damage from spring thunderstorms
 - Fire & smoke damage
 
 Melo Public Adjusters of Charlotte, NC, has what it takes to assess your property damage, communicate a fair settlement with the insurance company, and get that check in your hand so you can begin rebuilding your life. Call us now for a FREE consultation.
@@ -162,7 +163,7 @@ Melo Public Adjusters of Charlotte, NC, has what it takes to assess your propert
 
 ### Partnerships with Local Contractors - Working in Tandem to Help You
 
-Our public adjuster firm in Charlotte, NC, works alongside contractors for your benefit. If your property was recently destroyed or compromised by a disaster, it could be beneficial to your insurance claim to have each of us in your corner. Melo Public Adjustors will help you secure settlement funds from the insurance company while a contractor makes the necessary repairs to your damaged property. Here are situations when a public adjuster may need to interact with their client's contractor:
+Our public adjuster firm in Charlotte, NC, works alongside contractors for your benefit. If your property was recently destroyed or compromised by a disaster, it could be beneficial to your insurance claim to have each of us in your corner. Melo Public Adjusters Charlotte will help you secure settlement funds from the insurance company while a contractor makes the necessary repairs to your damaged property. Here are situations when a public adjuster may need to interact with their client's contractor:
 
 - When the insured requests the adjuster speak with the contractor
 - When the contractor finds new information
@@ -176,7 +177,7 @@ Our [independent adjusters and contractors in Charlotte](/our-independent-adjust
 
 ### Convenient Areas Of Service For Public Adjuster in North Carolina
 
-Melo Public Adjusters make it easy for our clients to reach out to us for insurance policy and settlement claims service by being available in many [local areas in North Carolina](/service-areas/). We are proud to be able to serve the people of North Carolina with 24-hour emergency claims adjusting care. The areas that we serve include:
+Melo Public Adjusters make it easy for our clients to reach out to us for insurance policy and settlement claims service from our office on Remount Road in Charlotte, serving many [local areas in North Carolina](/service-areas/) across Mecklenburg, Cabarrus, Gaston and Union counties. We are proud to serve our neighbors with 24-hour emergency claims adjusting care. The areas that we serve include:
 
 - Charlotte
 - Huntersville

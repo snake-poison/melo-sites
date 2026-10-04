@@ -1,7 +1,7 @@
 ---
 title: "Before you accept the insurance offer, get a free second look."
 metaTitle: "Public Adjuster Charlotte NC | Public Adjuster North Carolina | Melo Property Claims"
-description: "Melo Property Claims is the public adjuster you want on your side for all insurance claims. Maximum valuations. Speedy process. FREE consultation."
+description: "Licensed public adjusters for home and business property claims across the states we serve. No up-front cost. FREE claim review from Melo Property Claims."
 kicker: "Relax, we are on your side"
 lead: "Public Adjusters hold your insurance company accountable while getting you the valuation and compensation you deserve. We work for you, so let's work together."
 image:
@@ -32,7 +32,7 @@ Also know that public adjuster services from Melo Property Claims have no up-fro
 ::page-section{video="tBbNEAxknBs" videoTitle="What is a Public Adjuster?" reverse}
 ## About Melo Property Claims
 
-With over 16 years in the field of insurance, Ramon Melo can help you through the hassle of dealing with insurance companies. He knows how they work, and exactly what needs to be done in order to get clients the absolute best resolution for their claims. We also partner with the right experts in a variety of fields to handle your damage claims.
+Ramon Melo has spent more than 16 years in the insurance field, and he can take the hassle of dealing with your insurance company off your hands. He knows how they work, and exactly what needs to be done in order to get clients the absolute best resolution for their claims. We also partner with the right experts in a variety of fields to handle your damage claims, for homes and businesses in every state we serve.
 
 If you're ready to receive expert advice and undivided attention to your case with no upfront costs, give us a call. We'll handle it.
 
@@ -87,8 +87,8 @@ Our public adjusters have the experience you need to settle your claim. Leave it
 :::page-feature{title="Property Damage Insurance Claims" icon="carbon--home"}
 Property damage is stressful enough just to look at, not to mention dealing with an insurance company that doesn't want to pay you for your necessary repairs. We have the authority to get you what you're owed.
 :::
-:::page-feature{title="Partnerships With Local Contractors" icon="carbon--partnership"}
-Are you a local contractor looking to expand your business with a continuous workflow? We want to hear from you! Call now to discuss our contractor referral program, and we can work together to satisfy our property damage clients.
+:::page-feature{title="Partnerships With Contractors" icon="carbon--partnership"}
+Are you a contractor in one of the states we serve, looking to expand your business with a continuous workflow? We want to hear from you! Call now to discuss our contractor referral program, and we can work together to satisfy our property damage clients.
 :::
 ::
 
@@ -115,14 +115,14 @@ If you are interested in learning more about [our services for property damage i
 ::page-section{image="/images/photos/hands-in-discussion-at-meeting.jpg" alt="Hands of two people in discussion across a meeting table" reverse}
 ### Claims Settlement and Mediation
 
-One way to turn a potentially catastrophic situation into something a little less serious is by getting ready for it ahead of time. You aren't going to be able to schedule property damage at your location, but we can help make sure that you're ready in the event it does. With our pre-loss and disaster insurance adjusters working with you, you'll know what to do in an emergency, so you're not stuck searching for what you need. We handle your:
+When your insurance company won't move on its number, a claim can stall for months. Our public adjusters take over the back-and-forth for you: we put a documented, line-by-line estimate in front of the carrier's adjuster and negotiate until the settlement reflects what the repairs really cost. If the dispute goes to appraisal or mediation, we stay with you through it. We handle:
 
-- Assessment for potential risks
-- Preparation of documents
-- Records of the current condition of your property
-- Storing everything required by the insurance company safely
+- A detailed estimate of every part of the damage
+- The policy language the insurer is leaning on
+- Every call and letter with the carrier's adjuster
+- [Appraisal and mediation](/claim-adjusters/property-damage-appraisers-mediation/) when talks stall
 
-While we're helping you with your pre-loss and disaster planning services, feel free to ask all the questions you want. We will explain your existing policy to you in layman's terms so you can understand it. Initial consultations are FREE, so call to learn more right now!
+We will explain your policy to you in plain terms along the way, so you always know where your claim stands. Initial consultations are FREE, so call to learn more right now!
 
 :page-cta{kind="review" label="Start your review"}
 ::
@@ -174,11 +174,11 @@ Don't waste your time and energy trying to sort through confusing legal document
 
 ### Our Public Adjusters Are Licensed in A Variety of States
 
-Some public adjuster firms stick to just one general area. We are the one team that isn't worried about traveling to you to ensure you get the level of care you need when dealing with an insurance claim situation of any type. Even if you don't find your location here, please reach out to us. Although we primarily operate in the following areas, we are licensed in every state.
+Some public adjuster firms stick to one city. We handle residential and commercial claims across several states, and we travel to the property to give you the level of care your claim needs. Ramon Melo is licensed as a public adjuster in North Carolina, South Carolina and Georgia, and the firm serves the states below. Even if you don't find your state here, call us and ask.
 
-- North Carolina
-- South Carolina
-- Georgia
+- [North Carolina](/service-areas/nc-public-adjusters/)
+- [South Carolina](/service-areas/public-adjuster-south-carolina/)
+- [Georgia](/service-areas/public-adjuster-georgia/)
 - Pennsylvania
 - Maryland
 - Texas

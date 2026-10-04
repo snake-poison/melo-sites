@@ -1,8 +1,8 @@
 ---
 title: "Need a Claims Adjuster in Charlotte, NC?"
 metaTitle: "Claims Adjuster Charlotte | Public Adjusters 24/7 Help"
-description: "When you need a claims adjuster in Charlotte, NC, Call our team of certified public adjusters. Available 24/7, fast settlement. (704) 286-0707"
-lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
+description: "When you need a claims adjuster in Charlotte, NC, call our team of licensed public adjusters. Available 24/7 for a free claim review: (704) 286-0707"
+lead: "Licensed North Carolina public adjusters for Charlotte homeowners and businesses: we work for you, never for the insurance company."
 image:
   src: "/images/photos/house-destroyed-by-tornado-debris.jpg"
 date: 2020-02-17
@@ -19,7 +19,7 @@ Your top choice for independent insurance adjusters.
 
 Melo Public Adjusters Charlotte is a company with a backbone. Our public adjusters will go up to bat for you when the insurance company wants to play games. You can count on our property claims adjusters to always have your best at heart. As our client, you'll always be our top priority, which means we'll fight tooth and nail to get you the property and damage loss claims that your insurance company owes you, and we won't settle for a penny less.
 
-Our specialties include property damage appraisal and mediation, pre-loss and disaster planning, and damages incurred by specific disasters like fire and flooding. There's a reason why we're known as the best claims adjuster in Charlotte, NC. Soon, you'll be able to see for yourself. Get in touch with our office today to schedule an appointment.
+Our specialties include property damage appraisal and mediation, pre-loss and disaster planning, and damages incurred by specific disasters like fire and flooding. Whether a hurricane's remnants dropped a tree on your roof or a frozen pipe flooded your basement, we know what Charlotte-area claims look like. Soon, you'll be able to see for yourself. Get in touch with our office today to schedule an appointment.
 
 :page-cta{kind="call" label="Call today (704) 286-0707"}
 ::
@@ -35,7 +35,7 @@ When you seek out help from our claims adjusters, you are going to receive the b
 - A public adjuster who'll go the extra mile
 - Satisfactory claims compensation
 
-A great [insurance adjuster](/claims-adjuster/insurance-adjuster-charlotte/) knows how to read between the lines of your insurance policy. When you choose Melo, we guarantee that no stone will be left unturned. Are you ready to schedule a consultation with us today?
+A great [insurance adjuster](/claims-adjuster/insurance-adjuster-charlotte/) knows how to read between the lines of your insurance policy. When you choose Melo, no stone will be left unturned. Are you ready to schedule a consultation with us today?
 
 :page-cta{kind="review" label="Schedule an estimate"}
 ::
@@ -58,7 +58,7 @@ Our [property damage claims adjusters](/claims-adjuster/property-damage-appraise
 ::page-section{image="/images/photos/backup-generator-on-home-patio.jpg" alt="Portable generator on the patio of a brick home"}
 ## Professional Pre-Loss & Disaster Planning in Charlotte
 
-Disaster can strike at any moment. Whether it be natural or an act of vandalism, as a property owner, you need to be prepared. Our hope is that you'll never suffer property loss or damages, but if you do, our team at Melo Public Adjusters Charlotte will have all of your documents in order BEFORE a tragedy strikes. Our claim adjusters in Charlotte offer the best [pre-loss and disaster planning](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-charlotte/) service in all of North Carolina. Here is a short list of how we can help:
+Disaster can strike at any moment. Whether it be natural or an act of vandalism, as a property owner, you need to be prepared. Our hope is that you'll never suffer property loss or damages, but if you do, our team at Melo Public Adjusters Charlotte will have all of your documents in order BEFORE a tragedy strikes. Our claim adjusters in Charlotte offer [pre-loss and disaster planning](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-charlotte/) before hurricane season and winter ice storms arrive. Here is a short list of how we can help:
 
 - Assessing property condition
 - Take account for all inventory (business owners)
@@ -67,13 +67,13 @@ Disaster can strike at any moment. Whether it be natural or an act of vandalism,
 
 Pre-loss and disaster planning is not a service that can wait because you simply do not know what the future holds. One thing you *can* be sure of is that our claims adjusters in Charlotte will make sure you're covered if an unfortunate event should happen. Are you ready to get the ball rolling? Call us!
 
-:page-cta{kind="review" label="Free instant claims estimate"}
+:page-cta{kind="review" label="Get a free claims review"}
 ::
 
 ::page-section{image="/images/photos/home-rebuild-roof-framing.jpg" alt="New roof framing on a home being rebuilt after a tornado" reverse}
-## Best Local Builders Risk Policy Adjustment Services
+## Local Builders Risk Policy Adjustment Services
 
-As a contractor, you may not understand your builders' risk insurance coverage, and that's okay! Our team of claims adjusters in Charlotte are here to review your policy and put it into more precise terms. Should disaster happen, and you need to file a claim, we can review the settlement that is being offered and your policy to ensure the insurance company isn't giving you the runaround. Melo Public Adjusters Charlotte will:
+With new homes and buildings going up all over the Charlotte region, many contractors carry builders' risk insurance without fully understanding the coverage, and that's okay! Our team of claims adjusters in Charlotte are here to review your policy and put it into more precise terms. Should disaster happen, and you need to file a claim, we can review the settlement that is being offered and your policy to ensure the insurance company isn't giving you the runaround. Melo Public Adjusters Charlotte will:
 
 - Explain all the details of your insurance policy
 - Determine which property is covered and what is excluded

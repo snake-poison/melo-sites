@@ -1,7 +1,7 @@
 ---
 title: "Builders Risk Insurance Adjusters Keep You Protected"
 metaTitle: "Builders Risk Insurance Adjuster | Builder Claim Adjusters | Melo Property Claims"
-description: "Builders risk insurance adjusters get you the added policy coverage for your reconstruction project. Licensed in all states & experienced."
+description: "Builders risk insurance adjusters get you the added policy coverage for your reconstruction project. Licensed & experienced in the states we serve."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
   src: "/images/photos/crew-building-new-house.jpg"

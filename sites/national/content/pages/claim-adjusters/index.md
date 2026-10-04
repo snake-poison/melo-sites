@@ -61,7 +61,7 @@ Stop the back and forth with your unreasonable insurance provider and call Melo 
 ::page-section{image="/images/photos/supercell-storm-over-farmland.jpg" alt="Supercell storm cloud over open farmland"}
 ## Adjusters for Pre-Loss & Disaster Planning
 
-Living in the South, your property is at risk for certain conditions like tornados, hurricanes, and other potentially damaging events. You can't predict when they're going to happen, but you can make sure you're ready. Our disaster insurance adjuster can help by doing an assessment of your building and getting the documentation together for you, so it's stored safely and ready to go if something goes terribly wrong.
+Wherever your property is, it's at risk from something: hurricanes and flooding on the coast, tornadoes and hail inland, ice and snow in the winter. You can't predict when they're going to happen, but you can make sure you're ready. Our disaster insurance adjuster can help by doing an assessment of your building and getting the documentation together for you, so it's stored safely and ready to go if something goes terribly wrong.
 
 While we're working closely with you to get your [pre-loss and disaster planning](/claim-adjusters/disaster-insurance-adjuster/) in place, we will take the time required to go over your existing coverage with you. Then we can inform you of any areas where you may need something additional, so you're not stuck without protection because you didn't understand your current policy. Make an appointment with us today that's convenient for you, and we will make sure you're prepared for whatever comes your way!
 
@@ -105,5 +105,5 @@ Instead of facing your insurance company alone, we will stand firmly beside you 
 ::page-intro
 ## Find Independent Insurance Adjuster in Your Area!
 
-Melo Property Claims is always looking to expand throughout the entire United States. Find us in North Carolina, South Carolina, Florida, Georgia, and soon your state too! Call now to find out the details of how our insurance adjusters can assist you in every situation.
+Melo Property Claims handles residential and commercial claims in [several states](/service-areas/), including North Carolina, South Carolina, Georgia and Florida, and we travel to the property. Not sure we cover yours? Call now to find out the details of how our insurance adjusters can assist you in every situation.
 ::

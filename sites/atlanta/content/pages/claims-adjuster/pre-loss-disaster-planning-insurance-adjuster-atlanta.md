@@ -31,7 +31,7 @@ Our pre-loss and disaster insurance adjuster in Atlanta that works with you will
 ::page-section{image="/images/photos/tree-fallen-on-house.jpg" alt="A large tree fallen across the roof of a house after a storm" reverse}
 ## Don't Wait To Hire A Disaster Insurance Adjuster in Atlanta
 
-You can't predict the weather or other factors that could lead to expensive property damages. That's why there's never a wrong time to get a disaster insurance adjuster out to your location to do a complete assessment and give you the pre-loss plan you're going to be grateful you have when something does happen. People that should get a pre-loss plan include:
+You can't predict the weather or other factors that could lead to expensive property damages, and Georgia weather has plenty: spring hail and tornadoes, summer thunderstorms, hurricane remnants in the fall and the odd winter freeze that bursts pipes. That's why there's never a wrong time to get a disaster insurance adjuster out to your location to do a complete assessment and give you the pre-loss plan you're going to be grateful you have when something does happen. People that should get a pre-loss plan include:
 
 - Homeowners
 - Business owners
@@ -82,7 +82,7 @@ Spending your hard-earned money on a pre-loss and disaster insurance adjuster is
 - Experienced
 - Responsive
 - Fair rates
-- Local
+- Licensed in Georgia
 - Empathetic
 
 Not only are you going to be armed with all the documentation you need to file an insurance claim, but you will also have built a solid relationship with a public adjuster that you can trust. We're waiting to hear from you, so call us today!

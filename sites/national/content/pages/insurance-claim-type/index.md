@@ -19,7 +19,7 @@ Melo Property Claims is qualified to handle ALL insurance claims.
 
 Melo Property Claims is a public adjuster firm that has a team of experienced, qualified, and licensed public adjusters ready to assist you with any insurance claim type you'll ever have to face. With any luck, you won't ever suffer through a disaster, but stats show that five out of every one hundred people that own their homes will find themselves meeting with their insurance provider every year to make a claim.
 
-Our dedicated experts do this type of work every day. It's what we know, and we're passionate about getting the American people the money they deserve when insurance agents try to devalue their property damages. Make an appointment with us today, and we can help you understand what your rights are!
+Business owners face the same fight, and we handle [commercial property damage claims](/insurance-claim-type/commercial-property-damage-claims/) too. Our dedicated experts do this type of work every day. It's what we know, and we're passionate about getting the American people the money they deserve when insurance agents try to devalue their property damages. Make an appointment with us today, and we can help you understand what your rights are!
 
 :page-cta{kind="call" label="Call today (704) 325-5525"}
 ::
@@ -79,5 +79,5 @@ Let our experts collect and prepare what's necessary to present to your insuranc
 ::page-intro
 ## Check Out Our Public Adjuster Service Areas!
 
-Melo Property Claims doesn't serve just one location. We're happy to travel to your site, and we're licensed nationwide! Get in touch with us for your FREE initial consultation by calling us right now!
+Melo Property Claims doesn't serve just one location. We handle home and business claims across [several states](/service-areas/), and we're happy to travel to your site. Get in touch with us for your FREE initial consultation by calling us right now!
 ::

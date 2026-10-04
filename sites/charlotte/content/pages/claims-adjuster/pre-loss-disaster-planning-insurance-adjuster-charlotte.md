@@ -1,8 +1,8 @@
 ---
 title: "Pre-Loss & Disaster Planning Insurance Adjuster in Charlotte"
 metaTitle: "Disaster Insurance Adjuster Charlotte | #1 Public Adjusters"
-description: "Get an experienced disaster insurance adjuster in Charlotte, NC with Melo Public Adjusters. 20+ years, fast response, & 24/7 services."
-lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
+description: "Get a licensed disaster insurance adjuster in Charlotte, NC with Melo Public Adjusters: pre-loss planning, claim help and 24/7 service."
+lead: "Get your property, inventory and paperwork on record before the next hurricane remnant, ice storm or hailstorm reaches Charlotte."
 image:
   src: "/images/photos/shelf-cloud-storm-approaching.jpg"
 date: 2020-02-17
@@ -16,7 +16,7 @@ secondOpinion: true
 ::page-section{image="/images/photos/nc-flooded-neighborhood-aerial.jpg" alt="Aerial view of a flooded North Carolina neighborhood"}
 ## Reliable Disaster Insurance Adjuster in Charlotte, NC
 
-Pre-loss and disaster planning is when experienced public adjusters are involved with policyholders before a loss to impose a property risk assessment and analysis of your risk to various hazards, as well as execute a post-loss recovery plan. This plan will include all the documentation you will be required to turn over to the insurance company so your claim can be quickly processed and paid out. Our public adjusters have been offering pre-loss and disaster planning in Charlotte, Huntersville, Concord, Gastonia, Monroe, and Matthews area for many years. We hope you'll entrust us with this significant part of your property ownership. Call us for a fast consultation.
+Pre-loss and disaster planning is when experienced public adjusters are involved with policyholders before a loss to carry out a property risk assessment and analysis of your risk to various hazards, as well as execute a post-loss recovery plan. This plan will include all the documentation you will be required to turn over to the insurance company so your claim can be quickly processed and paid out. Our public adjusters offer pre-loss and disaster planning across the Charlotte, Huntersville, Concord, Gastonia, Monroe, and Matthews area, where tropical storm remnants, tornadoes, hail and winter ice storms can all strike in the same year. We hope you'll entrust us with this significant part of your property ownership. Call us for a fast consultation.
 
 :page-cta{kind="review" label="Get a claims review"}
 ::
@@ -24,7 +24,7 @@ Pre-loss and disaster planning is when experienced public adjusters are involved
 ::page-section{image="/images/photos/sandbag-wall-protecting-home-from-flood.jpg" alt="Sandbag wall protecting a home from rising floodwater" reverse}
 ## All Property Owners Require Pre-Loss & Disaster Planning
 
-Unfortunately, property owners do not know when a tragedy will occur. You could be one of the lucky ones and never succumb to flooding, fire, or storm damages, but what if you aren't? It's always best to be prepared and hire a professional disaster insurance adjuster in Charlotte, NC. The benefits of doing so include:
+Unfortunately, property owners do not know when a tragedy will occur. You could be one of the lucky ones and never face flooding, fire, a fallen oak, or storm damage, but what if you aren't? It's always best to be prepared and hire a professional disaster insurance adjuster in Charlotte, NC. The benefits of doing so include:
 
 - Establishing a baseline of property condition
 - Record of inventory (if applicable)
@@ -53,7 +53,7 @@ Should a loss actually happen, your insurance company will indeed ask these ques
 ::page-section{image="/images/photos/handwritten-plan-on-clipboard.jpg" alt="Clipboard with a handwritten step-by-step plan" reverse}
 ## Pre-Loss Planning is Essential for Your Peace of Mind
 
-The reasons for seeking out a disaster insurance adjuster in Charlotte, NC are quite evident - you never know when tragedy will occur. Just like the saying goes, you don't want to be caught with your pants down. If your property becomes damaged and you suffer a significant loss, you want to have all of your ducks in a row with pre-planning.
+The reasons for seeking out a disaster insurance adjuster in Charlotte, NC are quite evident - you never know when tragedy will occur. You don't want to be caught unprepared. If your property becomes damaged and you suffer a significant loss, you want to have all of your ducks in a row with pre-planning.
 
 Melo Public Adjusters Charlotte will help you account for inventory, record retention of essential documents, and pre-loss inspection of your property. There really is no time to wait! Get in touch with our office today to get your pre-planning underway.
 
@@ -63,11 +63,11 @@ Melo Public Adjusters Charlotte will help you account for inventory, record rete
 ::page-section{image="/images/photos/backup-generator-on-home-patio.jpg" alt="Portable generator on the patio of a brick home"}
 ## Your Best Choice for Pre-Loss/Disaster Planning
 
-[Melo Public Adjusters Charlotte](/) is your #1 disaster insurance adjuster in Charlotte for many reasons. This highly respected agency has the experience and determination needed to get your affairs in order before a loss should occur. If you're still on the fence about choosing us, know that we are:
+[Melo Public Adjusters Charlotte](/) is a disaster insurance adjuster based right here in Charlotte. Our team has the experience and determination needed to get your affairs in order before a loss should occur. If you're still on the fence about choosing us, know that we are:
 
-- A licensed public adjuster in North Carolina
-- have a 100% client success rate
-- a 24/7 emergency service provider
+- Licensed public adjusters in North Carolina
+- Based in Charlotte, on Remount Road
+- A 24/7 emergency service provider
 
 Take the plunge and protect your assets while you still can with one of our dedicated disaster insurance adjusters. Our team is here to help you, not your insurance company. Let's talk.
 
@@ -78,7 +78,7 @@ Take the plunge and protect your assets while you still can with one of our dedi
 
 ## Your Most Experienced Disaster Insurance Adjuster in NC
 
-Melo Public Adjusters Charlotte has been around for a very long time. Our team knows everything there is to know about property damage claims, pre-loss planning, and much more. We cover insurance claim mediation, property damage appraisals, and calculate builders' risk. Get in touch with [our claims adjusters](/claims-adjuster/) information.
+Ramon Melo has been a licensed insurance adjuster since 2011 and a North Carolina public adjuster since 2019. Our team knows property damage claims, pre-loss planning, and much more. We cover insurance claim mediation, property damage appraisals, and builders' risk claims. Get in touch with [our claims adjusters](/claims-adjuster/) for more information.
 
 ::page-grid{cols="2"}
 :::page-feature{title="Property Damage Appraisal" icon="carbon--search"}

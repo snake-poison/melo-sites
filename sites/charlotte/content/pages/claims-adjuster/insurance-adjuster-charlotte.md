@@ -2,7 +2,7 @@
 title: "Hiring A Professional Insurance Adjuster in Charlotte, NC"
 metaTitle: "Insurance Adjuster in Charlotte | Melo Public Adjusters 24/7"
 description: "When you require a professional insurance adjuster in Charlotte, NC hire Melo Public Adjusters for 24/7 response & fast, fair settlements."
-lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
+lead: "A licensed public adjuster works for you, the Charlotte policyholder, not for your insurance company."
 image:
   src: "/images/photos/charlotte-eastover-stone-house.jpg"
 date: 2020-02-17
@@ -16,9 +16,9 @@ secondOpinion: true
 ::page-section{image="/images/photos/inspector-interviews-homeowner-damaged-room.jpg" alt="Inspector taking notes with a homeowner in a flood-damaged room"}
 ## What Our Insurance Adjuster in Charlotte Will Do for You
 
-A professional insurance adjuster in Charlotte, NC, is an advocate for the policyholder and not the insurance company. The primary purpose of the public adjuster is to make sure that the insurance company is handling the property loss claim appropriately. State-licensed insurance adjusters, such as Melo Public Adjusters Charlotte, can legally represent the rights of the policyholder during the claims process.
+A professional insurance adjuster in Charlotte, NC, is an advocate for the policyholder and not the insurance company. The primary purpose of the public adjuster is to make sure that the insurance company is handling the property loss claim appropriately. Public adjusters licensed by the North Carolina Department of Insurance, such as Melo Public Adjusters Charlotte, can legally represent the rights of the policyholder during the claims process.
 
-In almost all cases, public adjusters will enhance the settlement amount that the insured will receive from the insurance company. Remember, the public adjuster is on your side. Your insurance company will see the adjuster as their adversary and for good reason because they keep the claimant from being taken advantage of through an unfair settlement compensation. Are you ready to have our team on your side?
+A public adjuster can often increase the settlement amount that the insured receives from the insurance company. Remember, the public adjuster is on your side. Your insurance company will see the adjuster as their adversary and for good reason because they keep the claimant from being taken advantage of through an unfair settlement compensation. Are you ready to have our team on your side?
 
 :page-cta{kind="review" label="Get a claims review"}
 ::
@@ -40,7 +40,7 @@ Our team of public adjusters will represent you as the policyholder and will adv
 ::page-section{image="/images/photos/fire-damaged-house-exterior.jpg" alt="Exterior of a house damaged by fire"}
 ## Hiring an Insurance Adjuster is Extremely Beneficial
 
-After experiencing a property loss due to fire, flood, or another natural disaster, it is overwhelming to think about having to deal with the pushy insurance company on your own. [Melo Public Adjusters Charlotte](/) makes it, so you don't have to walk this road alone. Utilizing the expertise of a public adjuster ensures you don't miss a thing when submitting your claims. The duties of an insurance adjuster include:
+After experiencing a property loss due to fire, flood, a fallen tree, or another natural disaster, it is overwhelming to think about having to deal with the pushy insurance company on your own. [Melo Public Adjusters Charlotte](/) makes it, so you don't have to walk this road alone. Utilizing the expertise of a public adjuster ensures you don't miss a thing when submitting your claims. The duties of an insurance adjuster include:
 
 - Go over existing insurance policies and determine what coverage may apply to the claim
 - Research, record, and prove damage to property, content, and any other expenses
@@ -50,7 +50,7 @@ After experiencing a property loss due to fire, flood, or another natural disast
 - Negotiate an appropriate settlement with the insurance carrier on behalf of the policyholder
 - Re-open a claim and negotiate for more compensation if a discrepancy is found after a claim has been settled
 
-As a public adjuster, our company is here for you. We do not represent the insurance company. You, the policyholder, are our top priority. You won't pay us a dime until a lucrative settlement has been reached. Schedule an appointment with us today.
+As a public adjuster, our company is here for you. We do not represent the insurance company. You, the policyholder, are our top priority. You won't pay us a dime until a settlement has been reached. Schedule an appointment with us today.
 
 :page-cta{kind="review" label="Get a free claims review"}
 ::
@@ -68,22 +68,22 @@ Our public adjusters take this burden off our client's shoulders and get them on
 ::page-section{image="/images/photos/charlotte-wesley-heights-homes.jpg" alt="Houses on Summit Avenue in the Wesley Heights neighborhood of Charlotte"}
 ## Melo Public Adjusters Charlotte Works For You
 
-We've been providing independent insurance adjuster services to the local areas of Charlotte, Huntersville, Concord, Gastonia, Monroe, and Matthews for numerous years. Each one of our adjusters is skilled and highly-knowledgeable in insurance policy interpretation, negotiation, and mediation practices. When you hire Melo you get:
+We've been providing independent insurance adjuster services to the local areas of Charlotte, Huntersville, Concord, Gastonia, Monroe, and Matthews for years. Each one of our adjusters is skilled and highly-knowledgeable in insurance policy interpretation, negotiation, and mediation practices. When you hire Melo you get:
 
 - Honesty and complete transparency
 - A public adjuster who understands and cares about what you're going through
 - A team of professionals who have your best interest in mind
 
-Our insurance adjusters in Charlotte, NC, will help you with your insurance claims from start to finish. With us on your side, you'll never feel alone in the corporate insurance carrier realm, guaranteed.
+Our insurance adjusters in Charlotte, NC, will help you with your insurance claims from start to finish. With us on your side, you'll never feel alone in the corporate insurance carrier realm.
 
 :page-cta{kind="review" label="Get a free claims review"}
 ::
 
 :page-claim-review
 
-## Top-Rated Insurance Adjuster in Charlotte, NC
+## Your Local Insurance Adjuster in Charlotte, NC
 
-Melo Public Adjusters Charlotte vow to always go the extra mile to ensure your claims are being handled appropriately by the insurance company. We offer property damage appraisals, mediation, pre-loss disaster planning, and builders risk adjustment. Our team looks forward to working with you.
+Melo Public Adjusters Charlotte vows to always go the extra mile to ensure your claims are being handled appropriately by the insurance company. We offer property damage appraisals, mediation, pre-loss disaster planning, and builders risk adjustment. Our team looks forward to working with you.
 
 ::page-grid{cols="2"}
 :::page-feature{title="Property Damage Appraisal" icon="carbon--search"}

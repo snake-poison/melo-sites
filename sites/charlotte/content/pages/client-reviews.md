@@ -2,7 +2,7 @@
 title: "Client Reviews"
 metaTitle: "Client Reviews - Public Adjusters of Charlotte"
 description: "Read what clients say about Melo Public Adjusters Charlotte: fast, professional help with property damage insurance claims. 24/7 at (704) 286-0707."
-lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
+lead: "What Charlotte-area homeowners say about working with Melo Public Adjusters Charlotte on their insurance claims."
 image:
   src: "/images/photos/charlotte-brick-house-wraparound-porch.jpg"
   alt: "Brick house with a white wraparound porch in Charlotte"
@@ -13,6 +13,6 @@ secondOpinion: true
 
 ## The Amazing Clients We've Helped
 
-::page-quote{name="Bethany Simonetti" source="Verified Google Review"}
+::page-quote{name="Bethany Simonetti"}
 These guys are the BEST! Totally saved my life after a water line in my home got busted. They go above and beyond and really care. Thank you so much!!
 ::

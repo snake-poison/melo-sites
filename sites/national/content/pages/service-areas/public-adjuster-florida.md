@@ -22,8 +22,6 @@ Unlike what most believe, you don't have to go up against your powerful insuranc
 
 [Other Areas We Serve](/service-areas/)
 
-![BBB Accredited Business, Best of Houzz, Trusted Brand, and 5-Star Rated on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
-
 :page-claim-review
 
 ::page-section{image="/images/photos/hurricane-damaged-beach-homes-florida.jpg" alt="Hurricane-damaged homes and drifted sand on Pensacola Beach, Florida" reverse}

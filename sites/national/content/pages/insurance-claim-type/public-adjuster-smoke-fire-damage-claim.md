@@ -19,7 +19,7 @@ secondOpinion: true
 ::page-section{image="/images/photos/firefighters-inside-burning-room.jpg" alt="Firefighters in breathing gear inside a burning room"}
 ## An Adjuster for Fire Damage Gets You What You're Owed
 
-Did you know that in one year, over $23 billion in damages from house fires were reported in the United States alone? That's an incredible amount of money and something that your insurance company doesn't want to pay out ever, much less annually. Melo Property Claims know how many homes and other properties catch fire each year, and that's why we stay up-to-date and knowledgeable on how to deal with a fire insurance claim.
+House fires cause billions of dollars in damage in the United States every year. That's an incredible amount of money, and something your insurance company doesn't want to pay out. Melo Property Claims know how many homes and other properties catch fire each year, and that's why we stay up-to-date and knowledgeable on how to deal with a fire insurance claim.
 
 Our adjuster for fire damage knows what to look for, and we never leave out any of the essential details when doing your property damage assessment. You're already dealing with the most emotionally challenging situation you're ever going to face. Let our caring and compassionate, licensed, and qualified adjusters deal with the technical aspects. Call now for your consultation.
 

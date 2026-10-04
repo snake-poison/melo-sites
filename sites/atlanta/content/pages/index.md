@@ -1,7 +1,7 @@
 ---
 title: "Claim underpaid or denied? Get an Atlanta public adjuster on your side."
 metaTitle: "Top-Rated Public Adjuster Atlanta | 24/7 Insurance Claims Adjuster"
-description: "Melo Public Adjusters Atlanta is a team of certified, independent claims adjusters dedicated to success. Local & open 24/7. (404) 467-5755"
+description: "Melo Public Adjusters Atlanta: Georgia-licensed, independent public adjusters for metro Atlanta storm, water and fire claims. Open 24/7. (404) 467-5755"
 kicker: "Public adjusters for metro Atlanta"
 lead: "Insurance companies have experts working for them. Melo Public Adjusters Atlanta works only for you, to get the settlement you deserve."
 image:
@@ -17,7 +17,7 @@ secondOpinion: true
 
 ## Complicated insurance claims simplified.
 
-::page-section{image="/wp-content/uploads/2020/05/Graph-showing-public-adjuster-claims-value.png" alt="Graph of total claim amounts: $17,187 with a public adjuster against $2,029 with no public adjuster" caption="Chart Data Source: Office of Program Policy Analysis and Government Accountability (OPPAGA) analysis. Data refers to the median payment." plain checks}
+::page-section{image="/wp-content/uploads/2020/05/Graph-showing-public-adjuster-claims-value.png" alt="Graph of total claim amounts: $17,187 with a public adjuster against $2,029 with no public adjuster" caption="Chart Data Source: the Florida Legislature's Office of Program Policy Analysis and Government Accountability (OPPAGA), median payments on Florida claims." plain checks}
 ### Contingency Pricing
 
 - Only pay based on claim overage
@@ -40,7 +40,7 @@ secondOpinion: true
 ::page-section{video="cgJN9cbLh_M" videoTitle="Georgia Public Adjusters - Melo Property Claims - Atlanta Public Adjusters" reverse}
 ## About Melo Public Adjusters Atlanta
 
-With over 16 years in the field of insurance, Ramon and the rest of the Melo Public Adjusters Atlanta team can help with your property damage claim, disaster planning, coverage review, and much more. We partner with structural engineers, investigators, and accountants to make sure your claims are handled with the utmost attention. [Our public insurance adjusters](/about-our-adjuster-firm-atlanta/) are the ones you want in your corner.
+With over 16 years in the field of insurance, Ramon Melo, who holds Georgia public adjuster license #3308108, and the rest of the Melo Public Adjusters Atlanta team can help with your property damage claim, disaster planning, coverage review, and much more. We partner with structural engineers, investigators, and accountants to make sure your claims are handled with the utmost attention. [Our public insurance adjusters](/about-our-adjuster-firm-atlanta/) are the ones you want in your corner.
 
 Reach out to our Atlanta public adjusters for property damage claims, claim settlement, and more.
 
@@ -50,7 +50,7 @@ Reach out to our Atlanta public adjusters for property damage claims, claim sett
 :page-claim-review
 
 ::page-intro
-:page-kicker{text="#1 Adjuster Firm in Atlanta"}
+:page-kicker{text="Your Adjuster, Not the Insurer's"}
 
 ## Trust a Public Adjuster, Atlanta!
 
@@ -65,7 +65,7 @@ Your insurance adjuster in Atlanta that we send to you isn't working for the ins
 After you've suffered property damages, your insurance company is likely going to offer you an amount that is below what is fair. We can mediate with your agent to avoid arbitration or messy court cases.
 :::
 :::page-feature{title="Pre-Loss & Disaster Planning" icon="carbon--calendar"}
-Before the storm arrives, you can have everything you need in order with the help of our disaster insurance adjusters. You shouldn't be left searching for documentation during an already chaotic period.
+Before spring storm season or the next hurricane remnant rolls up from the Gulf, you can have everything you need in order with the help of our disaster insurance adjusters. You shouldn't be left searching for documentation during an already chaotic period.
 :::
 :::page-feature{title="Builders Risk Policy Adjusters" icon="carbon--building"}
 Are you thinking of adding on to your property? Then you need to understand the benefits of builder's risk insurance coverage. Our knowledgeable agents are here to discuss all of your options.
@@ -117,7 +117,7 @@ The longer you're arguing with your insurance agent, the longer you'll be waitin
 ::page-section{image="/images/photos/atlanta-inman-park-glenn-house.jpg" alt="The Glenn House in Inman Park, Atlanta" reverse}
 ### Pre-Loss & Disaster Planning Puts You in the Best Position
 
-Pre-loss and disaster planning is one way to make sure you're ready for whatever comes your way. You can't predict the weather, and you'll never be able to stop an intruder that has their sights set on damaging your property or stealing from you either. What you can do, is be prepared for the "just in case it happens" scenario.
+Pre-loss and disaster planning is one way to make sure you're ready for whatever comes your way. You can't predict the weather in Georgia, from the tornado that tore through downtown Atlanta in 2008 to the trees Hurricane Helene's remnants brought down across the metro in 2024, and you'll never be able to stop an intruder that has their sights set on damaging your property or stealing from you either. What you can do, is be prepared for the "just in case it happens" scenario.
 
 Our [disaster insurance adjuster in Atlanta](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-atlanta/) will do a comprehensive evaluation of what you have, and what kind of risks you're looking at for property damages from storms or other events. We will organize all the documentation your insurance company is going to want to see, so you have everything ready to go.
 
@@ -166,7 +166,7 @@ Reach out to us today if you're a contractor in Atlanta, and we can discuss how 
 
 ### Find A Public Adjuster in Atlanta or in Your Local Area!
 
-When you search for a public adjuster in Atlanta, you want to make sure that you're getting someone that's up-to-date and knowledgeable on the local laws and guidelines for insurance claims and adjustments. That's us at Melo Public Adjusters Atlanta! [Find your location here](/service-areas/), and then give us a call for fast response times 24 hours a day.
+When you search for a public adjuster in Atlanta, you want to make sure that you're getting someone licensed in Georgia and knowledgeable on the state's laws and guidelines for insurance claims and adjustments. That's us at Melo Public Adjusters Atlanta! We serve homes and businesses across Fulton, DeKalb and Cobb counties. [Find your location here](/service-areas/), and then give us a call 24 hours a day.
 
 - Greater Atlanta
 - Alpharetta

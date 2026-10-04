@@ -1,7 +1,7 @@
 ---
 title: "Honest Adjuster for Hail & Roof Damage in Atlanta"
 metaTitle: "Adjuster Roof Damage Atlanta | Honest Public Adjusters"
-description: "Get help for difficult insurance claims from a public adjuster for roof damage in Atlanta. Locally owned, available 24/7, no up-front fees."
+description: "Get help for difficult insurance claims from a public adjuster for roof damage in Atlanta. Licensed in Georgia, available 24/7, no up-front fees."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
   src: "/images/photos/roofer-repairing-shingle-roof.jpg"
@@ -19,7 +19,7 @@ secondOpinion: true
 ::page-section{image="/images/photos/hail-hole-in-skylight.jpg" alt="A hole punched through a fiberglass skylight by a hailstone"}
 ## Are You Looking at Hail Damage to Your Roof?
 
-Living in an area where hail is common, you know how this overpowering precipitation can leave a path of destruction. While your first thoughts are going to be defeat, Melo Public Adjusters Atlanta is here to give you hope!
+Every spring, the thunderstorms that roll across metro Atlanta can drop hail from Marietta to Alpharetta in a matter of minutes, and you know how this overpowering precipitation can leave a path of destruction. While your first thoughts are going to be defeat, Melo Public Adjusters Atlanta is here to give you hope!
 
 We have years of experience working as an insurance adjuster for roof damage in Atlanta, and we can streamline the process for getting your claim completed without any additional stress or headache.
 
@@ -31,9 +31,9 @@ Our dedicated public adjusters in Atlanta take the time necessary to guarantee y
 ::page-section{image="/images/photos/roofer-installing-shingles.jpg" alt="A roofer nails down new shingles" reverse}
 ## An Atlanta Insurance Adjuster for Roof Damage Can Help!
 
-Did you know that your homeowner's insurance policy covers all types of property damage when a hail storm comes through your city? While there is likely going to be roof damages, there can be losses to other valuables around your property. Do a quick inspection of all of these items when it's safe to go outside:
+Did you know that your homeowner's insurance policy usually covers more than the roof when a hail storm comes through your city? While there is likely going to be roof damages, there can be losses to other valuables around your property. Do a quick inspection of all of these items when it's safe to go outside:
 
-- Vehicles
+- Vehicles (claimed on your auto policy)
 - Shutters
 - Siding
 - Wood fences
@@ -63,7 +63,7 @@ If you notice a water leak in your roof after a hail storm or powerful winds, re
 ::page-section{image="/images/photos/inspector-documenting-roof-damage.jpg" alt="An inspector takes notes on a damaged commercial roof" reverse}
 ## Get The Best Public Adjuster For Roof Damage in Atlanta Now!
 
-There are plenty of public adjusters in Atlanta, but when you're making the investment in your property and your future, you want the best public adjuster. We've been labeled as the number one choice for homeowners and business operators in Atlanta for years.
+There are plenty of public adjusters in Atlanta, but when you're making the investment in your property and your future, you want one who works only for you. After a hailstorm, roofers and adjusters crowd the neighborhood; we're the ones on the policyholder's side of the table.
 
 There is someone on our staff that will start by taking your call and giving you the time required to ensure you completely understand everything that's going on. We never cut corners, and we won't ever leave you in the dark. We're available around the clock to answer your questions or to clear up any concerns you may have at any point. We're waiting to hear from you, so call us today!
 
@@ -77,7 +77,7 @@ As someone that has been paying your insurance premiums regularly, you have righ
 
 - Experienced in the field
 - Educated on all rules, laws, and regulations
-- Licensed and insured
+- Licensed in Georgia
 - Qualified and compassionate insurance adjusters
 
 When you choose [Melo Public Adjusters Atlanta](/), you don't have to settle for the number your insurance company puts on the table. Call on us for your property damage appraisal in Atlanta, and mediation needs too!

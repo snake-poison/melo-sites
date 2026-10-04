@@ -23,7 +23,7 @@ You've suffered property damages, contacted your insurance company, and they pro
 
 [Melo Public Adjusters Atlanta](/) has qualified, licensed independent public claims adjusters who can give you that chance to argue why you believe you deserve more. It's common practice for your insurance agent to hire their own appraiser as well, and then these two professionals will work together to come up with an amount that's fair for both parties.
 
-Just because you're given a number, doesn't mean you have to accept it. You don't want to be stuck in a deadlock either, because then your insurance claim refund isn't coming back to you any sooner. Call our office and request a certified appraiser today to learn more.
+Just because you're given a number, doesn't mean you have to accept it. You don't want to be stuck in a deadlock either, because then your insurance claim refund isn't coming back to you any sooner. Call our office and request an appraiser today to learn more.
 
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
@@ -71,13 +71,13 @@ Our claims adjusters in Atlanta can help you avoid those expensive lawyer fees, 
 
 From the very first time you meet with our property damage appraisers in Atlanta, you will know that you are our top priority. We've been standing up for policyholders for many years, and it's our primary focus to recover the maximum, honest, and fair amount for your losses.
 
-Our knowledge allows us to understand what goes on in the claims department from the inside, and that's something that most property owners don't possess. Because of our prior successes, we have one of the most respected reputations in Atlanta and throughout the country.
+Our knowledge allows us to understand what goes on in the claims department from the inside, and that's something that most property owners don't possess. We put that knowledge to work for property owners across metro Atlanta.
 
 - Experience in all areas of property damage claims
 - Savvy in all the legal aspects
-- Fully licensed
+- Licensed in Georgia
 - Thorough investigations into your policy provided without making prior promises
-- Local
+- On call across metro Atlanta
 
 Don't get stuck with a public adjuster in Atlanta for your mediation or appraisal that is only out to take your money or a large percentage of your insurance check. We follow the rules and regulations, and our number one goal is your complete satisfaction. Call now for a convenient appointment.
 

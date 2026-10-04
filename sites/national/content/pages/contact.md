@@ -12,7 +12,7 @@ claimForm: true
 
 ## Get A FREE Claims Review
 
-You might not know exactly what [Melo Property Claims](/) can do for you, but if you need help with a challenging insurance claim, we're who you can trust. We will stay dedicated to you and your situation from the first phone call until you get the settlement owed to you. Our qualified claims adjusters are here to give you peace of mind that you have someone on your side.
+You might not know exactly what [Melo Property Claims](/) can do for you, but if you need help with a challenging insurance claim, we're who you can trust. We will stay dedicated to you and your situation from the first phone call until you get the settlement owed to you. Our qualified claims adjusters are here to give you peace of mind that you have someone on your side, for homes and businesses in [every state we serve](/service-areas/).
 
 - Property damage appraisal and mediation
 - Pre-loss and disaster planning

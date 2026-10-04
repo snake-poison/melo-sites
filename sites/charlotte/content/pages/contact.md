@@ -12,6 +12,6 @@ claimForm: true
 
 ## Contact Us Now for Fast Help!
 
-At Melo Public Adjusters, we understand your need for resolution from your insurance company. Our team will do all that we can to help walk you through this complicated process. Reach out to us 24/7.
+At Melo Public Adjusters Charlotte, we understand your need for resolution from your insurance company. Our team will do all that we can to help walk you through this complicated process, whether your property is in Charlotte or in Huntersville, Concord, Gastonia, Monroe or Matthews. Reach out to us 24/7.
 
 We look forward to speaking with you.

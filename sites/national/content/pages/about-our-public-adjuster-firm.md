@@ -17,7 +17,7 @@ Melo Property Claims is the qualified team you want on your side.
 
 Unless you've been caught in a sticky insurance claim dispute before, you've never needed the services offered by an adjuster firm. Homeowners that file insurance claims think the process is simple until their insurance provider starts fighting back. That's when Melo Property Claims stands in and takes care of you and protects your rights.
 
-We have several qualified [public adjusters](/) on our team with years of experience. Our team has seen and dealt with some of the most elaborate insurance claims out there, so there's nothing that you could bring to us that would make us turn you away. We take pride in being the advocate every person in the United States deserves.
+We have several qualified [public adjusters](/) on our team with years of experience. Our team has seen and dealt with some of the most elaborate insurance claims out there, so there's nothing that you could bring to us that would make us turn you away. We take pride in being the advocate every person in the United States deserves. From our office in Charlotte, we handle residential and commercial claims in [each of the states we serve](/service-areas/), and we travel to the property.
 
 Instead of staring at your insurance claim with no idea where to start, let us take care of the gathering and preparation of your documents, including filing, providing you with an honest and thorough property damage assessment, and maneuver through the difficult to comprehend legal aspects. All it takes is one phone call to us right now, and your seemingly impossible case will be streamlined in a way you never thought possible.
 
@@ -37,7 +37,7 @@ Get the maximum valuation for your property damage claim.
 
 It's a common misconception that the insurance company you're paying for your coverage is on your side. After they arrive to do their assessment, it's obvious to see that's the exact opposite of what's happening. Melo Property Claims knows how deceitful these massive corporations can be, and we give you what you should receive when it's time to file a claim:
 
-- Experts in local and national laws and guidelines
+- Experts in the insurance laws and guidelines of each state we work in
 - Capable of getting the maximum valuation
 - Expertise that only comes with experience
 - Quick response times and fast settlements

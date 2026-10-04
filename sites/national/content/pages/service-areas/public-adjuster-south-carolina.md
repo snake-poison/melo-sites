@@ -14,20 +14,18 @@ secondOpinion: true
 
 ## Our Public Adjuster in South Carolina is Eager to Meet You!
 
-It doesn't matter what public adjuster in South Carolina we send to you from our team at [Melo Property Claims](/). Everyone that we work with has been highly trained and educated in everything related to property damage insurance claims, pre-loss and disaster planning, mediation, and much more. You can try and take on your insurance provider on your own, but it won't take you long to realize that they are NOT on your side. If you want someone in your corner to fight for you and your rights, give us a call today to schedule your FREE initial consultation.
+It doesn't matter what public adjuster in South Carolina we send to you from our team at [Melo Property Claims](/). Everyone that we work with has been highly trained and educated in everything related to property damage insurance claims, pre-loss and disaster planning, mediation, and much more. You can try and take on your insurance provider on your own, but it won't take you long to realize that they are NOT on your side. Ramon Melo is licensed in South Carolina as a non-resident public adjuster (#8627837). If you want someone in your corner to fight for you and your rights, give us a call today to schedule your FREE initial consultation.
 
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 
 [Other Areas We Serve](/service-areas/)
-
-![BBB Accredited Business, Best of Houzz, Trusted Brand, and 5-Star Rated on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
 
 :page-claim-review
 
 ::page-section{image="/images/photos/flooded-yard-south-carolina.jpg" alt="Flood water covering a wooded yard in Darlington, South Carolina" reverse}
 ## What Our Public Adjuster in South Carolina Can Do
 
-For every 100 homes in the United States, five homeowners file a house insurance claim each year. It's no wonder the insurance companies try and slow down the process of getting you your claim money for property damages. You can put all your time and effort into this complicated situation, or you can leave it to the experts at Melo Property Claims. We take care of everything from start to finish!
+For every 100 homes in the United States, five homeowners file a house insurance claim each year. It's no wonder the insurance companies try and slow down the process of getting you your claim money for property damages. In South Carolina, that can mean a hurricane or flood claim on the coast or hail and wind damage inland. You can put all your time and effort into this complicated situation, or you can leave it to the experts at Melo Property Claims. We take care of everything from start to finish!
 
 - A faster insurance claim process
 - Maximum recoverable depreciation

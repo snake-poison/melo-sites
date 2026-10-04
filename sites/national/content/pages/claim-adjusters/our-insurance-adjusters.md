@@ -66,7 +66,7 @@ Your insurance company isn't going to feel empathetic towards your situation. Th
 
 Theft, vandalism, fire, flooding, and other problems will come at you at the most unexpected times. After your adrenaline wears off and your emotions start to settle, call our insurance adjuster. We are here around the clock to give you the peace of mind you're not alone in these crucial times.
 
-After you reach out to our team, we will send someone to your location right away to handle everything that's required to get your insurance claim in motion. That's the only way to get you the money you need to start rebuilding your life after property damages transpire. We're ready and willing to come to your property in North Carolina, South Carolina, Georgia, Florida, and beyond, so call now!
+After you reach out to our team, we will send someone to your location right away to handle everything that's required to get your insurance claim in motion. That's the only way to get you the money you need to start rebuilding your life after property damages transpire. We're ready and willing to come to your home or business in North Carolina, South Carolina, Georgia, Florida, and [the other states we serve](/service-areas/), so call now!
 
 :page-cta{kind="review" label="Get started"}
 ::

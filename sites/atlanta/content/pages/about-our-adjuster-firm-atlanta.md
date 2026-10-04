@@ -16,11 +16,11 @@ secondOpinion: true
 ::page-section{image="/images/photos/atlanta-inman-park-victorian-house.jpg" alt="A Victorian house in Inman Park, Atlanta"}
 ## Learn More About Our Public Adjuster Firm in Atlanta
 
-Discover why our public adjusters in Atlanta are the area's best.
+Public adjusters for Atlanta homeowners and businesses, licensed in Georgia.
 
-If you've never had to hire or research a public adjuster firm in Atlanta, then you might be wondering, what is a claims adjuster? Think about your friends or family members that have had to deal with an insurance claim. There's a good chance that they described to you what a nightmare it was. There is an enormous amount of documentation that the insurance company wants, and if you're dealing with property damages due to a significant storm or another disaster, focusing on the specifics can be stressful.
+If you've never had to hire or research a public adjuster firm in Atlanta, then you might be wondering, what is a claims adjuster? Think about your friends or family members that have had to deal with an insurance claim. There's a good chance that they described to you what a nightmare it was. There is an enormous amount of documentation that the insurance company wants, and if you're dealing with property damages after a spring tornado warning, a tree through the roof or a pipe that burst in a hard freeze, focusing on the specifics can be stressful.
 
-That's when [Melo Public Adjusters Atlanta](/) steps up and really shines. We have years of experience, licensing, and knowledge in the inner workings of these large companies, and they respect our authority. Instead of trying to get you to settle for less money, they are more likely to work with a public adjuster firm.
+That's when [Melo Public Adjusters Atlanta](/) steps up and really shines. We have years of experience, a Georgia public adjuster license (#3308108, held by Ramon Melo), and knowledge of the inner workings of these large companies, and they respect our authority. Instead of trying to get you to settle for less money, they are more likely to work with a public adjuster firm.
 
 We go in-depth to take care of all the preparation of your documents, provide comprehensive assessments of your property damage, and handle all the legal aspects for you. There's no confrontation for you to worry about when it comes to filing your insurance claim. Call us today for the specifics and discover why you need our independent appraiser on your team.
 
@@ -42,10 +42,10 @@ You're already paying your insurance company, so doesn't that mean that you have
 
 When it comes time for them to pay you, they're going to do whatever they can to lower the amount and stall the progress. With our public adjuster firm in Atlanta on your side, you won't have to worry about any of it. Take advantage of all the benefits, including:
 
-- Local experts
-- Higher settlement amounts
+- Georgia-licensed public adjusters
+- A claim built to get the full settlement
 - Years of experience
-- Fast response times
+- On call 24/7 across metro Atlanta
 
 Don't try facing your powerful insurance company alone. [Call our public insurance adjusters](/contact/) in Atlanta. You'll quickly realize why the investment is worth it.
 

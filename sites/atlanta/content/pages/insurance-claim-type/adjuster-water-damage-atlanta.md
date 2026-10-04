@@ -1,7 +1,7 @@
 ---
 title: "Expert Adjuster for Water Damage in Atlanta"
 metaTitle: "Adjuster Water Damage Atlanta | Melo Public Adjusters 24/7"
-description: "Get an experienced adjuster for water damage in Atlanta on your side. Locally owned & operated. Open 24/7. Call us first at (404) 467-5755."
+description: "Get an experienced adjuster for water damage in Atlanta on your side. Licensed in Georgia. Open 24/7. Call us first at (404) 467-5755."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
   src: "/images/photos/georgia-flooded-neighborhood-aerial.jpg"
@@ -12,14 +12,14 @@ claimForm: true
 claimTypes: true
 claimTypesIntro:
   title: "We Handle All Insurance Claim Types in Atlanta!"
-  text: "There's no telling when disaster is going to strike and no way to predict what type of situation you're going to face when it comes to property damage in Atlanta. That's why we stay up-to-date and educated in all [insurance claim types](/insurance-claim-type/). Call us today, no matter what you're dealing with. We're here to assist you!"
+  text: "Water rarely comes alone. A burst pipe can bring mold, and a summer storm can bring wind, hail and a tree on the roof. Whatever you're dealing with, we handle all [insurance claim types](/insurance-claim-type/) in Atlanta, so call us today."
 secondOpinion: true
 ---
 
 ::page-section{image="/images/photos/flood-gutted-kitchen.jpg" alt="A kitchen stripped to the studs after flood damage"}
 ## Your Expert Insurance Adjuster for Water Damage in Atlanta
 
-Did you know that, on average, about one in every 60 insured homeowners file a water damage or freezing insurance claim each year across the United States? In 2016, it was reported there were about 75 million homeowners in America, so it's clear, that's a lot of water damage claims!
+Atlanta winters are mild, until they aren't. When a hard freeze settles over the metro, pipes in crawl spaces, attics and exterior walls that were never built for it can split, and the water shows up when things thaw. Add a summer downpour that overwhelms a gutter or a water heater that gives out, and it is no surprise water damage is one of the most common homeowners insurance claims.
 
 Your insurance company will come in, assess the damage, and offer you a judgment for property damage repairs. However, more often than not, those valuations are way below the amount that's required to cover the costs adequately.
 
@@ -35,8 +35,8 @@ If you've never had to file an insurance claim for water damage before, you're p
 
 - Malfunctioning appliances
 - Water pipe issues
-- Floods
-- Other natural disasters
+- Floods, if you carry a flood policy
+- Storms, falling trees and other natural disasters
 
 Our skilled insurance adjuster for water damage in Atlanta will give you the personal attention required to explain everything to you in layman's terms. Find out what you're owed for your property damages by contacting us now.
 
@@ -46,7 +46,7 @@ Our skilled insurance adjuster for water damage in Atlanta will give you the per
 ::page-section{image="/images/photos/flood-damaged-room-cleanup.jpg" alt="A man clears out a water-damaged room"}
 ## Get Your Property Damage Repairs Done Fast
 
-Have you ever talked with a friend or family member that suffered water damages in Atlanta and tried to work with their insurance company agent independently? In most instances, these large corporations know what to do to prolong your claim. They don't want to pay out money, and they certainly aren't going to do it quickly. With severe water damages, you could be forced out of your home or office. Melo Public Adjusters does everything to speed up the process and so much more:
+Have you ever talked with a friend or neighbor that suffered water damages in Atlanta and tried to work with their insurance company agent independently? In most instances, these large corporations know what to do to prolong your claim. They don't want to pay out money, and they certainly aren't going to do it quickly. With severe water damages, you could be forced out of your home or office. Melo Public Adjusters does everything to speed up the process and so much more:
 
 - Faster insurance claim money
 - Quicker repairs by trusted contractors
@@ -73,7 +73,7 @@ If you wait around for your insurance company, you could be dealing with mold da
 [Melo Public Adjusters Atlanta](/) does the opposite of what your insurance company is going to do. With our compassionate, highly-experienced, and dedicated adjusters in your corner, you'll have the reassurance you need when dealing with property damages of any kind. Take advantage of all we have to offer:
 
 - Years of experience
-- Locally owned and operated
+- Licensed in Georgia
 - Knowledgeable in all legal aspects, rules, and regulations
 - Maximum judgment for your water damage insurance claim
 

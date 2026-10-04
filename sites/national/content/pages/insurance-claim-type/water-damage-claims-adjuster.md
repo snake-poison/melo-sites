@@ -12,14 +12,14 @@ claimForm: true
 claimTypes: true
 claimTypesIntro:
   title: "Discover Our Multitude of Insurance Claim Types"
-  text: "There are plenty of public adjuster firms out there, but not all of them are as comprehensive as we are when it comes to the [types of insurance claims](/insurance-claim-type/) they handle. We do them all, so feel free to call us back whenever you have a need for dealing with an unresponsive insurance company."
+  text: "From a burst pipe in one house to storm damage across a commercial building, we handle every [type of property insurance claim](/insurance-claim-type/) for owners in each of the states we serve, so you can call us back whenever an insurance company stops responding."
 secondOpinion: true
 ---
 
 ::page-section{image="/images/photos/assessors-inspecting-opened-wall.jpg" alt="Building assessors inspecting a wall opened up after flooding"}
 ## An Adjuster for Water Damage Takes Care of Everything
 
-In recent years it was reported there were well over 120 million homeowners in the United States. Out of those, five of every one hundred filed an insurance claim for water damage in one year alone. Without breaking out the calculator, it's pretty apparent that's a lot of insurance claims!
+Water damage is one of the most common reasons homeowners and businesses file a property insurance claim, and the damage you can see is rarely all of it. Water runs into subfloors, wall cavities, and insulation long before it shows.
 
 It's no wonder that when your insurance company sends an agent over, he or she does whatever they can to devalue or dismiss the repairs you need. They don't want to pay out any more money than absolutely necessary. Sadly, they succeed more often than you would think.
 

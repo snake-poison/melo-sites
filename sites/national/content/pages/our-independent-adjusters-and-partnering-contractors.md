@@ -1,7 +1,7 @@
 ---
 title: "Independent Adjusters Partnering with High-Quality Contractors"
 metaTitle: "Independent Adjuster | Independent Claims Adjusters"
-description: "Our independent adjusters partner with reputable contractors nationwide. Find out how to join our team by calling us at (704) 387-3997."
+description: "Our independent adjusters partner with reputable contractors across the states we serve. Find out how to join our team by calling us at (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
   src: "/images/photos/business-owners-clearing-flood-debris.jpg"
@@ -15,9 +15,7 @@ secondOpinion: true
 
 ## Our Independent Adjusters Partnering with Reputable Contractors Today!
 
-![5-Star Rated on Google and Facebook, Trusted Brand](/wp-content/uploads/2020/04/trust-badges-Facebook-Google-1.png)
-
-Are you a reputable contractor looking to pair up with a trusted insurance adjuster to boost your business and build your reputation?
+Are you a reputable contractor in one of [the states we serve](/service-areas/), looking to pair up with a trusted insurance adjuster to boost your business and build your reputation?
 
 ::page-grid{cols="3"}
 :::page-feature{title="FREE Recommendations" icon="carbon--user-multiple"}

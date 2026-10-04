@@ -13,7 +13,7 @@ secondOpinion: true
 
 ## See Why Our Customers Trust Us
 
-![5-Star Rated on Google and Facebook, Trusted Brand](/wp-content/uploads/2020/04/trust-badges-Facebook-Google-1.png)
+Melo Property Claims is rated **4.7 out of 5** on [our Google listing](https://www.google.com/maps/search/?api=1&query=Melo+Property+Claims+5736+N+Tryon+St+%23232+Charlotte+NC+28213). Here is what clients say about working with us.
 
 ::page-quote{name="Ryan Taclibon"}
 Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.

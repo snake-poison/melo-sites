@@ -16,13 +16,11 @@ secondOpinion: true
 
 The dedicated public adjusters in Georgia working at Melo Property Claims are just what you need when you're facing a stubborn insurance company. These large corporations do whatever they can to avoid paying you your insurance claim money. If they do agree to pay, chances are the valuation they offer is way below what you deserve after paying your premiums all these years.
 
-[Melo Property Claims](/) has a compassionate, empathetic public adjuster in Georgia ready to be sent to your location any time of the day or the night. You can't predict when these disasters are going to happen, and that's why we're always here to take your call.
+[Melo Property Claims](/) has a compassionate, empathetic public adjuster in Georgia ready to be sent to your location any time of the day or the night. Ramon Melo holds Georgia public adjuster license #3308108. You can't predict when these disasters are going to happen, and that's why we're always here to take your call.
 
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 
 [Other Areas We Serve](/service-areas/)
-
-![BBB Accredited Business, Best of Houzz, Trusted Brand, and 5-Star Rated on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
 
 :page-claim-review
 
@@ -58,7 +56,7 @@ Builders risk insurance added to your insurance policy protects your renovation 
 ::page-section{image="/images/photos/blue-tarps-on-roofs-georgia.jpg" alt="Blue tarps on storm-damaged roofs in Americus, Georgia"}
 ## What Insurance Claim in Georgia Are You Facing?
 
-We are one of the few public adjuster firms in Georgia that go above and beyond specializing in one area. Our public adjusters know that it's essential to have a professional on your side that's competent, and that makes you comfortable during some of the most sensitive times in your life. Melo Property Claims is here for you when you're filing any [property damage insurance claim](/insurance-claim-type/) for:
+Many public adjusters in Georgia specialize in one kind of loss; we handle them all. Our public adjusters know that it's essential to have a professional on your side that's competent, and that makes you comfortable during some of the most sensitive times in your life. Melo Property Claims is here for you when you're filing any [property damage insurance claim](/insurance-claim-type/) for:
 
 - Water damage
 - Mold damage
@@ -93,8 +91,8 @@ If you live in Georgia, you know that hurricane-strength winds and other storms 
 :::page-feature{title="FREE Consultations" icon="carbon--phone"}
 You aren't sure if a public adjuster is a proper way to invest your money. That's okay. A lot of people think the same way. Find out what we can do and why it's worth every penny when you call us now for your FREE consultation.
 :::
-:::page-feature{title="Locally Operated" icon="carbon--location"}
-As your locally owned and operated public adjuster firm in Georgia, we know all the local laws, rules, and guidelines when it comes to insurance claims in the area. With our experience, we can get through your request a lot faster.
+:::page-feature{title="Licensed in Georgia" icon="carbon--certificate-check"}
+Ramon Melo holds Georgia public adjuster license #3308108, so we know the state's laws, rules, and guidelines for insurance claims. With our experience, we can get through your request a lot faster, from Savannah to the north Georgia mountains.
 :::
 :::page-feature{title="All-Inclusive Services" icon="carbon--tool-kit"}
 It's stressful hiring a public adjuster in Georgia. You don't want to have to go through the meet and greet all over again for every insurance claim issue you deal with. That's why at Melo Property Claims, we do everything you'll ever need.
