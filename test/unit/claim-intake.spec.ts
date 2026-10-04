@@ -7,8 +7,7 @@ function request(overrides: Record<string, string> = {}, from = origin) {
     method: 'POST',
     headers: { 'Origin': from, 'Content-Type': 'application/x-www-form-urlencoded' },
     body: new URLSearchParams({
-      'First name': 'Website',
-      'Last name': 'Test',
+      'Name': 'Website Test',
       'Email': 'test@example.com',
       'Phone': '7045550100',
       'Street address': '123 Test Street',
@@ -63,12 +62,50 @@ describe('Multi-site claim intake', () => {
     [{ Email: 'invalid' }, origin],
     [{ Website: 'spam.example' }, origin],
     [{ 'Date of Loss': '2026-02-30' }, origin],
-    [{ 'Street address': '' }, origin],
+    [{ Name: '' }, origin],
+    [{ Phone: '' }, origin],
+    [{ 'ZIP code': 'wrong' }, origin],
+    [{ State: 'North Carolina' }, origin],
+    [{ 'Policy Number': 'x'.repeat(201) }, origin],
     [{}, 'https://other.example'],
   ])('rejects invalid or cross-origin intake before contacting services', async (values, from) => {
     const calls = mockApi()
     expect((await handleSubmission(request(values, from), env)).status).toBeGreaterThanOrEqual(400)
     expect(calls).toHaveLength(0)
+  })
+  it('accepts name and phone alone without empty contact or claim fields', async () => {
+    const calls = mockApi()
+    const response = await handleSubmission(request({
+      'Email': '',
+      'Street address': '',
+      'City': '',
+      'State': '',
+      'ZIP code': '',
+      'Claim Number': '',
+      'Policy Number': '',
+      'Date of Loss': '',
+      'Cause of Loss': '',
+      'Insurance Company': '',
+      'Where they are with the loss': '',
+    }), env)
+    expect(response.status).toBe(303)
+    expect(calls.some(call => call.url.includes('/persons/search'))).toBe(false)
+    const person = calls.find(call => call.url.endsWith('/persons'))?.body
+    expect(person).toMatchObject({ name: 'Website Test', emails: [], phones: [{ value: '7045550100', primary: true }] })
+    const lead = calls.find(call => call.url.endsWith('/leads'))?.body
+    for (const key of ['45ef25ca1ae3be18a5290f13f3c6d1af56079a5f', '412f092eb747565b254cbe73c486ccde29dc5453', '45563afa2d12fb820bab8efe71fb5ed3f4923cf8', '74819b0574d4841d2de3a1a79d6828f7b25b444c', '4e1235b3bac8c5276d17a9ba9bb74c98c8034826'])
+      expect(lead).not.toHaveProperty(key)
+    expect(calls.find(call => call.url.endsWith('/notes'))?.body.content).toContain('Not provided')
+  })
+  it('accepts a partial address, optional email and lowercase state', async () => {
+    const calls = mockApi()
+    expect((await handleSubmission(request({ 'Email': '', 'State': 'nc', 'ZIP code': '', 'Policy Number': '', 'Claim Number': '' }), env)).status).toBe(303)
+    expect(calls.find(call => call.url.endsWith('/leads'))?.body['74819b0574d4841d2de3a1a79d6828f7b25b444c']).toBe('123 Test Street, Charlotte, NC')
+  })
+  it('continues accepting older cached forms with separate first and last names', async () => {
+    const calls = mockApi()
+    expect((await handleSubmission(request({ 'Name': '', 'First name': 'Website', 'Last name': 'Test' }), env)).status).toBe(303)
+    expect(calls.find(call => call.url.endsWith('/persons'))?.body.name).toBe('Website Test')
   })
   it.each([{ captcha: false }, { hostname: 'other.example' }])('rejects failed or wrong-host spam verification', async (options) => {
     const calls = mockApi(options)

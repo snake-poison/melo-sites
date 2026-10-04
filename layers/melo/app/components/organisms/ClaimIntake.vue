@@ -41,7 +41,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
           <h2 id="claim-review-heading">
             Let’s review your claim.
           </h2>
-          <p>Have your policy and claim number handy. Our team will review the details and contact you.</p>
+          <p>Just your name and phone to get started. We’ll help with the rest.</p>
         </header>
 
         <form :action="claimForm.action" method="post" class="claim-intake__form">
@@ -51,37 +51,44 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
           </div>
 
           <fieldset class="claim-intake__group">
-            <legend>Policyholder</legend>
-            <div class="claim-intake__grid">
-              <label>Legal first name<input type="text" name="First name" autocomplete="given-name" maxlength="200" required></label>
-              <label>Legal last name<input type="text" name="Last name" autocomplete="family-name" maxlength="200" required></label>
-              <label>Phone<input type="tel" name="Phone" autocomplete="tel" maxlength="200" required></label>
-              <label>Email<input type="email" name="Email" autocomplete="email" maxlength="200" required></label>
+            <legend class="sr-only">
+              Your contact details
+            </legend>
+            <label>Your name<input type="text" name="Name" autocomplete="name" maxlength="200" required></label>
+            <div class="claim-intake__grid claim-intake__contact">
+              <label>Phone number<input type="tel" name="Phone" autocomplete="tel" maxlength="200" required></label>
+              <label>Email <span class="claim-intake__optional-label">Optional</span><input type="email" name="Email" autocomplete="email" maxlength="200"></label>
             </div>
+            <label class="claim-intake__description">What happened? <span class="claim-intake__optional-label">Optional</span>
+              <textarea name="Where they are with the loss" rows="2" maxlength="3000" placeholder="A sentence or two about your property damage." />
+            </label>
           </fieldset>
-          <fieldset class="claim-intake__group">
-            <legend>Insured property</legend>
-            <label>Street address, apartment or unit<input type="text" name="Street address" autocomplete="address-line1" maxlength="200" required></label>
-            <div class="claim-intake__location">
-              <label>City<input type="text" name="City" autocomplete="address-level2" maxlength="200" required></label>
-              <label>State<input type="text" name="State" autocomplete="address-level1" :value="business.address.region" pattern="[A-Z]{2}" maxlength="2" required></label>
-              <label>ZIP<input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10" required></label>
-            </div>
-          </fieldset>
-          <fieldset class="claim-intake__group">
-            <legend>Insurance &amp; loss</legend>
-            <div class="claim-intake__grid">
-              <label>Insurance company<input type="text" name="Insurance Company" maxlength="200" placeholder="e.g. Foremost Insurance" required></label>
-              <label>Date of loss<input type="date" name="Date of Loss" required></label>
-              <label>Policy number<input type="text" name="Policy Number" maxlength="200" required></label>
-              <label>Claim number<input type="text" name="Claim Number" maxlength="200" required></label>
-              <label class="claim-intake__wide">Cause of loss<input type="text" name="Cause of Loss" maxlength="200" placeholder="e.g. Fallen tree, burst pipe or fire" required></label>
-            </div>
-            <details class="claim-intake__optional">
-              <summary>Add more about your claim <span>Optional</span></summary>
-              <label>What else should we know?<textarea name="Where they are with the loss" rows="2" maxlength="3000" /></label>
-            </details>
-          </fieldset>
+
+          <details class="claim-intake__extra">
+            <summary>Add details if you have them <span>Optional</span></summary>
+            <p class="claim-intake__extra-hint">
+              Skip anything you don’t know. We can collect these details when we talk.
+            </p>
+            <fieldset class="claim-intake__group">
+              <legend>Property address</legend>
+              <label>Street address, apartment or unit<input type="text" name="Street address" autocomplete="address-line1" maxlength="200"></label>
+              <div class="claim-intake__location">
+                <label>City<input type="text" name="City" autocomplete="address-level2" maxlength="200"></label>
+                <label>State<input type="text" name="State" autocomplete="address-level1" placeholder="e.g. NC" pattern="[A-Za-z]{2}" maxlength="2"></label>
+                <label>ZIP<input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10"></label>
+              </div>
+            </fieldset>
+            <fieldset class="claim-intake__group">
+              <legend>Insurance &amp; loss</legend>
+              <div class="claim-intake__grid">
+                <label>Insurance company<input type="text" name="Insurance Company" maxlength="200"></label>
+                <label>Date of loss<input type="date" name="Date of Loss"></label>
+                <label>Policy number<input type="text" name="Policy Number" maxlength="200"></label>
+                <label>Claim number<input type="text" name="Claim Number" maxlength="200"></label>
+                <label class="claim-intake__wide">Cause of loss<input type="text" name="Cause of Loss" maxlength="200" placeholder="e.g. Fallen tree, burst pipe or fire"></label>
+              </div>
+            </fieldset>
+          </details>
 
           <footer class="claim-intake__submit">
             <div data-claim-captcha />
@@ -235,7 +242,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
 .claim-intake__group + .claim-intake__group {
   margin-top: 1.125rem;
 }
-.claim-intake__group legend {
+.claim-intake__group legend:not(.sr-only) {
   width: 100%;
   margin-bottom: 0.625rem;
   font-size: 0.875rem;
@@ -281,7 +288,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
 }
 .claim-intake__group textarea {
   resize: vertical;
-  min-height: 6rem;
+  min-height: 4.5rem;
 }
 .claim-intake__group input::placeholder,
 .claim-intake__group textarea::placeholder {
@@ -294,64 +301,38 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
   outline: none;
   box-shadow: 0 0 0 3px var(--machine-accent-soft);
 }
-.claim-intake__hint {
-  margin: -0.5rem 0 0.75rem;
-  color: var(--machine-ink-faint);
-  font-size: 0.75rem;
-}
-.claim-intake__damage {
-  display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 0.5rem;
-}
-.claim-intake__damage label {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  min-height: 2.75rem;
-  padding: 0.625rem 0.75rem;
-  border: 1px solid var(--machine-rule);
-  border-radius: 0.5rem;
-  cursor: pointer;
-  font-size: 0.75rem;
-  font-weight: 400;
-  transition:
-    background 150ms,
-    border-color 150ms;
-}
-.claim-intake__damage label:hover {
-  border-color: var(--machine-accent);
-}
-.claim-intake__damage label:has(:checked) {
-  border-color: var(--machine-accent);
-  background: var(--machine-accent-soft);
-}
-.claim-intake__damage input {
-  width: 1rem;
-  height: 1rem;
-  flex: none;
-  margin: 0;
-  accent-color: var(--machine-accent);
-}
+.claim-intake__contact,
 .claim-intake__description {
-  margin-top: 0.625rem;
+  margin-top: 0.875rem;
 }
-.claim-intake__optional {
-  margin-top: 0.75rem;
-}
-.claim-intake__optional summary {
-  width: fit-content;
-  color: var(--machine-accent);
-  font-size: 0.75rem;
-  cursor: pointer;
-}
-.claim-intake__optional summary span {
+.claim-intake__optional-label {
   margin-left: 0.25rem;
   color: var(--machine-ink-faint);
-  font-size: 0.65rem;
+  font-weight: 400;
+  font-size: 0.6875rem;
 }
-.claim-intake__optional label {
-  margin-top: 0.75rem;
+.claim-intake__extra {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--machine-rule-soft);
+}
+.claim-intake__extra summary {
+  color: var(--machine-accent);
+  cursor: pointer;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+.claim-intake__extra summary > span {
+  margin-left: 0.25rem;
+  color: var(--machine-ink-faint);
+  font-size: 0.6875rem;
+  font-weight: 400;
+}
+.claim-intake__extra-hint {
+  margin: 0.875rem 0 1rem;
+  color: var(--machine-ink-soft);
+  font-size: 0.75rem;
+  line-height: 1.6;
 }
 .claim-intake__location {
   display: grid;
@@ -360,9 +341,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
   margin-top: 0.625rem;
 }
 .claim-intake__submit {
-  margin-top: 1.5rem;
-  padding-top: 1.5rem;
-  border-top: 1px solid var(--machine-rule-soft);
+  margin-top: 0.875rem;
 }
 .claim-intake__submit button {
   display: flex;
@@ -391,7 +370,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
 }
 .claim-intake__submit button:focus-visible,
 .claim-intake__call:focus-visible,
-.claim-intake__optional summary:focus-visible {
+.claim-intake__extra summary:focus-visible {
   outline: 2px solid var(--machine-accent);
   outline-offset: 4px;
 }
@@ -456,10 +435,7 @@ withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
   .claim-intake__grid {
     column-gap: 0.75rem;
   }
-  .claim-intake__grid label:nth-child(n + 3) {
-    grid-column: 1 / -1;
-  }
-  .claim-intake__damage {
+  .claim-intake__grid {
     grid-template-columns: minmax(0, 1fr);
   }
   .claim-intake__location {
