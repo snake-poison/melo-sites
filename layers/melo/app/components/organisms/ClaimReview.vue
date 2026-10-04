@@ -75,6 +75,10 @@ const label = 'block text-sm font-semibold text-ink'
         <form v-if="claimForm.action" :action="claimForm.action" method="post" class="mt-6 space-y-6">
           <input v-for="(value, name) in claimForm.hidden" :key="name" type="hidden" :name="name" :value="value">
 
+          <div v-if="claimForm.action === '/api/claim-review'" class="hidden" aria-hidden="true">
+            <label>Leave this field empty<input type="text" name="Website" tabindex="-1" autocomplete="off"></label>
+          </div>
+
           <fieldset>
             <legend :class="label">
               What is your loss?
@@ -126,6 +130,13 @@ const label = 'block text-sm font-semibold text-ink'
               <input type="email" name="Email" autocomplete="email" required :class="field">
             </label>
           </div>
+
+          <template v-if="claimForm.action === '/api/claim-review'">
+            <p class="text-sm text-ink">
+              By submitting, you ask Melo Public Adjusters Charlotte to contact you about your claim. <a href="/privacy-policy/" class="underline">Privacy policy</a>.
+            </p>
+            <div data-claim-captcha />
+          </template>
 
           <button type="submit" class="inline-flex w-full cursor-pointer items-center justify-center bg-charcoal px-8 py-3.5 text-sm font-bold tracking-[0.08em] text-on-dark uppercase transition-colors hover:bg-charcoal-2 focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-ink sm:w-auto">
             Get my free claims review
