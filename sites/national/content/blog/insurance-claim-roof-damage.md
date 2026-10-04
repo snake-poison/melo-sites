@@ -3,7 +3,7 @@ title: "How to File a Claim with Insurance for Roof Damage"
 metaTitle: "Roof Insurance Claim | Roof Damage Insurance Claim | Melo Property Claims"
 description: "Check out our guide on how to file an insurance claim for roof damage! We'll give you important tips so you can get your roof repair covered."
 date: 2022-02-03
-updated: 2023-07-26
+updated: 2026-10-04
 category: "roof-damage-claim"
 image:
   src: "/images/photos/warped-missing-roof-shingles.jpg"
@@ -14,18 +14,18 @@ If you’ve experienced severe storm damage to your home or business, one of the
 
 ## Contact your insurance company
 
-The best way to start getting your roof replaced is by contacting your insurance company. Your home insurance policy will often have a clause that covers property damage resulting from wind, hail, and other natural disasters. In order to file an insurance claim, you’ll need an appraisal from an expert of how much it will cost to repair or replace your roof.
+The best way to start getting your roof repaired or replaced is by contacting your insurance company. Your home insurance policy will often cover property damage resulting from wind, hail, falling trees and other sudden events. You do not need a repair estimate to report the damage: report it first, then gather the evidence. Policies require prompt notice of a loss, and deadlines for reporting storm damage vary by state and by policy, so do not wait.
 
-If you’re not sure whether your insurance covers roof damage, call your agent and ask. If you haven’t done so already, schedule an inspection from an expert in roofing or go out and hire one yourself. After inspecting your roof, they’ll be able to give you an idea of how much it will cost to repair or replace it entirely.
+If you’re not sure whether your insurance covers roof damage, ask for a complete copy of your policy and read it, or call your agent and ask. Check your deductible, too: many policies have a separate wind or hail deductible, sometimes a percentage of your home’s insured value rather than a flat amount. It is also worth having a reputable roofer inspect the roof. After inspecting it, they’ll be able to give you an idea of how much it will cost to repair or replace it entirely.
 
 ::post-photo{src="/images/photos/office-phone-keypad.jpg" alt="Close-up of an office telephone keypad"}
 ::
 
 ## Check your roof damage
 
-Most insurance companies will cover roof damage caused by severe weather, including hail, rain, and wind. However, in some instances you may need to take additional steps before filing a claim. The first step is determining if your roof is indeed damaged and in need of repair or replacement. In most cases you can simply take an outside glance at your roof. Are there any missing shingles? Are there any cracks? Are there dents in your vents or gutters? If so, chances are you have storm damage.
+Most policies cover roof damage caused by sudden severe weather, such as hail and wind, but not damage from wear and tear, age or poor maintenance, and some limit coverage on older roofs. That is why the cause of the damage matters so much. The first step is determining if your roof is indeed damaged and in need of repair or replacement. In most cases you can simply take an outside glance at your roof. Are there any missing shingles? Are there any cracks? Are there dents in your vents or gutters? If so, chances are you have storm damage.
 
-If you’re having trouble determining whether or not your roof has been damaged, you can always call an insurance professional. They will perform an inspection of your roof, and if necessary provide you with repairs estimates. Before filing a claim, make sure your roof isn’t damaged beyond repair.
+Do not climb onto a damaged roof yourself. If you’re having trouble determining whether or not your roof has been damaged, call a roofer or a public adjuster to inspect it and, if necessary, give you a repair estimate. If the roof is leaking, cover it with a tarp or have it covered right away to prevent further damage, and keep the receipts: your policy requires you to protect the property from further damage, and reasonable emergency repairs are usually part of the claim.
 
 ## Take pictures of the damaged area
 
@@ -42,25 +42,25 @@ In order to file an insurance claim, you’ll need documentation proving your ro
 
 ## Check your home
 
-If you see any signs of leaking, or if water is pooling on your ceiling, then it’s time to get serious about filing a claim. The first step is making sure you have enough coverage—many insurers require a percent more than your home’s insured value. Once you know your limits, reach out to your agent and file an insurance claim as soon as possible. Your agent will walk you through how much of each expense to cover and how long it should take for repairs.
+If you see any signs of leaking, or if water is pooling on your ceiling, then it’s time to get serious about filing a claim. Roof damage often shows up inside first, and water damage to ceilings, walls, insulation and belongings can be part of the same claim. Photograph it, protect your belongings, and report the claim as soon as possible.
 
-When you do file a claim, your insurer will either send an inspector or request that you hire one yourself. The inspector will check your home and belongings over thoroughly, checking walls, ceilings, floors, carpeting, and even testing fixtures.
+When you do file a claim, your insurer will usually send an adjuster to inspect the damage. Walk the adjuster through everything you found, inside and out, including the walls, ceilings, floors and attic, and ask for a copy of the adjuster’s estimate once it is written.
 
 ::post-photo{src="/images/photos/tornado-damaged-house.jpg" alt="House stripped by a tornado, with broken trees around it"}
 ::
 
 ## Get professional help
 
-It’s important to get professional help. Hiring a roofing contractor to ensure that your claim is filed properly and that you don’t end up paying any more than necessary. The first step in filing an insurance claim is to have an estimate done by your insurance company’s agent. Once they've approved the amount, they may provide you with a list of recommended contractors. Whether you have one in mind or use theirs, it's important to select a professional. Roof repair isn't a DIY project you should take lightly.
+It’s important to get professional help. Your insurance company’s adjuster will write an estimate of what it believes the repairs cost. Once the amount is approved, the insurer may provide you with a list of recommended contractors, but you are free to choose your own. Whether you have one in mind or use theirs, choose a licensed, insured roofer. Roof repair isn't a DIY project you should take lightly.
 
-Professional roofers will be able to provide you with advice and information that you won't get from a DIY guide or your insurance company. They'll work efficiently and make sure that they use materials that fit within your budget. Their employees are highly trained and certified in their field.
+A good roofer can tell you what the repair really requires and give you a detailed estimate to compare with the insurer’s. Keep the two roles apart, though: in many states, a contractor may not negotiate your claim with the insurance company for you. If the insurer’s estimate leaves out damage, refuses to match materials, or the claim is denied, a licensed public adjuster can represent you. Melo Property Claims handles roof claims in the [states where we are licensed](/service-areas/).
 
 ## Will they replace my roof?
 
-After your roof sustains damage, you’ll have three options to repair it: You can hire a contractor and pay out of pocket, you can file an insurance claim (and pay additional premium costs) or you can repair it yourself. Whichever option you choose, be sure to document all communication that comes from your insurance company or contractor.
+After your roof sustains damage, you’ll have three options to repair it: You can hire a contractor and pay out of pocket, you can file an insurance claim (which may affect your premium at renewal), or you can repair it yourself. Whichever option you choose, be sure to document all communication that comes from your insurance company or contractor.
 
-Very few will do it themselves. With the average homeowner spending about $8,585 to [install a new roof](https://www.homeadvisor.com/cost/roofing/install-a-roof/) it doesn't make sense to pay out of pocket for it unless the damage wasn't covered by your insurance policy. Majority of people will fall into the third category of having their insurance company pay for the repairs.
+Very few will do it themselves. A new roof is a major expense, so unless the damage is small enough to fall under your deductible, or isn’t covered by your policy, most people choose the second option and have their insurance company pay for the repairs. Whether the insurer pays for a full replacement or only a repair depends on the extent of the damage and your policy’s terms, so read the adjuster’s estimate closely.
 
-While your roof is being repaired, ask about accommodations they may offer. Whether they put you up in a hotel or apartment, you may be entitled to some accommodations like these within your policy.
+If the damage makes your home unlivable while it is being repaired, ask about additional living expenses (sometimes called loss of use) coverage. Many homeowners policies pay the added cost of a hotel or rental while you cannot live at home.
 
-If you need assistance with a property claim, get in touch with us at [Melo Property Claims](/) today!
+If you need assistance with a roof or property claim, get in touch with us at [Melo Property Claims](/) for a free claim review.

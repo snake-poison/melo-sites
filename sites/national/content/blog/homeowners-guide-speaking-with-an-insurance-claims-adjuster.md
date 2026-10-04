@@ -3,7 +3,7 @@ title: "A Homeowner's Guide: Speaking With an Insurance Claims Adjuster"
 metaTitle: "Homeowner Insurance Adjuster | Questions To Ask Claims Adjuster"
 description: "To avoid lowball offers and ensure maximum payout for an insurance claim, consider some points for how to talk to an insurance claims adjuster."
 date: 2020-12-15
-updated: 2023-07-26
+updated: 2026-10-04
 category: "public-adjusters"
 image:
   src: "/images/photos/inspector-interviewing-homeowner.jpg"
@@ -25,11 +25,11 @@ To better understand how to talk to insurance claims adjusters, it’s helpful t
 
 First, note that your agent is not typically an adjuster; an insurance agent sells and manages your policy, but not a claim! Calling your agent to complain about your adjuster or to negotiate with him or her is often fruitless, as an agent might not have authority over the payout offered or will rely on the adjuster’s recommendations.
 
-Many adjusters are also outside contractors or public adjusters, hired by an insurance company on a case-by-case basis. Adjusters typically have a limit they can authorize for a claim; new adjusters might handle claims under $5000 or $10,000 as an example. If your claim exceeds their authority, they will bring that to the attention of their boss, who will then need to authorize a higher payout for the adjuster to handle or assign a new adjuster to your case.
+Some adjusters are the insurer's own employees (staff adjusters); others are independent adjusters, outside contractors the insurer hires claim by claim, often after a large storm. Either way, they work for the insurance company. A public adjuster is different: they are hired by you, the policyholder, never by the insurer. Company adjusters typically have a limit they can authorize for a claim, with newer adjusters given lower limits. If your claim exceeds their authority, they will bring that to the attention of their supervisor, who will then need to authorize a higher payout or assign a new adjuster to your case.
 
-[Insurance adjusters](/blog/what-does-an-insurance-adjuster-do/) usually don’t enjoy having to take that extra step of involving their boss in increasing their payout authority or handing over your file to another adjuster, so they will usually try to keep your claim within their payout authority. If you think you’re being offered less than you deserve, ask the adjuster how much they’re authorized to approve. While you don’t necessarily have the authority to ask for another adjuster, this can help you understand why an adjuster might not offer a payout higher than a certain amount!
+[Insurance adjusters](/blog/what-does-an-insurance-adjuster-do/) may prefer not to take that extra step of involving their supervisor or handing over your file to another adjuster, which can put pressure on them to keep your claim within their payout authority. If you think you’re being offered less than you deserve, ask the adjuster how much they’re authorized to approve. While you don’t necessarily have the authority to ask for another adjuster, this can help you understand why an adjuster might not offer a payout higher than a certain amount!
 
-Insurance adjusters usually manage several claims at once, so they often keep nothing more than basic information about each claim including damages, length of treatment and severity of injuries if any, and your policy coverage. Since they might not keep extensive records of your claim, it’s vital that you stay as organized as possible, and this includes keeping detailed records of damages, costs, inventory lists for property loss, and everything else related to your claim.
+Insurance adjusters usually manage many claims at once, and their file may not capture every detail of yours. It’s vital that you stay as organized as possible, and this includes keeping detailed records of damages, costs, inventory lists for property loss, and everything else related to your claim.
 
 ## Should I Talk To a Claims Adjuster?
 
@@ -41,15 +41,15 @@ It’s also helpful to put into writing anything that’s asked of you. For inst
 
 ## What Should You NOT Say to a Claims Adjuster?
 
-When dealing with a claims adjuster or insurance agent, **never admit fault** or any part you might have played in an accident, injury, or disaster such as a fire or flood. An insurance adjuster is trying to get the smallest payout possible for the insurance company and might use that admission to say that the company doesn’t need to pay you anything!
+When dealing with a claims adjuster or insurance agent, **don’t volunteer opinions about fault** or any part you might have played in an accident, injury, or disaster such as a fire or flood. Always answer truthfully, since a false statement can void a claim, but stick to facts you know. On your own property policy, an accidental loss you caused, such as a kitchen fire, is generally still covered, yet a careless remark about how something happened can still be used to question parts of the claim.
 
-At the same time, don’t speculate with the adjuster as to what you think happened, who was to blame, and so on. Making speculative statements or other such comments might also be used as an accusation that you’ve changed your story over time. You might also say something inadvertently that puts the blame on you for the incident. To avoid these risks, don’t get overly conversational with the adjuster and feel free to tell them that you don’t know all the details of what happened, how things happened, etc.
+At the same time, don’t speculate with the adjuster as to what you think happened, who was to blame, and so on. Making speculative statements or other such comments might also be used as an accusation that you’ve changed your story over time. You might also say something inadvertently that puts the blame on you for the incident. To avoid these risks, don’t get overly conversational with the adjuster, and feel free to tell them when you don’t know the details of what happened or how it happened.
 
 It’s also vital that you don’t discuss injuries with your adjuster over the phone or in person, and especially not immediately after an accident. You need to discuss the extent of any injuries suffered and follow-up medical care with a doctor first, and put your claim demands in writing; otherwise, an adjuster might assume that your injuries are far less severe and might not realize all your ensuing medical costs. Never hesitate to tell an adjuster that you don’t have all your information yet and might need to submit more information related to an injury in the near future.
 
 Another thing you should not say to a claims adjuster is that you hate attorneys! Even if this is true, you don’t want to let a claims adjuster think that you will avoid dealing with an attorney or filing a legal claim if they don’t offer an adequate payout. At the same time, don’t make grandiose claims about suing the insurance company or adjuster, as this might indicate that you’re not familiar with the law and your legal rights.
 
-Also, never give a recorded statement to your claims adjuster. He or she might ask to record a conversation or for you to offer a recorded statement, but you’re within your rights to refuse. That recorded statement might be used against you in some way, so rely on written statements and assistance from your public adjuster or attorney when talking to a claims adjuster.
+Also, think carefully before giving a recorded statement to your claims adjuster. He or she might ask to record a phone conversation; you can usually ask to answer in writing instead, or to have your public adjuster or attorney with you. Know, though, that your policy’s “duties after loss” section usually requires you to cooperate: to show the damaged property, provide records and, if the insurer asks, sit for a formal examination under oath. Refusing those can put the claim at risk, so read that section of your policy and get help before you decline anything.
 
 ## How Do Insurance Adjusters Investigate?
 
@@ -64,18 +64,18 @@ For anything involving an injury, your claims adjuster will typically ask you to
 
 ## How Long Do Insurance Adjusters Have to Respond?
 
-An insurance claim starts with you filing a claim through your agency; most allow you to do this online, or they might offer forms for you to fill out. An adjuster typically has 30 days from when your insurance provider receives your claim to perform an initial investigation and respond.
+An insurance claim starts with you reporting the loss to your insurance company; most allow you to do this online or by phone, or they might offer forms for you to fill out. How quickly the insurer must acknowledge the claim, investigate, and accept or deny it is set by each state’s claim-handling and prompt-payment rules, so the deadlines differ from state to state, and your policy may set its own. Your state’s insurance department publishes the rules that apply where you live and takes complaints when an insurer misses them.
 
-Since most claimants need those funds as quickly as possible, and especially after suffering a catastrophic loss such as a house fire or flood, insurance adjusters typically wait as long as possible before responding. Most will hope that homeowners will become so desperate for the reimbursement funds that they will happily take the first offer received.
+Most claimants need those funds as quickly as possible, especially after a catastrophic loss such as a house fire. That urgency is exactly what can push a homeowner to take a first offer that is too low. You are not obliged to accept the first offer; ask how it was calculated and compare it with your own estimates.
 
 Your settlement offer might also be delayed if you fail to provide the adjuster all the information needed to properly evaluate your claim. This is one vital reason a homeowner should take meticulous notes and keep all their receipts together after a loss. If you’ve suffered a house fire, for example, you’ll want to note costs for having to stay at a hotel, eat out, replace personal items needed immediately, and the like.
 
 ## What If an Insurance Adjuster Refuses to Cooperate?
 
-If you feel you’ve been given an unfair settlement offer and the insurance adjuster refuses to negotiate, it’s time to hire a public adjuster or attorney! A public adjuster works for you, the claimant, and negotiates with the insurance company’s adjuster for the highest payout possible. He or she gets paid a percentage of whatever amount they receive on your behalf, so there is usually no risk in having them on your side.
+If you feel you’ve been given an unfair settlement offer and the insurance adjuster refuses to negotiate, it’s time to hire a public adjuster or attorney! A public adjuster works for you, the claimant, and negotiates with the insurance company’s adjuster for the full amount your policy owes. Most are paid a percentage of the settlement they recover, so you pay nothing up front. Public adjusters are licensed by each state, and states set their own rules on contracts and fees, including caps in some states, so check the adjuster’s license and get the fee in writing.
 
 A public adjuster can also go through your insurance paperwork and claim itself, and note if you missed certain expenses or if there is any other reason why the claims adjuster is not willing to negotiate. While a public adjuster can’t necessarily make a claims adjuster work faster for you, he or she can ensure there are no delays in communication because of legitimate issues, such as not providing needed receipts and other information for your claim.
 
 ### A Word from Our Team at Melo Property Claims
 
-This information is proudly presented to our readers by Melo Property Claims. If you’ve been struggling with an insurance claim or don’t know how to talk to [insurance claims adjusters](/claim-adjusters/our-insurance-adjusters/), give us a call! Our team is skilled and experienced in negotiating with insurance adjusters and ensuring our clients get the fast, fair payout they deserve.
+This information is proudly presented to our readers by Melo Property Claims. If you’ve been struggling with an insurance claim or don’t know how to talk to [insurance claims adjusters](/claim-adjusters/our-insurance-adjusters/), give us a call! Our team negotiates with insurance adjusters for property owners in the [states where we are licensed](/service-areas/), and works to get our clients the fair payout their policy promises.

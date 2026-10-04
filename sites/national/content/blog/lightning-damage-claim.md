@@ -3,14 +3,14 @@ title: "Navigating the Storm: Establishing Lightning Damage for Insurance Claims
 metaTitle: "Lightning Strike Insurance Claim | Lightning Damage Claims"
 description: "Check the essential steps and considerations for proving to insurance that damage is from a lightning strike!"
 date: 2024-01-09
-updated: 2024-01-29
+updated: 2026-10-04
 category: "public-adjusters"
 image:
   src: "/images/photos/lightning-bolt-at-night.jpg"
   alt: "Single lightning bolt striking the ground at night"
 ---
 
-When a thunderstorm rages and lightning strikes, the aftermath can leave property owners grappling with the task of proving that damage incurred was indeed from a lightning strike. Successfully making a lightning damage insurance claim involves meticulous documentation and a clear understanding of the evidence required to support your case. In this blog post, we'll delve into the essential steps and considerations for proving to insurance that damage is from a lightning strike, emphasizing key keywords like lightning strike insurance claim and lightning damage claims.
+When a thunderstorm rages and lightning strikes, the aftermath can leave property owners grappling with the task of proving that damage incurred was indeed from a lightning strike. Successfully making a lightning damage insurance claim involves meticulous documentation and a clear understanding of the evidence required to support your case. Most property policies cover lightning, but many treat damage from a lightning strike differently from an ordinary power surge, so showing that lightning was the cause can decide the claim. In this post, we walk through the essential steps for proving to your insurance company that damage came from a lightning strike.
 
 ## Document the Incident
 
@@ -22,7 +22,7 @@ Inspect your property for physical evidence that can be linked to a lightning st
 
 ## Examine Electronic Devices
 
-Lightning can cause extensive damage to electronic devices by surging through power lines. If your electronic devices, such as computers, televisions, or appliances, are malfunctioning or exhibit signs of damage, document these issues. Provide a detailed list of affected devices as part of your lightning damage insurance claim.
+Lightning can cause extensive damage to electronic devices by surging through power, cable and phone lines. If your electronic devices, such as computers, televisions, or appliances, are malfunctioning or exhibit signs of damage, document these issues. Provide a detailed list of affected devices, with model numbers and approximate purchase dates, as part of your lightning damage insurance claim. Keep the damaged devices rather than throwing them away: the insurance company may want to inspect them, and a repair technician's written finding that a device failed from a surge is useful evidence.
 
 ## Seek Professional Inspection
 
@@ -30,7 +30,7 @@ Engage the services of professionals, such as electricians or structural enginee
 
 ## Weather Reports and Witness Statements
 
-Gather official weather reports for the date and time of the lightning strike. Having meteorological data that confirms a thunderstorm with lightning strengthens your case. Additionally, if there were witnesses to the lightning strike, obtain their statements describing what they observed. Witness accounts can corroborate your claim and provide additional support.
+Gather weather reports for the date and time of the lightning strike. Having meteorological data that confirms a thunderstorm with lightning near your property strengthens your case; some weather data providers can produce a report of the lightning strikes recorded near a specific address on a specific day. Additionally, if there were witnesses to the lightning strike, obtain their statements describing what they observed. Witness accounts can corroborate your claim and provide additional support.
 
 ## Electrical System Analysis
 
@@ -49,4 +49,4 @@ Maintain open and clear communication with your insurance company throughout the
 
 ## Conclusion
 
-Proving to insurance that damage is from a lightning strike requires a systematic approach involving thorough documentation, professional assessments, and collaboration with experts. By presenting a comprehensive case supported by photographs, witness statements, weather reports, and professional evaluations, you enhance the likelihood of a successful [lightning damage insurance claim](/insurance-claim-type/public-adjuster-wind-storm-damage-claim/). Navigating the aftermath of a lightning strike with diligence and attention to detail ensures that your property is restored, providing you with the coverage needed to address the impact of this natural phenomenon.
+Proving to insurance that damage is from a lightning strike requires a systematic approach involving thorough documentation, professional assessments, and collaboration with experts. By presenting a comprehensive case supported by photographs, witness statements, weather reports, and professional evaluations, you enhance the likelihood of a successful [lightning damage insurance claim](/insurance-claim-type/public-adjuster-wind-storm-damage-claim/). If your insurance company still disputes that lightning caused the damage, or pays less than the repairs will cost, a licensed public adjuster can review the evidence and present the claim for you. Melo Property Claims handles lightning and storm claims in the [states where we are licensed](/service-areas/).

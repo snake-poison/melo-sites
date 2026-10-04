@@ -3,7 +3,7 @@ title: "Arson Insurance Claims: What You Need to Know"
 metaTitle: "Arson Insurance Coverage | Do Insurance Companies Cover Arson"
 description: "Understanding how arson insurance claims work and the factors influencing coverage can help you navigate the aftermath of such a distressing event."
 date: 2024-07-05
-updated: 2024-08-02
+updated: 2026-10-04
 category: "public-adjusters"
 image:
   src: "/images/photos/fire-damaged-stucco-house.jpg"
@@ -18,7 +18,7 @@ The question of whether insurance covers arson is complex and often misunderstoo
 
 ## Is Arson Covered by Insurance?
 
-In many cases, arson is covered by insurance, but with important caveats. Most insurance policies provide coverage for [fire damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), which includes damage from arson. However, insurance companies may investigate the cause of the fire thoroughly before approving a claim. If the investigation determines that the policyholder was involved in the arson or had a motive for committing it, the claim may be denied.
+In many cases, arson is covered by insurance, but with important caveats. Most insurance policies provide coverage for [fire damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), which includes a fire set by a stranger, a vandal or a former tenant. However, insurance companies investigate the cause of a suspicious fire thoroughly before paying a claim. If the investigation shows that the policyholder set the fire or arranged for someone else to set it, the claim will be denied. Having a possible motive, such as money trouble, is not on its own proof of involvement, but expect the insurer to ask about it.
 
 ## Arson Insurance
 
@@ -26,7 +26,7 @@ Arson insurance is a term often used to describe coverage for losses resulting f
 
 ## Do Insurance Companies Cover Arson?
 
-Insurance companies do cover arson-related damages in many situations, but they will conduct a thorough investigation to ensure that the claim is valid. They examine evidence to determine the origin of the fire and whether there is any connection between the policyholder and the act of arson. Insurance companies are wary of fraudulent claims and will scrutinize the details before making a payout.
+Insurance companies do cover arson-related damages in many situations, but they will conduct a thorough investigation to ensure that the claim is valid. They examine evidence to determine the origin of the fire and whether there is any connection between the policyholder and the act of arson. Expect the insurer to hire its own fire investigator, to ask for financial records, and in some cases to require an examination under oath, which most policies allow. Cooperate fully, answer truthfully, and keep copies of everything you hand over; a public adjuster or attorney can be with you through this process.
 
 ## Why is Arson Not Covered by Insurance?
 
@@ -34,11 +34,13 @@ While insurance generally covers [damages from arson](/insurance-claim-type/publ
 
 1. **Fraudulent Claims:** If the insurance company suspects that the policyholder is involved in the arson, the claim will likely be denied. Insurance companies have a vested interest in preventing fraud and will investigate claims rigorously.
 
-2. **Policy Exclusions:** Some insurance policies have specific exclusions or conditions related to intentional acts or criminal behavior. If the policy explicitly excludes coverage for damages resulting from criminal activity, the claim may be denied.
+2. **Policy Exclusions:** Most policies exclude intentional acts by an insured person. When one person on a policy sets a fire, whether the other, innocent co-insured (a spouse, for example) can still recover depends on the policy wording and on state law, which differ from state to state.
 
-3. **Non-Disclosure:** If the policyholder fails to disclose relevant information or makes false statements during the claim process, the insurer may deny the claim based on these discrepancies.
+3. **Vacancy:** Many policies restrict coverage for vandalism and some other losses once a property has been vacant for a set period. If an empty house or building was set on fire, check the policy's vacancy clause.
 
-4. **Policy Violations:** In cases where the policyholder has violated the terms of the insurance agreement, such as failing to maintain the property in a certain condition, the insurance company may deny coverage.
+4. **Non-Disclosure:** If the policyholder fails to disclose relevant information or makes false statements during the claim process, the insurer may deny the claim based on these discrepancies.
+
+5. **Policy Violations:** In cases where the policyholder has violated the terms of the insurance agreement, such as failing to maintain the property in a certain condition, the insurance company may deny coverage.
 
 ## Arson Insurance Coverage: What to Look For
 
@@ -50,8 +52,8 @@ When purchasing property insurance, it’s important to review the policy detail
 
 3. **Claims Process:** Familiarize yourself with the claims process and what documentation will be required. Promptly report any fire incidents to your insurance company and cooperate with their investigation.
 
-4. **Consult an Expert:** If you have questions about your coverage or need assistance with a claim, consider consulting an insurance professional or attorney who specializes in property insurance and arson claims.
+4. **Consult an Expert:** If you have questions about your coverage or need assistance with a claim, consider a licensed public adjuster to document and negotiate the loss, and an attorney if the insurer accuses you of involvement in the fire. Public adjusters are licensed state by state; Melo Property Claims handles fire claims in the [states we serve](/service-areas/).
 
 ## Conclusion
 
-Dealing with the aftermath of an arson incident is challenging, and navigating the insurance claim process adds another layer of complexity. While insurance typically covers [damages from arson](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), claims can be denied for reasons related to fraud, policy exclusions, or other issues. By understanding your policy, maintaining transparency, and working closely with your insurer, you can better manage the financial impact of arson and work towards restoring your property.
+Dealing with the aftermath of an arson incident is challenging, and navigating the insurance claim process adds another layer of complexity. While insurance typically covers [damages from arson](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), claims can be denied for reasons related to fraud, policy exclusions, or other issues. By understanding your policy, being transparent with the investigators, and getting help when the insurer's questions turn into accusations, you can better manage the financial impact of arson and work towards restoring your property.
