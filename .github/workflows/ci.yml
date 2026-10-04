@@ -63,7 +63,7 @@ jobs:
       # What the tests passed is what ships: the deploy job publishes these builds as they are.
       - name: Keep the Charlotte build
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: site-charlotte
           path: sites/charlotte/.output/public
@@ -71,7 +71,7 @@ jobs:
 
       - name: Keep the national build
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v7
         with:
           name: site-national
           path: sites/national/.output/public
@@ -103,7 +103,7 @@ jobs:
         with:
           node-version-file: .node-version
 
-      - uses: actions/download-artifact@v5
+      - uses: actions/download-artifact@v8
         with:
           name: site-${{ matrix.site }}
           path: sites/${{ matrix.site }}/.output/public
