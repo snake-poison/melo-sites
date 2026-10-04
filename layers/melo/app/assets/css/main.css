@@ -37,4 +37,4 @@
  * The page-feature icons are written in Markdown as props (icon="carbon--fire"), which the
  * scanner reads as plain words. These are the ones the content may use.
  */
-@source inline('icon-[carbon--{money,rain-drop,fire,rain-heavy,home,earth,map,location,document,scales,calendar,building,tool-kit,partnership,time,checkmark-outline,chart-bar,security,phone,user-multiple,certificate-check,search}]');
+@source inline('icon-[carbon--{money,rain-drop,fire,rain-heavy,home,earth,map,location,document,scales,calendar,building,tool-kit,partnership,time,checkmark-outline,chart-bar,security,phone,user-multiple,certificate-check,search,warning-alt}]');

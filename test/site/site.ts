@@ -8,6 +8,7 @@ export const site = process.env.SITE ?? 'charlotte'
 const siteUrls: Record<string, string> = {
   charlotte: 'https://publicadjusterscharlotte.com',
   national: 'https://melopropertyclaimsadjusting.com',
+  atlanta: 'https://publicadjustersofatlanta.com',
 }
 
 export const siteDir = `sites/${site}`

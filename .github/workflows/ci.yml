@@ -77,6 +77,14 @@ jobs:
           path: sites/national/.output/public
           retention-days: 3
 
+      - name: Keep the Atlanta build
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-atlanta
+          path: sites/atlanta/.output/public
+          retention-days: 3
+
   # Cloudflare Pages, from main only: on a push, the daily schedule or a run by hand. Each site is
   # a Direct Upload project of its own; the repo's CLOUDFLARE_API_TOKEN (permission: Account >
   # Cloudflare Pages > Edit) and CLOUDFLARE_ACCOUNT_ID secrets let wrangler publish to them.
@@ -94,6 +102,9 @@ jobs:
           - site: national
             project: melopropertyclaimsadjusting
             url: https://melopropertyclaimsadjusting.com
+          - site: atlanta
+            project: publicadjustersofatlanta
+            url: https://publicadjustersofatlanta.com
     environment:
       name: ${{ matrix.site }}
       url: ${{ matrix.url }}

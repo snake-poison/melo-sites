@@ -45,6 +45,7 @@ export default defineConfig({
       },
       siteProject('charlotte'),
       siteProject('national'),
+      siteProject('atlanta'),
     ],
   },
 })

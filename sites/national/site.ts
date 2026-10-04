@@ -186,11 +186,33 @@ export const categories: Record<Category, { label: string, description: string }
   },
 }
 
-/** The client review the claim-review band quotes, as the old home page's did. */
-export const featuredReview = {
-  quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
-  name: 'Trey Edwards',
-} as const
+/**
+ * The client review the claim-review band quotes: the site's own, from its reviews page. (The old
+ * site quoted Trey Edwards, as the Charlotte and Atlanta sites did; the sites share no copy now.)
+ */
+export const featuredReview: { quote: string, name: string } | null = {
+  quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
+  name: 'Ryan Taclibon',
+}
+
+/**
+ * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
+ * and every other page's. With no selling points, the text ends in a "Call us at" link.
+ */
+export const secondOpinion: Record<'home' | 'page', { title: string, text: string, points: readonly string[], cta: string }> = {
+  home: {
+    title: 'Get a FREE claims review & second opinion',
+    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile.',
+    points: ['Licensed Public Adjusters', 'Contingency pricing', 'No Up-Front Cost'],
+    cta: 'Speak to an Adjuster',
+  },
+  page: {
+    title: 'Receive a FREE Claims Estimate Now',
+    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile. Start now!',
+    points: ['Certified Public Adjusters', 'Locally Owned & Operated', 'No Up-Front Cost'],
+    cta: 'Start Your Claims Estimate',
+  },
+}
 
 /**
  * The free claim review form. The site is static, so the form posts to a form service, which

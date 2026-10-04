@@ -27,8 +27,9 @@ const introParts = computed(() => {
         </NuxtLink>{{ introParts[3] }}
       </UIText>
     </div>
-    <ul class="mx-auto mt-10 grid max-w-6xl gap-6 px-4 sm:grid-cols-2 sm:px-6 lg:grid-cols-4">
-      <li v-for="type in items" :key="type.to">
+    <!-- Four to a row, and a shorter last row (three services, a fifth claim type) centred. -->
+    <ul class="mx-auto mt-10 flex max-w-6xl flex-wrap justify-center gap-6 px-4 sm:px-6">
+      <li v-for="type in items" :key="type.to" class="w-full sm:w-[calc((100%-1.5rem)/2)] lg:w-[calc((100%-4.5rem)/4)]">
         <UICard as="article" padding="lg" class="relative h-full border-t-4 border-t-brand shadow-lg shadow-ink/8 transition-shadow hover:shadow-xl hover:shadow-ink/14">
           <span class="block text-4xl text-accent" aria-hidden="true">
             <span :class="type.icon" />

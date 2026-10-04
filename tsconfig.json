@@ -8,6 +8,10 @@
     { "path": "./sites/national/.nuxt/tsconfig.server.json" },
     { "path": "./sites/national/.nuxt/tsconfig.shared.json" },
     { "path": "./sites/national/.nuxt/tsconfig.node.json" },
+    { "path": "./sites/atlanta/.nuxt/tsconfig.app.json" },
+    { "path": "./sites/atlanta/.nuxt/tsconfig.server.json" },
+    { "path": "./sites/atlanta/.nuxt/tsconfig.shared.json" },
+    { "path": "./sites/atlanta/.nuxt/tsconfig.node.json" },
     { "path": "./test/tsconfig.json" }
   ],
   "files": []

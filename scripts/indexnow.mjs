@@ -52,6 +52,15 @@ if (urls.length === 0) {
 }
 
 const origin = new URL(urls[0]).origin
+
+// Until a domain is pointed at Cloudflare Pages it still serves the old WordPress site, which
+// would fail IndexNow's key check and is not the build being announced. Its pages carry the
+// WordPress REST API's link (api.w.org); the new site's don't.
+const home = await fetch(`${origin}/`).then(r => r.text(), () => '')
+if (home.includes('api.w.org')) {
+  console.log(`IndexNow: ${origin} is still served by WordPress; skipping.`)
+  process.exit(0)
+}
 const response = await fetch(endpoint, {
   method: 'POST',
   headers: { 'content-type': 'application/json; charset=utf-8' },

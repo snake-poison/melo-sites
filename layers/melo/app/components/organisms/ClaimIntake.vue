@@ -28,7 +28,7 @@ const damageLabels: Record<string, string> = {
           <p><span>02</span> Our team reviews your request.</p>
           <p><span>03</span> We contact you to discuss your options.</p>
         </div>
-        <figure class="claim-intake__quote">
+        <figure v-if="featuredReview" class="claim-intake__quote">
           <p class="claim-intake__stars" role="img" aria-label="Five stars">
             ★★★★★
           </p>
