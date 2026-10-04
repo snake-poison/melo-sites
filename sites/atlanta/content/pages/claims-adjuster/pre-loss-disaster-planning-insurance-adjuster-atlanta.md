@@ -45,7 +45,7 @@ Whether you just purchased a property, or if you've been the proud owner for yea
 ::
 
 ::page-section{image="/wp-content/uploads/2020/02/public-adjuster-Atlanta.jpg" alt="process for disaster insurance adjuster in Atlanta"}
-## Is Organizing Pre-Loss Insurance Plan Necessary?
+## Is Organizing a Pre-Loss Insurance Plan Necessary?
 
 Yes! We're not just saying that because we're [claims adjusters in Atlanta](/claims-adjuster/) either. It's common to believe that a disaster insurance adjuster coming in before anything has even happened is a waste of time and money. What if nothing ever happens, and you never have to file an insurance claim in your life? Then you're one of the fortunate, but it's not realistic. The benefits of having this handled ahead of time include:
 

@@ -19,7 +19,7 @@ secondOpinion: true
 ::page-section{image="/wp-content/uploads/2020/02/public-adjuster-fire-damage-Atlanta.jpg" alt="insurance adjuster for fire damage in Atlanta"}
 ## Compassionate Insurance Adjuster for Fire Damage
 
-According to the U.S. Fire Administration, in 2017, there were over one million house fires in the United States, resulting in over $23 billion in damages. With those kinds of statistics, there's no wonder why insurance companies do whatever they can to get out of paying policyholders their claim money. They will either make it impossible to gather the appropriate evidence, or they will prolong the process for as long as they can to avoid paying.
+According to the U.S. Fire Administration, in 2017, there were about 1.3 million fires of all kinds in the United States, resulting in about $23 billion in losses. With those kinds of statistics, there's no wonder why insurance companies do whatever they can to get out of paying policyholders their claim money. They will either make it impossible to gather the appropriate evidence, or they will prolong the process for as long as they can to avoid paying.
 
 [Melo Public Adjusters Atlanta](/) is where to turn when you're wondering how to deal with an insurance adjuster after a house fire. We're an independent public adjuster firm in Atlanta that works for you, not for the large insurance corporations. We use our training and experience to explain everything that's happening in a way you can understand while also streamlining the process so you can get your money faster. Get in touch with us now to find out more.
 

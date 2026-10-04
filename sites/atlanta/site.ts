@@ -27,7 +27,8 @@ export const business = {
   },
   // The street address's own point (OpenStreetMap). The old schema's sat some 5 km to the west.
   geo: { latitude: 33.759316, longitude: -84.3646791 },
-  mapUrl: 'https://www.google.com/maps/search/?api=1&query=Melo+Public+Adjusters+Atlanta+691+John+Wesley+Dobbs+Ave+NE+V22+Atlanta+GA+30312',
+  // The Google Business Profile the old site's header linked to, with the reviews.
+  mapUrl: 'https://www.google.com/maps?cid=8798277323873076393',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/Melo-Public-Adjusters-Atlanta-Square.png',
   image: '/wp-content/uploads/2020/02/insurance-claim-adjusters-Atlanta.jpg',
@@ -177,11 +178,12 @@ export const categories: Record<Category, { label: string, description: string }
   },
 }
 
-/** The client review the claim-review band quotes, as the old site's did. */
-export const featuredReview = {
-  quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
-  name: 'Trey Edwards',
-} as const
+/**
+ * The client review the claim-review band quotes. The old site quoted the Charlotte site's
+ * review, and the sites share no copy, so until Atlanta has one of its own to quote the band
+ * links to its Google reviews instead.
+ */
+export const featuredReview: { quote: string, name: string } | null = null
 
 /**
  * The free-second-opinion band over the footer, in the old site's two wordings: the home page's

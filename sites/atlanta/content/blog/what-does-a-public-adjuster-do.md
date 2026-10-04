@@ -7,7 +7,7 @@ updated: 2021-01-14
 category: "insurance-claim-adjusters"
 image:
   src: "/wp-content/uploads/2020/02/Header-1.jpg"
-  alt: ""
+  alt: "firefighter hosing down the burned-out inside of a building"
 faq:
   - question: "Does a public adjuster sue an insurance company?"
     answer: "A public adjuster is not typically an attorney, but note that their services often ensure that a homeowner doesn’t need to sue an insurance company. A public adjuster negotiating with an insurance carrier can mean a proper and fair settlement or payout, so a lawsuit then becomes unnecessary. If you’re a property owner thinking of suing an insurance company, consider at least consulting with a public adjuster first!"

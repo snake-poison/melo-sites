@@ -7,12 +7,12 @@ updated: 2021-06-05
 category: "insurance-claim-adjusters"
 image:
   src: "/wp-content/uploads/2020/02/Header-13.jpg"
-  alt: ""
+  alt: "storm debris and a fallen power pole across a road after a hurricane"
 ---
 
 A public adjuster is an independent insurance professional who works on behalf of a claimant, negotiating insurance company payouts and settlements. Hiring an insurance adjuster is an excellent way to maximize your benefits and receive the most funds possible after a fire, flood, storm, or other such loss.
 
-**Most public adjusters charge a percent of the payout they secure on your behalf and might adjust those percentages according to your settlement. For example, an insurance adjuster might charge 20% for payouts between $10,000 and $100,000 and then 12% or 15% on payouts over $100,000. Charging a percentage of your settlement allows an adjuster to work hard to secure a maximum payout on your behalf.**
+**Most public adjusters charge a percent of the payout they secure on your behalf and might adjust those percentages according to your settlement. For example, an insurance adjuster might charge 20% for payouts between $10,000 and $100,000 and then 12% or 15% on payouts over $100,000. In Georgia, the law caps a public adjuster's total fee at a third of the settlement, and a percentage fee isn't allowed if the insurer pays or commits to pay the policy limit within 72 hours of the loss being reported. Charging a percentage of your settlement allows an adjuster to work hard to secure a maximum payout on your behalf.**
 
 While some homeowners might balk at paying out 20% of their settlement, you might note what an insurance adjuster does, how they can maximize that payout for you, and why they’re often worth their fees and charges. It’s also helpful to note a few common mistakes homeowners make after suffering property damage and when dealing with an insurance company, so you can avoid them yourself!
 

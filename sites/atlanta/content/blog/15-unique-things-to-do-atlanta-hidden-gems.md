@@ -17,7 +17,7 @@ If you love Ferris wheels but get a bit nervous sitting in their open cars, chec
 
 ## 2. Fernbank Science Center
 
-More than just your average museum, Fernbank Science Center boasts a 70-foot planetarium dome, the largest in the Southeast region. The dome offers an up-close look at outer space, making you feel as if you’re flying through an asteroid belt or getting up close with a black hole!
+More than just your average museum, Fernbank Science Center boasts a 70-foot planetarium dome, the largest in Georgia. The dome offers an up-close look at outer space, making you feel as if you’re flying through an asteroid belt or getting up close with a black hole!
 
 ## 3. Bury the Hatchet
 
@@ -61,7 +61,7 @@ The 54 Columns art installation consists of tall columns set in the historic Old
 ::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-48-1.jpg" alt="atlanta white house"}
 ::
 
-If you’ve always wanted to visit the nation’s capital but don’t have the time or funds, check out The Atlanta White House! This attraction is a 3/4 scale replica of the White House in Washington D.C., and it can give you a glimpse of what the true White House looks like both inside and out.
+If you’ve always wanted to visit the nation’s capital but don’t have the time or funds, check out The Atlanta White House! This private home is a 3/4 scale replica of the White House in Washington D.C., and from the street it can give you a glimpse of what the true White House looks like.
 
 ## 11. The CDC Museum
 
@@ -69,14 +69,14 @@ This little gem is not for the faint of heart, but if you love sci-fi or science
 
 ## 12. Center for Puppetry Arts
 
-The largest museum dedicated to puppets in the world, the Center for Puppetry Arts in Atlanta also houses a showcase dedicated to Jim Henson, creator of The Muppets.
+The largest organization in the U.S. dedicated to puppetry, the Center for Puppetry Arts in Atlanta also houses a showcase dedicated to Jim Henson, creator of The Muppets.
 
 ## 13. The Cator Woolford Gardens
 
 ::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-49-1.jpg" alt="cator woolford gardens atlanta ga"}
 ::
 
-A true hidden gem, this 32-acre park offers a tranquil setting for visitors. You’ll find any number of native flowers in the garden as well as plenty of soft grass, perfect for a picnic or just relaxing under the sun.
+A true hidden gem, this nearly 40-acre estate offers a tranquil setting for visitors. You’ll find any number of native flowers in the garden as well as plenty of soft grass, perfect for a picnic or just relaxing under the sun.
 
 ## 14. Robert C. Williams Paper Museum
 
@@ -87,7 +87,7 @@ The Robert C. Williams Paper Museum traces the medium’s origins all the way ba
 ::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-50-1.jpg" alt="ping pong playing in georgia"}
 ::
 
-Located a few steps down at the corner of Williams and Ted Turner Street, this club showcases its interior setting with wide windows leading off to the street. Home to local tournaments and private play, if you love ping pong you must visit The Switchyards Ping Pong Club.
+Located a few steps down at the corner of Williams Street and Ted Turner Drive, this club showcases its interior setting with wide windows leading off to the street. Home to local tournaments and private play, if you love ping pong you must visit The Switchyards Ping Pong Club.
 
 ## A Word from Our Local Atlanta Team
 

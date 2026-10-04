@@ -13,7 +13,7 @@ secondOpinion: true
 ---
 
 ::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="meeting with claims adjuster in Atlanta"}
-## What Does a Claims Adjusters in Atlanta, Georgia Actually Do?
+## What Does a Claims Adjuster in Atlanta, Georgia Actually Do?
 
 Trust Melo Public Adjusters Atlanta
 
@@ -26,10 +26,10 @@ We're in the business of giving all of our customers the personal attention and 
 :page-cta{kind="call" label="Call now (404) 467-5755"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="meeting with an insurance claims adjuster in Atlanta"}
+::page-section{image="/wp-content/uploads/2020/02/property-damage-claims-adjuster-Atlanta.jpg" alt="storm-wrecked house and car awaiting an insurance claims adjuster in Atlanta"}
 ## About Our Insurance Claims Adjusters in Atlanta
 
-Melo Public Adjusters have licensed, certified, and professional [insurance adjusters in Atlanta](/claims-adjuster/insurance-adjuster-atlanta/) are ready to go to work for you. Working with an insurance company, especially during an already challenging time in your life, can become overwhelming fast. Let our claims adjusters in Atlanta assist you in getting the claim you deserve.
+Melo Public Adjusters has licensed, certified, and professional [insurance adjusters in Atlanta](/claims-adjuster/insurance-adjuster-atlanta/) who are ready to go to work for you. Working with an insurance company, especially during an already challenging time in your life, can become overwhelming fast. Let our claims adjusters in Atlanta assist you in getting the claim you deserve.
 
 You don't want to be tricked into taking less than what you deserve because your insurance agent made you jump through hoops with their confusing legal jargon. Our compassionate insurance adjusters take the time necessary to make sure you get what's owed to you in a reasonable amount of time. Give us a call to help you get through:
 

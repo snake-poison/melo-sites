@@ -19,7 +19,7 @@ secondOpinion: true
 ::page-section{image="/wp-content/uploads/2020/02/water-damage-insurance-claims-adjuster-Atlanta.jpg" alt="insurance adjuster for water damage in Atlanta"}
 ## Your Expert Insurance Adjuster for Water Damage in Atlanta
 
-Did you know that, on average, one in every 50 homeowners file a water damage insurance claim each year across the United States? In 2016, it was reported there were over 126 million homeowners in America, so it's clear, that's a lot of water damage claims!
+Did you know that, on average, about one in every 60 insured homeowners file a water damage or freezing insurance claim each year across the United States? In 2016, it was reported there were about 75 million homeowners in America, so it's clear, that's a lot of water damage claims!
 
 Your insurance company will come in, assess the damage, and offer you a judgment for property damage repairs. However, more often than not, those valuations are way below the amount that's required to cover the costs adequately.
 
@@ -28,7 +28,7 @@ Melo Public Adjusters Atlanta has licensed, qualified, experienced insurance adj
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/public-adjuster-flood-damage-Atlanta.jpg" alt="flooded city street after heavy rain" reverse}
+::page-section{image="/wp-content/uploads/2020/02/flooding-insurance-adjuster-Atlanta.jpg" alt="house standing in floodwater, ready for a water damage claim" reverse}
 ## When Can You File A Water Damage Insurance Claim?
 
 If you've never had to file an insurance claim for water damage before, you're probably not fully aware of what your policy covers. Your insurance company isn't going to be very forthcoming with the information either. When you talk with them, they're going to make understanding what you're entitled to difficult. Before you let their legal jargon force you into settling for less, we want to go over your policy with you to determine where you're covered for:

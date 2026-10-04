@@ -1,7 +1,7 @@
 ---
 title: "Adjuster for Storm & Wind Damage in Atlanta"
 metaTitle: "Adjuster Storm Damage Atlanta | Melo Public Adjusters - 24/7"
-description: "A competent adjuster for wind & storm damage in Atlanta will get the claim right & settlement you deserve. We get it done 24/7. 404-467-5755"
+description: "A competent adjuster for wind & storm damage in Atlanta will get the claim right & settlement you deserve. We get it done 24/7. (404) 467-5755"
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
   src: "/wp-content/uploads/2020/02/Header-9.jpg"
@@ -53,7 +53,7 @@ A significant storm blowing through the region isn't just going to destroy your 
 - Unwavering focus on your case through settlement
 - Thorough explanations for clarity
 
-Our independent agent will do whatever we can to make sure you get the money owed to you following a storm of any kind. Schedule a consultation quickly so you can get your claim payment in a fair amount fast.
+Our independent agents will do whatever they can to make sure you get the money owed to you following a storm of any kind. Schedule a consultation quickly so you can get your claim payment in a fair amount fast.
 
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::

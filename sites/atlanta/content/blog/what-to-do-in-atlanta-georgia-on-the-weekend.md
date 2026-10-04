@@ -1,16 +1,16 @@
 ---
 title: "What to Do in Atlanta, Georgia, on the Weekend!"
-metaTitle: "Best Things Do in Atlanta GA on the Weekend!"
+metaTitle: "Best Things to Do in Atlanta GA on the Weekend!"
 description: "The city of Atlanta truly is the heart of the south, and it offers visitors and residents a wealth of entertainment options both indoors and out."
 date: 2020-08-01
 updated: 2021-01-14
 category: "local-news"
 image:
-  src: "/wp-content/uploads/2019/06/header-placeholder.jpg"
-  alt: ""
+  src: "/wp-content/uploads/2021/01/atlanta-things-to-do-44-1.jpg"
+  alt: "downtown Atlanta skyline"
 ---
 
-The city of Atlanta truly is the heart of the south, and it offers visitors and residents a wealth of entertainment options both indoors and out. Atlanta is also a short drive to the ocean, so locals can plan a quick weekend on the water’s edge just about any day they prefer!
+The city of Atlanta truly is the heart of the south, and it offers visitors and residents a wealth of entertainment options both indoors and out. Atlanta is also about a four-hour drive from the Georgia coast, so locals can plan a quick weekend on the water’s edge just about any day they prefer!
 
 If you do want to stay in the city, however, there is lots to see and do and a number of attractions perfect for everyone in the family. Atlanta also hosts many concerts, sporting events, and other options throughout the year, so you can plan a trip to the city and never be without something to see and do! Check out this short list of a few fun things you might do in Atlanta, Georgia, as early as this weekend.
 
@@ -20,7 +20,7 @@ You don’t need to be a Coke fan to enjoy the World of Coca-Cola, a museum dedi
 
 ## Georgia Aquarium
 
-With more than 120,000 animals spanning hundreds of species, the Georgia Aquarium is an excellent choice for anyone who loves nature and especially marine life! The aquarium boasts some seven major galleries which require more than 10 million U.S. gallons of water to operate, and which span over 13 acres. Enjoy beluga whales, sharks, puffins, penguins, and so much more and be sure to set aside an entire day as there’s always lots to see in the Georgia Aquarium.
+With thousands of animals spanning hundreds of species, the Georgia Aquarium is an excellent choice for anyone who loves nature and especially marine life! The aquarium boasts some nine major galleries which require more than 11 million U.S. gallons of water to operate, and which span over 13 acres. Enjoy beluga whales, sharks, puffins, penguins, and so much more and be sure to set aside an entire day as there’s always lots to see in the Georgia Aquarium.
 
 ## The High Museum of Art
 

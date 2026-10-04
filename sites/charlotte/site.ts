@@ -170,10 +170,10 @@ export const categories: Record<Category, { label: string, description: string }
 }
 
 /** The client review the claim-review band quotes, as the old site's did. */
-export const featuredReview = {
+export const featuredReview: { quote: string, name: string } | null = {
   quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
   name: 'Trey Edwards',
-} as const
+}
 
 /**
  * The free-second-opinion band over the footer, in the old site's two wordings: the home page's

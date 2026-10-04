@@ -1,7 +1,7 @@
 ---
 title: "Get the settlement you deserve, with a public adjuster in Atlanta on your side."
 metaTitle: "Top-Rated Public Adjuster Atlanta | 24/7 Insurance Claims Adjuster"
-description: "Melo Public Adjuster Atlanta is a team of certified, independent claims adjusters dedicated to success. Local & open 24/7. (404) 467-5755"
+description: "Melo Public Adjusters Atlanta is a team of certified, independent claims adjusters dedicated to success. Local & open 24/7. (404) 467-5755"
 kicker: "Melo Public Adjusters Atlanta"
 image:
   src: "/wp-content/uploads/2020/02/Header-5.jpg"
@@ -85,7 +85,7 @@ Are you a local contractor? We want to hear from you! Get commissions for gettin
 As a homeowner or business owner, you've been paying insurance policy premiums for some time now. It's unfortunate but more common than what you may think for those insurance companies you've been investing in to go against you when you need them the most. That's when you want Melo Public Adjusters Atlanta working for you!
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/public-adjuster-property-damage-Atlanta.jpg" alt="public adjuster for mold damage insurance claim in Atlanta" reverse}
+::page-section{image="/wp-content/uploads/2020/02/public-adjuster-property-damage-Atlanta.jpg" alt="gutted room after property damage, ready for a public adjuster's appraisal in Atlanta" reverse}
 ### Get an Honest Property Damage Appraisal in Atlanta, Georgia
 
 After your home has suffered property damage, your insurance company is going to send an agent out to do an inspection. While they are trained in what they're doing, they are also working for the company they represent. That means they are going to do whatever it takes to avoid paying you. Melo Public Adjusters Atlanta is the opposite of that. We're here to get you the most for your damages so you can make the necessary repairs without having to cut corners. The benefits of licensed public adjusters in Atlanta, GA start with:

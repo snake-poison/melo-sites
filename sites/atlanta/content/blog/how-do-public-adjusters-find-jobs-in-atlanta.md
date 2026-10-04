@@ -24,11 +24,11 @@ An adjuster will also evaluate and document all details related to a claim or lo
 
 ## What Is Needed to Become an Atlanta Public Adjuster
 
-Public adjusters are not simply office workers, and they don’t sell policies; however, they are required to be licensed through the Office of the Commissioner of Insurance. This office requires adjusters to go through a 40-hour pre-licensing course, which teaches the basics of insurance and public adjusting.
+Public adjusters are not simply office workers, and they don’t sell policies; however, they are required to be licensed through the Georgia Office of Commissioner of Insurance and Safety Fire. This office requires most applicants to go through a 40-hour property and casualty pre-licensing course, which teaches the basics of insurance and public adjusting.
 
-After this initial course, every potential adjuster must take an exam and complete an application process. He or she must also purchase a $5000 bond; this bond is like an insurance policy, and it pays a harmed party for damages caused when an adjuster violates the terms of their bond. Note, the bond itself doesn’t cost $5000, as many companies will provide this bond for as little as $100. (See [suretybonds.com](https://www.suretybonds.com/states/georgia/public-adjuster-bond.html).)
+After this initial course, every potential adjuster must pass the state's public adjuster exam within 12 months and complete an application process. He or she must also purchase a $5000 bond; this bond is like an insurance policy, and it pays a harmed party for damages caused when an adjuster violates the terms of their bond. Note, the bond itself doesn’t cost $5000, as many companies will provide this bond for as little as $100. (See [suretybonds.com](https://www.suretybonds.com/states/georgia/public-adjuster-bond.html).)
 
-In addition to the bond, there is usually an application fee and a licensing fee needed before a person can get their public adjuster license. The course itself might also cost around $200, and applicants are typically required to be fingerprinted, which might also include an added fee.
+In addition to the bond, there is usually an application fee and a licensing fee needed before a person can get their public adjuster license. The course itself might also cost around $200, and applicants are typically required to be fingerprinted, which might also include an added fee. Once licensed, a public adjuster must also complete 24 hours of continuing education, including three hours of ethics, every two years.
 
 ::post-photo{src="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="appraisal from public adjustment"}
 ::

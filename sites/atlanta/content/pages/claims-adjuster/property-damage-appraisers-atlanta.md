@@ -1,7 +1,7 @@
 ---
 title: "Property Damage Appraisers & Mediators in Atlanta"
 metaTitle: "Property Damage Appraisers Atlanta | 24/7 Atlanta Assistance"
-description: "Property damage appraisers in Atlanta from Melo Public Adjusters Atlanta are a real asset for your insurance claim. 24/7 - Call 404-467-5755"
+description: "Property damage appraisers in Atlanta from Melo Public Adjusters Atlanta are a real asset for your insurance claim. 24/7 - Call (404) 467-5755"
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
   src: "/wp-content/uploads/2020/02/Header-13.jpg"
@@ -47,7 +47,7 @@ If you don't agree with the number your insurance company adjuster has put in fr
 ::page-section{image="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="discussion with claims adjuster"}
 ## Understanding the Mediation Process for Public Adjusters
 
-Mediation is one of the other services that Melo Public Adjusters Atlanta offers. When you and your insurance agent can't seem to resolve the dispute over the judgment amount, one of our expert mediation public adjuster in Atlanta can help you work through it.
+Mediation is one of the other services that Melo Public Adjusters Atlanta offers. When you and your insurance agent can't seem to resolve the dispute over the judgment amount, one of our expert mediation public adjusters in Atlanta can help you work through it.
 
 It's an informal meeting where you and your insurance company will be encouraged to come up with a final award through compromise, settlement, or reconciliation. You are allowed to present any issues or disagreements surrounding your claim using a neutral third party.
 

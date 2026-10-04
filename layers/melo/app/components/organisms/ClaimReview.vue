@@ -59,7 +59,7 @@ const label = 'block text-sm font-semibold text-ink'
           loading="lazy"
           class="mt-6 h-auto max-w-full"
         />
-        <figure class="mt-8 max-w-2xl">
+        <figure v-if="featuredReview" class="mt-8 max-w-2xl">
           <blockquote class="text-xl/relaxed italic sm:text-2xl/relaxed">
             “{{ featuredReview.quote }}”
           </blockquote>
@@ -67,6 +67,10 @@ const label = 'block text-sm font-semibold text-ink'
             — {{ featuredReview.name }}
           </figcaption>
         </figure>
+        <!-- A site with no review of its own to quote sends visitors to its Google reviews. -->
+        <a v-else :href="business.mapUrl" rel="noopener" class="mt-8 text-lg font-bold underline underline-offset-4 hover:text-brand">
+          Read our reviews on Google
+        </a>
       </div>
 
       <div class="on-brand px-6 py-12 sm:px-10 lg:py-16">

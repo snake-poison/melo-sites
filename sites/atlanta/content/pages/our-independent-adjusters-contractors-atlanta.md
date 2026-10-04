@@ -13,7 +13,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-## Are You A Contractor Looking to Partner with an Independent Adjusters in Atlanta?
+## Are You A Contractor Looking to Partner with an Independent Adjuster in Atlanta?
 
 ![Trust badges: an accredited business with the BBB, Best of Houzz, a trusted brand, and 5-star ratings on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
 

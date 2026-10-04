@@ -7,7 +7,7 @@ updated: 2021-06-05
 category: "insurance-claim-adjusters"
 image:
   src: "/wp-content/uploads/2020/02/Header-5.jpg"
-  alt: ""
+  alt: "gutted room with broken shelves and a blown-out window after property damage"
 ---
 
 Calling an [insurance adjuster in Atlanta](/claims-adjuster/insurance-adjuster-atlanta/) is an excellent means of ensuring you receive a maximum payout from your homeowner’s insurance company after a fire, flood, or other such disaster. Public adjusters evaluate damage, review your policy, and negotiate with the insurance company as needed, so nothing is overlooked and you know if your insurance agent is offering a fair settlement.

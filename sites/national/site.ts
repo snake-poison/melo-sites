@@ -186,11 +186,14 @@ export const categories: Record<Category, { label: string, description: string }
   },
 }
 
-/** The client review the claim-review band quotes, as the old home page's did. */
-export const featuredReview = {
-  quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
-  name: 'Trey Edwards',
-} as const
+/**
+ * The client review the claim-review band quotes: the site's own, from its reviews page. (The old
+ * site quoted Trey Edwards, as the Charlotte and Atlanta sites did; the sites share no copy now.)
+ */
+export const featuredReview: { quote: string, name: string } | null = {
+  quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
+  name: 'Ryan Taclibon',
+}
 
 /**
  * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
