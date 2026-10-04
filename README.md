@@ -117,29 +117,32 @@ the licensed adjuster who wrote or reviewed a post would help search engines tru
 
 ## The claim form
 
-Charlotte posts its plain HTML claim form to `/api/claim-review`, handled by the Pages
-advanced-mode Worker in `sites/charlotte/public/_worker.js`. The Worker verifies Cloudflare
-Turnstile, validates the fields, and creates a Pipedrive person, a lead titled
-`Charlotte website — <name>`, and a note with all loss details. It redirects to the existing
-`/thank-you-page/` only after the lead is saved. Leads belong to the API credential's user.
-A contact's note preserves the request even if attaching that note to the lead fails.
+All three sites post their compact HTML form to `/api/claim-review`. The shared Pages worker
+in `layers/melo/public/_worker.js` is included by `meloSite()` in every generated site.
+Each Pages project needs `PIPEDRIVE_API_TOKEN`, `TURNSTILE_SECRET_KEY`, and `TURNSTILE_SITE_KEY`
+as production secrets. Its Turnstile widget must allow the project's `pages.dev` hostname and
+its canonical domain (with and without `www`). Never commit secret values.
 
-Set these encrypted **production Pages secrets before deployment** with
-`wrangler pages secret bulk <private-json-file> --project-name=publicadjusterscharlotte`:
-`PIPEDRIVE_API_TOKEN`, `TURNSTILE_SECRET_KEY`, and `TURNSTILE_SITE_KEY` (the last is public,
-but keeping it in the same configuration simplifies setup). Never put API tokens in
-`site.ts`, hidden form inputs, or the repository. The Turnstile widget must allow
-`publicadjusterscharlotte.pages.dev`, `publicadjusterscharlotte.com`, and
-`www.publicadjusterscharlotte.com`. It uses managed mode and the `claim-review` action.
+The intake collects legal first/last name, phone, email, insured property address, carrier name,
+policy number, claim number, date and cause of loss. It creates a person and lead owned by Ramon,
+and maps insurance/loss details into the existing Pipedrive custom fields. Commission Percent is
+intentionally left unset for team review. Existing contacts are never overwritten by this public
+form. Each submission gets its own policyholder contact and claim lead; the team can merge repeat
+contacts after reviewing the claim.
 
-The Worker adds Turnstile only to pages containing `data-claim-captcha`; the static build
-retains its no-runtime output. `_routes.json` bypasses the Worker for images and other
-static assets. The endpoint rejects submissions from other origins, honeypot submissions,
-invalid fields, and failed or reused Turnstile tokens. A failed submission displays retry
-and phone contact options. Pipedrive needs no LeadBooster subscription for this integration.
+The server derives source from the request hostname: `Website: Charlotte`, `Website: Atlanta`,
+or `Website: Melo Property Claims` lead labels, the Web forms marketing channel, and a structured
+Website source field. Charlotte/Atlanta use Lead Gen Site; the national site uses MPC Website.
+The same-origin referrer supplies the structured Website landing page and any UTM/click IDs in
+the note. These tracking values are visitor supplied; the website source and owner are server controlled.
 
-The national and Atlanta sites keep the phone/email fallback until their own form service is
-set in their `site.ts`. They receive neither the Charlotte Worker nor its secrets.
+Pipedrive's existing Insurance Company field links to a person. Only one exact name match with
+the INSURANCE label is linked automatically. The new Insurance Company (intake) text field always
+preserves the entered carrier name. Foremost Insurance resolves to the existing Foremost Insurance Group contact. An unmatched or ambiguous carrier can be resolved by the team.
+
+Same-origin checks, bounded input and managed Turnstile protect the endpoint. Details are also
+preserved in a note, and successful saves redirect to `/thank-you-page/`. This gathers the data for
+contract preparation; it does not prepare or send a contract, or assign a commission.
 
 ## Commands
 

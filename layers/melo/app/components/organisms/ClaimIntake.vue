@@ -2,14 +2,6 @@
 import { business, claimForm, featuredReview } from '#site'
 
 withDefaults(defineProps<{ testimonial?: boolean }>(), { testimonial: true })
-
-const damageLabels: Record<string, string> = {
-  'Fire / Smoke Damage': 'Fire / smoke',
-  'Water Damage': 'Water damage',
-  'Mold Remediation': 'Mold',
-  'Storm Damage': 'Storm damage',
-  'Other': 'Other',
-}
 </script>
 
 <template>
@@ -47,9 +39,9 @@ const damageLabels: Record<string, string> = {
             Free claim review
           </p>
           <h2 id="claim-review-heading">
-            Tell us what happened.
+            Let’s review your claim.
           </h2>
-          <p>Share a few details and our team will contact you about your claim.</p>
+          <p>Have your policy and claim number handy. Our team will review the details and contact you.</p>
         </header>
 
         <form :action="claimForm.action" method="post" class="claim-intake__form">
@@ -59,43 +51,36 @@ const damageLabels: Record<string, string> = {
           </div>
 
           <fieldset class="claim-intake__group">
-            <legend><span>01</span> Your contact details</legend>
+            <legend>Policyholder</legend>
             <div class="claim-intake__grid">
-              <label>First name<input type="text" name="First name" autocomplete="given-name" maxlength="200" required></label>
-              <label>Last name<input type="text" name="Last name" autocomplete="family-name" maxlength="200" required></label>
-              <label>Phone number<input type="tel" name="Phone" autocomplete="tel" maxlength="200" required></label>
-              <label>Email address<input type="email" name="Email" autocomplete="email" maxlength="200" required></label>
+              <label>Legal first name<input type="text" name="First name" autocomplete="given-name" maxlength="200" required></label>
+              <label>Legal last name<input type="text" name="Last name" autocomplete="family-name" maxlength="200" required></label>
+              <label>Phone<input type="tel" name="Phone" autocomplete="tel" maxlength="200" required></label>
+              <label>Email<input type="email" name="Email" autocomplete="email" maxlength="200" required></label>
             </div>
           </fieldset>
-
           <fieldset class="claim-intake__group">
-            <legend><span>02</span> What happened?</legend>
-            <p class="claim-intake__hint">
-              Select all damage types that apply.
-            </p>
-            <div class="claim-intake__damage">
-              <label v-for="type in claimForm.lossTypes" :key="type">
-                <input type="checkbox" name="Loss type" :value="type">
-                <span>{{ damageLabels[type] ?? type }}</span>
-              </label>
-            </div>
-            <label class="claim-intake__description">Tell us a little about your loss
-              <textarea name="Where they are with the loss" rows="3" maxlength="3000" required placeholder="What was damaged, and where are you in the claims process?" />
-            </label>
-          </fieldset>
-
-          <fieldset class="claim-intake__group">
-            <legend><span>03</span> Property location</legend>
-            <label>Street address<input type="text" name="Street address" autocomplete="address-line1" maxlength="200" required></label>
-            <details class="claim-intake__optional">
-              <summary>Add apartment, suite or unit <span>Optional</span></summary>
-              <label>Address line 2<input type="text" name="Address line 2" autocomplete="address-line2" maxlength="200"></label>
-            </details>
+            <legend>Insured property</legend>
+            <label>Street address, apartment or unit<input type="text" name="Street address" autocomplete="address-line1" maxlength="200" required></label>
             <div class="claim-intake__location">
               <label>City<input type="text" name="City" autocomplete="address-level2" maxlength="200" required></label>
-              <label>State<input type="text" name="State" autocomplete="address-level1" :value="business.address.region" maxlength="200" required></label>
-              <label>ZIP code<input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" maxlength="200" required></label>
+              <label>State<input type="text" name="State" autocomplete="address-level1" :value="business.address.region" pattern="[A-Z]{2}" maxlength="2" required></label>
+              <label>ZIP<input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10" required></label>
             </div>
+          </fieldset>
+          <fieldset class="claim-intake__group">
+            <legend>Insurance &amp; loss</legend>
+            <div class="claim-intake__grid">
+              <label>Insurance company<input type="text" name="Insurance Company" maxlength="200" placeholder="e.g. Foremost Insurance" required></label>
+              <label>Date of loss<input type="date" name="Date of Loss" required></label>
+              <label>Policy number<input type="text" name="Policy Number" maxlength="200" required></label>
+              <label>Claim number<input type="text" name="Claim Number" maxlength="200" required></label>
+              <label class="claim-intake__wide">Cause of loss<input type="text" name="Cause of Loss" maxlength="200" placeholder="e.g. Fallen tree, burst pipe or fire" required></label>
+            </div>
+            <details class="claim-intake__optional">
+              <summary>Add more about your claim <span>Optional</span></summary>
+              <label>What else should we know?<textarea name="Where they are with the loss" rows="2" maxlength="3000" /></label>
+            </details>
           </fieldset>
 
           <footer class="claim-intake__submit">
@@ -103,7 +88,7 @@ const damageLabels: Record<string, string> = {
             <button type="submit">
               Request my free review <span class="icon-[carbon--arrow-right]" aria-hidden="true" />
             </button>
-            <p>By submitting, you ask Melo Public Adjusters Charlotte to contact you about your claim. <a href="/privacy-policy/">Privacy policy</a>.</p>
+            <p>By submitting, you ask {{ business.name }} to contact you about your claim. <a href="/privacy-policy/">Privacy policy</a>.</p>
           </footer>
         </form>
       </div>
@@ -218,7 +203,7 @@ const damageLabels: Record<string, string> = {
 }
 .claim-intake__card {
   overflow: hidden;
-  padding: clamp(1.5rem, 3vw, 2.5rem);
+  padding: clamp(1.25rem, 2vw, 1.75rem);
   border: 1px solid var(--machine-rule-soft);
   border-radius: 1.5rem;
   background: var(--machine-paper-2);
@@ -239,7 +224,7 @@ const damageLabels: Record<string, string> = {
   line-height: 1.65;
 }
 .claim-intake__form {
-  margin-top: 2rem;
+  margin-top: 1.25rem;
 }
 .claim-intake__group {
   min-width: 0;
@@ -248,11 +233,11 @@ const damageLabels: Record<string, string> = {
   border: 0;
 }
 .claim-intake__group + .claim-intake__group {
-  margin-top: 1.75rem;
+  margin-top: 1.125rem;
 }
 .claim-intake__group legend {
   width: 100%;
-  margin-bottom: 1rem;
+  margin-bottom: 0.625rem;
   font-size: 0.875rem;
   font-weight: 650;
 }
@@ -265,7 +250,10 @@ const damageLabels: Record<string, string> = {
 .claim-intake__grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1rem;
+  gap: 0.625rem;
+}
+.claim-intake__wide {
+  grid-column: 1 / -1;
 }
 .claim-intake__group label {
   display: block;
@@ -278,7 +266,7 @@ const damageLabels: Record<string, string> = {
   display: block;
   width: 100%;
   margin-top: 0.375rem;
-  padding: 0.6875rem 0.75rem;
+  padding: 0.5rem 0.625rem;
   border: 1px solid var(--machine-rule);
   border-radius: 0.5rem;
   background: var(--machine-paper-2);
@@ -346,7 +334,7 @@ const damageLabels: Record<string, string> = {
   accent-color: var(--machine-accent);
 }
 .claim-intake__description {
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }
 .claim-intake__optional {
   margin-top: 0.75rem;
@@ -369,7 +357,7 @@ const damageLabels: Record<string, string> = {
   display: grid;
   grid-template-columns: minmax(0, 2fr) minmax(0, 0.9fr) minmax(0, 1.1fr);
   gap: 0.75rem;
-  margin-top: 1rem;
+  margin-top: 0.625rem;
 }
 .claim-intake__submit {
   margin-top: 1.5rem;
@@ -422,7 +410,7 @@ const damageLabels: Record<string, string> = {
 }
 .claim-intake--contact .claim-intake__layout {
   display: block;
-  max-width: 42rem;
+  max-width: 48rem;
 }
 
 @media (max-width: 800px) {
@@ -432,7 +420,7 @@ const damageLabels: Record<string, string> = {
   .claim-intake__layout {
     grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
-    max-width: 42rem;
+    max-width: 48rem;
   }
   .claim-intake__intro {
     padding: 0 0.5rem;
