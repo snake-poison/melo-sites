@@ -1,17 +1,14 @@
 {
   "references": [
-    {
-      "path": "./.nuxt/tsconfig.app.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.server.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.shared.json"
-    },
-    {
-      "path": "./.nuxt/tsconfig.node.json"
-    }
+    { "path": "./sites/charlotte/.nuxt/tsconfig.app.json" },
+    { "path": "./sites/charlotte/.nuxt/tsconfig.server.json" },
+    { "path": "./sites/charlotte/.nuxt/tsconfig.shared.json" },
+    { "path": "./sites/charlotte/.nuxt/tsconfig.node.json" },
+    { "path": "./sites/national/.nuxt/tsconfig.app.json" },
+    { "path": "./sites/national/.nuxt/tsconfig.server.json" },
+    { "path": "./sites/national/.nuxt/tsconfig.shared.json" },
+    { "path": "./sites/national/.nuxt/tsconfig.node.json" },
+    { "path": "./test/tsconfig.json" }
   ],
   "files": []
 }

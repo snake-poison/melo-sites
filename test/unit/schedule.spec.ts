@@ -1,4 +1,4 @@
-import { isScheduled, releaseDay } from '~/utils/schedule'
+import { isScheduled, releaseDay } from '../../layers/melo/app/utils/schedule'
 
 describe('releaseDay', () => {
   it('is the day in North Carolina, not in UTC', () => {

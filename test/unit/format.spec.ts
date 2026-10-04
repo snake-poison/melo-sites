@@ -1,4 +1,4 @@
-import { formatDate, isoDate } from '~/utils/format'
+import { formatDate, isoDate } from '../../layers/melo/app/utils/format'
 
 describe('formatDate', () => {
   it('reads a frontmatter date as the calendar day it names, in any time zone', () => {

@@ -3,11 +3,29 @@ import { defineConfig } from 'vitest/config'
 
 const rootDir = fileURLToPath(new URL('.', import.meta.url))
 
+/*
+ * The built site, read as a crawler reads it: sites/<name>/.output/public after `nuxi generate`.
+ * The global setup builds it first unless SITE_BUILD=skip (CI builds once and tests that).
+ */
+function siteProject(site: string) {
+  return {
+    extends: true,
+    test: {
+      name: `site-${site}`,
+      include: ['test/site/**/*.spec.ts'],
+      environment: 'happy-dom',
+      env: { SITE: site },
+      globalSetup: ['test/setup/buildSite.ts'],
+      testTimeout: 20_000,
+    },
+  } as const
+}
+
 export default defineConfig({
   resolve: {
     alias: {
-      '~': `${rootDir}app`,
-      '@': `${rootDir}app`,
+      '~': `${rootDir}layers/melo/app`,
+      '@': `${rootDir}layers/melo/app`,
       '~~': rootDir,
     },
   },
@@ -25,18 +43,8 @@ export default defineConfig({
           environment: 'node',
         },
       },
-      // The built site, read as a crawler reads it: .output/public after `nuxi generate`. The
-      // global setup builds it first unless SITE_BUILD=skip (CI builds once and tests that).
-      {
-        extends: true,
-        test: {
-          name: 'site',
-          include: ['test/site/**/*.spec.ts'],
-          environment: 'happy-dom',
-          globalSetup: ['test/setup/buildSite.ts'],
-          testTimeout: 20_000,
-        },
-      },
+      siteProject('charlotte'),
+      siteProject('national'),
     ],
   },
 })

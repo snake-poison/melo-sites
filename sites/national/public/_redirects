@@ -1,0 +1,6 @@
+# Old WordPress URLs that WordPress redirected to the pages' current ones, kept for anyone who
+# still links to them. Cloudflare Pages reads this file; the format is `from to status`.
+/blog/what-does-an-insurance-adjuster-do-and-are-they-worth-the-cost/ /blog/what-does-an-insurance-adjuster-do/ 301
+/insurance-claim-type/public-adjuster-roof-damage-claim/ /insurance-claim-type/public-adjuster-roof-damage/ 301
+/insurance-claim-type/public-adjuster-water-damage-claim/ /insurance-claim-type/water-damage-claims-adjuster/ 301
+/service-areas/public-adjuster-north-carolina/ /service-areas/nc-public-adjusters/ 301
