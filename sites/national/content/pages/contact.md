@@ -3,8 +3,8 @@ title: "Contact Our Team Today"
 metaTitle: "Contact Us | Insurance Public Adjuster | Melo Property Claims"
 description: "Call Melo Property Claims and have an independent public adjuster working for you and your rights. Contact us at (704) 387-3997 today!"
 image:
-  src: "/wp-content/uploads/2020/03/Header-8.jpg"
-  alt: ""
+  src: "/images/photos/office-desk-with-phone.jpg"
+  alt: "Office desks with a conference phone in the foreground"
 date: 2018-10-09
 updated: 2023-07-26
 claimForm: true

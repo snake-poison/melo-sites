@@ -6,8 +6,8 @@ date: 2020-08-01
 updated: 2021-06-05
 category: "insurance-claim-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/Header-13.jpg"
-  alt: "storm debris and a fallen power pole across a road after a hurricane"
+  src: "/images/photos/atlanta-downtown-skyline-day.jpg"
+  alt: "Downtown and Midtown Atlanta skyline on a clear day"
 ---
 
 A public adjuster is an independent insurance professional who works on behalf of a claimant, negotiating insurance company payouts and settlements. Hiring an insurance adjuster is an excellent way to maximize your benefits and receive the most funds possible after a fire, flood, storm, or other such loss.
@@ -16,7 +16,7 @@ A public adjuster is an independent insurance professional who works on behalf o
 
 While some homeowners might balk at paying out 20% of their settlement, you might note what an insurance adjuster does, how they can maximize that payout for you, and why they’re often worth their fees and charges. It’s also helpful to note a few common mistakes homeowners make after suffering property damage and when dealing with an insurance company, so you can avoid them yourself!
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-grant-park-blue-foursquare.jpg" alt="A blue two-story house in Grant Park, Atlanta"}
 ::
 
 Consider, too, that many adjusters offer free or low-cost consultations, so you can ask them any question you have about the insurance settlement process and their work on your behalf. You can then make an informed decision about hiring such a professional and know you’ve done everything possible to secure the highest payout from your insurance company.
@@ -38,7 +38,7 @@ While it’s every property owner’s decision when to hire a [public adjuster](
 
 Hiring a public adjuster is one of the best things you can do after a fire, flood, or other such disaster, as his or her work ensures you receive a maximum payout from your insurance company. One mistake homeowners make when hiring an adjuster, however, is trying to clean their home or do some repairs before he or she arrives! This should be avoided as the adjuster takes into account the extent of damage and potential repair costs when negotiating with an insurance agent.
 
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-red-cottage.jpg" alt="A red cottage on a Cabbagetown street in Atlanta"}
 ::
 
 A homeowner should also understand that an [insurance adjuster](/claims-adjuster/) will work hard to get them the maximum benefits they’re owed but this doesn’t mean they’ll automatically secure the full value of your policy. As said, your policy might include reimbursement for the value of items, not their replacement with something new or more valuable, or there might be exclusions you’re overlooking. Avoid the mistake of overspending on new items or other such purchases while your adjuster is negotiating with the insurance company, lest they return with a disappointing settlement offer.
@@ -53,7 +53,7 @@ Note that a qualified public adjuster will ask lots of questions, so don’t be 
 
 While a public adjuster can charge whatever fees they wish, be wary of one that asks for a flat fee and not a percentage of a settlement they procure. An adjuster charging a flat rate might work hard on your behalf but someone who is paid a percentage of your settlement is likely to work harder! Consider carefully any contract or agreement with an adjuster that means a flat fee versus a percentage of your payout, so you find an adjuster who does the best job for you.
 
-::post-photo{src="/wp-content/uploads/2020/02/Atlanta-public-adjusters.jpg" alt="public insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-street-houses.jpg" alt="A row of houses on a Cabbagetown street in Atlanta"}
 ::
 
 ## Other Advantages of Hiring a Public Adjuster

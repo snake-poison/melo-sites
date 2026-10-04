@@ -19,7 +19,7 @@ const props = defineProps<{
       class="sm:order-last"
       :img-attrs="{
         alt: '',
-        class: 'aspect-3/2 w-full border border-rule-soft bg-paper-2 object-cover transition-opacity group-hover:opacity-90',
+        class: 'aspect-3/2 w-full rounded-xl bg-paper-2 object-cover transition-opacity group-hover:opacity-90',
         loading: 'lazy',
         decoding: 'async',
       }"

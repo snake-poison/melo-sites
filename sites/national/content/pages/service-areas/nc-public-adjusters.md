@@ -4,7 +4,7 @@ metaTitle: "North Carolina Public Adjuster | Public Adjuster North Carolina | Me
 description: "Have a licensed public adjuster in North Carolina at your location. FREE initial consultations & claim review. Call us today (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/10/Header-42.jpg"
+  src: "/images/photos/north-carolina-capitol-raleigh.jpg"
 date: 2019-02-15
 updated: 2023-07-26
 testimonial: true
@@ -26,7 +26,7 @@ With our time dedicated to being independent insurance adjusters, we've learned 
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-in-North-Carolina.jpg" alt="public adjuster in North Carolina doing property damage assessment" reverse}
+::page-section{image="/images/photos/flood-damaged-house-north-carolina.jpg" alt="House knocked off its foundation by flooding in Princeville, North Carolina" reverse}
 ## Our Public Adjuster in North Carolina Does it ALL!
 
 At Melo Property Claims, we want to do more than advocate for you during your current insurance claim. Our qualified public adjusters in North Carolina want to build a stable relationship with you so that you can feel completely comfortable calling us back for whatever you need.

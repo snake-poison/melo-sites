@@ -6,8 +6,8 @@ date: 2021-02-11
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-2.jpg"
-  alt: "what happens after insurance adjuster visits 2"
+  src: "/images/photos/adjuster-photographing-hurricane-damage.jpg"
+  alt: "Insurance adjuster with a camera and clipboard looking up at a storm-damaged house"
 ---
 
 If you’ve suffered a major disaster at home such as a flood, fire, or theft, you might wonder what happens after the home insurance adjuster comes out. A visit from an [insurance adjuster](/claim-adjusters/) is just one part of getting your claim processed by an insurance agency, but it’s not always the last step in that process!
@@ -36,7 +36,7 @@ This approach varies from one adjuster to another and according to your claim, b
 
 ## What Happens If I Don’t Agree With a Home Insurance Adjuster?
 
-::post-photo{src="/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-4.jpg" alt="Thumbs up and thumbs down"}
+::post-photo{src="/images/photos/hands-in-discussion-at-meeting.jpg" alt="Hands of two people in discussion across a meeting table"}
 ::
 
 When your insurance agency presents you with a payout offer that you think is unfair or too low, you’re not without options. You can attempt to negotiate with your agent, but it’s vital you note how to do so effectively, as simply calling them on the phone and demanding more money is probably not going to work!
@@ -64,7 +64,7 @@ If your property loss is significant and you believe that your insurance agency 
 
 ## Can a Homeowner Profit From an Insurance Claim?
 
-::post-photo{src="/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-1.jpg" alt="Graph and a woman talking on a phone"}
+::post-photo{src="/images/photos/workers-rebuilding-storm-damaged-shop.jpg" alt="Workers rebuilding the inside of a storm-damaged shop"}
 ::
 
 Profiting from an insurance claim is a complicated business, as a homeowner should never lie about losses, intentionally inflate the value of certain items, or damaged items themselves in order to make a claim against their insurance! Depending on the circumstances, these actions can all be considered insurance fraud, which is a very serious crime.
@@ -77,7 +77,7 @@ Before you do anything to profit from an insurance claim, speak to an attorney. 
 
 ## How Long Does the Home Insurance Claim Process Take?
 
-::post-photo{src="/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-3.jpg" alt="Small model house held in a hand"}
+::post-photo{src="/images/photos/home-rebuilt-after-tornado.jpg" alt="House being rebuilt after a tornado, with new framing and debris still on the ground"}
 ::
 
 Most states have laws in place that require insurance companies to respond to claims within a “reasonable” amount of time; some states require insurers to acknowledge your claim within 10, 20, or 30 days, and to respond within 40 days.
@@ -86,7 +86,7 @@ These laws vary from state to state and of course, they can also change at any t
 
 ## Should I Accept the First Offer From an Insurance Company?
 
-::post-photo{src="/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-5.jpg" alt="Woman weighing a question"}
+::post-photo{src="/images/photos/writing-on-a-form.jpg" alt="Close-up of a hand filling in a form on a clipboard"}
 ::
 
 Whether or not you should accept any offer from an insurance company is your decision, and that first offer your agency sends you isn’t always unfair! If your claim is somewhat simple and you’ve provided your agency with all needed paperwork, they might provide you with a fair offer for compensation.

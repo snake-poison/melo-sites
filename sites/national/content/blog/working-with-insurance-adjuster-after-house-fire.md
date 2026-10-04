@@ -6,8 +6,8 @@ date: 2020-10-13
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/fire-damage-public-adjuster.jpg"
-  alt: "fire damage public adjuster"
+  src: "/images/photos/firefighters-advancing-on-flames.jpg"
+  alt: "Firefighters advancing on flames inside a house"
 ---
 
 Knowing how to deal with an insurance adjuster after a house fire can make the entire process less stressful for a homeowner, and help ensure a maximum payout from your insurer. While a public adjuster works for you, the policyholder, and negotiates with the insurance company for the largest settlement possible, they also rely on you for accurate, detailed information about your claim.
@@ -34,7 +34,7 @@ Also, most insurers require their policyholder to do everything reasonably possi
 - Note as many details as possible on this list, including an item’s age, size (such as for kitchen appliances, mattresses, etc.), approximate value, manufacturer, and place of purchase. Use a spreadsheet to make this record easier and keep things organized! Take photos of the home’s damage overall as well as photos of individual items.
 - You might also find as many receipts for damaged items as possible; if you don’t have paper receipts, check your bank statements, as these should still have a record of items you purchased with a credit or debit card. Obviously, you won’t be able to remember every detail for everything you’ve lost in the fire; however, the more information and photos you can provide, the easier it will be for your public adjuster to research your claim and negotiate with your insurer.
 
-::post-photo{src="/wp-content/uploads/2020/03/insurance-claim-adjusters-South-Carolina.jpg" alt="insurance adjuster discussing claim after house fire"}
+::post-photo{src="/images/photos/loss-verifier-talking-with-owner.jpg" alt="Loss verifier with a clipboard talking with a property owner"}
 ::
 
 ## How to Deal With an Insurance Adjuster After a House Fire
@@ -65,7 +65,7 @@ In the same way, use caution about restoration companies that approach you after
 
 To ensure smooth negotiations with your insurance company, communicate very closely with your public adjuster about any such expense or work you’re considering. While he or she can’t make decisions for you, they will be very familiar with your policy and insurance agent, so they can offer cautions about claiming certain items and keep you from common mistakes that make negotiations more difficult overall.
 
-::post-photo{src="/wp-content/uploads/2020/03/insurance-and-claims-adjuster.jpg" alt="negotiate with insurance adjuster"}
+::post-photo{src="/images/photos/handshake-at-meeting.jpg" alt="Two men shaking hands at a meeting"}
 ::
 
 ## What Happens If You Reject a Settlement Offer?

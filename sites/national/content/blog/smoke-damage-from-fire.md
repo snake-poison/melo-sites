@@ -6,8 +6,8 @@ date: 2024-07-22
 updated: 2024-08-02
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/07/shutterstock_190324946.jpg"
-  alt: "smoke damage from a fire"
+  src: "/images/photos/firefighter-in-dense-smoke.jpg"
+  alt: "Firefighter standing in dense smoke inside a building"
 ---
 
 Smoke damage is a significant concern for homeowners, especially when dealing with the aftermath of a fire. Unlike visible fire damage, smoke damage can be more insidious, often impacting areas that are not immediately apparent. This blog will delve into what smoke damage is, how it affects your home, and what steps you can take to address it.

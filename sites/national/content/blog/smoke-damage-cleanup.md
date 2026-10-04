@@ -6,8 +6,8 @@ date: 2024-07-16
 updated: 2024-08-02
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/08/shutterstock_1220119999.jpg"
-  alt: "Smoke damage cleanup"
+  src: "/images/photos/firefighter-in-smoke-filled-room.jpg"
+  alt: "Firefighter in breathing gear moving through a smoke-filled room"
 ---
 
 Smoke damage is a pervasive and stubborn problem that arises after a fire. Even a minor fire can leave behind a significant mess, impacting not just the immediate area but also spreading soot and odors throughout your home. If you find yourself dealing with [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), understanding the steps for effective cleanup is crucial. Here’s a detailed guide on how to clean smoke damage and restore your space to its pre-damage condition.

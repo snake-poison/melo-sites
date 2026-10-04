@@ -6,8 +6,8 @@ date: 2024-01-23
 updated: 2024-01-29
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/01/shutterstock_1833652924.jpg"
-  alt: "storm damaged house"
+  src: "/images/photos/tree-crushed-house-roof.jpg"
+  alt: "Uprooted tree lying across the roof of a house after a tornado"
 ---
 
 Roof damage caused by storms, whether from fierce winds, hail, or heavy rain, is a common concern for homeowners. Fortunately, insurance policies often cover such damages. In this blog post, we'll guide you through the steps on how to successfully file roofing insurance claims for storm damage, with a focus on key keywords such as [storm damage insurance claims](/insurance-claim-type/public-adjuster-wind-storm-damage-claim/), hail storm insurance claims, and the crucial aspect of securing coverage for your roof.

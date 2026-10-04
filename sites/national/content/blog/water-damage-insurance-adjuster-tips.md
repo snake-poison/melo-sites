@@ -6,8 +6,8 @@ date: 2021-06-25
 updated: 2023-07-26
 category: "water-damage-claim"
 image:
-  src: "/wp-content/uploads/2020/04/water-damage-charlotte.jpg"
-  alt: "water damage charlotte"
+  src: "/images/photos/flood-damaged-furniture-on-lawn.jpg"
+  alt: "Flood-damaged furniture carried out onto the lawn of a house"
 ---
 
 If you’re a homeowner or business owner [searching for how to maximize a water damage claim](/insurance-claim-type/water-damage-claims-adjuster/), you might be surprised at how a few simple tips can mean hundreds if not thousands of more dollars in your pocket after a burst pipe, fire, or another disaster. While a property owner should never do anything illegal or dishonest when it comes to working with an insurance company, you can maximize your claim and get far more than you expected if you remember a few simple suggestions.
@@ -23,7 +23,7 @@ If you’re a homeowner or business owner [searching for how to maximize a water
 
 Before you accept a check from your insurance company or assume that you’ll be paying far more damage costs than you can manage after a flood or other disaster, check out these tips for maximizing your water damage claim. This will ensure you get the most amount of money in your pocket and can then rebuild or replace damaged items as quickly and easily as possible.
 
-::post-photo{src="/wp-content/uploads/2020/03/water-damage-insurance-claims-adjuster.jpg" alt="Adjuster for water damage doing an appraisal"}
+::post-photo{src="/images/photos/flooded-neighborhood-street.jpg" alt="Flooded neighbourhood street with water up to the houses"}
 ::
 
 ## How to Maximize a Water Damage Claim
@@ -38,7 +38,7 @@ One common mistake made by property owners after a flood, fire, or other such di
 
 The more documentation you have to support your claim is one way how to maximize your water damage claim. This includes photographs, repair and replacement estimates, original purchase receipts or appraisals, and other such documentation. Even photographs you take with your smartphone can help bolster your claim.
 
-::post-photo{src="/wp-content/uploads/2020/03/insurance-and-claims-adjuster.jpg" alt="negotiate with insurance adjuster"}
+::post-photo{src="/images/photos/assessors-with-homeowner-in-basement.jpg" alt="Assessors going over paperwork with a homeowner in his flooded basement"}
 ::
 
 As mentioned, you want to ensure you stay safe after a fire, flood, or other disasters, but snapping pictures of damaged property and personal items with your phone, making lists of items damaged, and even measuring areas of damage can help maximize your claim. If it’s safe to do so, get as much documentation and record of all damage as possible after a disaster on your property.
@@ -59,7 +59,7 @@ Even if you’re not sure about an expense, save your receipt or other documenta
 
 Not only are you typically required to report a disaster or damage to your insurance company within a certain timeframe but waiting to report an incident can give an agent leverage to argue against items on your claim. He or she might refuse the cost of mold damage cleanup, as an example, by arguing that you waited too long to schedule water damage repairs, allowing mold to grow and spread.
 
-::post-photo{src="/wp-content/uploads/2020/03/public-adjuster-property-damage.jpg" alt="Public adjuster for property damage appraisal"}
+::post-photo{src="/images/photos/office-desk-with-phone.jpg" alt="Office desks with a conference phone in the foreground"}
 ::
 
 Remember that reporting damage to your insurance company isn’t the same as filing a claim. A quick phone call might be sufficient for reporting an incident, and you can follow up about needed paperwork when possible. However, ensure you make that call as quickly as possible after an incident, even if you call after business hours, so your report is on record with your insurance coverage provider.
@@ -80,7 +80,7 @@ One reason public adjusters often secure more money for their clients is that th
 
 Most homeowner’s insurance covers water damage if it’s caused by something sudden and accidental, such as a burst plumbing pipe or water heater. Various coverage options are also offered within a policy, noting what is and is not covered in the event of water damage.
 
-::post-photo{src="/wp-content/uploads/2020/03/public-adjuster.jpg" alt="pre-loss and disaster insurance adjusters"}
+::post-photo{src="/images/photos/mucking-out-flooded-basement.jpg" alt="Two men mucking out a flooded basement"}
 ::
 
 As every policy is different, it’s vital to note the coverage you’ve selected for your property and those coverage amounts. However, note some common options you might find in your [homeowner's insurance policy](https://www.consumerfinance.gov/ask-cfpb/what-is-homeowners-insurance-why-is-homeowners-insurance-required-en-162/) and what those options often cover.
@@ -100,7 +100,7 @@ Homeowners' insurance typically covers unexpected, sudden damage, as said. If wo
 
 However, if that rot, mold, or other damage is caused by a slow plumbing leak, foundation cracks, poor-quality insulation, or other such preventable factors, you are not likely to be reimbursed for repairs. An insurance policy assumes that a homeowner will take reasonable care of their home; damage caused by neglecting repairs and needed maintenance is typically not covered under a standard policy.
 
-::post-photo{src="/wp-content/uploads/2020/10/best-public-adjusters.jpg" alt="best public adjusters"}
+::post-photo{src="/images/photos/volunteers-clearing-flooded-house.jpg" alt="Residents watching volunteers clear debris from their flooded house"}
 ::
 
 As wood rot and other such damage can develop over time, this is one reason to ensure you report an incident to your insurance carrier quickly. Neglecting to report a flood or water damage in a timely fashion might allow your carrier to claim that wood rot, mold, water stains, and other such damage are due to aging building materials, trapped humidity, and the like. While denying claims for these reasons doesn’t always happen, reporting an incident quickly helps reduce such risks.
@@ -121,7 +121,7 @@ In some areas, you can purchase added coverage, either from your insurance carri
 
 One of the first things you want to do after a flood or other such damage in the home is calling your insurance agent and notify them of the incident. As said, this is different than filing a claim but will minimize the risk of your agent denying it by saying that property damage was caused by long-term neglect and other such issues.
 
-::post-photo{src="/wp-content/uploads/2020/04/public-adjuster-property-claims.jpg" alt="insurance adjuster"}
+::post-photo{src="/images/photos/removing-wet-drywall-after-flood.jpg" alt="Volunteer removing wet drywall from a flood-damaged kitchen"}
 ::
 
 If possible, review your policy or speak to your agent about what’s needed for a claim payout. Ask if you’re required to use the services of an outside water damage mitigation company or can handle repairs yourself, and how long you have to file the actual claim. You also want to start making a record of your losses and repair or replacement costs; this includes photos of the damaged items or property.

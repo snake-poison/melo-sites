@@ -4,8 +4,8 @@ metaTitle: "Adjuster Firm Atlanta | Top Adjusters | 24/7 - Fast Response"
 description: "Learn more about our adjuster firm in Atlanta - call before filing an insurance claim and get the compensation you deserve (404) 467-5755."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/02/Header-8.jpg"
-  alt: ""
+  src: "/images/photos/atlanta-midtown-skyline-lake.jpg"
+  alt: "Midtown Atlanta skyline across the lake in Piedmont Park"
 date: 2019-02-15
 updated: 2021-01-14
 testimonial: true
@@ -13,7 +13,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claim-adjusters-Atlanta.jpg" alt="employees at adjuster firm in Atlanta"}
+::page-section{image="/images/photos/atlanta-inman-park-victorian-house.jpg" alt="A Victorian house in Inman Park, Atlanta"}
 ## Learn More About Our Public Adjuster Firm in Atlanta
 
 Discover why our public adjusters in Atlanta are the area's best.
@@ -35,7 +35,7 @@ Melo Public Adjusters Atlanta will professionally represent you, no matter what 
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="discussion with adjuster firm in Atlanta" reverse}
+::page-section{image="/images/photos/atlanta-roof-damage-inspection-team.jpg" alt="A team inspects a storm-damaged roof in Atlanta" reverse}
 ## Our Insurance Adjusters in Atlanta
 
 You're already paying your insurance company, so doesn't that mean that you have an agent to represent you when you have to file an insurance claim? Yes and no. The insurance adjuster that your insurance provider sends to your property is working for them, despite what they make you think when you're paying your premiums every month.
@@ -52,7 +52,7 @@ Don't try facing your powerful insurance company alone. [Call our public insuran
 :page-cta{kind="call" label="Call now (404) 467-5755"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg" alt="meeting at adjuster firm in Atlanta"}
+::page-section{image="/images/photos/atlanta-cabbagetown-carroll-street.jpg" alt="Houses on Carroll Street in Cabbagetown, Atlanta"}
 ## All-Inclusive Public Adjuster Services in Atlanta
 
 After you learn everything a public adjuster in Atlanta can do for you during the insurance claim process, you'll realize how much easier life is during the most chaotic times. We can handle a plethora of confusing situations for you. Reach out to us for [claims adjuster services](/claims-adjuster/), including:

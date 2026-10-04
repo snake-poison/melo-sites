@@ -6,8 +6,8 @@ date: 2023-09-02
 updated: 2023-09-05
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2019/08/banner5.jpg"
-  alt: "banner5"
+  src: "/images/photos/wood-frame-garage-under-construction.jpg"
+  alt: "Wood-framed garage under construction beside a house, seen from above"
 ---
 
 Builders Risk Insurance, often referred to as Course of Construction Insurance or simply Builders Insurance, is a vital component in the construction industry. It provides coverage for property and materials at a construction site. However, the question of who pays for Builders Risk Insurance can vary depending on the circumstances and the parties involved in a construction project.

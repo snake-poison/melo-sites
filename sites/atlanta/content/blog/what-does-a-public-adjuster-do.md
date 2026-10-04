@@ -6,8 +6,8 @@ date: 2019-06-30
 updated: 2021-01-14
 category: "insurance-claim-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/Header-1.jpg"
-  alt: "firefighter hosing down the burned-out inside of a building"
+  src: "/images/photos/adjuster-documenting-storm-damage.jpg"
+  alt: "A damage assessor records storm damage on a tablet"
 faq:
   - question: "Does a public adjuster sue an insurance company?"
     answer: "A public adjuster is not typically an attorney, but note that their services often ensure that a homeowner doesn’t need to sue an insurance company. A public adjuster negotiating with an insurance carrier can mean a proper and fair settlement or payout, so a lawsuit then becomes unnecessary. If you’re a property owner thinking of suing an insurance company, consider at least consulting with a public adjuster first!"
@@ -23,7 +23,7 @@ When filing a claim with your homeowner’s insurance carrier, you might conside
 
 If you’re a homeowner, business owner, or commercial property owner, it’s vital that you understand the risks of dealing with an insurance adjuster directly and that you know the benefits of retaining your own adjuster! While most insurance companies try to deal fairly and honestly with customers, remember that the less money they pay in claims the more money they keep for themselves.
 
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-wind-damage-Atlanta.jpg" alt="public adjuster atlanta"}
+::post-photo{src="/images/photos/tree-crushed-house-roof.jpg" alt="A snapped tree trunk and a crushed roof after a storm"}
 ::
 
 Insurance adjusters also only use information provided to them by the policy carrier and policyholder, whereas a [public adjuster](/claims-adjuster/insurance-adjuster-atlanta/) knows the right questions to ask to ensure a maximum payout. Before you suffer a catastrophic loss, note some vital information about what public adjusters do and when it’s good to retain their services.
@@ -46,7 +46,7 @@ Consider some added details about property insurance and especially homeowner’
 
 It’s not required or even necessary for a property owner to hire a public adjuster every time he or she needs to file a claim with their insurance carrier. Some claims are relatively simple to document and an insurance carrier might accept proof of payments made to a contractor after a fire or other such loss, reimbursing a homeowner for that full amount without added negotiations or delays.
 
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-property-damage-Atlanta.jpg" alt="public adjuster for mold damage insurance claim in Atlanta"}
+::post-photo{src="/images/photos/storm-damaged-house-fallen-trees.jpg" alt="A house buried under fallen trees after a tornado"}
 ::
 
 However, this isn’t always the case and a homeowner or business owner shouldn’t feel that they are simply “stuck with” the decision made by an insurance carrier, if they disagree with reimbursement amounts offered or feel the carrier is delaying the process for any reason. A public adjuster can assist with proper documentation and other proof needed to verify a property owner’s claim.
@@ -63,7 +63,7 @@ As with contractors, it’s never recommended that you hire a public adjuster go
 
 Public adjusters receive licensing from their respective state; ensure you check that their license is valid and up-to-date. Never work with a public adjuster who can’t produce a copy of their license, as working without a valid license is illegal for them; a proper license is also a benchmark of that person’s knowledge and qualifications while losing a license typically indicates past bad behavior!
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-grant-park-porch-house.jpg" alt="A house with a deep porch in Grant Park, Atlanta"}
 ::
 
 Also, note that a public adjuster might work with other professionals including other adjusters. While you might feel comfortable only having one person on your property or as a contact point, note that dealing with different professionals is not necessarily a bad thing and might also be an indicator of the person’s professionalism.

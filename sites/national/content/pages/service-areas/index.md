@@ -4,13 +4,13 @@ metaTitle: "Service Areas | Public Adjuster Firm | Melo Property Claims"
 description: "Melo Property Claims is a national public adjuster firm serving your local area. Call us at (704) 387-3997 to schedule a FREE consultation."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-13.jpg"
+  src: "/images/photos/aerial-view-of-suburbs.jpg"
 date: 2019-02-15
 updated: 2021-01-07
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/10/public-insurance-adjuster.jpg" alt="disaster insurance adjuster during initial consultation"}
+::page-section{image="/images/photos/assessors-with-homeowner-at-house.jpg" alt="Damage assessors talking with a homeowner outside his house"}
 ## Melo Property Claims is Your Nationwide Public Adjuster Firm
 
 Dealing with a stubborn insurance agent or company is difficult and stressful. [Melo Public Adjusters](/) is knowledgeable, qualified, and certified in assisting with all insurance claim types, and we have the authority to stand up to the larger corporations.

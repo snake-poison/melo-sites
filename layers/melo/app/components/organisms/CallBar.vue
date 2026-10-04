@@ -1,19 +1,20 @@
 <script setup lang="ts">
 import { business } from '#site'
 
-// The old site's floating call button: on a phone, the number is one tap away on every page.
+// On a phone, the number and the form are one tap away on every page, in a bar at the foot.
+const reviewHref = await useClaimFormHref()
 </script>
 
 <template>
-  <div class="sticky bottom-0 z-30 bg-charcoal-2 p-2 sm:hidden">
+  <div class="sticky bottom-0 z-30 border-t border-on-dark/10 bg-navy-2/95 p-2 backdrop-blur-sm sm:hidden">
     <div class="grid grid-cols-2 gap-2">
-      <a :href="business.phoneHref" class="flex items-center justify-center gap-2 bg-brand py-3 text-sm font-bold tracking-[0.06em] text-charcoal uppercase">
+      <a :href="business.phoneHref" class="flex items-center justify-center gap-2 rounded-xl bg-brand py-3 text-base font-bold text-charcoal">
         <span class="icon-[carbon--phone-filled]" aria-hidden="true" />
-        Call 24/7
+        Call now, free
       </a>
-      <NuxtLink to="/contact/" class="flex items-center justify-center border border-on-dark/40 py-3 text-sm font-bold tracking-[0.06em] text-on-dark uppercase">
+      <a :href="reviewHref" class="flex items-center justify-center rounded-xl py-3 text-base font-bold text-on-dark ring-1 ring-on-dark/40">
         Free claim review
-      </NuxtLink>
+      </a>
     </div>
   </div>
 </template>

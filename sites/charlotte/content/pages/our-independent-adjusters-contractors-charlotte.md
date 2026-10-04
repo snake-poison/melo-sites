@@ -4,8 +4,8 @@ metaTitle: "Independent Adjusters Charlotte | With the Best Contractors"
 description: "Get the independent adjusters in Charlotte, NC who work with local, licensed contractors that are the best in the area. Call (704) 286-0707"
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 image:
-  src: "/wp-content/uploads/2020/02/Header-7.jpg"
-  alt: ""
+  src: "/images/photos/crew-installing-blue-roof-tarp.jpg"
+  alt: "Crew fastening a blue tarp over a damaged roof"
 date: 2019-03-22
 updated: 2021-01-14
 testimonial: true
@@ -44,7 +44,7 @@ Restoration contractors have benefited from working with public adjusters for ma
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-charlotte.jpg" alt="independent adjuster charlotte"}
+::page-section{image="/images/photos/inspector-talks-with-homeowner-indoors.jpg" alt="Inspector talking with a homeowner inside a damaged home"}
 ## Your #1 Independent Adjuster in Charlotte, NC
 
 Property damage appraisers are a dime a dozen, which is why policyholders need to gain the support of a public adjuster who is knowledgeable, compassionate, and holds a stellar reputation within the community. [Melo Public Adjusters Charlotte](/) has all of these characteristics and then some. This independent adjuster in Charlotte will fight tooth and nail to see their contractors and other clients come out on top in terms of insurance settlements.

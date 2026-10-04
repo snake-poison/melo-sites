@@ -4,7 +4,7 @@ metaTitle: "Water Damage Public Adjuster | Public Water Claim Adjuster | Melo Pr
 description: "Hire a public adjuster for water damage & get the maximum valuation for your property damages. Get a FREE claims review & case estimate."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-4.jpg"
+  src: "/images/photos/flooded-residential-street.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/03/water-damage-insurance-claims-adjuster.jpg" alt="adjuster for water damage doing an appraisal"}
+::page-section{image="/images/photos/assessors-inspecting-opened-wall.jpg" alt="Building assessors inspecting a wall opened up after flooding"}
 ## An Adjuster for Water Damage Takes Care of Everything
 
 In recent years it was reported there were well over 120 million homeowners in the United States. Out of those, five of every one hundred filed an insurance claim for water damage in one year alone. Without breaking out the calculator, it's pretty apparent that's a lot of insurance claims!
@@ -28,7 +28,7 @@ When you have an issue, Melo Property Claims has an expert adjuster for water da
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/mold-and-water-damage-remediation.jpg" alt="public adjuster doing property damage appraisal" reverse}
+::page-section{image="/images/photos/cleaning-carpet-in-empty-office.jpg" alt="Worker vacuuming the carpet of an empty office" reverse}
 ## Investing in an Adjuster for Water Damage is Worth It
 
 As soon as you realize you have an issue, you should contact our adjuster for water damage. We will likely show up before your insurance agent does to start our honest and fair assessment. Our public adjusters are the last person your policy provider wants to see. They know we can give you the truth about your insurance claim, and they're less likely to fight you. If any of these situations have occurred, it's time to pick up the phone and call us:
@@ -45,7 +45,7 @@ You may not want to pay yet another agency to help you through your claim that y
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/water-damage-restoration-public-adjuster.jpg" alt="water damage restoration after a public adjuster's inspection"}
+::page-section{image="/images/photos/mucking-out-flooded-basement.jpg" alt="Two men mucking out a flooded basement"}
 ## Don't Wait to Call Our Adjusters for Water Damages
 
 The longer you wait to call our adjuster for water damage, the worse off you're going to be. You may be tempted to accept the estimate that your dishonest insurance company gave you. Please don't do it! There's no reason you should have to pay for repairs out of your own pocket for something like water damage that was completely out of your control.
@@ -61,7 +61,7 @@ The lesson we want to share with you is, don't wait, and don't take any offer fr
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-insurance-adjuster.jpg" alt="disaster insurance adjuster doing initial consultation" reverse}
+::page-section{image="/images/photos/assessors-with-homeowner-in-basement.jpg" alt="Assessors going over paperwork with a homeowner in his flooded basement" reverse}
 ## Melo Property Claims Have Years of Experience
 
 Melo Property Claims has been in this business for many years. What seems complex and overwhelming to you at first glance is what we know and what we're passionate about. We want you to see you get your insurance claim money quickly and in the fairest amount. Call on us 24/7, or the second you see a water problem. We're always here to answer your questions.

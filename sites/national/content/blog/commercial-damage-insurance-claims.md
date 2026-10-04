@@ -6,8 +6,8 @@ date: 2023-12-13
 updated: 2023-12-27
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2023/12/shutterstock_2110570886.jpg"
-  alt: "Insurance,Agent,Holding,A,Tablet,With,A,Picture,Of,A"
+  src: "/images/photos/wind-damaged-downtown-storefronts.jpg"
+  alt: "Wind-damaged downtown storefronts with debris on the street after a storm"
 ---
 
 Commercial property damage can pose significant challenges for businesses, disrupting operations and impacting the bottom line. In the face of such adversity, having a solid understanding of the commercial property damage insurance claims process is crucial. This guide will walk you through the key steps and considerations involved in navigating the complexities of [commercial property damage insurance claims](/insurance-claim-type/).

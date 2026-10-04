@@ -4,14 +4,14 @@ metaTitle: "Public Adjuster North Carolina | State's #1 Public Adjusters"
 description: "Search no further for a public adjuster in North Carolina! Accurate property damage appraisals. Fast & fair settlements. Call (704) 286-0707"
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 image:
-  src: "/wp-content/uploads/2020/02/Header-6.jpg"
-  alt: ""
+  src: "/images/photos/charlotte-pharrsdale-homes.jpg"
+  alt: "Houses on a tree-lined street in the Pharrsdale neighborhood of Charlotte"
 date: 2019-02-15
 updated: 2021-01-14
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-charlotte.jpg" alt="public adjuster north carolina"}
+::page-section{image="/images/photos/downtown-concord-nc-rooftops.jpg" alt="Rooftops of downtown Concord, North Carolina"}
 ## Your Local Public Adjuster in North Carolina | Experienced & Honest
 
 [Melo Public Adjusters Charlotte](/) is a firm that takes property damage claims very seriously. We believe that the insured should be treated and compensated fairly. After all, that's why you're paying the insurance company. Our team never wants your hard-earned dollars paid to these corporate giants in vain. We'll gladly walk you through the flood claim process, hail storm damage insurance claims, and much more.

@@ -6,8 +6,8 @@ date: 2024-07-11
 updated: 2024-08-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/08/shutterstock_1377286634.jpg"
-  alt: "Mold remediation"
+  src: "/images/photos/gutted-house-after-flood.jpg"
+  alt: "Flood-damaged house gutted to the studs to dry out and stop mold"
 ---
 
 Mold remediation is a crucial process for ensuring a healthy living environment and preventing structural damage to your property. However, one of the most common questions homeowners have is: who pays for mold remediation? The cost of mold remediation can vary widely depending on the extent of the mold problem, but understanding the factors that influence these costs and who is responsible for paying can help alleviate some of the stress associated with this issue.

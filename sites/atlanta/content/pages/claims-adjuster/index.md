@@ -4,7 +4,7 @@ metaTitle: "Claims Adjusters Atlanta | Handling Insurance Claims 24/7"
 description: "Our claims adjusters in Atlanta can make your life easier. Melo Public Adjusters of Atlanta is locally owned & operated. Call (404) 467-5755."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/02/Header-11.jpg"
+  src: "/images/photos/atlanta-tornado-roof-inspection.jpg"
 date: 2020-02-17
 updated: 2021-01-14
 testimonial: true
@@ -12,7 +12,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="meeting with claims adjuster in Atlanta"}
+::page-section{image="/images/photos/inspector-documenting-room-damage.jpg" alt="An inspector documents damage inside a bedroom"}
 ## What Does a Claims Adjuster in Atlanta, Georgia Actually Do?
 
 Trust Melo Public Adjusters Atlanta
@@ -26,7 +26,7 @@ We're in the business of giving all of our customers the personal attention and 
 :page-cta{kind="call" label="Call now (404) 467-5755"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/property-damage-claims-adjuster-Atlanta.jpg" alt="storm-wrecked house and car awaiting an insurance claims adjuster in Atlanta"}
+::page-section{image="/images/photos/georgia-tornado-damaged-home.jpg" alt="A home torn apart by a tornado in Franklin, Georgia"}
 ## About Our Insurance Claims Adjusters in Atlanta
 
 Melo Public Adjusters has licensed, certified, and professional [insurance adjusters in Atlanta](/claims-adjuster/insurance-adjuster-atlanta/) who are ready to go to work for you. Working with an insurance company, especially during an already challenging time in your life, can become overwhelming fast. Let our claims adjusters in Atlanta assist you in getting the claim you deserve.
@@ -44,7 +44,7 @@ Are you wondering why you should pay for an insurance adjuster in Atlanta when y
 :page-cta{kind="review" label="Schedule an estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-adjuster-flood-damage-Atlanta.jpg" alt="property damage appraisers in Atlanta for flood" reverse}
+::page-section{image="/images/photos/atlanta-grant-park-house-on-hill.jpg" alt="A house above a stone wall on Grant Street, Atlanta" reverse}
 ## Expert Property Damage Appraisal & Mediation
 
 You've suffered property damages, and now you're in a messy debate with your insurance company. They have offered you a specific value for your losses, but you don't feel as though the amount is fair for the repairs you need to make and the damages you've suffered.
@@ -60,7 +60,7 @@ After suffering damages to your home or business, all you want to do is get your
 :page-cta{kind="call" label="Call (404) 467-5755"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/flooding-insurance-adjuster-Atlanta.jpg" alt="pre-loss and disaster planning claims adjusters in Atlanta"}
+::page-section{image="/images/photos/atlanta-inman-park-lecraw-house.jpg" alt="The LeCraw House in Inman Park, Atlanta"}
 ## Pre-Loss & Disaster Planning
 
 Do you live in an area that's prone to storms, high winds, or flood damages? Did you know that by getting a [pre-loss disaster insurance adjuster in Atlanta](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-atlanta/) working for you, the entire process can be streamlined before anything goes wrong?
@@ -74,7 +74,7 @@ Prevention and preparation is the only way to help you in an insurance claim sit
 :page-cta{kind="review" label="Free instant claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg" alt="builder's risk policy claims adjusters in Atlanta" reverse}
+::page-section{image="/images/photos/house-construction-roof-framing.jpg" alt="Builders working on the roof of a house under construction" reverse}
 ## Builders Risk Policy & Claims Adjusters in Atlanta
 
 You may have heard of builder's risk insurance by the name "course of construction." It's a type of property insurance that is added to your existing policy when there is new construction going on at your home or commercial location.

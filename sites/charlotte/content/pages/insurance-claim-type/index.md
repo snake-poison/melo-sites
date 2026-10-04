@@ -4,7 +4,7 @@ metaTitle: "Insurance Claim Charlotte | Property Damage Public Adjuster"
 description: "Are you filing an insurance claim in Charlotte? Get professional guidance & the claim you deserve? Call Melo Public Adjusters (704) 286-0707"
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 image:
-  src: "/wp-content/uploads/2020/02/Header-8.jpg"
+  src: "/images/photos/trees-fallen-on-house-after-storm.jpg"
 date: 2019-03-28
 updated: 2021-01-14
 testimonial: true
@@ -12,7 +12,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claim-adjusters-charlotte.jpg" alt="insurance claim charlotte"}
+::page-section{image="/images/photos/adjusters-reviewing-damage-reports.jpg" alt="Damage assessors comparing notes in the field"}
 ## Filing an Insurance Claim in Charlotte? Our Adjusters can Help!
 
 A public adjuster gets you the fair settlement you deserve.
@@ -26,7 +26,7 @@ The claim types that we specialize in are fire and smoke, water and mold, storm 
 
 ## Our Types of Insurance Claims in Charlotte
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-adjuster-mold-damage-claim-charolotte.jpg" alt="insurance claim charlotte"}
+::page-section{image="/images/photos/flood-damaged-kitchen-interior.jpg" alt="Kitchen damaged by floodwater with cabinets and drywall torn out"}
 ## Mold & Water Damage Insurance Adjusters
 
 Filing an [insurance claim in Charlotte for mold and water damage](/insurance-claim-type/adjuster-mold-water-damage-charlotte/) is a slippery slope. There are numerous documents and proofs that need to be submitted to the insurance company to ensure that the policyholder gets the best possible settlement. The team at Melo Public Adjusters sees to it that the insured is treated fairly by:
@@ -40,7 +40,7 @@ If you've fallen prey to water and mold property loss, the time is now to contac
 :page-cta{kind="review" label="Schedule an estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/public-adjuster-storm-damage-charlotte.jpg" alt="insurance claim charlotte" reverse}
+::page-section{image="/images/photos/nc-hurricane-florence-flooded-homes-aerial.jpg" alt="Aerial view of flooded homes in North Carolina after Hurricane Florence" reverse}
 ## Adjusters For Storm & Wind Damage Insurance Claims
 
 Sadly, storm and wind damage can happen at any time, especially living in North Carolina. Hurricane season is a part of life here in the south, and it can leave a wake of property damage in its path. When high winds and storm debris have ravaged a commercial or residential property it's time to call our insurance adjusters so they can help you:
@@ -54,7 +54,7 @@ Filing a [storm or wind damage insurance claim in Charlotte](/insurance-claim-ty
 :page-cta{kind="call" label="Call (704) 286-0707"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/flooding-insurance-adjuster.jpg" alt="independant insurance adjuster"}
+::page-section{image="/images/photos/roofing-crew-replacing-shingles.jpg" alt="Roofing crew replacing shingles on a damaged house"}
 ## Roof Damage Insurance Claims in Charlotte, NC
 
 Filing an [insurance claim in Charlotte for roof damage](/insurance-claim-type/adjuster-hail-roof-damage-charlotte/) can be very difficult due to the complicated terminology and hidden meanings in insurance policies. There are many factors that play into what type of settlement a policyholder is entitled to. Melo Public Adjusters help their clients get the compensation they deserve by:
@@ -68,7 +68,7 @@ If your roof has been damaged due to hail or other storm-related conditions, ple
 :page-cta{kind="review" label="Free instant claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/fire-damage-public-adjuster-charlotte.jpg" alt="independent insurance adjuster" reverse}
+::page-section{image="/images/photos/fire-scorched-siding-close-up.jpg" alt="Close-up of scorched siding after a house fire" reverse}
 ## Insurance Adjusters for Smoke & Fire Damage
 
 Smoke and fire damages are the most common insurance claims in Charlotte. For that reason, insurance companies make it insanely difficult for policyholders to get the settlement that will put their lives back together. Melo Public Adjusters do not feel that this is a fair practice. The team will help you rebuild your fire damaged property by:

@@ -89,7 +89,7 @@
   }
 
   & img {
-    border-radius: 0;
+    border-radius: 1rem;
   }
 
   & table {
@@ -397,6 +397,13 @@
   }
 
   & > .page-kicker:first-child {
+    margin-top: 0;
+  }
+
+  /* A body that opens on a block starts at the top, under the hero, like one that opens on text. */
+  & > .page-section:first-child,
+  & > .page-grid:first-child,
+  & > .page-intro:first-child {
     margin-top: 0;
   }
 

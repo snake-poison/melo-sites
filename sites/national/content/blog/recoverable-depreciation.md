@@ -6,8 +6,8 @@ date: 2019-03-15
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/Header-9.jpg"
-  alt: "Header 9"
+  src: "/images/photos/roofers-replacing-shingles.jpg"
+  alt: "Roofers replacing shingles on a row of houses"
 ---
 
 Your house suffered heavy damage during a storm in your area. The insurance company adjuster showed up and you worked with him to file a claim. To your delight, the insurance company agreed with the adjuster and processed the claim speedily. You got the check, but when you opened the envelope and looked at it, the amount was less than the claim. On the attached explanations, you see that the difference is listed as recoverable depreciation.
@@ -95,7 +95,7 @@ You will be required to file a supplemental claim in this case. Many contractors
 - Generally, the supplemental claim will be sent to a company adjuster for approval. The insurance company has the right to do a follow-up inspection.
 - Document your supplemental claim with pictures, videos, and further estimates of the additional work and materials that will be required.
 
-::post-photo{src="/wp-content/uploads/2020/03/Header-7.jpg" alt="Crew cleaning up a flooded basement"}
+::post-photo{src="/images/photos/flood-water-line-on-wall.jpg" alt="Flood water line still visible on the wall of an empty room"}
 ::
 
 ## Disclaimer

@@ -31,7 +31,7 @@ export const business = {
   mapUrl: 'https://www.google.com/maps?cid=8798277323873076393',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/Melo-Public-Adjusters-Atlanta-Square.png',
-  image: '/wp-content/uploads/2020/02/insurance-claim-adjusters-Atlanta.jpg',
+  image: '/images/photos/atlanta-midtown-skyline-piedmont-park.jpg',
   areaServed: ['Atlanta', 'Alpharetta', 'Sandy Springs', 'Marietta', 'Roswell', 'Mableton'].map(name => ({ '@type': 'City', 'name': `${name}, GA` })),
   sameAs: [
     'https://www.facebook.com/pg/melopublicadjustersatlanta',
@@ -179,11 +179,34 @@ export const categories: Record<Category, { label: string, description: string }
 }
 
 /**
- * The client review the claim-review band quotes. The old site quoted the Charlotte site's
- * review, and the sites share no copy, so until Atlanta has one of its own to quote the band
- * links to its Google reviews instead.
+ * Clients' reviews to quote, none yet: the old Atlanta site quoted a review the Charlotte site
+ * already had, and the sites share no copy. With none, the band links to the Google reviews.
  */
-export const featuredReview: { quote: string, name: string } | null = null
+export const reviews: readonly { quote: string, name: string, source?: string }[] = []
+
+/**
+ * What the site sells with, in its own words: the header's top line, the three promises under the
+ * hero's heading, the credentials strip under the hero and the steps of a claim.
+ */
+export const promise = 'Atlanta public adjusters on the policyholder’s side · No upfront costs'
+
+export const heroPoints: readonly string[] = ['Free, no-obligation review', 'Nothing to pay up front', 'Paid only when your claim pays more']
+
+export const credentials: readonly { icon: string, title: string, text: string }[] = [
+  { icon: 'icon-[carbon--certificate-check]', title: 'Licensed and independent', text: 'Public adjusters, not the insurer’s adjusters' },
+  { icon: 'icon-[carbon--security]', title: 'Your interests only', text: 'We answer to you, never to the insurance company' },
+  { icon: 'icon-[carbon--chart-bar]', title: '16+ years in insurance', text: 'We know the tricks insurers try' },
+  { icon: 'icon-[carbon--location]', title: 'Based in Atlanta', text: 'On call around the clock across metro Atlanta' },
+]
+
+export const howItWorks: { title: string, steps: readonly { title: string, text: string }[] } = {
+  title: 'Three steps to a fair settlement',
+  steps: [
+    { title: 'Talk to us about the damage', text: 'A short call or the form tells us whether we can help. It costs you nothing.' },
+    { title: 'We build your claim', text: 'We inspect the property, study your policy and prepare the estimate and proof of loss.' },
+    { title: 'We take on the insurance company', text: 'We negotiate until the claim is paid fairly. Our small fee comes out of the added amount.' },
+  ],
+}
 
 /**
  * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
@@ -229,7 +252,7 @@ export const blogPage = {
   metaTitle: 'Our Blog - Melo Public Adjusters Atlanta',
   lead: 'Get the maximum valuation for your insurance claims. We work for you, so let\'s work together.',
   description: 'Articles on public adjusters, insurance claims and appraisals, plus weekend ideas around Atlanta, GA, from Melo Public Adjusters Atlanta.',
-  image: '/wp-content/uploads/2020/02/Header-8.jpg',
+  image: '/images/photos/atlanta-piedmont-park-lake-clara-meer.jpg',
 }
 
 /**

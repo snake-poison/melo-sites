@@ -4,13 +4,13 @@ metaTitle: "Insurance Adjusters North Carolina | Melo Property Claims"
 description: "Find out more about our adjuster firm, Melo Property Claims, and what we can do for you and your insurance claim. Call today (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/10/Header-45.jpg"
-  alt: ""
+  src: "/images/photos/assessors-with-homeowner-at-house.jpg"
+  alt: "Damage assessors talking with a homeowner outside his house"
 date: 2019-02-15
 updated: 2023-07-26
 ---
 
-::page-section{image="/wp-content/uploads/2020/10/hiring-a-public-adjuster.jpg" alt="public adjusters on your side of the insurance claim"}
+::page-section{image="/images/photos/inspector-checking-kitchen.jpg" alt="Inspector in a hard hat checking a kitchen and its appliances"}
 ## Learn Who Melo Property Claims Are And What We Can Do!
 
 Melo Property Claims is the qualified team you want on your side.
@@ -30,7 +30,7 @@ It's unfortunate, but the insurance provider that you've been paying your premiu
 
 We are in the business of giving you time, personal attention, and clarity during some of the most critical times you'll ever face in your life. Instead of being someone that you hire to work for you, we work WITH you to give you peace of mind that you're not alone and that someone does have your best interests at the forefront of whatever is going on.
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjusters.jpg" alt="public adjusters doing a property damage appraisal" reverse}
+::page-section{image="/images/photos/assessors-comparing-notes-by-debris.jpg" alt="Two assessors comparing notes beside a pile of flood debris" reverse}
 ## Public Adjusters With Knowledge and Authority
 
 Get the maximum valuation for your property damage claim.
@@ -47,7 +47,7 @@ Your insurance company has a slew of ways to get around paying your claim money.
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/fire-damage-public-adjuster.jpg" alt="public adjuster assessing fire damage to a home"}
+::page-section{image="/images/photos/investigator-inspecting-charred-beams.jpg" alt="Fire investigator inspecting charred roof beams after a fire"}
 ## Insurance Claims of All Types
 
 There's no insurance claim we can't handle efficiently.

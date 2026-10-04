@@ -6,8 +6,8 @@ date: 2024-03-23
 updated: 2024-04-05
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/04/shutterstock_777552958.jpg"
-  alt: "Home Fire damage"
+  src: "/images/photos/firefighter-outside-fire-damaged-house.jpg"
+  alt: "Firefighter hauling hose outside a fire-damaged house"
 ---
 
 Experiencing a home fire can be a devastating and traumatic event. In the aftermath, it's crucial to focus on safety, recovery, and restoration. Fire damage can wreak havoc on your property, leaving you feeling overwhelmed and unsure of where to begin. However, with a clear plan and the right assistance, you can navigate the process of fire damage repair and restore your home to its former condition. Here are essential steps to take after experiencing home fire damage:

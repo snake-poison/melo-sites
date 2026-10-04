@@ -5,8 +5,8 @@ description: "How public adjuster licensing and contingency fees work, when a se
 date: 2026-09-25
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/reviewing-list-on-clipboard.jpg"
+  alt: "Two men reviewing a list on a clipboard"
 faq:
   - question: "Is a claim review or second opinion free if the public adjuster doesn't get me a higher settlement?"
     answer: "Under a genuine contingency arrangement, no fee is owed if there's no increase over the insurer's original offer. The fee is tied to the additional amount recovered, so if there's no increase over the insurer's original offer, there's no fee owed for that work. Always confirm this in writing before signing."

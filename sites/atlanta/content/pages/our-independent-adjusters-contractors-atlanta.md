@@ -4,8 +4,8 @@ metaTitle: "Independent Adjusters Atlanta | Top Contractors Partners"
 description: "Learn more about our independent adjusters in Atlanta and how our contractor referral program works to your benefit. Call (404) 467-5755."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/02/Header-7.jpg"
-  alt: ""
+  src: "/images/photos/house-construction-roof-framing.jpg"
+  alt: "Builders working on the roof of a house under construction"
 date: 2019-03-22
 updated: 2021-01-14
 testimonial: true
@@ -44,7 +44,7 @@ There are rules and regulations in place in Atlanta and throughout the United St
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg" alt="contractor meeting with independent adjuster in Atlanta"}
+::page-section{image="/images/photos/georgia-damage-inspectors-clipboards.jpg" alt="Damage inspectors with clipboards at a home in DeKalb County, Georgia"}
 ## Contact Our Independent Adjusters in Atlanta Today!
 
 If you're a local contractor that values honesty, integrity, and putting the customer's needs first, then our independent adjuster in Atlanta wants to hear from you today. We can go over all the details of how our contractor referral program works and how it benefits you, us, and, most importantly, the clients that we serve.

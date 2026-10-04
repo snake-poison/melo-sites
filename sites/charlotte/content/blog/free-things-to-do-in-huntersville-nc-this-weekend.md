@@ -5,8 +5,8 @@ description: "Check out this quick list of free things to do in Huntersville, NC
 date: 2021-07-28
 category: "things-to-do"
 image:
-  src: "/wp-content/uploads/2021/07/Birkdale_Village_Town_Center_Huntersville-NC.jpg"
-  alt: "Shopping Center Huntersville"
+  src: "/images/photos/huntersville-latta-plantation.jpg"
+  alt: "Historic house at Latta Plantation in Huntersville"
 ---
 
 There are always lots of things to do in Huntersville, NC, whether you’re by yourself, with a special date, or need some activities for the entire family! If you’re on a tight budget, you also might be surprised at the number of free things you can do in and around the city, both indoors and out.
@@ -14,7 +14,7 @@ There are always lots of things to do in Huntersville, NC, whether you’re by y
 Check out this quick list of free or low-cost things to do in Huntersville, NC, on the weekend or throughout the week, so you’re never without something to keep you entertained.
 
 ## Party in the Park
-::post-photo{src="/wp-content/uploads/2021/07/Mint_Museum_of_Art_Randolph-Huntersville.jpg" alt="Museum Huntersville"}
+::post-photo{src="/images/photos/daingerfield-moonlight-mint-museum.jpg" alt="Moonlight, a painting by Elliott Daingerfield in the Mint Museum collection"}
 ::
 
 Held on the last Sunday of August, September, and October, Party in the Park at the Mint Museum Randolph offers music, food trucks, and complimentary admission to the museum. The event runs from 1 to 5 p.m. and is an excellent choice for anyone looking for both indoor and outdoor activities! To find out more and add it to your calendar, visit:
@@ -22,7 +22,7 @@ Held on the last Sunday of August, September, and October, Party in the Park at 
 [https://charlottecultureguide.com/event/426641/party-in-the-park](https://charlottecultureguide.com/event/426641/party-in-the-park)
 
 ## Charlotte Liberty Walk
-::post-photo{src="/wp-content/uploads/2021/07/liberty-state-park-huntersville.jpg" alt="liberty walk huntersville"}
+::post-photo{src="/images/photos/charlotte-mecklenburg-declaration-signer-plaque.jpg" alt="Bronze plaque honoring Robert Irwin, a signer of the Mecklenburg Declaration"}
 ::
 
 The Charlotte Liberty Walk is an excellent choice for history buffs, and especially for anyone looking to get outside, stretch their legs, and enjoy some fresh air! The walk features 15 sites of historic significance in and around the city, and which made Charlotte famous as a “hornet’s nest” of rebellion during the Revolutionary War. To find out more including the sites of all 15 markers, visit:
@@ -30,7 +30,7 @@ The Charlotte Liberty Walk is an excellent choice for history buffs, and especia
 [https://charlottecultureguide.com/event/11854/charlotte-liberty-walk](https://charlottecultureguide.com/event/11854/charlotte-liberty-walk)
 
 ## Buzzard Walk Trail
-::post-photo{src="/wp-content/uploads/2021/07/Buzzard-Walk-Trail-Huntersville-NC.jpg" alt="walking trail huntersville"}
+::post-photo{src="/images/photos/charlotte-irwin-creek-greenway.jpg" alt="Paved greenway trail beside Irwin Creek in Charlotte"}
 ::
 
 There is nothing better to do on the weekend than to enjoy some unspoiled nature, which is what you’ll find at the Buzzard Walk Trail. The trail is only about 1/3 of a mile long but it is almost completely shaded throughout and offers lots of stunning scenery and picnic areas. Use caution around the poison ivy off the trail if you decide to visit; otherwise, it’s an excellent choice for everyone in the family! For more information, visit Trip Advisor:
@@ -38,7 +38,7 @@ There is nothing better to do on the weekend than to enjoy some unspoiled nature
 [https://www.tripadvisor.com/Attraction_Review-g49232-d6854482-Reviews-Buzzard_Rock_Trail-Huntersville_North_Carolina.html](https://www.tripadvisor.com/Attraction_Review-g49232-d6854482-Reviews-Buzzard_Rock_Trail-Huntersville_North_Carolina.html)
 
 ## Blythe Landing on Lake Norman
-::post-photo{src="/wp-content/uploads/2021/07/Blythe-Landing-on-Lake-Norman-Huntersville.jpg" alt="Beach Huntersville"}
+::post-photo{src="/images/photos/lake-norman-roped-walkway.jpg" alt="Roped walkway leading to the water on Lake Norman"}
 ::
 
 If you want to take out your boat or canoe or spend some time on a beach, check out Blythe Landing! This 24-acre park features a boat launch, dock for fishing, sand volleyball courts, and more. While swimming is not allowed, you can relax by the water and enjoy some summertime fun with the entire family at Blythe Landing. For directions and hours of operation, visit:
@@ -46,7 +46,7 @@ If you want to take out your boat or canoe or spend some time on a beach, check 
 [https://www.mecknc.gov/ParkandRec/Parks/ParksByRegion/NorthRegion/Pages/Blythe.aspx](https://www.mecknc.gov/ParkandRec/Parks/ParksByRegion/NorthRegion/Pages/Blythe.aspx)
 
 ## Birkdale Village
-::post-photo{src="/wp-content/uploads/2021/07/Birkdale_Village_Town_Center_Huntersville-NC.jpg" alt="Shopping Center Huntersville"}
+::post-photo{src="/images/photos/huntersville-latta-plantation.jpg" alt="Historic house at Latta Plantation in Huntersville"}
 ::
 
 For anyone who wants to enjoy a bit of exercise and the great outdoors but prefers to stay close to civilization, visit Birkdale Village. This outdoor shopping village offers dozens of shops, eateries, and spas, and often schedules live music and other events on site. For directions and store listings, visit:

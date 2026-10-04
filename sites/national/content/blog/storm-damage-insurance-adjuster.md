@@ -6,8 +6,8 @@ date: 2024-02-22
 updated: 2024-02-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/02/shutterstock_1313966948.jpg"
-  alt: "Carnage of an abandoned building after a natural disaster."
+  src: "/images/photos/assessment-team-at-damaged-brick-house.jpg"
+  alt: "Assessment team discussing findings outside a storm-damaged brick house"
 ---
 
 Storms can wreak havoc on our homes and properties, leaving behind a trail of destruction that often requires meticulous assessment and claims processing. In the face of such adversity, understanding the ins and outs of [storm damage appraisal](/blog/lightning-damage-claim/) becomes crucial. In this blog, we'll delve into the world of storm damage appraisal, discussing what it entails, the services available, and the role of insurance adjusters in the aftermath of a storm.

@@ -6,8 +6,8 @@ date: 2024-06-16
 updated: 2024-07-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/07/shutterstock_644632009-scaled.jpg"
-  alt: "Hand holding highlighter checking list on clipboard accompanied by pencil. Isometric vector illustration"
+  src: "/images/photos/inspector-taking-details-after-wildfire.jpg"
+  alt: "Inspector taking a renter's details after a wildfire destroyed her home"
 ---
 
 Experiencing a fire at your home can be a traumatic event, and navigating the process of filing a fire damage claim with your insurance company can seem daunting. However, understanding the steps involved and taking proactive measures can help streamline the process and ensure you receive fair compensation for your losses. This blog outlines a comprehensive guide on how to go about filing a [fire damage claim](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/) effectively.

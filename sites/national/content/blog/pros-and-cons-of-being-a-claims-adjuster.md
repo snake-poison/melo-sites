@@ -5,8 +5,8 @@ description: "When disaster strikes and your home or business sustains damage, n
 date: 2023-11-20
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2023/11/shutterstock_2216186087.jpg"
-  alt: "Concept of Public Adjuster write on sticky notes isolated on Wooden Table. Selective focus on public adjuster text"
+  src: "/images/photos/assessor-with-clipboard-in-debris.jpg"
+  alt: "Damage assessor with a clipboard standing in debris"
 ---
 
 When disaster strikes and your home or business sustains damage, navigating the complex world of insurance claims can be overwhelming. Many policyholders turn to professionals known as public adjusters to help them through the process. However, like any decision, hiring a public adjuster comes with its own set of pros and cons.

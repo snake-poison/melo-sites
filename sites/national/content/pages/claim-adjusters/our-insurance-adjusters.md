@@ -4,7 +4,7 @@ metaTitle: "Insurance Claim Adjusters | Adjusters Insurance | Melo Property Clai
 description: "Trust our insurance adjusters to assist you through your most difficult insurance claim situations. Years of experience. FREE consultations!"
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/04/Header-33.jpg"
+  src: "/images/photos/inspectors-in-empty-flood-damaged-room.jpg"
 date: 2018-10-09
 updated: 2023-07-26
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/04/public-adjuster-for-insurance-claim.jpg" alt="Property owner looking over storm-wrecked debris"}
+::page-section{image="/images/photos/resident-showing-hurricane-damage.jpg" alt="Resident showing hurricane damage to her home in Pensacola, Florida"}
 ## Our Insurance Adjusters Stand Up For What's Right
 
 Are you one of the many individuals in the United States that has never heard of a public adjuster firm? There are a lot of people that aren't aware that there are influential independent insurance adjusters like what we have at Melo Property Claims.
@@ -28,7 +28,7 @@ With our authority, knowledge, and expertise, we can do what it takes to prove t
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-adjuster.jpg" alt="public adjuster" reverse}
+::page-section{image="/images/photos/man-explaining-at-meeting.jpg" alt="Man explaining a point with his hands during a meeting" reverse}
 ## Insurance Adjusters Increase Your Settlement
 
 You've already spent money on your insurance company by way of paying your premiums. What you expect is for them to be there for you when you need them. However, that's not likely. They will do what they can to confuse you and force you into settling for less than what you deserve. We want you to know that you have rights, and we're here to help make sure that they are upheld. If you're facing any of these situations, reach out to us first:
@@ -43,7 +43,7 @@ Our insurance adjuster will not only do what's required to get you your claim mo
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjusters.jpg" alt="public adjusters doing a property damage appraisal"}
+::page-section{image="/images/photos/homeowner-talking-with-inspector.jpg" alt="Homeowner answering an inspector's questions about damage to her home"}
 ## Hire Insurance Adjusters First
 
 Before you even contact your insurance agent, we strongly suggest you hire a public adjuster from Melo Property Claims. If you let your provider know that you've taken this step to protect yourself, they are less likely to try and cheat you out of your money. They know that we have the knowledge and authority to stand up to them, and they won't try and take advantage of any unsuspecting homeowner.
@@ -61,7 +61,7 @@ Your insurance company isn't going to feel empathetic towards your situation. Th
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-South-Carolina.jpg" alt="public adjuster South Carolina property damage inspection" reverse}
+::page-section{image="/images/photos/adjuster-examining-storm-damaged-home.jpg" alt="Insurance adjuster examining the front of a storm-damaged home" reverse}
 ## Insurance Adjusters Come To Your Location Fast
 
 Theft, vandalism, fire, flooding, and other problems will come at you at the most unexpected times. After your adrenaline wears off and your emotions start to settle, call our insurance adjuster. We are here around the clock to give you the peace of mind you're not alone in these crucial times.
@@ -71,7 +71,7 @@ After you reach out to our team, we will send someone to your location right awa
 :page-cta{kind="review" label="Get started"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/fire-damage-public-adjuster.jpg" alt="Fire-gutted living room with a charred fireplace"}
+::page-section{image="/images/photos/firefighter-in-smoke-filled-room.jpg" alt="Firefighter in breathing gear moving through a smoke-filled room"}
 ## Melo Property Claims Handle The Technicalities
 
 You might think that you understand how the process is going to go when you file an insurance claim, but if you've never done it before, then you might be surprised at just how difficult it can be. There are legal terms, required documents, and other pieces of evidence requested that your insurance company is going to throw at you that will leave you wishing you would have taken a college course on homeowner's insurance. With our insurance adjuster on your side, you don't have to waste any of your time or energy trying to figure it out. With us, you can expect:

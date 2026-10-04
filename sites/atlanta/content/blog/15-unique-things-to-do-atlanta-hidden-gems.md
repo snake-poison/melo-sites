@@ -5,8 +5,8 @@ description: "Check out this quick list of 15 unique things to do in Atlanta, GA
 date: 2021-01-15
 category: "local-news"
 image:
-  src: "/wp-content/uploads/2021/01/atlanta-things-to-do-44-1.jpg"
-  alt: "atlanta city view"
+  src: "/images/photos/atlanta-centennial-olympic-park-skyview.jpg"
+  alt: "Centennial Olympic Park with the SkyView Atlanta wheel and downtown towers"
 ---
 
 Are you looking for unique things to do in Atlanta? Home to CNN, Coca-Cola, and many national businesses, Atlanta boasts a strong economy while also offering much to see and do! Whether you’re planning a trip to the area or are a lifelong resident, check out these 15 unique things to do in Atlanta, and be sure you don’t overlook any hidden gems the city has to offer.
@@ -21,7 +21,7 @@ More than just your average museum, Fernbank Science Center boasts a 70-foot pla
 
 ## 3. Bury the Hatchet
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-45-1.jpg" alt="bury the hatchet things to do atlanta"}
+::post-photo{src="/images/photos/axe-throwing-target.jpg" alt="An axe thrower aiming at a round wooden target"}
 ::
 
 If you’re looking for a way to de-stress while enjoying some old-fashioned physical exertion, check out Bury the Hatchet. Axe throwing experts show you the ropes and then you get to throw your own axes at nearby targets, or enjoy some group exercises and competitions!
@@ -32,7 +32,7 @@ For those looking to do something with their hands, check out the Sipping Plant,
 
 ## 5. Antique Biplane Rides
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-46-1.jpg" alt="flying a biplane in atlanta georgia"}
+::post-photo{src="/images/photos/aerobatic-biplane-taxiing.jpg" alt="An aerobatic biplane taxiing on a runway"}
 ::
 
 For a bit of nostalgia, check out Biplane Rides Over Atlanta. As the name says, you can enjoy a flight over the city in a fully restored biplane, offering a unique experience in the sky!
@@ -43,7 +43,7 @@ For those who love ancient art, be sure to visit the Michael C. Carlos Museum. T
 
 ## 7. Escape Woods
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-47-1.jpg" alt="escape room in atlanta"}
+::post-photo{src="/images/photos/atlanta-fernbank-forest-trail.jpg" alt="Gravel trail through Fernbank Forest in Atlanta"}
 ::
 
 Escape games are a favorite attraction for many, and Escape Woods lets you enjoy this thrill outdoors! At Escape Woods, you can race against the clock to find a buried artifact or work to escape an abandoned bunker. All games are fully supervised, so get your friends together and try your hand at a bit of competitive, outdoor fun.
@@ -58,7 +58,7 @@ The 54 Columns art installation consists of tall columns set in the historic Old
 
 ## 10. The Atlanta White House
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-48-1.jpg" alt="atlanta white house"}
+::post-photo{src="/images/photos/atlanta-swan-house.jpg" alt="The Swan House mansion at the Atlanta History Center"}
 ::
 
 If you’ve always wanted to visit the nation’s capital but don’t have the time or funds, check out The Atlanta White House! This private home is a 3/4 scale replica of the White House in Washington D.C., and from the street it can give you a glimpse of what the true White House looks like.
@@ -73,7 +73,7 @@ The largest organization in the U.S. dedicated to puppetry, the Center for Puppe
 
 ## 13. The Cator Woolford Gardens
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-49-1.jpg" alt="cator woolford gardens atlanta ga"}
+::post-photo{src="/images/photos/atlanta-grant-park-lawn.jpg" alt="Sunny lawn under tall trees in Grant Park, Atlanta"}
 ::
 
 A true hidden gem, this nearly 40-acre estate offers a tranquil setting for visitors. You’ll find any number of native flowers in the garden as well as plenty of soft grass, perfect for a picnic or just relaxing under the sun.
@@ -84,7 +84,7 @@ The Robert C. Williams Paper Museum traces the medium’s origins all the way ba
 
 ## 15. The Switchyards Ping Pong Club
 
-::post-photo{src="/wp-content/uploads/2021/01/atlanta-things-to-do-50-1.jpg" alt="ping pong playing in georgia"}
+::post-photo{src="/images/photos/atlanta-switchyards-downtown-club.jpg" alt="Switchyards Downtown Club on Ted Turner Drive in Atlanta"}
 ::
 
 Located a few steps down at the corner of Williams Street and Ted Turner Drive, this club showcases its interior setting with wide windows leading off to the street. Home to local tournaments and private play, if you love ping pong you must visit The Switchyards Ping Pong Club.

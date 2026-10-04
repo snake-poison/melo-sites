@@ -6,8 +6,8 @@ date: 2024-06-04
 updated: 2024-07-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/07/shutterstock_744854941-scaled.jpg"
-  alt: "Rejected application. Clipboard with document, red rejected stamp and pen. Top view. Modern flat design graphic elements, concepts. Vector illustration"
+  src: "/images/photos/reviewing-documents.jpg"
+  alt: "Close-up of a person reading through documents"
 ---
 
 Filing a fire insurance claim is often a critical step in recovering from the devastating impact of a fire on your property. However, there are instances where insurance companies may deny these claims, leading to frustration and financial strain for policyholders. This blog explores the reasons insurance companies may deny fire claims, addresses common concerns, and provides insights into navigating potential challenges.

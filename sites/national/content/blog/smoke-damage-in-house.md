@@ -6,8 +6,8 @@ date: 2024-06-22
 updated: 2024-07-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/firefighters-venting-roof.jpg"
+  alt: "Firefighters cutting a vent in a smoking roof"
 ---
 
 Experiencing smoke damage in your home can be distressing and overwhelming. Whether it's due to a kitchen mishap, a localized fire, or a more widespread incident, knowing how to respond promptly and effectively is crucial to minimizing further damage and ensuring a successful restoration process. This blog provides a comprehensive guide on what to do when your house gets [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), covering immediate actions, mitigation steps, and the process of restoration.

@@ -1,12 +1,12 @@
 ---
-title: "Relax. We are on your side."
+title: "Before you accept the insurance offer, get a free second look."
 metaTitle: "Public Adjuster Charlotte NC | Public Adjuster North Carolina | Melo Property Claims"
 description: "Melo Property Claims is the public adjuster you want on your side for all insurance claims. Maximum valuations. Speedy process. FREE consultation."
-kicker: "zero up-front cost | no-obligation claim review | contingency pricing"
+kicker: "Relax, we are on your side"
 lead: "Public Adjusters hold your insurance company accountable while getting you the valuation and compensation you deserve. We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-6.jpg"
-  alt: ""
+  src: "/images/photos/inspector-and-homeowner-outside-house.jpg"
+  alt: "Inspector and homeowner looking over the outside of a house"
 date: 2019-01-25
 updated: 2023-07-26
 testimonial: true
@@ -100,7 +100,7 @@ Are you a local contractor looking to expand your business with a continuous wor
 There's no reason to hire a separate public adjuster firm every time you file an insurance claim. We know the inner workings of all insurance claim types, and we can provide you with the support you need in several other areas as well!
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjusters.jpg" alt="public adjusters doing a property damage appraisal"}
+::page-section{image="/images/photos/assessment-team-at-damaged-brick-house.jpg" alt="Assessment team discussing findings outside a storm-damaged brick house"}
 ### Accurate Property Damage Assessment & Appraisals
 
 After your property has suffered property damage, your insurance agent will come and take records of everything that's been ruined. They will gather their documentation and do whatever they can to lower your estimate.
@@ -112,7 +112,7 @@ If you are interested in learning more about [our services for property damage i
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/storm-damage-insurance-adjuster.jpg" alt="claims settlement after storm damage" reverse}
+::page-section{image="/images/photos/hands-in-discussion-at-meeting.jpg" alt="Hands of two people in discussion across a meeting table" reverse}
 ### Claims Settlement and Mediation
 
 One way to turn a potentially catastrophic situation into something a little less serious is by getting ready for it ahead of time. You aren't going to be able to schedule property damage at your location, but we can help make sure that you're ready in the event it does. With our pre-loss and disaster insurance adjusters working with you, you'll know what to do in an emergency, so you're not stuck searching for what you need. We handle your:
@@ -127,7 +127,7 @@ While we're helping you with your pre-loss and disaster planning services, feel 
 :page-cta{kind="review" label="Start your review"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/filing-insurance-claim-with-public-adjuster.jpg" alt="filing insurance claim with public adjuster"}
+::page-section{image="/images/photos/tornado-destroyed-home.jpg" alt="Remains of a home destroyed by a tornado"}
 ### Peace of Mind Comes With Our Disaster Insurance Adjusters
 
 Has a hurricane, tornado, or another damaging storm already blown through your region? Then you, along with everyone around you is facing a long and complicated process of rebuilding.
@@ -139,7 +139,7 @@ Reach out today and we will have a friendly public adjuster walk you through eve
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-adjuster.jpg" alt="builders risk insurance for newly constructed property" reverse}
+::page-section{image="/images/photos/aerial-new-subdivision-construction.jpg" alt="Aerial view of a new housing subdivision under construction" reverse}
 ### Protect Yourself with Builders Risk Insurance Adjusters
 
 Construction on your home or an addition to your office space is supposed to be a favorable opportunity because you're growing and expanding. That doesn't mean that bad things aren't going to happen, though. Instead of putting your building at risk, and the money you've invested in new materials, let our public adjuster help you get [additional builders risk insurance](/claim-adjusters/builders-risk-insurance-adjusters/) that covers you in the case of:
@@ -156,7 +156,7 @@ More than just helping you get the extra coverage, our independent insurance adj
 :page-cta{kind="review" label="Get a claims review"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/claims-adjuster.jpg" alt="claims adjuster inspecting property damage"}
+::page-section{image="/images/photos/trees-fallen-on-house.jpg" alt="Wind-blown trees lying on a tornado-damaged house"}
 ### What Kind of Property Damage Have You Suffered Through Recently?
 
 Your property can be damaged in an assortment of ways that are out of your control. That doesn't mean that you should have to pay out of pocket for the repairs. Your homeowner's insurance policy is in place to protect you from the unexpected, and our public adjusters can assist you with any [insurance claim type](/insurance-claim-type/) related to:

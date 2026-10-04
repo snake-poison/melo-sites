@@ -1,11 +1,12 @@
 ---
-title: "Get assistance from the #1 public adjusters in Charlotte. We are on your side."
+title: "Your insurer has an adjuster. Charlotte homeowners deserve one too."
 metaTitle: "Public Adjuster Charlotte NC | 24/7 Insurance Claim Help"
 description: "Navigate through the chaos of insurance claims with an experienced, local public adjuster in Charlotte, NC. 24/7 assistance: (704) 286-0707"
-kicker: "Melo Public Adjusters Charlotte"
+kicker: "Licensed public adjusters in Charlotte, NC"
+lead: "We read your policy, document every bit of the damage and negotiate with your insurance company, so the settlement covers what you lost."
 image:
-  src: "/wp-content/uploads/2020/02/Header-5.jpg"
-  alt: ""
+  src: "/images/photos/charlotte-skyline-spring.jpg"
+  alt: "Uptown Charlotte skyline above spring trees"
 date: 2019-01-25
 updated: 2021-01-14
 testimonial: true
@@ -85,7 +86,7 @@ Melo Public Adjusters Charlotte is proud to partner with local contractors in th
 Melo Public Adjusters Charlotte offers a full array of services for both home and business owners. It's overwhelming enough to suffer a property loss without the insurance companies trying to make matters worse. Contact us now so we can help you navigate your claim.
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/fire-damage-public-adjuster-charlotte.jpg" alt="public adjuster charlotte nc" reverse}
+::page-section{image="/images/photos/homeowner-shows-assessors-storm-damage.jpg" alt="Homeowner showing storm damage to assessors outside his house" reverse}
 ### Expert Property Damage Appraisal
 
 Property damage appraisal is one of our specialties. When you've suffered a loss and the insurance company isn't working with you on a suitable settlement, never feel like you have to accept what they're offering. Our [property damage appraisers in Charlotte](/claims-adjuster/property-damage-appraisers-charlotte/) will review the damages you incurred as well as your insurance policy and file a claim on your behalf. We'll be happy to:
@@ -101,7 +102,7 @@ Melo Public Adjusters offers 24/7 property damage appraisal support in the areas
 :page-cta{kind="review" label="Start a consultation"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-charlotte.jpg" alt="public adjuster charlotte nc"}
+::page-section{image="/images/photos/handshake-agreement.jpg" alt="Two people shaking hands"}
 ### Professional Insurance Claim Adjusters & Mediators in Charlotte
 
 Mediation is a bit different than the property appraisal process, and Melo is here to help you determine which one of these services is a better fit for your situation. Unlike appraisal, mediation is not binding and is often inexpensive. Some of the things we can do for you during mediation is:
@@ -115,7 +116,7 @@ Our company has been mediating property claims for many years in the Charlotte, 
 :page-cta{kind="call" label="Call now (704) 286-0707"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-adjuster-flood-damage-charlotte.jpg" alt="public adjuster Charlotte nc" reverse}
+::page-section{image="/images/photos/sandbag-wall-protecting-home-from-flood.jpg" alt="Sandbag wall protecting a home from rising floodwater" reverse}
 ### Pre-Loss & Disaster Planning Public Adjuster in Charlotte, NC
 
 The after-effects of property loss due to disaster can be a hard pill to swallow, especially when your insurance company isn't following through with a suitable claim settlement. [Pre-loss and disaster planning](/claims-adjuster/pre-loss-disaster-planning-insurance-adjuster-charlotte/) will eradicate any document preparation and proof of loss. You can count on our team to:
@@ -130,7 +131,7 @@ It's difficult to plan for a potential disaster - we 100% understand that. Howev
 :page-cta{kind="review" label="Get started today"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/roof-insurance-adjuster-in-Charlotte.jpg" alt="public adjusters charlotte nc"}
+::page-section{image="/images/photos/framer-on-roof-trusses-new-house.jpg" alt="Framer working on the roof trusses of a new house"}
 ### Top-Rated Builders Risk Insurance Public Adjuster in Charlotte, NC
 
 Builders' risk insurance policies can be really tricky to navigate. All of the legal jargon can make your head spin. That's where our team of advanced public adjusters come in. We know all the ins and outs surrounding your insurance policy and how to explain them to you in great detail. Some of what we do includes:
@@ -144,7 +145,7 @@ If you're a home or business owner who has a builders' risk insurance policy and
 :page-cta{kind="call" label="Call now (704) 286-0707"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-charlotte.jpg" alt="public adjuster" reverse}
+::page-section{image="/images/photos/trees-fallen-on-house-after-storm.jpg" alt="Two large trees fallen onto a house after a storm" reverse}
 ### Public Adjuster for a Variety of Insurance Claim Types
 
 There are many types of insurance claims that our public adjusters in Charlotte, NC, help process so you can get the settlement that you're entitled to. We believe that any property loss is devastating enough for the insured, which is why we hold the insurance company's feet to the fire. The [insurance claim types](/insurance-claim-type/) that we most often process include:
