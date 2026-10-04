@@ -19,6 +19,8 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
+    outputs:
+      cloudflare: ${{ steps.cloudflare.outputs.ready }}
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6.1.0
@@ -44,6 +46,20 @@ jobs:
       - name: Site tests
         run: pnpm run test:site
 
+      # Until the Cloudflare secrets are set, main builds and tests but does not deploy.
+      - name: Check for the Cloudflare secrets
+        id: cloudflare
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        env:
+          TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          ACCOUNT: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -n "$TOKEN" ] && [ -n "$ACCOUNT" ]; then
+            echo "ready=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (README.md, Going live)."
+          fi
+
       # What the tests passed is what ships: the deploy job publishes these builds as they are.
       - name: Keep the Charlotte build
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
@@ -65,7 +81,7 @@ jobs:
   # a Direct Upload project of its own; the repo's CLOUDFLARE_API_TOKEN (permission: Account >
   # Cloudflare Pages > Edit) and CLOUDFLARE_ACCOUNT_ID secrets let wrangler publish to them.
   deploy:
-    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.check.outputs.cloudflare == 'true'
     needs: check
     runs-on: ubuntu-latest
     strategy:

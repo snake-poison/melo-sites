@@ -194,7 +194,8 @@ test/
 ## Going live
 
 Pushing to `main` runs `.github/workflows/ci.yml`: lint, typecheck, tests, both builds and their
-checks, then a deploy of each build to its own Cloudflare Pages project. Once, in Cloudflare:
+checks, then a deploy of each build to its own Cloudflare Pages project. Until the two secrets
+below are set, the deploy is skipped with a warning. Once, in Cloudflare:
 
 1. **Workers & Pages > Create > Pages > Upload assets**: create a project named
    `publicadjusterscharlotte` and one named `melopropertyclaimsadjusting` (the names the
