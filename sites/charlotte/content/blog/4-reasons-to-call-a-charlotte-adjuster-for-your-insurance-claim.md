@@ -6,8 +6,8 @@ date: 2020-08-23
 updated: 2021-06-05
 category: "insurance-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/Header-2.jpg"
-  alt: "Collapsed house with its roof and walls caved in, exposing broken timbers and torn wallpaper"
+  src: "/images/photos/nc-home-swept-off-foundation-tornado.jpg"
+  alt: "Foundation and debris of a North Carolina home destroyed by a tornado"
 ---
 
 A [Charlotte adjuster](/claims-adjuster/) or public adjuster is an excellent ally for when you need to file a significant insurance claim, or if you think an insurer is “low balling” a payout offer. Loss adjusters negotiate with insurance companies on behalf of policyholders or claimants, to secure the highest payout possible.
@@ -18,7 +18,7 @@ Not all insurance claims indicate the need for a Charlotte adjuster, however. Fo
 
 A home or business fire or flood often means lots of lost or damaged items, which can be difficult to remember and then list in your claim. In turn, you might not receive compensation for all those losses! A Charlotte adjuster can help you walk through your property or any inventory of your items and ensure they’re all listed and nothing is overlooked.
 
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-storm-damage-charlotte.jpg" alt="disaster insurance adjuster charlotte"}
+::post-photo{src="/images/photos/assessors-verify-fire-damaged-home.jpg" alt="Officials tallying damage at a fire-destroyed home"}
 ::
 
 It’s also helpful to call a Charlotte adjuster for a claim that requires, not a detailed inventory of property losses, but a detailed list of medical issues arising from an accident or injury. You might not know what’s covered and not covered in a policy and might also overlook things like long-term physical therapy and medications.
@@ -39,7 +39,7 @@ Hiring a public adjuster in Charlotte helps alleviate that stress and your anxie
 
 There is no shame in admitting that you simply don’t understand an insurance policy and all its coverage, or reasons why an insurance company is asking for certain information and paperwork after an injury or property loss. Insurance policies, especially commercial liability insurance, homeowner’s insurance, and other such policies are often very detailed, complicated, and technical, and difficult for many persons to understand!
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-adjuster-flood-damage-charlotte.jpg" alt="public adjuster Charlotte nc"}
+::post-photo{src="/images/photos/inspector-interviews-homeowner-damaged-room.jpg" alt="Inspector taking notes with a homeowner in a flood-damaged room"}
 ::
 
 If you’re struggling to comprehend the details of any insurance policy or communicate effectively with an agent or other insurance rep, call a Charlotte adjuster. He or she can review the policy and any correspondence received from the insurer and explain things in simple terms. This can help you better understand the negotiation process and ensure you’re doing everything possible to receive a maximum payout.

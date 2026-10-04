@@ -3,8 +3,8 @@ title: "Contact Melo Public Adjusters Charlotte Today"
 metaTitle: "Contact Us Today | Melo Public Adjusters Charlotte"
 description: "Our public adjusters work hard to get you the settlement money that you deserve. If you've suffered a property loss, call us (704) 286-0707."
 image:
-  src: "/wp-content/uploads/2020/02/Header-10.jpg"
-  alt: ""
+  src: "/images/photos/uptown-charlotte-aerial.jpg"
+  alt: "Aerial view of uptown Charlotte"
 date: 2018-10-09
 updated: 2020-03-02
 claimForm: true

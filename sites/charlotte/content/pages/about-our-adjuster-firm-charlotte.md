@@ -4,8 +4,8 @@ metaTitle: "#1 Adjuster Firm Charlotte | Melo Public Adjusters Charlotte"
 description: "Are you looking for an adjuster firm in Charlotte? Melo Public Adjusters is an experienced agency with 24-hour support (704) 286-0707."
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 image:
-  src: "/wp-content/uploads/2020/02/Header-8.jpg"
-  alt: ""
+  src: "/images/photos/charlotte-skyline-light-rail.jpg"
+  alt: "Charlotte skyline seen beyond the light rail tracks"
 date: 2019-02-15
 updated: 2021-01-14
 testimonial: true
@@ -13,7 +13,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-charlotte.jpg" alt="adjuster firm charlotte"}
+::page-section{image="/images/photos/charlotte-elizabeth-neighborhood-house.jpg" alt="House on a corner lot in the Elizabeth neighborhood of Charlotte"}
 ## Melo Public Adjusters - Your #1 Adjuster Firm in Charlotte, NC
 
 We're the insurance claim adjusters who fights for your rights.
@@ -31,7 +31,7 @@ Insurance companies often do not play fairly, but our adjuster firm in Charlotte
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/02/charlotte-public-adjusters.jpg" alt="adjuster firm charlotte" reverse}
+::page-section{image="/images/photos/roofing-crew-replacing-shingles.jpg" alt="Roofing crew replacing shingles on a damaged house" reverse}
 ## Contractors Work Alongside our Adjuster Firm in Charlotte
 
 We're here to give contractors the protection they deserve.
@@ -48,7 +48,7 @@ If you're a contractor and would like to learn more about what our public adjust
 :page-cta{kind="call" label="Call now (704) 286-0707"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-charlotte.jpg" alt="property damage appraisers"}
+::page-section{image="/images/photos/adjusters-reviewing-damage-reports.jpg" alt="Damage assessors comparing notes in the field"}
 ## Melo Public Adjuster Services
 
 We get you life-changing insurance settlements.

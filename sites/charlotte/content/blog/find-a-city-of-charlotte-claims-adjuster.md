@@ -6,15 +6,15 @@ date: 2020-10-01
 updated: 2020-11-24
 category: "insurance-adjusters"
 image:
-  src: "/wp-content/uploads/2020/10/money-2724248_1280.jpg"
-  alt: "house claim with piled money"
+  src: "/images/photos/charlotte-skyline-light-rail.jpg"
+  alt: "Charlotte skyline seen beyond the light rail tracks"
 ---
 
 Hiring a city of Charlotte claims adjuster is an excellent choice for ensuring you receive as much money as possible from your insurance company after a loss. A public adjuster works for the public, or policyholders, rather than the insurance company, investigating losses and negotiating with the insurer on your behalf.
 
 As with hiring any professional, it’s vital that you research your city of Charlotte claims adjuster options carefully, including their background and expertise. Hiring the wrong adjuster can mean missing out on some funds from your insurance company while hiring a pro you can trust and who works diligently for you ensures you receive the maximum payout possible! Check out some simple but vital tips for finding the best city of Charlotte claims adjuster for your claim.
 
-::post-photo{src="/wp-content/uploads/2020/10/coins-1523383_1280.jpg" alt="expensive insurance claim"}
+::post-photo{src="/images/photos/house-destroyed-by-tornado-debris.jpg" alt="House torn apart by a tornado, with debris across the yard"}
 ::
 
 ## When to Hire a City of Charlotte Claims Adjuster
@@ -31,7 +31,7 @@ Before calling a potential city of Charlotte claims adjuster, call the city of C
 
 It’s also good to check the Better Business Bureau and online sites including Google Reviews, to note if there are any negative reviews or complaints regarding your prospective city of Charlotte claims adjuster. Sites like LinkedIn also allow people to leave recommendations for professionals, so check your prospective adjuster’s track record! Note, however, that the State of North Carolina requires public adjusters to go through a background check before obtaining their license, so you might not need to worry about trying to research their background as long as their license is current.
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-claim-adjusters-charlotte.jpg" alt="property damage appraisers charlotte"}
+::post-photo{src="/images/photos/homeowner-shows-assessors-storm-damage.jpg" alt="Homeowner showing storm damage to assessors outside his house"}
 ::
 
 ## Choose a Charlotte NC Public Claims Adjuster With Relevant Experience
@@ -43,7 +43,7 @@ When checking the references of a city of Charlotte claims adjuster, it’s vita
 
 Experienced, skilled city of Charlotte claims adjusters also typically have enough clients that they don’t need to “chase down” new business. As with contractors and repairpersons, a qualified adjuster shouldn’t be going after clients in times of disaster, so ensure you ask their past clients how they found that adjuster.
 
-::post-photo{src="/wp-content/uploads/2020/02/independent-insurance-adjuster-charlotte.jpg" alt="property damage appraisers charlotte"}
+::post-photo{src="/images/photos/charlotte-myers-park-cottage.jpg" alt="Cottage and garden on Ridgewood Avenue in Charlotte"}
 ::
 
 ## Choose a Charlotte Public Adjuster You Feel Comfortable With!

@@ -4,7 +4,7 @@ metaTitle: "Adjuster Roof Damage Charlotte | 24/7 Expert Adjusters"
 description: "Need to hire an adjuster for roof damage in Charlotte? Get in touch today & get 24/7, fast claim representation & settlement. (704) 286-0707"
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 image:
-  src: "/wp-content/uploads/2020/02/Header-15.jpg"
+  src: "/images/photos/hail-producing-supercell-thunderstorm.jpg"
 date: 2020-02-17
 updated: 2021-01-14
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/02/roof-insurance-adjuster-in-Charlotte.jpg" alt="adjuster roof damage charlotte"}
+::page-section{image="/images/photos/rotted-roof-edge-shingles.jpg" alt="Rotted roof edge with worn, curling shingles"}
 ## Certified Public Adjuster for Roof Damage in Charlotte, NC
 
 There are many series of unfortunate events that can lead to roof damage, and when one of these events happens to a policyholder, it is wise to reach out to a public adjuster. Hiring an adjuster for roof damage in Charlotte can save the insured a lot of headaches and secure a large settlement check.
@@ -26,7 +26,7 @@ Often, a damaged roof can lead to interior damages to the building, especially i
 :page-cta{kind="review" label="Get a claims review"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/hail-damage-public-adjuster-charlotte.jpg" alt="adjuster roof damage charlotte" reverse}
+::page-section{image="/images/photos/hailstones-in-hand.jpg" alt="Handful of large hailstones" reverse}
 ## Your Roof is Damaged. Now What? Call a Public Adjuster!
 
 There are a number of perils that can cause damage to a roof, such as hail, windstorms, hurricanes, sinkholes, and fires. In a perfect world, the insured would take advantage of pre-loss and disaster planning with a qualified public adjuster, but we don't live in a perfect world. Hire an adjuster for roof damage in Charlotte so they can help consider:
@@ -42,7 +42,7 @@ These are all items that the insurance company will want to know about, and a Me
 :page-cta{kind="call" label="Call (704) 286-0707"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/damaged-roof-public-adjuster-charlotte.jpg" alt="adjuster roof damage charlotte"}
+::page-section{image="/images/photos/workers-repairing-storm-damaged-roof.jpg" alt="Workers clearing a storm-damaged roof"}
 ## Benefits of Hiring an Adjuster for Roof Damage in Charlotte
 
 Uprooted roof membrane, compromised shingles, gouge marks, the buffeting of the roof membrane, scouring of shingles, missing roof sheathing, and broken roof trusses are all visible signs of roof damage. However, your insurance policy may not be so clear, and that's where a licensed public adjuster comes into the picture. Hiring an adjuster for roof damage in Charlotte can lead to:
@@ -56,7 +56,7 @@ Melo Public Adjusters Charlotte understands that ensuring a roof property loss t
 :page-cta{kind="review" label="Get a free claims review"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/public-adjuster-wind-damage-charlotte.jpg" alt="insurance adjuster" reverse}
+::page-section{image="/images/photos/inspector-on-hail-damaged-roof.jpg" alt="Inspector examining a hail-damaged roof" reverse}
 ## Roof Damage Insurance Claims Need Prompt Attention
 
 Chances are if a roof is damaged, parts of the rest of the building are too. A thorough inspection of the property must be conducted by a licensed public adjuster so that evidence can be collected to prove how the damage occurred. If your roof is compromised due to hail damage, fire, or any other such disaster, the clock is ticking to file a claim. Working things out with the insurance company can be daunting for the policyholder. Allow the experts at Melo Public Adjusters Charlotte to take the reins. Get in touch with our staff today to discuss your roof damages and insurance policy.
@@ -64,7 +64,7 @@ Chances are if a roof is damaged, parts of the rest of the building are too. A t
 :page-cta{kind="review" label="Get started"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/02/insurance-claims-adjuster-charlotte.jpg" alt="public adjuster"}
+::page-section{image="/images/photos/roofers-installing-new-shingles.jpg" alt="Roofers laying new shingles on a house"}
 ## Hire Melo as Your Adjuster for Roof Damage in Charlotte, NC
 
 The team at [Melo Public Adjuster Charlotte](/) has been providing insurance settlement relief to the local areas of Charlotte, Huntersville, Concord, Gastonia, Monroe, and Matthews for a very long time. When a policyholder needs clarification, support, and advocation, our team can provide that and much more:
