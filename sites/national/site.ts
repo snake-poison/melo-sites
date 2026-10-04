@@ -220,7 +220,7 @@ export const secondOpinion: Record<'home' | 'page', { title: string, text: strin
  * is left out and the block offers the phone and email instead. README.md has the setup.
  */
 export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[] } = {
-  action: '',
+  action: '/api/claim-review',
   // Fields the service needs with every submission, such as its access key.
   hidden: {},
   // The checkboxes of the old form's first step.

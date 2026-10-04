@@ -52,6 +52,7 @@ export function meloSite(configUrl: string, site: SiteModule): NuxtConfig {
     },
 
     nitro: {
+      publicAssets: [{ dir: fileURLToPath(new URL('./public', import.meta.url)) }],
       // The crawler starts at these; the sitemap, robots and llms modules add their own files.
       prerender: { routes: contentRoutes(dir, site.categoryIds) },
     },
