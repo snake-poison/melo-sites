@@ -4,6 +4,8 @@ import { logoSize, siteName } from '#site'
 /**
  * The Melo logo, the old site's own artwork. Its wordmark is navy, which a dark page would swallow,
  * so dark mode swaps in a copy with the wordmark light (public/images/brand/logo-dark.png).
+ * Both are lazy: the browser never fetches a lazy image it is not showing, so each reader loads
+ * one logo, not both.
  */
 const props = withDefaults(defineProps<{
   /** The rendered height, in pixels; the width follows the logo's shape. */
@@ -24,6 +26,7 @@ const width = Math.round(props.height * logoSize.width / logoSize.height)
       :height="props.height"
       densities="x1 x2"
       format="webp"
+      loading="lazy"
       class="dark:hidden"
     />
     <NuxtImg
@@ -33,6 +36,7 @@ const width = Math.round(props.height * logoSize.width / logoSize.height)
       :height="props.height"
       densities="x1 x2"
       format="webp"
+      loading="lazy"
       class="hidden dark:block"
     />
   </span>

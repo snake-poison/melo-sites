@@ -194,6 +194,47 @@ export async function handleSubmission(request, env) {
   }
 }
 
+/*
+ * Turnstile is about 850 KB once it runs (its script, frame and challenge), so a page loads it
+ * the first time a visitor touches the form, by when it has the token long before they finish
+ * typing. It shows only if it needs the visitor to click. A form sent before the token is ready
+ * waits for it (aria-busy) and sends itself. It is source text, not a function, because the
+ * Pages bundler may wrap named functions in helpers the browser does not have.
+ */
+const turnstileLoader = `(function (slot) {
+  var form = slot.closest('form'), box = slot.querySelector('.cf-turnstile'), started = false, waiting = false;
+  if (!form || !box) return;
+  function render() {
+    window.turnstile.render(box, {
+      sitekey: box.getAttribute('data-sitekey'), action: 'claim-review', size: 'flexible',
+      theme: 'light', appearance: 'interaction-only',
+      callback: function () {
+        if (!waiting) return;
+        waiting = false; form.removeAttribute('aria-busy'); form.requestSubmit();
+      }
+    });
+  }
+  function start() {
+    if (started) return;
+    started = true;
+    if (window.turnstile) return render();
+    (window.meloTurnstileQueue = window.meloTurnstileQueue || []).push(render);
+    window.meloTurnstileReady = function () { window.meloTurnstileQueue.splice(0).forEach(function (run) { run(); }); };
+    if (document.getElementById('melo-turnstile')) return;
+    var script = document.createElement('script');
+    script.id = 'melo-turnstile'; script.async = true;
+    script.src = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit&onload=meloTurnstileReady';
+    document.head.appendChild(script);
+  }
+  form.addEventListener('focusin', start);
+  form.addEventListener('pointerdown', start);
+  form.addEventListener('submit', function (event) {
+    var token = form.querySelector('[name="cf-turnstile-response"]');
+    if (token && token.value) return;
+    event.preventDefault(); waiting = true; form.setAttribute('aria-busy', 'true'); start();
+  });
+})(document.currentScript.parentNode)`
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url)
@@ -203,10 +244,11 @@ export default {
     const site = siteFor(url.hostname)?.[1]
     if (!response.headers.get('Content-Type')?.includes('text/html') || !env.TURNSTILE_SITE_KEY || !site)
       return response
-    // Only form-bearing pages gain the small Turnstile script; static pages keep no JS runtime.
+    // Only form-bearing pages gain the Turnstile slot, and its script stays small until a
+    // visitor touches the form: see turnstileLoader.
     return new HTMLRewriter().on('[data-claim-captcha]', {
       element(element) {
-        element.setInnerContent(`<div class="cf-turnstile" data-sitekey="${escapeHtml(env.TURNSTILE_SITE_KEY)}" data-action="claim-review" data-size="flexible" data-theme="light"></div><script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script><noscript>Please enable JavaScript for the spam check, or call ${escapeHtml(site.phone)}.</noscript>`, { html: true })
+        element.setInnerContent(`<div class="cf-turnstile" data-sitekey="${escapeHtml(env.TURNSTILE_SITE_KEY)}"></div><script>${turnstileLoader}</script><noscript>Please enable JavaScript for the spam check, or call ${escapeHtml(site.phone)}.</noscript>`, { html: true })
       },
     }).transform(response)
   },
