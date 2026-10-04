@@ -24,6 +24,7 @@ const props = withDefaults(defineProps<{
   form: false,
 })
 
+// Under a navy veil, so a low quality does not show and halves the bytes of these detailed photos.
 // Under the heading only on a phone, so near square; under the whole hero from 1024px, wide.
 // Three crops at most: the page preloads one per screen, and test/site/budget.spec.ts counts them.
 const heroCrops = [
@@ -46,7 +47,7 @@ const heroCrops = [
             v-if="props.image"
             :src="props.image"
             :crops="heroCrops"
-            :quality="55"
+            :quality="40"
             priority
             class="absolute inset-0"
             img-class="size-full object-cover"
