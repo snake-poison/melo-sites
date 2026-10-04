@@ -54,7 +54,7 @@ import { business, claimForm } from '#site'
           <label>Street address, apartment or unit<input type="text" name="Street address" autocomplete="address-line1" maxlength="200"></label>
           <div class="claim-intake__location">
             <label>City<input type="text" name="City" autocomplete="address-level2" maxlength="200"></label>
-            <label>State<input type="text" name="State" autocomplete="address-level1" placeholder="e.g. NC" pattern="[A-Za-z]{2}" maxlength="2"></label>
+            <label>State<input type="text" name="State" autocomplete="address-level1" :placeholder="claimForm.statePlaceholder" pattern="[A-Za-z]{2}" maxlength="2"></label>
             <label>ZIP<input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" pattern="[0-9]{5}(-[0-9]{4})?" maxlength="10"></label>
           </div>
         </fieldset>

@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { addressLine, business, claimTypes, footerNav, footerSocial, promise, serviceAreas } from '#site'
+import { addressLine, business, claimTypes, footerNav, footerSocial, licenses, promise, serviceAreas } from '#site'
 
 // Navy in both modes. Name, address and phone are written the same way on every page: local
 // search reads them as one business.
@@ -37,6 +37,12 @@ const year = new Date().getFullYear()
             {{ business.hours }}
           </span>
         </address>
+        <ul class="mt-4 space-y-1 text-sm text-on-dark/70">
+          <li v-for="license in licenses" :key="license" class="flex gap-2">
+            <span class="mt-0.5 icon-[carbon--certificate-check] shrink-0 text-brand" aria-hidden="true" />
+            {{ license }}
+          </li>
+        </ul>
         <ul class="mt-5 flex gap-2" :aria-label="`${business.name} elsewhere`">
           <li v-for="profile in footerSocial" :key="profile">
             <a :href="profile" rel="noopener me" class="flex size-10 items-center justify-center rounded-full bg-on-dark/8 text-on-dark hover:bg-brand hover:text-charcoal" :aria-label="profile.split('/')[2]">

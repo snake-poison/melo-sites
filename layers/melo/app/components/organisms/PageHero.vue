@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { business, heroPoints } from '#site'
+import { business, googleRating, heroPoints } from '#site'
 
 /**
  * The top of a page: its one h1 over the page's header photo under a navy veil. A page with the
@@ -88,9 +88,9 @@ const heroCrops = [
                   <span class="block font-heading text-2xl font-bold group-hover:underline sm:text-[1.75rem]">{{ business.phone }}</span>
                 </span>
               </a>
-              <a :href="business.mapUrl" rel="noopener" class="text-sm text-on-dark/85 hover:text-on-dark">
-                <span class="block tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span>
-                <span class="underline underline-offset-2">Read our reviews on Google</span>
+              <a v-if="googleRating" :href="business.mapUrl" rel="noopener" class="text-sm text-on-dark/85 hover:text-on-dark">
+                <span class="block"><span class="font-bold text-on-dark">{{ googleRating.value.toFixed(1) }}</span> <span class="tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span></span>
+                <span class="underline underline-offset-2">Read our Google reviews</span>
               </a>
             </div>
             <div v-else class="mt-9 flex flex-wrap gap-3">
