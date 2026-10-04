@@ -30,7 +30,8 @@ const label = 'block text-sm font-semibold text-ink'
     <template v-if="props.testimonial">
       <NuxtPicture
         src="/wp-content/uploads/2020/02/Header-6.jpg"
-        sizes="xs:100vw lg:1600px"
+        sizes="xs:100vw md:100vw lg:1600px"
+        :quality="50"
         width="1600"
         height="900"
         class="absolute inset-0 -z-10"

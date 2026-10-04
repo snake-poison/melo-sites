@@ -11,7 +11,7 @@
  * As there, it is a white box, copy on one half and the photo filling the other to the box's
  * edge: to the right, or the left with `reverse`; above the copy on phones. `plain` drops the
  * box and shows the photo whole, for a chart, with `caption` under it. `video` is a YouTube
- * video's id, shown in the photo's place; its poster is public/images/video/<id>.jpg. `checks`
+ * video's id, shown in the photo's place; its poster is public/images/video/<id>.webp. `checks`
  * marks its lists with ticks instead of bullets.
  */
 const props = withDefaults(defineProps<{
@@ -56,7 +56,7 @@ const videoDoc = props.video == null
     + 'span{position:absolute;inset:0;margin:auto;width:68px;height:48px;border-radius:12px;background:#f00}'
     + 'span::after{content:"";position:absolute;left:27px;top:14px;border:10px solid transparent;border-left:16px solid #fff}</style>'
     + `<a href="https://www.youtube-nocookie.com/embed/${props.video}?autoplay=1" aria-label="Play: ${props.videoTitle}">`
-    + `<img src="/images/video/${props.video}.jpg" alt=""><span></span></a>`
+    + `<img src="/images/video/${props.video}.webp" alt=""><span></span></a>`
 
 // Boxed, the photo comes first on phones; side by side, `reverse` puts it on the left.
 const bodyOrder = [

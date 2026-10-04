@@ -88,6 +88,9 @@ export default defineNuxtConfig({
   image: {
     quality: 70,
     format: ['avif', 'webp'],
+    // Tailwind's breakpoints, which @nuxt/image 2 uses, plus `xs` for phones: without it a
+    // component's `xs:100vw` was dropped and phones were sent the desktop width.
+    screens: { 'xs': 400, 'sm': 640, 'md': 768, 'lg': 1024, 'xl': 1280, '2xl': 1536 },
   },
 
   content: {

@@ -50,7 +50,9 @@ describe.each(pages())('$path', ({ path, file }) => {
   it('loads no script file and no stylesheet', () => {
     expect(doc.querySelectorAll('script[src]')).toHaveLength(0)
     expect(doc.querySelectorAll('link[rel="stylesheet"]')).toHaveLength(0)
-    expect(doc.querySelectorAll('link[rel="modulepreload"], link[rel="preload"], link[rel="prefetch"]')).toHaveLength(0)
+    // The page's opening photo may be preloaded (CropPicture), one crop per screen; nothing else.
+    expect(doc.querySelectorAll('link[rel="modulepreload"], link[rel="preload"]:not([as="image"]), link[rel="prefetch"]')).toHaveLength(0)
+    expect(doc.querySelectorAll('link[rel="preload"][as="image"]').length).toBeLessThanOrEqual(3)
   })
 
   it(`runs under ${INLINE_SCRIPT_BUDGET / 1024} KB of inline script`, () => {

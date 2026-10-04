@@ -21,24 +21,26 @@ const props = withDefaults(defineProps<{
   actions: true,
   reviewLabel: 'Get A Claim Review',
 })
+
+// The band is taller than wide on a phone, near square on a tablet and wide on a desktop. Under
+// the dark veil a lower quality does not show.
+const heroCrops = [
+  { media: '(max-width: 639px)', widths: [480, 800, 1080], ratio: 1.3, sizes: '100vw' },
+  { media: '(min-width: 640px) and (max-width: 1279px)', widths: [1024, 1536, 2048], ratio: 0.6, sizes: '100vw' },
+  { media: '(min-width: 1280px)', widths: [1600, 2400, 3200], ratio: 0.4, sizes: '100vw' },
+]
 </script>
 
 <template>
   <section class="relative isolate overflow-hidden bg-charcoal-2 text-on-dark">
-    <NuxtPicture
+    <CropPicture
       v-if="props.image"
       :src="props.image"
-      sizes="xs:100vw lg:1600px"
-      width="1600"
-      height="600"
+      :crops="heroCrops"
+      :quality="55"
+      priority
       class="absolute inset-0 -z-10"
-      :img-attrs="{
-        alt: '',
-        class: 'size-full object-cover',
-        loading: 'eager',
-        fetchpriority: 'high',
-        decoding: 'async',
-      }"
+      img-class="size-full object-cover"
     />
     <div class="absolute inset-0 -z-10 bg-charcoal-2/60" aria-hidden="true" />
 
