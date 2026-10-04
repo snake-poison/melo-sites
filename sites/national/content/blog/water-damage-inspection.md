@@ -6,8 +6,8 @@ date: 2023-10-23
 updated: 2023-10-27
 category: "water-damage-claim"
 image:
-  src: "/wp-content/uploads/2023/10/shutterstock_739129789.jpg"
-  alt: "flood damage inspections"
+  src: "/images/photos/assessors-inspecting-opened-wall.jpg"
+  alt: "Building assessors inspecting a wall opened up after flooding"
 ---
 
 Flood damage can wreak havoc on homes and properties, causing immense destruction and financial stress. To mitigate these risks, flood damage inspections play a crucial role. These inspections are instrumental in assessing the extent of damage, guiding the repair process, and helping homeowners make informed decisions. In this blog, we will explore the significance of water flood damage inspections, their role in repairing flood damage, and the services offered by [flood damage professionals](/blog/water-damage-insurance-adjuster-tips/).
@@ -26,7 +26,7 @@ Flood damage inspections are comprehensive evaluations conducted by professional
 
 4. **Mold and Mildew Prevention:** One of the significant concerns after a flood is the growth of mold and mildew. Flood damage experts take measures to prevent and mitigate mold infestations, safeguarding the health of the property's inhabitants.
 
-::post-photo{src="/wp-content/uploads/2023/10/shutterstock_1395158567.jpg" alt="flood damage inspection"}
+::post-photo{src="/images/photos/drying-fans-on-wet-carpet.jpg" alt="Blowers and dehumidifiers drying wet carpet in a flooded building"}
 ::
 
 ## The Role of Water Flood Damage Inspections in Repairing Flood Damage

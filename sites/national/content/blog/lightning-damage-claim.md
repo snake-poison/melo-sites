@@ -6,8 +6,8 @@ date: 2024-01-09
 updated: 2024-01-29
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/01/shutterstock_430255819.jpg"
-  alt: "Lightning sign"
+  src: "/images/photos/lightning-bolt-at-night.jpg"
+  alt: "Single lightning bolt striking the ground at night"
 ---
 
 When a thunderstorm rages and lightning strikes, the aftermath can leave property owners grappling with the task of proving that damage incurred was indeed from a lightning strike. Successfully making a lightning damage insurance claim involves meticulous documentation and a clear understanding of the evidence required to support your case. In this blog post, we'll delve into the essential steps and considerations for proving to insurance that damage is from a lightning strike, emphasizing key keywords like lightning strike insurance claim and lightning damage claims.
@@ -40,7 +40,7 @@ Given that lightning often causes damage to electrical systems, engaging an elec
 
 When submitting your lightning damage insurance claim, provide a comprehensive report outlining the incident, supported by all the evidence gathered. Include photographs, professional assessments, weather reports, and witness statements to present a well-documented case. Clearly specify the items or areas affected by the lightning strike and the corresponding damage.
 
-::post-photo{src="/wp-content/uploads/2024/01/shutterstock_684257821.jpg" alt="Lightning storm damaged house"}
+::post-photo{src="/images/photos/lightning-strike-over-plain.jpg" alt="Lightning striking an open plain under a storm sky"}
 ::
 
 ## Clear Communication with the Insurance Company

@@ -6,8 +6,8 @@ date: 2023-09-03
 updated: 2023-09-05
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/insurance-and-claims-adjuster.jpg"
-  alt: "insurance and claims adjuster"
+  src: "/images/photos/owner-talking-with-damage-assessor.jpg"
+  alt: "Restaurant owner pointing out damage to an assessor outside his building"
 ---
 
 Facing an insurance claim can be a daunting and overwhelming experience. Whether it's related to property damage from a natural disaster, fire, water damage, or any other unforeseen event, the process of filing a claim and negotiating with your insurance company can be complex and emotionally draining. This is where a [Public Adjuster](/claim-adjusters/) can be an invaluable ally. In this blog, we'll explore why you might need a Public Adjuster and how they can make a significant difference in your insurance claim process.

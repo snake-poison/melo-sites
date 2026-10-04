@@ -4,7 +4,7 @@ metaTitle: "Insurance Claims Adjusters | Property Claim Adjuster | Melo Property
 description: "Our claims adjuster can assist with everything from property damage appraisals to pre-loss & disaster planning. Get a FREE claim review!"
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/04/Header-30.jpg"
+  src: "/images/photos/inspector-at-house-with-wall-torn-off.jpg"
 date: 2019-03-28
 updated: 2023-07-26
 testimonial: true
@@ -12,7 +12,7 @@ claimForm: true
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="Public adjuster in a hard hat inspecting a fire-damaged window"}
+::page-section{image="/images/photos/inspector-checking-electrical-panel.jpg" alt="Inspector checking the electrical panel of a home"}
 ## Our Insurance Claims Adjusters - Keeping You Informed
 
 Discover what our insurance adjusters are capable of!
@@ -26,7 +26,7 @@ You want and deserve an advocate standing up for you and defending your rights. 
 :page-cta{kind="call" label="Call today (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/insurance-adjuster.jpg" alt="insurance adjusters for all property damage claims"}
+::page-section{image="/images/photos/assessment-team-at-roof-damaged-house.jpg" alt="Assessment team outside a house as roofers work above them"}
 ## What Our Insurance Adjusters Do During Your Critical Time
 
 There are a plethora of reasons why you may find a need to file an insurance claim. It's not as easy as your provider makes it seem when you ask them about it prior to the point of requesting money for repairs. What's even more frustrating is the fact they are going to fight you every time to try and devalue your request. Our professional public adjuster firm is here to ensure you get every penny you need.
@@ -42,7 +42,7 @@ You don't have to be in the middle of a messy insurance claim to get a hold of u
 :page-cta{kind="review" label="Schedule an estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/restoration-public-adjuster.jpg" alt="Boarded-up house awaiting restoration" reverse}
+::page-section{image="/images/photos/house-raised-on-cribbing.jpg" alt="House raised on cribbing during repairs after a flood" reverse}
 ## Proficient in Property Damage Appraisal & Mediation
 
 Maybe you're one of the numerous homeowners that aren't aware of how difficult your insurance agent was going to be when you started your property damage claim. Now you're stuck in a deadlock or entirely offended by the low estimate they've offered you. That doesn't mean you have to accept it. If you think you could benefit from having a public adjuster supporting you, and in most instances, that's the case, we're here to help! When we're working for you, you can expect:
@@ -58,7 +58,7 @@ Stop the back and forth with your unreasonable insurance provider and call Melo 
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/mold-and-water-damage-remediation.jpg" alt="public adjuster doing property damage appraisal"}
+::page-section{image="/images/photos/supercell-storm-over-farmland.jpg" alt="Supercell storm cloud over open farmland"}
 ## Adjusters for Pre-Loss & Disaster Planning
 
 Living in the South, your property is at risk for certain conditions like tornados, hurricanes, and other potentially damaging events. You can't predict when they're going to happen, but you can make sure you're ready. Our disaster insurance adjuster can help by doing an assessment of your building and getting the documentation together for you, so it's stored safely and ready to go if something goes terribly wrong.
@@ -68,7 +68,7 @@ While we're working closely with you to get your [pre-loss and disaster planning
 :page-cta{kind="review" label="Free instant claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjusters.jpg" alt="public adjusters doing a property damage appraisal" reverse}
+::page-section{image="/images/photos/builders-framing-house-walls.jpg" alt="Two builders fitting timber wall framing inside a new house" reverse}
 ## Builders Risk Insurance Additions Are Worth the Cost
 
 While you're planning your remodeling or expansion of your current home or commercial property, you're not thinking about what could go wrong. This is an exciting time. Growing is supposed to be a positive experience, but not everything always goes as planned. [Builders risk insurance adjusters](/claim-adjusters/builders-risk-insurance-adjusters/) from our public adjuster firm are here to help you get the protection you need just in case any of these issues arise:
@@ -84,7 +84,7 @@ With the right amount of coverage put in place before your construction starts, 
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/claims-adjuster-for-insurance.jpg" alt="Flood water surrounding a home after a storm"}
+::page-section{image="/images/photos/flooded-house-and-mailbox.jpg" alt="Flood water up to the windows of a house, with only the mailbox showing"}
 ## Well-Versed in Every Insurance Claim Type
 
 Has a friend or family member told you about the stress and confusion that comes with filling a claim after suffering property damages? It can make you apprehensive about filing your own claim, but you don't have anything to worry about if you let Melo Property Claims work with and for you. We have knowledge in dealing with [all types of insurance claims](/insurance-claim-type/), including:

@@ -6,8 +6,8 @@ date: 2019-02-02
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/insurance-claims-adjuster-charlotte.jpg"
-  alt: "insurance claims adjuster charlotte"
+  src: "/images/photos/homeowner-talking-with-inspector.jpg"
+  alt: "Homeowner answering an inspector's questions about damage to her home"
 ---
 
 Understanding what happens when you have an insurance claim is essential in making sure that you are treated right by the insurance company and that you receive all the compensation that is due under the terms of your insurance policy. It is your job to protect your interests. Employing a public adjuster is one of the ways that you can be sure that your loss is properly compensated by the insurance company.
@@ -21,7 +21,7 @@ What is a public adjuster? **A public adjuster is a trained professional claims 
 
 It is important to have someone trained in the process of claim appraisal, negotiation, and settlement to represent you in this process. Many homeowners may only file an insurance claim once or twice in their life. Understanding the ins and outs of dealing with insurance companies is out of the experience of most homeowners and a [public adjuster](/) in your camp can be the difference in success or failure.
 
-::post-photo{src="/wp-content/uploads/2020/03/Header-7.jpg" alt="Restoration crew pumping water out of a flooded building"}
+::post-photo{src="/images/photos/cleaning-crew-with-drying-fans.jpg" alt="Cleaning crew carrying wet vacuums and drying fans into a flooded building"}
 ::
 
 ## Understanding Your Insurance
@@ -108,7 +108,7 @@ Having a public claims adjuster working for you gives you protections and guaran
 - You get a professional who is informed and understands the insurance industry and the claims process.
 - You get an advocate who can represent you to the insurance company and negotiate on your behalf.
 
-::post-photo{src="/wp-content/uploads/2020/03/Header-6.jpg" alt="Firefighters and a fire engine in front of a burning building at night"}
+::post-photo{src="/images/photos/firefighters-hose-burning-house-night.jpg" alt="Firefighters spraying a hose on a burning house at night"}
 ::
 
 ## Why Should I Get a Public Adjuster?

@@ -6,8 +6,8 @@ date: 2019-04-20
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/mold-and-water-damage-remediation.jpg"
-  alt: "mold and water damage remediation"
+  src: "/images/photos/calculator-and-notebook-on-desk.jpg"
+  alt: "Calculator, notebook and laptop on a wooden desk"
 ---
 
 When the time comes to file a claim with your insurance company, your world may be in chaos. More than likely, you have suffered an accident or a loss to your home or other property. Your insurance company will send a staff adjuster to look at the loss after you file your claim. You may believe that the estimate of the loss is less than what you deserve. That may be the time to hire a public adjuster to assist you.
@@ -36,7 +36,7 @@ In Florida, public adjusters are licensed by the state and can charge no more th
 
 In some states, the fee for a contingency basis contract can go as high as 20%. Often these fees are negotiable or work on a sliding scale basis that is tied to the size of the settlement that the public adjuster negotiates for you. Make sure that you are clear with any terms and fees that may be part of your contract.
 
-::post-photo{src="/wp-content/uploads/2020/03/Header-4.jpg" alt="city with flood damage"}
+::post-photo{src="/images/photos/using-a-calculator-at-desk.jpg" alt="Hand using a calculator on a wooden desk"}
 ::
 
 ## Will I Get More Money if I Hire a Public Adjuster?
@@ -73,7 +73,7 @@ Before you enter into any contract with a public adjuster, you should have a cle
 
 Before you sign the contract, you should be comfortable with the adjuster you have chosen. There should be a good rapport, and you should have the feeling that the adjuster is involved in your claim. You want an advocate who will work for you.
 
-::post-photo{src="/wp-content/uploads/2020/03/Header-13.jpg" alt="property damage from storm"}
+::post-photo{src="/images/photos/couple-reviewing-claim-forms.jpg" alt="Couple going through forms with an inspector at their dining table"}
 ::
 
 ## The downside of hiring a public adjuster

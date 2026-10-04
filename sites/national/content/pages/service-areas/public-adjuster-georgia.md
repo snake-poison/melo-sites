@@ -4,7 +4,7 @@ metaTitle: "Georgia Public Adjuster | Public Adjuster In Georgia | Melo Property
 description: "Turn to Melo Property Claims for a public adjuster in Georgia that you can count on to stand up for you. We do all insurance claim types!"
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/10/Header-45.jpg"
+  src: "/images/photos/savannah-georgia-historic-house.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -26,7 +26,7 @@ The dedicated public adjusters in Georgia working at Melo Property Claims are ju
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="best public adjusters" reverse}
+::page-section{image="/images/photos/tornado-destroyed-house-georgia.jpg" alt="House torn apart by a tornado in Americus, Georgia" reverse}
 ## A Public Adjuster in Georgia Advocates For Your Rights
 
 As a homeowner or business operator that has done your part of taking care of your policy, it's expected that your insurance provider will hold up to their end of the arrangement. However, if you've ever heard of what happens when people file insurance claims in Georgia, or if you've ever had to do it yourself, you know that's not always how things go. Our trusted public adjuster in Georgia is who you want on your side for:
@@ -55,7 +55,7 @@ Builders risk insurance added to your insurance policy protects your renovation 
 
 :page-cta{kind="review" label="Get a free claims estimate"}
 
-::page-section{image="/wp-content/uploads/2020/03/property-damage-repair-public-adjuster-Georgia.jpg" alt="property damage insurance claim adjuster in Georgia"}
+::page-section{image="/images/photos/blue-tarps-on-roofs-georgia.jpg" alt="Blue tarps on storm-damaged roofs in Americus, Georgia"}
 ## What Insurance Claim in Georgia Are You Facing?
 
 We are one of the few public adjuster firms in Georgia that go above and beyond specializing in one area. Our public adjusters know that it's essential to have a professional on your side that's competent, and that makes you comfortable during some of the most sensitive times in your life. Melo Property Claims is here for you when you're filing any [property damage insurance claim](/insurance-claim-type/) for:

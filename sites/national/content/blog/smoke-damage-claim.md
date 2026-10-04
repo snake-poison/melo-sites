@@ -6,8 +6,8 @@ date: 2024-07-26
 updated: 2024-08-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/08/shutterstock_1651866376.jpg"
-  alt: "Smoke damage house claims"
+  src: "/images/photos/firefighter-in-smoky-doorway.jpg"
+  alt: "Firefighter working in thick smoke inside a house"
 ---
 
 Smoke damage can be a devastating aftermath of a fire, impacting not just the structural integrity of your property but also its overall value and safety. If you find yourself dealing with smoke damage, understanding how to file a claim and manage the recovery process is crucial. This blog will provide insights into smoke damage claims, including how to file a claim, what to expect, and how to ensure a smooth insurance process.

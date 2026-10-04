@@ -6,8 +6,8 @@ date: 2023-10-15
 updated: 2023-10-27
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2023/10/shutterstock_547425403.jpg"
-  alt: "Mold at your home"
+  src: "/images/photos/drywall-cut-out-with-air-mover.jpg"
+  alt: "Drywall cut away above the floor with an air mover drying the wall"
 ---
 
 Mold can be a silent and stubborn intruder in your home, affecting both your property and your health. When mold is discovered, the question of how urgently to address it often arises. Do you need to hurry with mold remediation? In this blog, we will explore the importance of prompt [home mold remediation](/insurance-claim-type/public-adjuster-mold-remediation-claim/), the role of a mold remediation contractor, and how long the mold remediation process typically takes, with a focus on basement mold remediation.
@@ -34,7 +34,7 @@ Hiring a professional mold remediation contractor is crucial when dealing with m
 
 4. **Prevention:** Contractors can advise on preventing future mold problems, helping you implement strategies to keep your home mold-free.
 
-::post-photo{src="/wp-content/uploads/2023/10/shutterstock_1689927829.jpg" alt="Mold remediation services"}
+::post-photo{src="/images/photos/cleaning-mud-and-mold-in-protective-gear.jpg" alt="Homeowner in protective clothing cleaning mud and mold from her home"}
 ::
 
 ## How Long Does Mold Remediation Take?

@@ -4,7 +4,7 @@ metaTitle: "Public Adjuster For Roof Claim | Public Roof Adjuster | Melo Propert
 description: "Repair your property quickly with our adjuster for roof damage that's qualified to help with your insurance claim. FREE consultations!"
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-11.jpg"
+  src: "/images/photos/crew-securing-blue-roof-tarp.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/03/roof-insurance-adjuster-in.jpg" alt="independent adjuster for roof damage"}
+::page-section{image="/images/photos/roofers-on-house-roof.jpg" alt="Two roofers working on the ridge of a house roof"}
 ## Repair Your Property with an Adjuster for Roof Damage
 
 You don't think much about the structural integrity of your home. That is until something goes wrong. Hail damage is one of the biggest reasons that you see roof damage. Mother Nature doesn't care about how significant the precipitation is or how powerfully it hits your house. It can leave a path of destruction that's hard to believe until you see it for yourself.
@@ -28,7 +28,7 @@ Our thorough adjuster will come and show you what roof damages you have, take th
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/damaged-roof-public-adjuster.jpg" alt="adjuster for roof damage insurance claim" reverse}
+::page-section{image="/images/photos/crew-installing-roof-tarp.jpg" alt="Roofer nailing down a blue tarp over a damaged roof" reverse}
 ## Independent Adjusters Keep Money in Your Pocket
 
 Your insurance company is trying to keep from paying you, and our adjuster for roof damage is working tirelessly to get you the maximum valuation. You can try and deal with a roof damage claim alone, but you're not likely to succeed, and if you do, you won't get what you could have if you let us take care of it.
@@ -48,7 +48,7 @@ As long as the problems you're seeing are the result of something that occurred 
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-storm-damage.jpg" alt="public adjuster for roof damage doing evaluation"}
+::page-section{image="/images/photos/weathered-shingle-roof-damage.jpg" alt="Weathered roof with worn and missing shingles"}
 ## Roof Damages Only Get Worse Without a Public Adjuster
 
 Do you think by ignoring your roof leak or other damages, it's just going to disappear? While that would be ideal, this isn't a perfect world, and it's never going to happen that way. Instead, the longer you ignore what's taken place, the worse off you and your structure will be.
@@ -60,7 +60,7 @@ We have friendly and knowledgeable customer service representatives standing by 
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="best public adjusters" reverse}
+::page-section{image="/images/photos/new-roof-going-on-house.jpg" alt="New roof going on a house" reverse}
 ## Our Team of Public Adjusters Promise a Fair Valuation
 
 Your insurance provider doesn't want you to know this, but when it comes time to file an insurance claim, you have rights. At Melo Property Claims, we take all the steps necessary to protect them and get you the most for your valuation. Our adjuster for roof damage and other property damages know these cases, and we never miss anything.

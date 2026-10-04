@@ -6,8 +6,8 @@ date: 2020-07-17
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/Header-10.jpg"
-  alt: "Header 10"
+  src: "/images/photos/adjuster-documenting-wrecked-ground-floor.jpg"
+  alt: "Insurance adjuster documenting a wrecked ground floor"
 ---
 
 If you’ve suffered a catastrophic loss, someone might suggest you hire an insurance adjuster rather than simply accepting a settlement offer from your insurance agency. For someone who has never worked with a public adjuster, you might wonder what they do and if they’re worth the cost!
@@ -16,7 +16,7 @@ If you’ve suffered a catastrophic loss, someone might suggest you hire an insu
 
 While an insurance claims adjuster might not be needed for every property damage case, they provide an invaluable service in cases of major disasters and losses. While it’s hoped that no one goes through such an event, it’s also helpful to know more about what an [insurance adjuster](/claim-adjusters/) does so you know when to hire one!
 
-::post-photo{src="/wp-content/uploads/2020/04/public-adjuster-property-claims.jpg" alt="insurance adjuster"}
+::post-photo{src="/images/photos/inspector-with-clipboard-at-damaged-lot.jpg" alt="Inspector with a clipboard at a storm-damaged property"}
 ::
 
 You might also consider some additional tips on what to do if your property suffers storm damage, vandalism, or a fire, or if you’ve had valuable property stolen. These tips will ensure you do everything possible to protect your claim and even reduce stress throughout the cleanup, restoration, and insurance claims process.
@@ -38,7 +38,7 @@ To better understand the role of a public adjuster, keep in mind that he or she 
 
 Unless a claims adjuster also has a law license, note that he or she cannot give legal advice or represent you in court! In some cases, there might be question over what is called an issue of coverage, meaning whether or not an insurance policy covers certain losses or damages in the first place.
 
-::post-photo{src="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="best public adjusters"}
+::post-photo{src="/images/photos/people-filling-out-forms.jpg" alt="People filling out forms at a table"}
 ::
 
 When an issue of coverage arises, a legal claim might need to be filed. The courts then decide if an insurance policy does or does not cover that particular damage or loss. If the courts decide that certain losses or damages are not covered under that policy, there is little or nothing the claims adjuster can do at that point.
@@ -51,7 +51,7 @@ First note that a claims adjuster typically works for a small percentage of the 
 
 When considering if the cost of an insurance adjuster is worth it, note that an insurance company is not in the business of paying out claims; they’re in the business of making money! This doesn’t mean that every agent will try to “lowball” your compensation but they also aren’t likely to offer you the maximum amount available under your policy as well. Many agents know that policyholders are often willing to take the first offer they receive simply because they want that payout as quickly as possible, and also might not know the real value of their claim.
 
-::post-photo{src="/wp-content/uploads/2020/04/water-damage-charlotte.jpg" alt="insurance adjuster"}
+::post-photo{src="/images/photos/signing-forms-at-kitchen-table.jpg" alt="Homeowner signing forms with an official at a kitchen table"}
 ::
 
 An insurance adjuster cost is also worth the amount of stress and hassle they typically save policyholders. Trying to file an insurance claim and negotiate with an agent is difficult enough under any circumstances; if you’ve been through an accident or suffered severe property damage, those circumstances only add to your stress! Relying on an insurance adjuster to help with your initial claim and then having them negotiate with an agent can free you up to concentrate on healing from an accident or restoring your property as needed. This alone makes the cost of an insurance adjuster well worth it.

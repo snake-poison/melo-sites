@@ -6,8 +6,8 @@ date: 2024-08-15
 updated: 2024-09-23
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_2079087628.jpg"
-  alt: "House building in flames. Insurance concept. Financial security, safety, damage, accident prevention."
+  src: "/images/photos/house-fire-with-crews.jpg"
+  alt: "Crews working to put out a fire at a wood-frame house"
 ---
 
 When renting a home or apartment, protecting your personal belongings and ensuring financial security in case of a disaster is crucial. One common concern among renters is whether their insurance policy covers fire damage. This blog will address the question, "Does renters insurance cover fire damage?" and explain what you can expect if a fire impacts your rented space.

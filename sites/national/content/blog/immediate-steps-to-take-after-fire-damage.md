@@ -6,8 +6,8 @@ date: 2024-06-12
 updated: 2024-07-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/06/shutterstock_1225805011-scaled.jpg"
-  alt: "A house that will be a fire."
+  src: "/images/photos/burned-out-house-exterior.jpg"
+  alt: "Burned-out house with scorched walls and empty windows"
 ---
 
 Experiencing fire damage at your business can be a devastating and overwhelming experience, impacting operations, finances, and the well-being of employees. Knowing how to respond promptly and effectively is crucial to minimize further damage, ensure safety, and facilitate the recovery process. This blog provides essential steps and considerations for business owners facing [fire damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), focusing on practical actions to take immediately following the incident.

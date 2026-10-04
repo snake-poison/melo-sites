@@ -5,8 +5,8 @@ description: "Property damage can be a stressful and challenging experience for 
 date: 2023-09-05
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2021/02/what-happens-after-insurance-adjuster-visits-2.jpg"
-  alt: "what happens after insurance adjuster visits 2"
+  src: "/images/photos/inspector-in-damaged-kitchen.jpg"
+  alt: "Inspector in a rain jacket checking a damaged kitchen with the homeowner"
 ---
 
 Property damage can be a stressful and challenging experience for homeowners, business owners, and insurance policyholders. Whether it's due to a natural disaster, accidents, or unforeseen events, property damage can lead to financial losses and emotional turmoil. In such situations, property damage appraisers play a crucial role in assessing the extent of the damage and helping individuals navigate the insurance claims process. In this blog, we will explore when you may need a [property damage appraiser](/claim-adjusters/property-damage-appraisers-mediation/) and how they can be invaluable during such times.

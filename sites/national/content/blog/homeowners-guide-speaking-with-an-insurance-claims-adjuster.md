@@ -6,15 +6,15 @@ date: 2020-12-15
 updated: 2023-07-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/03/independent-insurance-adjuster.jpg"
-  alt: "independent insurance adjuster"
+  src: "/images/photos/inspector-interviewing-homeowner.jpg"
+  alt: "Damage inspector interviewing a homeowner in his living room"
 ---
 
 Knowing how to talk to insurance claims adjusters is vital for any property owner filing a claim after a theft, fire, flood, vandalism, or another such event. A claims adjuster needs certain information for evaluating that claim and offering fair compensation; however, an insurance company is in business to make money, so the less they pay for claims, the higher their profits.
 
 **This isn’t to say that all insurance adjusters are dishonest or unfair, but a property owner should consider that an adjuster might use certain information you provide in an attempt to lower your payout amount. An adjuster might also offer a lower amount than expected simply because you neglected to specify certain losses on your claim! To avoid this risk and ensure maximum payout for your claim, consider some points for how to talk to an insurance claims adjuster.**
 
-::post-photo{src="/wp-content/uploads/2020/03/insurance-claim-adjusters.jpg" alt="insurance claim public adjusters"}
+::post-photo{src="/images/photos/adjuster-writing-notes-in-damaged-home.jpg" alt="Insurance adjuster writing notes inside a storm-damaged house"}
 ::
 
 ## How Do You Deal With Claims Adjusters?
@@ -53,7 +53,7 @@ Also, never give a recorded statement to your claims adjuster. He or she might a
 
 ## How Do Insurance Adjusters Investigate?
 
-::post-photo{src="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="best public adjusters"}
+::post-photo{src="/images/photos/inspector-checking-electrical-panel.jpg" alt="Inspector checking the electrical panel of a home"}
 ::
 
 An insurance adjuster will start by asking the claimant some questions about the incident in question and will also typically go over any paperwork related to your claim. This includes police reports if one was generated.

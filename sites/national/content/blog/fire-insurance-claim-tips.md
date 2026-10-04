@@ -6,8 +6,8 @@ date: 2024-06-10
 updated: 2024-07-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/07/shutterstock_2429515419-scaled.jpg"
-  alt: "Ripped gray paper background that have word fire insurance under torn part"
+  src: "/images/photos/firefighters-hosing-burning-house.jpg"
+  alt: "Firefighters directing a hose at a burning house"
 ---
 
 Experiencing a house fire can be devastating, both emotionally and financially. In such challenging times, understanding the fire insurance claim process and knowing how to navigate it effectively can significantly ease the burden of recovery. This blog offers crucial tips and insights to help homeowners manage [fire insurance claims](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/) efficiently, focusing on key aspects such as documentation, communication, and restoration.

@@ -5,8 +5,8 @@ description: "A denial letter is one adjuster's opinion, not a verdict. What to 
 date: 2026-09-25
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/man-signing-document-at-table.jpg"
+  alt: "Man signing a document at a table"
 faq:
   - question: "Can depreciation still be recovered after my claim has already been paid once?"
     answer: "Yes, if your policy includes recoverable depreciation, that withheld amount becomes payable once you submit proof that repairs were actually completed, typically final invoices or contractor documentation. It isn't automatic. You generally have to request it and provide the completion proof within your policy's specified timeframe."

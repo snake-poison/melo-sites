@@ -4,7 +4,7 @@ metaTitle: "Storm Damage Insurance Adjuster | Public Adjuster For Storm Damage"
 description: "Our adjuster for storm damage insurance claims moves quickly to get you your insurance claim money fast! FREE initial consultations."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-9.jpg"
+  src: "/images/photos/house-wrecked-by-tornado.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-storm-damage.jpg" alt="public adjuster for storm damage doing evaluation"}
+::page-section{image="/images/photos/roof-torn-off-by-ef2-tornado.jpg" alt="Home with most of its roof torn off by a tornado"}
 ## An Adjuster for Storm & Wind Damage That Moves Quickly
 
 What happens after a storm rips through your neighborhood? Everyone that was in the line of the weather is outside looking at the property damages that they've suffered. That means that there are going to be a lot of homeowners filing insurance claims. How do you get ahead of the rest?
@@ -28,7 +28,7 @@ Avoid having your claim money delayed because you're waiting in line. We streaml
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/hurricane-damage-insurance-adjuster.jpg" alt="appraisal by public adjuster for storm damage" reverse}
+::page-section{image="/images/photos/homes-leveled-by-hurricane.jpg" alt="Homes on the bay leveled by hurricane winds and storm surge" reverse}
 ## Maximize Your Insurance Claim Money
 
 When there's a significant storm, insurance companies start to panic, thinking about all the calls they're going to get and the claims they will have to fulfill. They will likely lockdown, even more than before, to try and delay your case or lower your estimate. With Melo Property Claims by your side, you won't have to worry about it. After any of these natural events wreck your property, call us before entering into any agreement:
@@ -44,7 +44,7 @@ After it's safe to go outside, step out and evaluate the situation. Don't spend 
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/insurance-adjuster-flood-damage.jpg" alt="flooding adjuster for storm damage"}
+::page-section{image="/images/photos/cars-driving-through-flooded-street.jpg" alt="Cars driving slowly through a flooded street past a high water sign"}
 ## Neglecting Your Storm & Wind Damage Will Cost You
 
 After living through a storm, the furthest thing from your mind is probably calling your insurance company. However, if you put it off, you could find that your repairs can't be completed for weeks or even months because of the backlog insurance corporations have. Don't get stuck waiting around. Our public adjuster for your storm damage claim will take care of everything, including:
@@ -60,7 +60,7 @@ With our reputation and authority, you're less likely to deal with an insurance 
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-flood-damage.jpg" alt="cleaning up with adjuster for storm damage" reverse}
+::page-section{image="/images/photos/homeowner-repairing-flooded-house.jpg" alt="Homeowner working on his house beside a pile of flood debris" reverse}
 ## Melo Property Claims Know What To Look For
 
 Our adjuster for a storm damage claim knows that there are specific steps that must be followed to ensure your valuation is maximized and your request gets taken care of quickly. We have the most reputable public adjusters on our team, and we know how to handle everything so that there are no delays and no shortages in your recoverable depreciation amount. The benefits of hiring our public adjuster firm are plentiful and include:

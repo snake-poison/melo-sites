@@ -6,8 +6,8 @@ date: 2024-08-19
 updated: 2024-09-23
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/07/shutterstock_190324946.jpg"
-  alt: "smoke damage from a fire"
+  src: "/images/photos/wildfire-smoke-column.jpg"
+  alt: "Column of wildfire smoke rising over a forested ridge"
 ---
 
 A house fire can be a devastating event, leaving behind not just visible damage from flames but also significant smoke damage. Even if the fire itself is contained, the residual smoke and ash can cause extensive harm to your property and belongings. Understanding how smoke insurance works and how to file a smoke damage insurance claim is crucial in ensuring you receive the compensation needed to restore your home.

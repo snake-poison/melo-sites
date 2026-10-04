@@ -6,8 +6,8 @@ date: 2026-09-28
 updated: 2026-09-30
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/adjuster-examining-storm-damaged-home.jpg"
+  alt: "Insurance adjuster examining the front of a storm-damaged home"
 faq:
   - question: "Does Melo Property Claims handle storm damage claims in North Carolina?"
     answer: "Yes, we represent property owners across North Carolina with storm and wind damage claims, roof, tornado, and hurricane damage included. We suggest reputable contractors and move your claim forward quickly, while fighting to get you the maximum valuation from your insurer."

@@ -6,8 +6,8 @@ date: 2023-12-23
 updated: 2023-12-27
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2023/12/shutterstock_738714538.jpg"
-  alt: "Apartment on Fire"
+  src: "/images/photos/firefighters-inside-burning-room.jpg"
+  alt: "Firefighters in breathing gear inside a burning room"
 ---
 
 Experiencing a fire can be a devastating and traumatic event, leaving homeowners and property owners grappling with the aftermath. In such challenging times, understanding the process of filing fire damage insurance claims becomes crucial for rebuilding and recovering. This guide will outline the essential steps and considerations involved in [claiming fire damage insurance](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), with a particular focus on the context of North Carolina.

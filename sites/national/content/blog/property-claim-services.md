@@ -6,8 +6,8 @@ date: 2024-02-12
 updated: 2024-02-26
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/02/shutterstock_2132837453.jpg"
-  alt: "Property Claim Services"
+  src: "/images/photos/assessors-comparing-notes-by-debris.jpg"
+  alt: "Two assessors comparing notes beside a pile of flood debris"
 ---
 
 Property damage can be a distressing experience, and when it happens, understanding the ins and outs of property claim services becomes crucial. Whether it's due to natural disasters, accidents, or other unforeseen circumstances, having a solid grasp of how to file a property damage claim and the entire process involved can make a significant difference in your recovery. In this comprehensive guide, we'll delve into the world of property claim services, providing insights on how to file a property damage claim, a personal property claim guide, and crafting an insurance claim letter for damaged property.

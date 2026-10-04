@@ -6,8 +6,8 @@ date: 2024-03-14
 updated: 2024-04-05
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/04/shutterstock_2208124275.jpg"
-  alt: "fire claim adjuster"
+  src: "/images/photos/investigator-inspecting-charred-beams.jpg"
+  alt: "Fire investigator inspecting charred roof beams after a fire"
 ---
 
 Facing the aftermath of a fire can be overwhelming, especially when dealing with insurance claims. Choosing the right fire claim adjuster is crucial to ensure you receive fair compensation for your losses. With a myriad of options available, it's essential to know what to look for in a fire claims adjuster. Here's a comprehensive guide to help you navigate this process effectively:

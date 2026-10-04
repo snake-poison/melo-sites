@@ -6,8 +6,8 @@ date: 2024-05-22
 updated: 2024-05-31
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/smoke-pouring-from-house.jpg"
+  alt: "Smoke pouring from a house as firefighters work outside"
 ---
 
 Experiencing a house fire can be one of the most traumatic events a homeowner can face. Amidst the chaos and devastation, navigating the process of filing a house fire insurance claim can feel overwhelming, especially if your claim is denied. However, with the right knowledge and approach, you can increase your chances of a successful outcome.

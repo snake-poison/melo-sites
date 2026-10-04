@@ -6,8 +6,8 @@ date: 2024-08-27
 updated: 2024-09-23
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/chimney-left-after-house-fire.jpg"
+  alt: "A chimney standing in the ashes of a house destroyed by fire"
 ---
 
 Experiencing a house fire is a devastating event, and it can be even more distressing if you find yourself without insurance. Whether you’re a homeowner or a renter, navigating the aftermath of such a disaster can feel overwhelming, especially when you realize that you don’t have insurance to cover the loss. Let's explore the types of insurance you would need if your house burned down and you had no insurance coverage in place.

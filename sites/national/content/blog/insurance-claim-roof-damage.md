@@ -6,8 +6,8 @@ date: 2022-02-03
 updated: 2023-07-26
 category: "roof-damage-claim"
 image:
-  src: "/wp-content/uploads/2020/10/public-insurance-adjuster.jpg"
-  alt: "public insurance adjuster"
+  src: "/images/photos/warped-missing-roof-shingles.jpg"
+  alt: "Warped and missing shingles on an old roof"
 ---
 
 If you’ve experienced severe storm damage to your home or business, one of the first things you should do is contact your insurance provider and file a claim. The process will differ slightly based on the type of insurance you have, but the main idea behind it stays the same—you’re letting the company know what damages you’ve experienced and how they can be resolved. In this guide, we’ll talk about how to [file a claim with insurance for roof damage](/insurance-claim-type/public-adjuster-roof-damage/), including how to handle filing an insurance claim in general, as well as some helpful tips to consider before filing your claim.
@@ -18,7 +18,7 @@ The best way to start getting your roof replaced is by contacting your insurance
 
 If you’re not sure whether your insurance covers roof damage, call your agent and ask. If you haven’t done so already, schedule an inspection from an expert in roofing or go out and hire one yourself. After inspecting your roof, they’ll be able to give you an idea of how much it will cost to repair or replace it entirely.
 
-::post-photo{src="/wp-content/uploads/2020/03/insurance-and-claims-adjuster.jpg" alt="negotiate with insurance adjuster"}
+::post-photo{src="/images/photos/office-phone-keypad.jpg" alt="Close-up of an office telephone keypad"}
 ::
 
 ## Check your roof damage
@@ -33,7 +33,7 @@ When you’re ready to file your claim, take pictures of damaged areas using you
 
 Of course, it’s not always easy or possible to document every roofing problem in person. If that’s your situation, take some time after you report your claim and make visits as needed. You might find damage that you didn’t notice on first pass. Be sure to keep thorough records of when you were at the property and what was happening (such as rain, windy conditions). Other details can help clarify issues later if there are disputes about timelines or other important facts.
 
-::post-photo{src="/wp-content/uploads/2020/03/damaged-roof-public-adjuster.jpg" alt="adjuster for roof damage insurance claim"}
+::post-photo{src="/images/photos/inspector-looking-at-roof-gap.jpg" alt="Inspector looking at a gap where a tornado lifted the roof off the wall"}
 ::
 
 ## Before removing any materials
@@ -46,7 +46,7 @@ If you see any signs of leaking, or if water is pooling on your ceiling, then it
 
 When you do file a claim, your insurer will either send an inspector or request that you hire one yourself. The inspector will check your home and belongings over thoroughly, checking walls, ceilings, floors, carpeting, and even testing fixtures.
 
-::post-photo{src="/wp-content/uploads/2020/10/storm-damage-insurance-adjuster.jpg" alt="roof after storm damages"}
+::post-photo{src="/images/photos/tornado-damaged-house.jpg" alt="House stripped by a tornado, with broken trees around it"}
 ::
 
 ## Get professional help

@@ -5,8 +5,8 @@ description: "Mediation outcomes are decided by the paper trail, not the argumen
 date: 2026-09-25
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/meeting-around-conference-table.jpg"
+  alt: "People talking around a conference table"
 faq:
   - question: "How long does mediation take once it's requested?"
     answer: "Timelines vary by state program and insurer responsiveness, but most mediation conferences are scheduled within a matter of weeks after the request is filed, not months. The session itself is usually a single meeting."

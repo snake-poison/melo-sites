@@ -6,8 +6,8 @@ date: 2023-11-22
 updated: 2023-11-29
 category: "water-damage-claim"
 image:
-  src: "/wp-content/uploads/2020/03/water-damage-insurance-claims-adjuster.jpg"
-  alt: "water damage insurance claims adjuster"
+  src: "/images/photos/flood-damaged-living-room.jpg"
+  alt: "Flood-damaged living room with mud on the floor and furniture pushed aside"
 ---
 
 Water damage can wreak havoc on your home, leaving behind a trail of destruction and financial strain. Fortunately, if you have the right insurance coverage, filing a [water damage insurance claim](/insurance-claim-type/water-damage-claims-adjuster/) can help you recover and rebuild. In this guide, we'll walk you through the essential steps and provide valuable tips to streamline the water damage insurance claim process.

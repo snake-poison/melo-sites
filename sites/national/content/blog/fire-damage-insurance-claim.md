@@ -6,8 +6,8 @@ date: 2024-05-07
 updated: 2024-05-31
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_2079087628.jpg"
-  alt: "House building in flames. Insurance concept. Financial security, safety, damage, accident prevention."
+  src: "/images/photos/burned-brick-houses-after-fire.jpg"
+  alt: "Brick houses reduced to burned shells after a fire swept the street"
 ---
 
 Experiencing a fire in your commercial property can be devastating, both emotionally and financially. However, having the right insurance coverage in place can provide a crucial lifeline during such challenging times. In this guide, we'll explore everything you need to know about commercial [fire damage insurance claims](/blog/fire-damage-claims-adjuster/), including the importance of coverage, the claims process, and essential considerations to maximize your insurance benefits.

@@ -6,8 +6,8 @@ date: 2024-07-05
 updated: 2024-08-02
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/08/shutterstock_1535592533.jpg"
-  alt: "Arson insurance"
+  src: "/images/photos/fire-damaged-stucco-house.jpg"
+  alt: "Two-storey stucco house blackened and gutted by fire"
 ---
 
 Arson is a serious crime that can have devastating effects on property owners. When a fire is intentionally set, it can cause extensive damage, leading to significant financial losses. One of the primary concerns for property owners affected by arson is whether their insurance will cover the damages. Understanding how arson insurance claims work and the factors influencing coverage can help you navigate the aftermath of such a distressing event.
