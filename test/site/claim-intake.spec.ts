@@ -8,15 +8,25 @@ describe('Contract intake deployment', () => {
     const routes = JSON.parse(readFileSync(join(publicDir, '_routes.json'), 'utf8')) as { include: string[] }
     expect(routes.include).toContain('/*')
   })
-  it('provides contract fields on every page containing the intake', () => {
+  it('requires only name and phone and collapses optional claim fields on every intake page', () => {
     let count = 0
     for (const page of pages()) {
       const doc = readPage(page.file)
       for (const form of doc.querySelectorAll('form[action="/api/claim-review"]')) {
         count++
         expect(form.getAttribute('method')).toBe('post')
-        for (const name of ['First name', 'Last name', 'Phone', 'Email', 'Street address', 'City', 'State', 'ZIP code', 'Insurance Company', 'Date of Loss', 'Policy Number', 'Claim Number', 'Cause of Loss'])
-          expect(form.querySelector(`[name="${name}"]`)?.hasAttribute('required'), `${page.path}: ${name}`).toBe(true)
+        expect([...form.querySelectorAll('[required]')].map(field => field.getAttribute('name') ?? '').sort((a, b) => a.localeCompare(b))).toEqual(['Name', 'Phone'])
+        const extra = form.querySelector('details')
+        expect(extra).not.toBeNull()
+        expect(extra?.hasAttribute('open')).toBe(false)
+        for (const name of ['Email', 'Where they are with the loss'])
+          expect(form.querySelector(`[name="${name}"]`)?.closest('details')).toBeNull()
+        for (const name of ['Street address', 'City', 'State', 'ZIP code', 'Insurance Company', 'Date of Loss', 'Policy Number', 'Claim Number', 'Cause of Loss']) {
+          const input = extra?.querySelector(`[name="${name}"]`)
+          expect(input, `${page.path}: ${name}`).not.toBeNull()
+          expect(input?.hasAttribute('required')).toBe(false)
+          expect(input?.getAttribute('value') ?? '').toBe('')
+        }
         expect(form.querySelector('[data-claim-captcha]')).not.toBeNull()
         expect(form.querySelector('[name="Commission Percent"]')).toBeNull()
       }

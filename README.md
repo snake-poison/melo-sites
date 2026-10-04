@@ -123,8 +123,11 @@ Each Pages project needs `PIPEDRIVE_API_TOKEN`, `TURNSTILE_SECRET_KEY`, and `TUR
 as production secrets. Its Turnstile widget must allow the project's `pages.dev` hostname and
 its canonical domain (with and without `www`). Never commit secret values.
 
-The intake collects legal first/last name, phone, email, insured property address, carrier name,
-policy number, claim number, date and cause of loss. It creates a person and lead owned by Ramon,
+The initial form requires only name and phone. Email and a short description are optional.
+An initially collapsed section offers optional insured property address, carrier name, policy
+number, claim number, date and cause of loss. Unanswered CRM fields stay unset, and the team
+collects any missing contract details during follow-up. Older first/last-name form submissions
+remain supported during deployment. It creates a person and lead owned by Ramon,
 and maps insurance/loss details into the existing Pipedrive custom fields. Commission Percent is
 intentionally left unset for team review. Existing contacts are never overwritten by this public
 form. Each submission gets its own policyholder contact and claim lead; the team can merge repeat

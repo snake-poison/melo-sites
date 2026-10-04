@@ -84,24 +84,30 @@ export async function handleSubmission(request, env) {
   if (form.get('Website'))
     return failure('Please submit the form from our website.', 403)
   const fields = {}
-  for (const name of ['First name', 'Last name', 'Phone', 'Email', 'Street address', 'City', 'State', 'ZIP code', 'Claim Number', 'Policy Number', 'Date of Loss', 'Cause of Loss', 'Insurance Company']) {
-    const value = form.get(name)?.trim()
+  for (const name of ['Name', 'First name', 'Last name', 'Phone', 'Email', 'Street address', 'City', 'State', 'ZIP code', 'Claim Number', 'Policy Number', 'Date of Loss', 'Cause of Loss', 'Insurance Company']) {
+    const value = form.get(name)?.trim() || ''
     const max = 200
-    if (!value || value.length > max)
+    if (value.length > max)
       return failure(`Please check the ${name.toLowerCase()} field.`)
     fields[name] = value
   }
-  if (!/^[^\s@]+@[^\s@][^\s.@]*\.[^\s@]+$/.test(fields.Email) || fields.Phone.replace(/\D/g, '').length < 7)
-    return failure('Please enter a valid email address and phone number.')
+  const name = fields.Name || [fields['First name'], fields['Last name']].filter(Boolean).join(' ')
+  if (!name)
+    return failure('Please enter your name.')
+  if (fields.Phone.replace(/\D/g, '').length < 7)
+    return failure('Please enter a valid phone number.')
+  if (fields.Email && !/^[^\s@]+@[^\s@][^\s.@]*\.[^\s@]+$/.test(fields.Email))
+    return failure('Please check your email address, or leave it blank.')
+  fields.State = fields.State.toUpperCase()
   if ((form.get('Address line 2')?.length ?? 0) > 200)
     return failure('Please shorten address line 2.')
   const date = fields['Date of Loss']
-  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(`${date}T00:00:00Z`)) || new Date(`${date}T00:00:00Z`).toISOString().slice(0, 10) !== date || date > new Date().toISOString().slice(0, 10))
+  if (date && (!/^\d{4}-\d{2}-\d{2}$/.test(date) || !Number.isFinite(Date.parse(`${date}T00:00:00Z`)) || new Date(`${date}T00:00:00Z`).toISOString().slice(0, 10) !== date || date > new Date().toISOString().slice(0, 10)))
     return failure('Please enter a valid date of loss that is not in the future.')
   const description = form.get('Where they are with the loss')?.trim() || ''
   if (description.length > 3000)
     return failure('Please shorten the description.')
-  if (!/^[A-Z]{2}$/.test(fields.State) || !/^\d{5}(?:-\d{4})?$/.test(fields['ZIP code']))
+  if ((fields.State && !/^[A-Z]{2}$/.test(fields.State)) || (fields['ZIP code'] && !/^\d{5}(?:-\d{4})?$/.test(fields['ZIP code'])))
     return failure('Please enter a two-letter state and valid ZIP code.')
   const referer = request.headers.get('Referer')
   let landing = url.origin
@@ -129,13 +135,12 @@ export async function handleSubmission(request, env) {
     const check = await verification.json()
     if (!verification.ok || !check.success || check.hostname !== url.hostname || check.action !== 'claim-review')
       return failure('The spam check expired or failed. Go back, refresh the form, and try again.', 403)
-    const name = `${fields['First name']} ${fields['Last name']}`
     const address = [fields['Street address'], form.get('Address line 2')?.trim(), fields.City, fields.State, fields['ZIP code']].filter(Boolean).join(', ')
-    const content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email)}</p><p><b>Property:</b> ${escapeHtml(address)}<br><b>Date of loss:</b> ${escapeHtml(date)}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'])}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'])}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'])}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'])}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p>`
+    const content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property:</b> ${escapeHtml(address || 'Not provided')}<br><b>Date of loss:</b> ${escapeHtml(date || 'Not provided')}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'] || 'Not provided')}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'] || 'Not provided')}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'] || 'Not provided')}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'] || 'Not provided')}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p>`
     const leadFields = {
       [crmFields.claim]: fields['Claim Number'],
       [crmFields.policy]: fields['Policy Number'],
-      [crmFields.address]: address,
+      [crmFields.address]: fields['Street address'] ? address : '',
       [crmFields.date]: date,
       [crmFields.cause]: fields['Cause of Loss'],
       [crmFields.carrierText]: fields['Insurance Company'],
@@ -143,11 +148,16 @@ export async function handleSubmission(request, env) {
       [crmFields.website]: site.domain,
       [crmFields.landing]: landing,
     }
+    // Leave unanswered fields unset so an incomplete intake still creates a useful lead.
+    for (const key of Object.keys(leadFields)) {
+      if (leadFields[key] === '')
+        delete leadFields[key]
+    }
     // Known carrier aliases resolve to the existing INSURANCE contact, not adjuster contacts.
     const carrierName = fields['Insurance Company'].toLowerCase() === 'foremost insurance' ? 'Foremost Insurance Group' : fields['Insurance Company']
     // Resolve only an exact, existing INSURANCE contact; never invent a carrier contact.
     try {
-      const search = await pipedrive(env, `/api/v2/persons/search?term=${encodeURIComponent(carrierName)}&fields=name&exact_match=true`, 'GET')
+      const search = carrierName ? await pipedrive(env, `/api/v2/persons/search?term=${encodeURIComponent(carrierName)}&fields=name&exact_match=true`, 'GET') : { items: [] }
       const matches = []
       for (const result of search.items || []) {
         if (result.item.name.toLowerCase() !== carrierName.toLowerCase())
@@ -160,7 +170,7 @@ export async function handleSubmission(request, env) {
         leadFields[crmFields.insurer] = matches[0]
     }
     catch { /* The submitted carrier name remains in its structured intake field for review. */ }
-    person = await pipedrive(env, '/api/v2/persons', 'POST', { name, owner_id: 11555257, emails: [{ value: fields.Email, primary: true }], phones: [{ value: fields.Phone, primary: true }] })
+    person = await pipedrive(env, '/api/v2/persons', 'POST', { name, owner_id: 11555257, emails: fields.Email ? [{ value: fields.Email, primary: true }] : [], phones: [{ value: fields.Phone, primary: true }] })
     // Save the loss details before creating the lead, then link the note to both records.
     note = await pipedrive(env, '/api/v1/notes', 'POST', { person_id: person.id, content })
     lead = await pipedrive(env, '/api/v1/leads', 'POST', { title: `${site.name} website — ${name}`, person_id: person.id, owner_id: 11555257, label_ids: [labels[siteId]], channel: 77, channel_id: site.domain, origin_id: 'melo-sites-claim-intake', ...leadFields })
