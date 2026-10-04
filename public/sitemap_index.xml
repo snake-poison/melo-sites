@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The WordPress site's sitemap (Yoast) lived here, and Search Console may still read it from
+     here. It now points at the one sitemap the site has. -->
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://publicadjusterscharlotte.com/sitemap.xml</loc>
+  </sitemap>
+</sitemapindex>

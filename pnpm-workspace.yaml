@@ -1,0 +1,25 @@
+minimumReleaseAgeExcludePrune: true
+
+trustPolicy: no-downgrade
+trustPolicyExclude:
+  # Legacy 6.x line; only newer 7.x releases carry provenance.
+  - semver@6.3.1
+trustPolicyExcludePrune: true
+
+shellEmulator: true
+
+overrides:
+  # 2.1.3 serialises bold and italic through a new `attention` hook that remark-mdc 3.11.1's
+  # wrapped handlers lack, so any **bold** in a post recurses until the stack overflows and
+  # llms-full.txt fails to build. Drop this once remark-mdc handles it.
+  mdast-util-to-markdown: 2.1.2
+
+patchedDependencies:
+  '@iconify/tailwind4@1.2.3': patches/@iconify__tailwind4@1.2.3.patch
+
+allowBuilds:
+  '@parcel/watcher': true
+  esbuild: true
+  sharp: true
+  unrs-resolver: true
+  vue-demi: true

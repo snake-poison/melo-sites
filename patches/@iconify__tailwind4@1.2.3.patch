@@ -1,0 +1,17 @@
+diff --git a/lib/plugin.js b/lib/plugin.js
+index 225d32de4595da4c5f489634a25245701a905c91..bdd4a0efab3ca7d3b59b0a614a5718a673ed0e11 100644
+--- a/lib/plugin.js
++++ b/lib/plugin.js
+@@ -135,6 +135,12 @@ const exportedPlugin = plugin.withOptions((params) => {
+                     }
+                     catch (err) {
+                         // Log error, but do not throw it
++                        // Tailwind design-system consumers can probe arbitrary
++                        // values through every dynamic component matcher. Those
++                        // values are not Iconify selectors and should be ignored.
++                        if (err instanceof Error && err.message.startsWith('Invalid icon name:')) {
++                            return {};
++                        }
+                         console.warn(err.message);
+                         return {};
+                     }

@@ -1,0 +1,17 @@
+node_modules
+*.log
+dist
+.output
+.nuxt
+.env
+.DS_Store
+tsconfig.tsbuildinfo
+.eslintcache
+.claude/settings.local.json
+coverage
+.data
+
+# Added by the test build for a moment (test/setup/buildSite.ts).
+content/blog/test-draft-fixture.md
+content/blog/test-scheduled-fixture.md
+.wp-export

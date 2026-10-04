@@ -1,0 +1,129 @@
+/**
+ * The machine style's tokens, from Avow's app/assets/css/landing-machine.css (the :root and
+ * dark blocks, the page ground and the paper grain). tailwind-theme.css names them as Tailwind
+ * colours (text-ink, bg-panel, border-rule, text-danger).
+ */
+
+:root {
+  --machine-paper: #f4efe7;
+  --machine-paper-2: #fffbf3;
+  --machine-ink: #17181c;
+  --machine-ink-soft: #4a505d;
+  --machine-ink-faint: #5f6572;
+  --machine-rule: rgb(23 24 28 / 16%);
+  --machine-rule-soft: rgb(23 24 28 / 9%);
+  --machine-panel: rgb(255 255 255 / 62%);
+
+  /* Second accent: the blue half of a two-tone heading, and section kickers. */
+  --machine-accent-2: #0b6ba8;
+  --machine-subtitle: #3d5163;
+
+  /* A caution and a failure. */
+  --machine-warn: #8a5a00;
+  --machine-warn-soft: rgb(217 119 6 / 14%);
+  --machine-danger: #b42318;
+  --machine-danger-soft: rgb(220 38 38 / 12%);
+
+  /*
+   * Tier metals. The plain token is for text and clears 4.5:1 on the panels; -deep and
+   * -shine are the two ends of a metallic bar fill, with -deep clearing 3:1 so each bar's
+   * edge reads against the panel.
+   */
+  --tier-bronze: #8a4a17;
+  --tier-bronze-deep: #9a5a26;
+  --tier-bronze-shine: #e2a66a;
+  --tier-silver: #56606c;
+  --tier-silver-deep: #76818e;
+  --tier-silver-shine: #d9dfe6;
+  --tier-gold: #7d5a00;
+  --tier-gold-deep: #a8780a;
+  --tier-gold-shine: #f5d163;
+
+  /* The page accent: live dots, trial tape, step icons. Green, like the CTA. */
+  --machine-accent: #0c7054;
+  --machine-accent-soft: rgb(12 112 84 / 14%);
+
+  /* Section bands: each part of the page sits on its own faint wash. */
+  --machine-band-metrics: linear-gradient(135deg, rgb(14 165 233 / 7%), rgb(16 185 129 / 5%));
+  --machine-band-how: linear-gradient(160deg, rgb(16 185 129 / 8%), rgb(45 212 191 / 4%));
+  --machine-band-trial: linear-gradient(135deg, rgb(245 158 11 / 8%), rgb(14 165 233 / 5%));
+  --machine-band-faq: linear-gradient(180deg, rgb(255 255 255 / 55%), rgb(255 255 255 / 30%));
+  --machine-band-member: linear-gradient(160deg, rgb(14 165 233 / 7%), rgb(99 102 241 / 5%));
+  --machine-accent-2-soft: rgb(11 107 168 / 12%);
+
+  /* Native controls (date picker, checkbox, select) follow the mode. */
+  color-scheme: light;
+}
+
+.machine-root {
+  position: relative;
+  isolation: isolate;
+  background:
+    linear-gradient(180deg, rgb(255 251 243 / 96%), rgb(244 239 231 / 94%)),
+    radial-gradient(circle at 88% -4%, var(--machine-accent-soft), transparent 42%);
+  color: var(--machine-ink);
+  transition: background 600ms ease;
+}
+
+:root:where(.dark) {
+  --machine-paper: #101319;
+  --machine-paper-2: #161b23;
+  --machine-ink: #e9eef6;
+  --machine-ink-soft: #a3adbe;
+  --machine-ink-faint: #8a94a7;
+  --machine-rule: rgb(227 237 248 / 18%);
+  --machine-rule-soft: rgb(227 237 248 / 10%);
+  --machine-panel: rgb(22 27 35 / 72%);
+
+  --machine-accent-2: #5cc4f5;
+  --machine-subtitle: #b9c9da;
+
+  --machine-warn: #f2c94c;
+  --machine-warn-soft: rgb(251 191 36 / 14%);
+  --machine-danger: #f87171;
+  --machine-danger-soft: rgb(248 113 113 / 14%);
+
+  --tier-bronze: #e3a56e;
+  --tier-bronze-deep: #a8642c;
+  --tier-bronze-shine: #f0b886;
+  --tier-silver: #c9d2dc;
+  --tier-silver-deep: #8a95a3;
+  --tier-silver-shine: #eef2f6;
+  --tier-gold: #f2c94c;
+  --tier-gold-deep: #b8860b;
+  --tier-gold-shine: #ffe08a;
+
+  --machine-accent: #3ddba4;
+  --machine-accent-soft: rgb(61 219 164 / 14%);
+
+  --machine-band-metrics: linear-gradient(135deg, rgb(56 189 248 / 7%), rgb(52 211 153 / 5%));
+  --machine-band-how: linear-gradient(160deg, rgb(52 211 153 / 7%), rgb(45 212 191 / 3%));
+  --machine-band-trial: linear-gradient(135deg, rgb(251 191 36 / 6%), rgb(56 189 248 / 5%));
+  --machine-band-faq: linear-gradient(180deg, rgb(22 27 35 / 72%), rgb(22 27 35 / 45%));
+  --machine-band-member: linear-gradient(160deg, rgb(56 189 248 / 7%), rgb(129 140 248 / 5%));
+  --machine-accent-2-soft: rgb(92 196 245 / 14%);
+
+  color-scheme: dark;
+}
+
+:where(.dark) .machine-root {
+  background:
+    linear-gradient(180deg, #12161d, #090b11),
+    radial-gradient(circle at 88% -4%, var(--machine-accent-soft), transparent 42%);
+}
+
+/* Paper grain. Matches the 7px dot rhythm used elsewhere in the app. */
+.machine-texture {
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.07;
+  background-image: radial-gradient(rgb(23 24 28 / 40%) 0.6px, transparent 0.6px);
+  background-size: 7px 7px;
+}
+
+:where(.dark) .machine-texture {
+  opacity: 0.1;
+  background-image: radial-gradient(rgb(227 237 248 / 45%) 0.6px, transparent 0.6px);
+}

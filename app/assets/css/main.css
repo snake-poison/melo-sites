@@ -1,0 +1,39 @@
+/*
+ * The one Tailwind entry. Scanning starts at the repository root, so the layer's atoms and any
+ * class written in Markdown under content/ are picked up too; .gitignore keeps the build out.
+ */
+@import 'tailwindcss' source('../../..');
+@import '../../../layers/ui/app/assets/css/tailwind-theme.css';
+
+/*
+ * Avow's icon map names every icon the app uses; the site keeps it for the atoms' types only.
+ * Scanned, each name would inline its SVG into every page (about 30 KB). Icons the site shows
+ * are written as classes in its components, which are scanned.
+ */
+@source not '../../../layers/ui/app/constants/icons.ts';
+@source not '../../../.wp-export';
+
+/*
+ * Melo's faces and colours (brand.css), after the old site. Cyan is the logo's, for buttons,
+ * bands and marks, with charcoal text on it. Charcoal is the hero overlay, the footer and the
+ * dark buttons and cards in both modes; text on it is on-dark, light in both modes.
+ */
+@theme {
+  --font-sans: 'Roboto', 'Roboto Fallback', 'Helvetica Neue', Arial, system-ui, sans-serif;
+  --font-heading: 'PT Sans', 'PT Sans Fallback', 'Helvetica Neue', Arial, system-ui, sans-serif;
+}
+
+@theme inline {
+  --color-brand: var(--melo-cyan);
+  --color-charcoal: var(--melo-charcoal);
+  --color-charcoal-2: var(--melo-charcoal-2);
+  --color-on-dark: var(--melo-on-dark);
+  /* The review stars, gold as the old site's. */
+  --color-star: #fdd835;
+}
+
+/*
+ * The page-feature icons are written in Markdown as props (icon="carbon--fire"), which the
+ * scanner reads as plain words. These are the ones the content may use.
+ */
+@source inline('icon-[carbon--{money,rain-drop,fire,rain-heavy,home,earth,map,location,document,scales,calendar,building,tool-kit,partnership,time,checkmark-outline,chart-bar,security,phone,user-multiple,certificate-check,search}]');

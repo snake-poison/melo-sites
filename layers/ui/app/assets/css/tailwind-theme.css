@@ -1,0 +1,58 @@
+/* Shared by both Tailwind entries: tailwind.css (every route) and tailwind-landing.css (`/`). */
+
+@plugin '@iconify/tailwind4';
+
+/* Enable class-based dark mode (works with @nuxtjs/color-mode)
+   Selector matches: html.dark and all descendants */
+@custom-variant dark (&:is(.dark, .dark *));
+
+@theme {
+  --font-sans:
+    'Montserrat', 'Montserrat Fallback', 'Inter', 'Segoe UI', 'Helvetica Neue', 'Arial', system-ui, -apple-system,
+    sans-serif;
+  --font-heading: 'Archivo Narrow', 'Archivo Narrow Fallback', 'Arial Narrow', system-ui, sans-serif;
+  --font-mono: 'IBM Plex Mono', 'IBM Plex Mono Fallback', ui-monospace, monospace;
+
+  --color-primary: #151f7e;
+  --color-primary-light: #3a43a0;
+  --color-primary-dark: #0c1352;
+
+  --color-secondary: #f19d38;
+  --color-secondary-light: #f4b66a;
+  --color-secondary-dark: #d17f1d;
+}
+
+/*
+ * The app's colours, by what they are for. Each resolves to a --machine-* variable from
+ * landing-machine.css, set on :root with a dark swap, so `text-ink` or `border-rule` means the
+ * same on every route, in the app shell and in teleported dialogs, and follows the mode without
+ * a `dark:` twin. Organisms, templates, pages and layouts colour with these; eslint.config.mjs
+ * fails lint on palette classes there (better-tailwindcss/no-restricted-classes).
+ */
+@theme inline {
+  --color-paper: var(--machine-paper);
+  --color-paper-2: var(--machine-paper-2);
+  --color-panel: var(--machine-panel);
+
+  --color-ink: var(--machine-ink);
+  --color-ink-soft: var(--machine-ink-soft);
+  --color-ink-faint: var(--machine-ink-faint);
+  --color-subtitle: var(--machine-subtitle);
+
+  --color-rule: var(--machine-rule);
+  --color-rule-soft: var(--machine-rule-soft);
+
+  --color-accent: var(--machine-accent);
+  --color-accent-soft: var(--machine-accent-soft);
+  --color-accent-2: var(--machine-accent-2);
+  --color-accent-2-soft: var(--machine-accent-2-soft);
+
+  --color-warn: var(--machine-warn);
+  --color-warn-soft: var(--machine-warn-soft);
+  --color-danger: var(--machine-danger);
+  --color-danger-soft: var(--machine-danger-soft);
+
+  --color-tier-bronze: var(--tier-bronze);
+  --color-tier-silver: var(--tier-silver);
+  --color-tier-gold: var(--tier-gold);
+}

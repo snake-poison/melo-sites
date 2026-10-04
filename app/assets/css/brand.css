@@ -1,0 +1,191 @@
+/*
+ * Melo's look over Avow's design system, after the old WordPress site: Roboto text, PT Sans
+ * headings, charcoal ink on a light grey ground, white boxes, and the logo's cyan. The layer
+ * (layers/ui) stays byte for byte Avow's, so its atoms keep working; this file sets the same
+ * --machine-* variables, and wins over the layer's tokens.css by specificity (html:root) in
+ * whatever order Nuxt loads the two.
+ *
+ * The cyan (#03bbfc) is the old site's buttons and bands. White on it is 2.2:1, too faint to
+ * read, so text on cyan is charcoal (9:1). Links and focus rings, which sit on white, take a
+ * deeper blue of the same hue (--machine-accent, 4.6:1).
+ */
+
+html:root {
+  --melo-cyan: #03bbfc;
+  --melo-charcoal: #313131;
+  --melo-charcoal-2: #1d1d1d;
+  --melo-on-dark: #f7f7f7;
+
+  --machine-paper: #f7f7f7;
+  --machine-paper-2: #ffffff;
+  --machine-ink: #313131;
+  --machine-ink-soft: #545454;
+  --machine-ink-faint: #696969;
+  --machine-rule: rgb(0 0 0 / 14%);
+  --machine-rule-soft: rgb(0 0 0 / 8%);
+  --machine-panel: #ffffff;
+
+  --machine-accent: #0077b3;
+  --machine-accent-soft: rgb(3 187 252 / 14%);
+  --machine-accent-2: #0077b3;
+  --machine-accent-2-soft: rgb(3 187 252 / 12%);
+  --machine-subtitle: #545454;
+}
+
+html .machine-root {
+  background: var(--machine-paper);
+}
+
+html:root:where(.dark) {
+  --machine-paper: #161616;
+  --machine-paper-2: #202020;
+  --machine-ink: #ededed;
+  --machine-ink-soft: #bdbdbd;
+  --machine-ink-faint: #9a9a9a;
+  --machine-rule: rgb(255 255 255 / 16%);
+  --machine-rule-soft: rgb(255 255 255 / 9%);
+  --machine-panel: #202020;
+
+  --machine-accent: #4fd0ff;
+  --machine-accent-soft: rgb(79 208 255 / 14%);
+  --machine-accent-2: #4fd0ff;
+  --machine-accent-2-soft: rgb(79 208 255 / 14%);
+  --machine-subtitle: #bdbdbd;
+}
+
+/*
+ * The old site's kickers ("24/7 claim representation & assistance") were cyan capitals in the
+ * text face; the layer's are monospace.
+ */
+.ui-text--kicker {
+  font-family: var(--font-sans);
+  font-size: 0.875rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+}
+
+/* Dates, credits and sources: small capitals in the text face too, with no monospace on the site. */
+.ui-text--label {
+  font-family: var(--font-sans);
+  font-size: 0.75rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+
+/*
+ * The faces, self-hosted (latin only) for the reasons layers/ui/app/assets/css/fonts.css gives:
+ * `optional`, nothing preloaded, and Arial fallbacks sized to each face's widths and line box,
+ * so the first visit looks close and no visit shifts. Roboto is one variable file for every
+ * weight. Measured with fontTools against Arial (Regular for Roboto, Bold for PT Sans).
+ */
+@font-face {
+  font-family: 'Roboto Fallback';
+  src: local('Arial'), local('ArialMT'), local('Liberation Sans'), local('Arimo');
+  size-adjust: 100.1%;
+  ascent-override: 92.7%;
+  descent-override: 24.4%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'PT Sans Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT'), local('Liberation Sans Bold'), local('Arimo Bold'), local('Arial');
+  font-weight: 700;
+  size-adjust: 91.1%;
+  ascent-override: 111.8%;
+  descent-override: 30.3%;
+  line-gap-override: 0%;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: optional;
+  src: url('/fonts/roboto-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'PT Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: optional;
+  /* macOS ships PT Sans: use its bold, at once. Otherwise Chrome, while the download is pending
+     (and on a first visit `optional` keeps it pending), draws the installed regular weight. */
+  src:
+    local('PT Sans Bold'),
+    local('PTSans-Bold'),
+    url('/fonts/pt-sans-700-latin.woff2') format('woff2');
+  unicode-range:
+    U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC,
+    U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* Square, as the old site's boxes were. */
+.ui-card {
+  border-radius: 0;
+}
+
+/*
+ * The cyan and charcoal blocks (the claim form and the second-opinion band in cyan; a solid grid's
+ * cards in cyan and charcoal by turns). Each points the theme's ink, accent and rules at colours that read on it, in either
+ * mode, so what is inside colours itself with the usual names: text-ink, border-rule, bg-paper-2.
+ */
+.on-brand,
+.page-grid--solid > .page-feature:nth-child(odd) {
+  --machine-ink: #1d1d1d;
+  --machine-ink-soft: #1d1d1d;
+  --machine-ink-faint: #2b2b2b;
+  --machine-accent: #1d1d1d;
+  --machine-accent-soft: rgb(0 0 0 / 8%);
+  --machine-rule: rgb(0 0 0 / 24%);
+  --machine-rule-soft: rgb(0 0 0 / 12%);
+  --machine-paper-2: #ffffff;
+  --machine-panel: var(--melo-cyan);
+
+  /* The theme's colours resolve these once, on :root; name them again so they follow. */
+  --color-ink: var(--machine-ink);
+  --color-ink-soft: var(--machine-ink-soft);
+  --color-ink-faint: var(--machine-ink-faint);
+  --color-accent: var(--machine-accent);
+  --color-accent-soft: var(--machine-accent-soft);
+  --color-rule: var(--machine-rule);
+  --color-rule-soft: var(--machine-rule-soft);
+  --color-paper-2: var(--machine-paper-2);
+  --color-panel: var(--machine-panel);
+
+  background-color: var(--melo-cyan);
+  color: var(--machine-ink);
+}
+
+.page-grid--solid > .page-feature:nth-child(even) {
+  --machine-ink: #ffffff;
+  --machine-ink-soft: #e6e6e6;
+  --machine-ink-faint: #c4c4c4;
+  --machine-accent: var(--melo-cyan);
+  --machine-accent-soft: rgb(3 187 252 / 15%);
+  --machine-rule: rgb(255 255 255 / 24%);
+  --machine-rule-soft: rgb(255 255 255 / 12%);
+  --machine-panel: var(--melo-charcoal);
+
+  /* The theme's colours resolve these once, on :root; name them again so they follow. */
+  --color-ink: var(--machine-ink);
+  --color-ink-soft: var(--machine-ink-soft);
+  --color-ink-faint: var(--machine-ink-faint);
+  --color-accent: var(--machine-accent);
+  --color-accent-soft: var(--machine-accent-soft);
+  --color-rule: var(--machine-rule);
+  --color-rule-soft: var(--machine-rule-soft);
+  --color-paper-2: var(--machine-paper-2);
+  --color-panel: var(--machine-panel);
+
+  background-color: var(--melo-charcoal);
+  color: var(--machine-ink);
+}
+
+.page-grid--solid > .page-feature {
+  box-shadow: none;
+}

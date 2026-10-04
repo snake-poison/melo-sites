@@ -1,0 +1,92 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  # Publishes posts scheduled for today: the build leaves out any post dated after it
+  # (app/utils/schedule.ts). Cron runs in UTC; 10:30 is 6:30am in North Carolina in summer and
+  # 5:30am in winter, and GitHub can start a scheduled run some minutes late.
+  schedule:
+    - cron: '30 10 * * *'
+  # Run it by hand from the Actions tab to publish anything due without waiting for the morning.
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6.1.0
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Lint
+        run: pnpm run lint
+
+      - name: Typecheck
+        run: pnpm run typecheck
+
+      - name: Unit tests
+        run: pnpm run test:unit
+
+      # Builds the site, with a draft added, and checks the output: SEO tags, structured data,
+      # sitemap, llms.txt, drafts and the page-weight budgets.
+      - name: Site tests
+        run: pnpm run test:site
+
+  # GitHub Pages, from main only: on a push, the daily schedule or a run by hand. Settings >
+  # Pages > Source must be "GitHub Actions".
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: check
+    runs-on: ubuntu-latest
+    permissions:
+      actions: read
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6.1.0
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - uses: actions/configure-pages@v6
+
+      # For https://publicadjusterscharlotte.com (nuxt.config.ts, public/CNAME).
+      - name: Build
+        run: pnpm run generate
+
+      # What the site serves before this deploy, so IndexNow hears only about what changed.
+      - name: Save the live sitemap
+        run: curl -fsS https://publicadjusterscharlotte.com/sitemap.xml -o "$RUNNER_TEMP/live-sitemap.xml" || touch "$RUNNER_TEMP/live-sitemap.xml"
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: .output/public
+
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+      # The site is live; a failed ping is worth a look but does not undo the deploy.
+      - name: Tell IndexNow what changed
+        continue-on-error: true
+        run: node scripts/indexnow.mjs "$RUNNER_TEMP/live-sitemap.xml"
