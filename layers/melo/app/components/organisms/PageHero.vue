@@ -92,6 +92,10 @@ const heroCrops = [
                 <span class="block"><span class="font-bold text-on-dark">{{ googleRating.value.toFixed(1) }}</span> <span class="tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span></span>
                 <span class="underline underline-offset-2">Read our Google reviews</span>
               </a>
+              <p v-else class="text-sm text-on-dark/85">
+                <span class="block tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span>
+                Expect a 5-star experience
+              </p>
             </div>
             <div v-else class="mt-9 flex flex-wrap gap-3">
               <PageCta kind="review" label="Get my free claim review" />

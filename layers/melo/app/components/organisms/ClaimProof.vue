@@ -1,11 +1,11 @@
 <script setup lang="ts">
-import { business, googleRating, howItWorks, reviews } from '#site'
+import { business, googleRating, howItWorks, promise, reviews } from '#site'
 
 /**
  * Why to send the form, under a service page's first sections (or where its body marks
  * `:page-claim-review`): a claim's three steps with the fee stated, then clients' own words on
  * navy. The Google rating shows only where the site's googleRating gives the listing's real one;
- * a site with neither a review to quote nor a rating has no reviews band.
+ * elsewhere the stars promise the experience instead of claiming a rating.
  */
 </script>
 
@@ -38,25 +38,23 @@ import { business, googleRating, howItWorks, reviews } from '#site'
     </div>
   </section>
 
-  <section v-if="reviews.length || googleRating" aria-labelledby="reviews-heading" class="bg-navy py-16 text-on-dark sm:py-20">
+  <section aria-labelledby="reviews-heading" class="bg-navy py-16 text-on-dark sm:py-20">
     <div class="mx-auto grid max-w-6xl gap-10 px-4 sm:px-6" :class="reviews.length ? 'lg:grid-cols-[minmax(0,20rem)_minmax(0,1fr)] lg:items-center' : 'text-center'">
       <div>
-        <template v-if="googleRating">
-          <p class="flex items-center gap-3 text-2xl" :class="reviews.length ? '' : 'justify-center'">
-            <span class="font-heading text-4xl font-bold">{{ googleRating.value.toFixed(1) }}</span>
-            <span class="tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span>
-          </p>
-          <h2 id="reviews-heading" class="mt-3 font-heading text-3xl font-bold">
-            Rated {{ googleRating.value.toFixed(1) }} out of 5 on Google
-          </h2>
-          <a :href="business.mapUrl" rel="noopener" class="mt-5 inline-flex items-center gap-2 font-semibold text-brand underline-offset-4 hover:underline">
-            Read our reviews on Google
-            <span class="icon-[carbon--arrow-right]" aria-hidden="true" />
-          </a>
-        </template>
-        <h2 v-else id="reviews-heading" class="font-heading text-3xl font-bold">
-          In our clients’ words
+        <p class="flex items-center gap-3 text-2xl" :class="reviews.length ? '' : 'justify-center'">
+          <span v-if="googleRating" class="font-heading text-4xl font-bold">{{ googleRating.value.toFixed(1) }}</span>
+          <span class="tracking-[0.15em] text-star" aria-hidden="true">★★★★★</span>
+        </p>
+        <h2 id="reviews-heading" class="mt-3 font-heading text-3xl font-bold">
+          {{ googleRating ? `Rated ${googleRating.value.toFixed(1)} out of 5 on Google` : 'Expect a 5-star experience' }}
         </h2>
+        <a v-if="googleRating" :href="business.mapUrl" rel="noopener" class="mt-5 inline-flex items-center gap-2 font-semibold text-brand underline-offset-4 hover:underline">
+          Read our reviews on Google
+          <span class="icon-[carbon--arrow-right]" aria-hidden="true" />
+        </a>
+        <p v-else class="mt-4 text-lg/relaxed text-on-dark/80" :class="reviews.length ? '' : 'mx-auto max-w-xl'">
+          {{ promise }}
+        </p>
       </div>
       <ul v-if="reviews.length" class="grid gap-5" :class="reviews.length > 1 ? 'md:grid-cols-2' : ''">
         <li v-for="review in reviews" :key="review.name">
