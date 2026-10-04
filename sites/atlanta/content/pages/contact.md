@@ -3,8 +3,8 @@ title: "Contact Melo Public Adjusters Atlanta"
 metaTitle: "Contact Us | Melo Public Adjusters Atlanta"
 description: "Call Melo Public Adjusters Atlanta for assistance with all of your insurance claim needs. We're available 24/7! Reach us at (404) 467-5755."
 image:
-  src: "/wp-content/uploads/2020/02/Header-10.jpg"
-  alt: ""
+  src: "/images/photos/atlanta-downtown-night.jpg"
+  alt: "Downtown Atlanta and the Downtown Connector at night"
 date: 2018-10-09
 updated: 2021-01-14
 claimForm: true

@@ -6,15 +6,15 @@ date: 2020-08-01
 updated: 2021-06-05
 category: "insurance-claim-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/Header-5.jpg"
-  alt: "gutted room with broken shelves and a blown-out window after property damage"
+  src: "/images/photos/atlanta-grant-park-blue-victorian.jpg"
+  alt: "A pale blue Victorian house in Grant Park, Atlanta"
 ---
 
 Calling an [insurance adjuster in Atlanta](/claims-adjuster/insurance-adjuster-atlanta/) is an excellent means of ensuring you receive a maximum payout from your homeowner’s insurance company after a fire, flood, or other such disaster. Public adjusters evaluate damage, review your policy, and negotiate with the insurance company as needed, so nothing is overlooked and you know if your insurance agent is offering a fair settlement.
 
 What an Atlanta public adjuster doesn’t do, however, is help restore your home back to its original condition! They also can’t help you mitigate that damage or explain what might be needed to ensure your house is safe for you and your family. Before you go through a flood, house fire, break-in, storm, or other such event, note some suggestions on what to do to keep damage from getting worse and restore your home to a like-new condition.
 
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-fire-damage-Atlanta.jpg" alt="insurance adjuster Atlanta"}
+::post-photo{src="/images/photos/fire-damaged-wall.jpg" alt="A wall charred and blistered by fire"}
 ::
 
 ## Documenting Evidence for Your Atlanta Insurance Adjuster
@@ -31,7 +31,7 @@ After your Atlanta claims adjuster has left your property, it’s time for clean
 
 For example, a larger house fire might damage load-bearing walls and beams; without proper repairs, a ceiling or doorway might outright collapse, risking injury to anyone in the vicinity, or your home might settle and shift, resulting in cracks along walls, floors, and ceilings. If you’re not sure what walls and beams in your home are load-bearing, leave cleanup work to the pros.
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-grant-park-two-story-porch.jpg" alt="A two-story porch house on Grant Street, Atlanta"}
 ::
 
 Fire damage restoration is also more difficult and complicated than homeowners realize, as soot and ash don’t remove easily with household vacuum cleaners. It’s also easy to simply scatter those residues, so they become airborne and land in other areas of the home. Soot and ash also get trapped in a person’s hair and clothes, which also transfers them to other areas of the home.

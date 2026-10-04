@@ -5,8 +5,8 @@ description: "Check out some quick information about how public adjusters in Atl
 date: 2021-06-07
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg"
-  alt: "meeting insurance adjuster in Atlanta"
+  src: "/images/photos/atlanta-grant-park-boulevard-victorian.jpg"
+  alt: "A Victorian house on Boulevard in Grant Park, Atlanta"
 ---
 
 Public adjusters in Atlanta don’t simply apply for a job at a local firm and expect to be negotiating with insurance companies starting the next day! The insurance industry is governed by a long list of laws and, while adjusters are not attorneys, they do need to be familiar with all the laws that affect their line of work.
@@ -15,7 +15,7 @@ Note a few details about how [public adjusters find jobs in Atlanta](/about-our-
 
 ## What Do Public Adjusters in Atlanta Do?
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-claim-adjusters-Atlanta.jpg" alt="public adjusters in Atlanta"}
+::post-photo{src="/images/photos/inspector-checking-ceiling-damage.jpg" alt="An inspector checks a damaged ceiling inside a home"}
 ::
 
 First consider what public adjusters in Atlanta do, and this can better help you understand what’s required of them by the state in order to work in this chosen field! Public adjusters typically first start by evaluating policies held by property owners, so they can better evaluate that person’s coverage.
@@ -30,7 +30,7 @@ After this initial course, every potential adjuster must pass the state's public
 
 In addition to the bond, there is usually an application fee and a licensing fee needed before a person can get their public adjuster license. The course itself might also cost around $200, and applicants are typically required to be fingerprinted, which might also include an added fee. Once licensed, a public adjuster must also complete 24 hours of continuing education, including three hours of ethics, every two years.
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg" alt="appraisal from public adjustment"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-porch-house.jpg" alt="A house with a long porch on Tye Street, Cabbagetown, Atlanta"}
 ::
 
 ## How Do Atlanta Public Adjusters Find Jobs?
@@ -43,7 +43,7 @@ A public adjuster can work on their own, if they maintain their license, bond, a
 
 ## When and Why Hire a Public Adjuster
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="hiring a public adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-blue-two-story.jpg" alt="A blue two-story house in Cabbagetown, Atlanta"}
 ::
 
 Not every insurance claim needs the services of a public adjuster; if your car has been vandalized, for example, and the insurance carrier is willing to pay a fair share of the repair costs, you might not need an adjuster to step in and negotiate with them. However, if you’ve gone through a house fire and the insurance company is offering to compensate you for only a small portion of your repair costs, it’s probably time to hire an adjuster!

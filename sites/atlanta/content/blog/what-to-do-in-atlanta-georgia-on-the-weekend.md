@@ -6,8 +6,8 @@ date: 2020-08-01
 updated: 2021-01-14
 category: "local-news"
 image:
-  src: "/wp-content/uploads/2021/01/atlanta-things-to-do-44-1.jpg"
-  alt: "downtown Atlanta skyline"
+  src: "/images/photos/atlanta-georgia-aquarium.jpg"
+  alt: "The Georgia Aquarium building in downtown Atlanta"
 ---
 
 The city of Atlanta truly is the heart of the south, and it offers visitors and residents a wealth of entertainment options both indoors and out. Atlanta is also about a four-hour drive from the Georgia coast, so locals can plan a quick weekend on the water’s edge just about any day they prefer!

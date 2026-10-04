@@ -6,8 +6,8 @@ date: 2020-10-13
 updated: 2021-01-14
 category: "insurance-claim-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/insurance-and-claims-adjuster-Atlanta.jpg"
-  alt: "appraisal from public adjustment"
+  src: "/images/photos/georgia-flood-damage-assessment.jpg"
+  alt: "Assessors look over a flood-damaged house in Georgia"
 ---
 
 The experts from the Insurance Information Institute report that about one in 18 insured homeowners [file an insurance claim](https://www.iii.org/fact-statistic/facts-statistics-homeowners-and-renters-insurance#:~:text=About%20one%20in%2018%20insured%20homes%20has%20a%20claim) for property damages annually. Homeowners and business owners expect their insurance company to help them when something goes wrong, but what they don't realize is that the corporation that's been gladly taking money from these consumers month after month and year after year aren't actually on their side. A public adjuster can help ensure everyone gets a fair valuation for their property damage insurance claim.
@@ -26,7 +26,7 @@ When a property is purchased, whether it be a home, office, industrial site, or 
 - Storm damages
 - Mold remediation
 
-::post-photo{src="/wp-content/uploads/2020/02/fire-damage-public-adjuster-Atlanta.jpg" alt="insurance adjuster after fire damage in Atlanta"}
+::post-photo{src="/images/photos/townhouse-fire-firefighter.jpg" alt="A firefighter at the door of a burning townhouse"}
 ::
 
 While insurance agents will tell policyholders that they're covered, they secretly hope that they never have to pay for any of these unfortunate situations. That's why after a significant property damage claim is presented to an agent, he or she will do whatever they can to offer the lowest estimate to the client. So many will take what's given to them and assume that's all they are entitled to.
@@ -39,7 +39,7 @@ After dealing with a vicious storm, unsuspecting flood damages, or if a fire dev
 
 Before hiring a professional public adjuster to do your appraisal in Atlanta, you need to know what you're investing in. Think about what happens when a car accident occurs. The scene has to be preserved, information about the drivers is documented, paperwork for insurance is requested and submitted, and photographs are taken in some instances. There are usually police officers and insurance agents that handle this part.
 
-::post-photo{src="/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg" alt="meeting insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-cottage-steps.jpg" alt="A cottage with tall front steps in Cabbagetown, Atlanta"}
 ::
 
 It's incredibly comparable to what happens during an appraisal in Atlanta for a property damage claim. Your insurance agent will come and do their side of the job, but understand that they aren't going to look for anything that will cost them more money.
@@ -64,7 +64,7 @@ With their experience, they know that insurance companies don't want public adju
 
 As soon as you suffer any property damages that you know will result in an insurance claim being filed, call the public adjuster firm and instantly get an expert on your case and in your corner.
 
-::post-photo{src="/wp-content/uploads/2020/02/flooding-insurance-adjuster-Atlanta.jpg" alt="flood claim appraisal from public adjuster"}
+::post-photo{src="/images/photos/central-georgia-flooded-homes-aerial.jpg" alt="Flooded homes in central Georgia seen from a helicopter"}
 ::
 
 ## In Conclusion - Is Hiring a Public Adjuster in Atlanta Your Best Option?
