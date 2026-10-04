@@ -176,6 +176,25 @@ export const featuredReview = {
 } as const
 
 /**
+ * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
+ * and every other page's. With no selling points, the text ends in a "Call us at" link.
+ */
+export const secondOpinion: Record<'home' | 'page', { title: string, text: string, points: readonly string[], cta: string }> = {
+  home: {
+    title: 'Get a Second Opinion on Your Claim, for FREE!',
+    text: 'It never hurts to have another expert on your side, especially with large insurance claims.',
+    points: ['Licensed Public Adjusters', 'Experienced & Skilled', 'No Up-Front Fees'],
+    cta: 'Get Started Now',
+  },
+  page: {
+    title: 'Get a Second Opinion on Your Claim, for FREE!',
+    text: `${siteName} will do all that they can to ensure the insurance companies are treating you fairly!`,
+    points: [],
+    cta: 'Get A Claims Review',
+  },
+}
+
+/**
  * The free claim review form posts to the Charlotte Pages Worker, which verifies Turnstile,
  * saves the intake in Pipedrive, and redirects to /thank-you-page/. README.md has the setup.
  */

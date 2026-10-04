@@ -193,6 +193,25 @@ export const featuredReview = {
 } as const
 
 /**
+ * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
+ * and every other page's. With no selling points, the text ends in a "Call us at" link.
+ */
+export const secondOpinion: Record<'home' | 'page', { title: string, text: string, points: readonly string[], cta: string }> = {
+  home: {
+    title: 'Get a FREE claims review & second opinion',
+    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile.',
+    points: ['Licensed Public Adjusters', 'Contingency pricing', 'No Up-Front Cost'],
+    cta: 'Speak to an Adjuster',
+  },
+  page: {
+    title: 'Receive a FREE Claims Estimate Now',
+    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile. Start now!',
+    points: ['Certified Public Adjusters', 'Locally Owned & Operated', 'No Up-Front Cost'],
+    cta: 'Start Your Claims Estimate',
+  },
+}
+
+/**
  * The free claim review form. The site is static, so the form posts to a form service, which
  * emails the lead and sends the visitor to /thank-you-page/. Until `action` is set, the form
  * is left out and the block offers the phone and email instead. README.md has the setup.

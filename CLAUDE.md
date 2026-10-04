@@ -1,9 +1,10 @@
 # Melo websites
 
-Two static Nuxt 4 + Nuxt Content sites on Cloudflare Pages, rebuilt from the old WordPress sites
+Three static Nuxt 4 + Nuxt Content sites on Cloudflare Pages, rebuilt from the old WordPress sites
 on the Avow app's stack and design system (`~/Code/Avow`): `sites/charlotte`
-(publicadjusterscharlotte.com, the local site) and `sites/national` (melopropertyclaimsadjusting.com).
-Both are `layers/melo` with their own `site.ts`, content and public files. README.md has the
+(publicadjusterscharlotte.com, the Charlotte local site), `sites/national`
+(melopropertyclaimsadjusting.com) and `sites/atlanta` (publicadjustersofatlanta.com, the Atlanta
+local site). Each is `layers/melo` with their own `site.ts`, content and public files. README.md has the
 layout, the page and post formats and the commands.
 
 ## Rules
@@ -11,8 +12,8 @@ layout, the page and post formats and the commands.
 - `layers/ui` is copied from Avow byte for byte. Never edit it here: change Avow, then
   `pnpm ds:diff --sync`. Lint skips it.
 - Shared code goes in `layers/melo` and reads a site's details from `#site` (its `site.ts`); a
-  new export there goes in both sites' `site.ts`. Never import one site's files from the layer.
-- The two sites are separate businesses to search engines: no copy, page or post is shared
+  new export there goes in every site's `site.ts`. Never import one site's files from the layer.
+- The sites are separate businesses to search engines: no copy, page or post is shared
   between them.
 - Colour with the theme's names (`text-ink`, `bg-panel`, `border-rule-soft`); lint fails
   palette classes. Build pages from the layer's atoms (`UIText`, `UIHeading`, `UICard`, …).
@@ -32,4 +33,4 @@ layout, the page and post formats and the commands.
 
 ## Checks
 
-`pnpm lint --fix` · `pnpm typecheck` · `pnpm test:unit` · `pnpm test` (builds both sites)
+`pnpm lint --fix` · `pnpm typecheck` · `pnpm test:unit` · `pnpm test` (builds every site)

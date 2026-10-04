@@ -1,15 +1,16 @@
 # Melo websites
 
-Two websites from one codebase, both static Nuxt 4 + Nuxt Content sites on the same stack and
+Three websites from one codebase, all static Nuxt 4 + Nuxt Content sites on the same stack and
 design system as the [Avow app](https://github.com/snake-poison/Avow), served by Cloudflare Pages:
 
 | Site | Directory | Old WordPress site |
 |---|---|---|
 | Melo Public Adjusters Charlotte, the local site | `sites/charlotte` | [publicadjusterscharlotte.com](https://publicadjusterscharlotte.com) |
 | Melo Property Claims, the national site | `sites/national` | [melopropertyclaimsadjusting.com](https://melopropertyclaimsadjusting.com) |
+| Melo Public Adjusters Atlanta, the Atlanta local site | `sites/atlanta` | [publicadjustersofatlanta.com](https://publicadjustersofatlanta.com) |
 
 Each replaces its WordPress site page for page: every URL, title, heading, photo and post the
-old site had is there, at the same address. The two share their code (`layers/melo`) and
+old site had is there, at the same address. The three share their code (`layers/melo`) and
 nothing else: each has its own business details, menus, pages, posts and photos.
 
 ## Keeping search rankings
@@ -144,10 +145,10 @@ The national site keeps the phone/email fallback until its own form service is s
 
 ```sh
 pnpm dev                 # Charlotte at http://localhost:3000, drafts included
-pnpm dev:national        # the national site
-pnpm generate            # both static sites, in sites/<site>/.output/public
-pnpm generate:charlotte  # or one (generate:national)
-pnpm preview             # serve Charlotte's build (preview:national)
+pnpm dev:national        # the national site (dev:atlanta for Atlanta)
+pnpm generate            # every static site, in sites/<site>/.output/public
+pnpm generate:charlotte  # or one (generate:national, generate:atlanta)
+pnpm preview             # serve Charlotte's build (preview:national, preview:atlanta)
 pnpm lint --fix
 pnpm typecheck
 pnpm test:unit           # fast
@@ -157,7 +158,7 @@ pnpm ds:diff             # compare the design system with ~/Code/Avow
 
 ## How it is built
 
-- **One layer, two sites.** `layers/melo` is the whole site: pages, components, styles and
+- **One layer, three sites.** `layers/melo` is the whole site: pages, components, styles and
   config. Each `sites/<site>/nuxt.config.ts` extends it and says which business it is with
   `meloSite()` (`layers/melo/site-config.ts`), from its `site.ts`. The layer's code reads the
   site's details by importing `#site`, which each build points at its own `site.ts`. Content,
@@ -194,7 +195,7 @@ layers/
     components/OgImage  the share card
     public/fonts        the brand's web fonts
 sites/
-  charlotte/, national/
+  charlotte/, national/, atlanta/
     site.ts             the business, menus, claim types, categories and page texts
     nuxt.config.ts      the layer, plus meloSite()
     content/pages/      every page but the blog, at its WordPress URL
@@ -208,13 +209,13 @@ test/
 
 ## Going live
 
-Pushing to `main` runs `.github/workflows/ci.yml`: lint, typecheck, tests, both builds and their
+Pushing to `main` runs `.github/workflows/ci.yml`: lint, typecheck, tests, every build and its
 checks, then a deploy of each build to its own Cloudflare Pages project. Until the two secrets
 below are set, the deploy is skipped with a warning. Once, in Cloudflare:
 
 1. **Workers & Pages > Create > Pages > Upload assets**: create a project named
-   `publicadjusterscharlotte` and one named `melopropertyclaimsadjusting` (the names the
-   workflow deploys to). Upload anything to finish creating them; CI replaces it.
+   `publicadjusterscharlotte`, one named `melopropertyclaimsadjusting` and one named
+   `publicadjustersofatlanta` (the names the workflow deploys to). Upload anything to finish creating them; CI replaces it.
 2. **My Profile > API Tokens**: create a token with *Account > Cloudflare Pages > Edit*. In the
    GitHub repository's *Settings > Secrets and variables > Actions*, add it as
    `CLOUDFLARE_API_TOKEN`, and the account ID (on the Workers & Pages overview) as

@@ -107,7 +107,7 @@ const label = 'block text-sm font-semibold text-ink'
               <input type="text" name="City" autocomplete="address-level2" required :class="field">
             </label>
             <label class="text-xs font-medium text-ink sm:col-span-1">State
-              <input type="text" name="State" autocomplete="address-level1" value="NC" required :class="field">
+              <input type="text" name="State" autocomplete="address-level1" :value="business.address.region" required :class="field">
             </label>
             <label class="text-xs font-medium text-ink sm:col-span-2">ZIP code
               <input type="text" name="ZIP code" autocomplete="postal-code" inputmode="numeric" required :class="field">
