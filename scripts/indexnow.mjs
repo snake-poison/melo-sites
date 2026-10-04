@@ -1,16 +1,19 @@
 // Tells IndexNow (Bing, Yandex, Seznam, Naver and the rest) which pages a deploy added or
 // changed, so they recrawl them now rather than whenever they next read the sitemap. CI runs it
-// after Pages has deployed the build.
+// after Cloudflare Pages has deployed a site's build.
 //
-//   node scripts/indexnow.mjs <live-sitemap.xml>   # pages new to, or with a newer lastmod than, the live sitemap
-//   node scripts/indexnow.mjs --all                # every page in the build
+//   node scripts/indexnow.mjs <site> <live-sitemap.xml>   # pages new to, or with a newer lastmod than, the live sitemap
+//   node scripts/indexnow.mjs <site> --all                # every page in the build
 //
-// The key is public/<key>.txt, a file holding its own name, served at the site root where
-// IndexNow checks it.
+// <site> is a directory under sites/. Its key is sites/<site>/public/<key>.txt, a file holding
+// its own name, served at the site root where IndexNow checks it.
 import { readdirSync, readFileSync } from 'node:fs'
 import process from 'node:process'
 
-const built = '.output/public'
+const [site, arg] = process.argv.slice(2)
+if (site == null)
+  throw new Error('Usage: node scripts/indexnow.mjs <site> <live-sitemap.xml> | --all')
+const built = `sites/${site}/.output/public`
 const endpoint = 'https://api.indexnow.org/indexnow'
 
 /** A sitemap's pages, as url → lastmod (or ''). Image entries sit inside <url> and are skipped. */
@@ -30,7 +33,6 @@ if (keys.length !== 1)
 const key = keys[0].replace(/\.txt$/, '')
 
 const current = pagesIn(readFileSync(`${built}/sitemap.xml`, 'utf8'))
-const arg = process.argv[2]
 let urls
 if (arg === '--all') {
   urls = [...current.keys()]
@@ -41,7 +43,7 @@ else if (arg != null) {
   urls = [...current].filter(([url, lastmod]) => !live.has(url) || live.get(url) !== lastmod).map(([url]) => url)
 }
 else {
-  throw new Error('Usage: node scripts/indexnow.mjs <live-sitemap.xml> | --all')
+  throw new Error('Usage: node scripts/indexnow.mjs <site> <live-sitemap.xml> | --all')
 }
 
 if (urls.length === 0) {

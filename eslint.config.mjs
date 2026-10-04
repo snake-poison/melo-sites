@@ -2,7 +2,8 @@ import antfu from '@antfu/eslint-config'
 import betterTailwind from 'eslint-plugin-better-tailwindcss'
 import { getDefaultSelectors } from 'eslint-plugin-better-tailwindcss/defaults'
 import { MatcherType, SelectorKind } from 'eslint-plugin-better-tailwindcss/types'
-import { withNuxt } from './.nuxt/eslint.config.mjs'
+// Both sites build from the one layer, so either site's generated config lints the whole repo.
+import { withNuxt } from './sites/charlotte/.nuxt/eslint.config.mjs'
 
 // Avow's lint rules (~/Code/Avow/eslint.config.mjs), less the ones about its own domains.
 export default withNuxt(
@@ -70,7 +71,7 @@ export default withNuxt(
   },
   {
     // Vite's plugin types and Nuxt's disagree; Avow casts the same way.
-    files: ['nuxt.config.ts'],
+    files: ['**/nuxt.config.ts'],
     rules: {
       'ts/consistent-type-assertions': 'off',
     },
@@ -79,7 +80,7 @@ export default withNuxt(
   {
     settings: {
       'better-tailwindcss': {
-        entryPoint: 'app/assets/css/main.css',
+        entryPoint: 'layers/melo/app/assets/css/main.css',
       },
     },
     rules: {
@@ -92,7 +93,7 @@ export default withNuxt(
   // bg-panel, border-rule, text-danger), never a palette class. This is what keeps the blog
   // looking like Avow when the tokens change there.
   {
-    files: ['app/**/*.{ts,vue}', 'components/**/*.vue'],
+    files: ['layers/melo/app/**/*.{ts,vue}', 'layers/melo/components/**/*.vue'],
     rules: {
       'better-tailwindcss/no-restricted-classes': ['error', {
         selectors: [

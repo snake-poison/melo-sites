@@ -13,7 +13,7 @@ import { pages, readPage } from './site'
 // that each trip after (TCP slow start, RFC 6928), so a response that fits in 14,480 bytes
 // takes one trip, 43,440 two, 101,360 three.
 const FIRST_WINDOW = 10 * 1448
-// GitHub Pages' response headers, about 700 bytes, travel in the same trips. Rounded up.
+// The host's response headers, under a kilobyte, travel in the same trips. Rounded up.
 const HEADERS = 1024
 
 /** The round trips a response of `bytes` takes on a fresh connection, after the handshakes. */

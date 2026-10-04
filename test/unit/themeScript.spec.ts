@@ -1,5 +1,5 @@
 // @vitest-environment happy-dom
-import { themeScript } from '~/constants/themeScript'
+import { themeScript } from '../../layers/melo/app/constants/themeScript'
 
 function mockPrefersDark(dark: boolean) {
   vi.spyOn(window, 'matchMedia').mockReturnValue({ matches: dark } as MediaQueryList)

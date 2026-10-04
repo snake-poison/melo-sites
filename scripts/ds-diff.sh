@@ -32,11 +32,12 @@ for file in "$layer"/public/fonts/*; do
   name="${file#"$layer"/}"
   pairs+=("$name:$name")
 done
-# The share-card fonts sit in the app's public/, the only place nuxt-og-image reads fonts
+# The share-card fonts sit in each site's public/, the only place nuxt-og-image reads fonts
 # from while prerendering.
-for file in "$layer"/../../public/og-fonts/*; do
+for file in "$layer"/../../sites/*/public/og-fonts/*; do
+  site="$(basename "$(dirname "$(dirname "$(dirname "$file")")")")"
   name="public/og-fonts/$(basename "$file")"
-  pairs+=("../../$name:$name")
+  pairs+=("../../sites/$site/$name:$name")
 done
 
 status=0

@@ -1,4 +1,4 @@
-import { readingMinutes } from '~/utils/readingTime'
+import { readingMinutes } from '../../layers/melo/app/utils/readingTime'
 
 describe('readingMinutes', () => {
   it('is at least one minute', () => {

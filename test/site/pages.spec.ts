@@ -1,4 +1,4 @@
-import { readFileSync } from 'node:fs'
+import { existsSync, readFileSync } from 'node:fs'
 import { fileFor, isNoindex, pages, publicDir, readPage, siteUrl, wordpressPages } from './site'
 
 const all = pages()
@@ -73,5 +73,19 @@ describe('sitemap.xml', () => {
   it('is what the old sitemap index points at', () => {
     const index = readFileSync(`${publicDir}/sitemap_index.xml`, 'utf8')
     expect(index).toContain(`<loc>${siteUrl}/sitemap.xml</loc>`)
+  })
+})
+
+// Cloudflare Pages answers the old URLs a site lists in public/_redirects with a 301 to new ones.
+const redirectsFile = `${publicDir}/_redirects`
+const redirects = existsSync(redirectsFile)
+  ? readFileSync(redirectsFile, 'utf8').split('\n').filter(line => line.trim() !== '' && !line.startsWith('#')).map(line => line.split(/\s+/))
+  : []
+
+describe.skipIf(redirects.length === 0)('_redirects', () => {
+  it.each(redirects)('%s goes to a built page', (from, to, status) => {
+    expect(status).toBe('301')
+    expect(fileFor(from!), `${from} is a page of its own`).toBeUndefined()
+    expect(fileFor(to!), `${from} goes to ${to}`).toBeDefined()
   })
 })

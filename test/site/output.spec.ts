@@ -2,7 +2,7 @@ import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { publicDir } from './site'
 
-// GitHub Pages answers /blog/x/ with blog/x/index.html. A blog/x.html beside a blog/x/
+// Cloudflare Pages answers /blog/x/ with blog/x/index.html. A blog/x.html beside a blog/x/
 // directory is ambiguous there, so every page is an index.html in its own directory.
 describe('the output', () => {
   it('has no page outside an index.html but the 404 and SPA fallbacks', () => {
