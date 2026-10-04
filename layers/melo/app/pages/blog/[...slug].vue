@@ -69,7 +69,7 @@ const toc = page.body.toc?.links ?? []
   <div>
     <!-- As WordPress opened a post: its title and date over the featured photo. -->
     <PageHero :title="page.title" :kicker="category.label" :image="page.image?.src" :actions="false">
-      <UIText variant="label" as="p" class="mt-6 flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-on-dark/80!">
+      <UIText variant="label" as="p" class="mt-6 flex flex-wrap items-center gap-x-2 gap-y-1 text-on-dark/80!">
         <time :datetime="published">{{ formatDate(page.date) }}</time>
         <template v-if="page.updated">
           <span aria-hidden="true">·</span>
@@ -104,6 +104,8 @@ const toc = page.body.toc?.links ?? []
           <ContentRenderer :value="page" class="post-body mt-10" />
 
           <PostFaq v-if="page.faq.length > 0" :items="page.faq" class="mt-16" />
+
+          <PostClaimCta class="mt-16" />
         </div>
 
         <!-- The outline, beside the body on wide screens. Plain anchor links: no script. -->

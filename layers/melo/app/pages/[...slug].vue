@@ -54,16 +54,17 @@ useSchemaOrg([
 ])
 defineOgImage('MeloPage', { title: content.title, kicker: content.kicker ?? business.name })
 
-// Where this page's "get a claims review" buttons point (components/content/PageCta.vue).
+// Where this page's "get a claims review" buttons point (components/content/PageCta.vue): the
+// form in its hero when it has one.
 provide(claimFormHrefKey, content.claimForm ? '#claim-review' : '/contact/#claim-review')
 
 // The thank-you page sells nothing, so it opens without the call-to-action buttons.
 const quiet = path === '/thank-you-page'
 
 /*
- * The claim review is a band the page's width, so it cannot sit in the body's column. It goes
- * after the body, or where the body marks it with `:page-claim-review` (the home page, as the
- * old one had it); the body then renders in two parts around it.
+ * The steps and reviews (`testimonial`) are a band the page's width, so they cannot sit in the
+ * body's column. They go after the body, or where the body marks `:page-claim-review` (where the
+ * old site had its claim form); the body then renders in two parts around them.
  */
 const bodyNodes = content.body.value
 const reviewAt = bodyNodes.findIndex(node => Array.isArray(node) && node[0] === 'page-claim-review')
@@ -79,9 +80,10 @@ const bodyParts = reviewAt === -1
       :kicker="content.kicker"
       :lead="content.lead"
       :image="content.image?.src"
-      :actions="!quiet && !isContact"
-      :review-label="isHome ? 'Start A Claims Review' : undefined"
+      :actions="!quiet"
+      :form="content.claimForm"
     />
+    <TrustStrip v-if="content.claimForm" />
 
     <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20" :class="isContact ? 'grid gap-12 lg:grid-cols-[minmax(0,1fr)_22rem]' : ''">
       <ContentRenderer :value="bodyParts[0]!" class="post-body page-body" />
@@ -115,12 +117,12 @@ const bodyParts = reviewAt === -1
     </div>
 
     <template v-if="bodyParts.length > 1">
-      <ClaimReview :testimonial="content.testimonial" />
+      <ClaimProof v-if="content.testimonial" />
       <div class="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
         <ContentRenderer :value="bodyParts[1]!" class="post-body page-body" />
       </div>
     </template>
-    <ClaimReview v-else-if="content.claimForm" :testimonial="content.testimonial" />
+    <ClaimProof v-else-if="content.testimonial" />
     <ClaimTypesGrid v-if="content.claimTypes || content.services" :intro="content.claimTypesIntro" :services="content.services" />
     <SecondOpinionBand v-if="content.secondOpinion" :variant="isHome ? 'home' : 'page'" />
   </div>

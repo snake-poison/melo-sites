@@ -73,7 +73,7 @@ export default defineNuxtConfig({
     '/blog/category/**': { robots: 'noindex, follow' },
   },
 
-  css: [here('./app/assets/css/main.css'), here('./app/assets/css/brand.css'), here('./app/assets/css/prose.css')],
+  css: [here('./app/assets/css/main.css'), here('./app/assets/css/brand.css'), here('./app/assets/css/prose.css'), here('./app/assets/css/claim-intake.css')],
 
   // Components go by their file name (PostCard, not MoleculesPostCard), as in Avow.
   components: [

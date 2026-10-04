@@ -8,7 +8,8 @@
  *   :::
  *   ::
  *
- * `solid` fills the cards cyan and charcoal in turn, as the old home page set its services.
+ * `solid` marks the old home page's services, which it filled cyan and charcoal in turn. They
+ * are white cards now, like any grid's; the flag is kept so the content need not change.
  */
 const props = withDefaults(defineProps<{
   /** Markdown passes `cols="3"` as the number 3. */

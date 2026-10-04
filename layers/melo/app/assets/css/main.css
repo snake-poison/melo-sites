@@ -16,8 +16,9 @@
 
 /*
  * Melo's faces and colours (brand.css), after the old site. Cyan is the logo's, for buttons,
- * bands and marks, with charcoal text on it. Charcoal is the hero overlay, the footer and the
- * dark buttons and cards in both modes; text on it is on-dark, light in both modes.
+ * bands and marks, with charcoal text on it. Navy, the logo's other colour, is the dark ground in
+ * both modes: the hero's veil, the dark bands and the footer. Text on it is on-dark, light in
+ * both modes.
  */
 @theme {
   --font-sans: 'Roboto', 'Roboto Fallback', 'Helvetica Neue', Arial, system-ui, sans-serif;
@@ -29,6 +30,8 @@
   --color-charcoal: var(--melo-charcoal);
   --color-charcoal-2: var(--melo-charcoal-2);
   --color-on-dark: var(--melo-on-dark);
+  --color-navy: var(--melo-navy);
+  --color-navy-2: var(--melo-navy-2);
   /* The review stars, gold as the old site's. */
   --color-star: #fdd835;
 }

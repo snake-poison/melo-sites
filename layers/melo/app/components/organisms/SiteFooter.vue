@@ -1,41 +1,47 @@
 <script setup lang="ts">
-import { addressLine, business, footerNav, footerSocial, serviceAreas } from '#site'
+import { addressLine, business, claimTypes, footerNav, footerSocial, promise, serviceAreas } from '#site'
 
-// Charcoal in both modes, as the old site's footer was. Name, address and phone are written the
-// same way on every page: local search reads them as one business.
+// Navy in both modes. Name, address and phone are written the same way on every page: local
+// search reads them as one business.
 const year = new Date().getFullYear()
 </script>
 
 <template>
-  <footer class="bg-charcoal text-on-dark">
-    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-3">
+  <footer class="bg-navy-2 text-on-dark">
+    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))]">
       <div>
-        <h2 class="font-heading text-xl font-bold text-on-dark/75">
+        <NuxtLink to="/" :aria-label="`${business.name} home`" class="inline-block">
+          <SiteLogo :height="44" on-dark />
+        </NuxtLink>
+        <p class="mt-4 max-w-xs text-sm/relaxed text-on-dark/70">
+          {{ promise }}
+        </p>
+        <h2 class="mt-6 font-heading text-base font-bold">
           {{ business.name }}
         </h2>
-        <address class="mt-5 space-y-3 text-[0.9375rem] text-on-dark/85 not-italic">
+        <address class="mt-3 space-y-2.5 text-[0.9375rem] text-on-dark/85 not-italic">
           <a :href="business.mapUrl" rel="noopener" class="flex gap-2 hover:text-on-dark">
-            <span class="mt-0.5 icon-[carbon--location] shrink-0 text-brand" aria-hidden="true" />
+            <span class="mt-1 icon-[carbon--location] shrink-0 text-brand" aria-hidden="true" />
             {{ addressLine }}
           </a>
           <a :href="business.phoneHref" class="flex gap-2 font-semibold text-on-dark hover:underline">
-            <span class="mt-0.5 icon-[carbon--phone] shrink-0 text-brand" aria-hidden="true" />
+            <span class="mt-1 icon-[carbon--phone] shrink-0 text-brand" aria-hidden="true" />
             {{ business.phone }}
           </a>
           <a :href="`mailto:${business.email}`" class="flex gap-2 break-all hover:text-on-dark">
-            <span class="mt-0.5 icon-[carbon--email] shrink-0 text-brand" aria-hidden="true" />
+            <span class="mt-1 icon-[carbon--email] shrink-0 text-brand" aria-hidden="true" />
             {{ business.email }}
           </a>
           <span class="flex gap-2">
-            <span class="mt-0.5 icon-[carbon--time] shrink-0 text-brand" aria-hidden="true" />
+            <span class="mt-1 icon-[carbon--time] shrink-0 text-brand" aria-hidden="true" />
             {{ business.hours }}
           </span>
         </address>
-        <ul class="mt-6 flex gap-3" :aria-label="`${business.name} elsewhere`">
+        <ul class="mt-5 flex gap-2" :aria-label="`${business.name} elsewhere`">
           <li v-for="profile in footerSocial" :key="profile">
-            <a :href="profile" rel="noopener me" class="flex size-10 items-center justify-center text-on-dark hover:text-brand" :aria-label="profile.split('/')[2]">
+            <a :href="profile" rel="noopener me" class="flex size-10 items-center justify-center rounded-full bg-on-dark/8 text-on-dark hover:bg-brand hover:text-charcoal" :aria-label="profile.split('/')[2]">
               <span
-                class="text-2xl"
+                class="text-xl"
                 :class="{
                   'icon-[carbon--logo-facebook]': profile.includes('facebook'),
                   'icon-[carbon--logo-x]': profile.includes('twitter'),
@@ -49,14 +55,26 @@ const year = new Date().getFullYear()
         </ul>
       </div>
 
+      <nav aria-labelledby="footer-claim-types">
+        <h2 id="footer-claim-types" class="font-heading text-base font-bold">
+          Claim Types
+        </h2>
+        <ul class="mt-4 space-y-2.5 text-[0.9375rem]">
+          <li v-for="type in claimTypes" :key="type.to">
+            <NuxtLink :to="type.to" class="text-on-dark/80 hover:text-brand">
+              {{ type.label }}
+            </NuxtLink>
+          </li>
+        </ul>
+      </nav>
+
       <nav aria-labelledby="footer-getting-around">
-        <h2 id="footer-getting-around" class="font-heading text-xl font-bold text-on-dark/75">
+        <h2 id="footer-getting-around" class="font-heading text-base font-bold">
           Getting Around
         </h2>
-        <ul class="mt-5 space-y-2.5">
+        <ul class="mt-4 space-y-2.5 text-[0.9375rem]">
           <li v-for="link in footerNav" :key="link.to">
-            <NuxtLink :to="link.to" class="flex items-center gap-2.5 text-on-dark hover:text-brand">
-              <span class="icon-[carbon--chevron-right] shrink-0 rounded-full border border-brand text-sm text-brand" aria-hidden="true" />
+            <NuxtLink :to="link.to" class="text-on-dark/80 hover:text-brand">
               {{ link.label }}
             </NuxtLink>
           </li>
@@ -64,12 +82,11 @@ const year = new Date().getFullYear()
       </nav>
 
       <div>
-        <h2 class="font-heading text-xl font-bold text-on-dark/75">
+        <h2 class="font-heading text-base font-bold">
           Service Areas
         </h2>
-        <ul class="mt-5 space-y-2.5 text-on-dark">
-          <li v-for="area in serviceAreas" :key="area" class="flex items-center gap-2.5">
-            <span class="icon-[carbon--chevron-right] shrink-0 rounded-full border border-brand text-sm text-brand" aria-hidden="true" />
+        <ul class="mt-4 flex flex-wrap gap-2 text-sm">
+          <li v-for="area in serviceAreas" :key="area" class="rounded-full px-3 py-1 text-on-dark/85 ring-1 ring-on-dark/20">
             {{ area }}
           </li>
         </ul>
@@ -77,7 +94,7 @@ const year = new Date().getFullYear()
     </div>
 
     <div class="border-t border-on-dark/10">
-      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-on-dark/70 sm:px-6">
+      <div class="mx-auto flex max-w-6xl flex-wrap items-center justify-between gap-3 px-4 py-5 text-xs text-on-dark/65 sm:px-6">
         <p>Copyright © {{ business.shortName }} {{ year }}</p>
         <ul class="flex gap-4">
           <li>

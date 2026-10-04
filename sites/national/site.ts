@@ -30,7 +30,7 @@ export const business = {
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=Melo+Property+Claims+5736+N+Tryon+St+%23232+Charlotte+NC+28213',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/melo-property-claims-logo-square@2x.png',
-  image: '/wp-content/uploads/2020/03/insurance-claims-adjuster-charlotte.jpg',
+  image: '/images/photos/inspector-at-house-with-wall-torn-off.jpg',
   areaServed: ['North Carolina', 'South Carolina', 'Georgia', 'Florida', 'Tennessee', 'Texas', 'Louisiana', 'Maryland', 'Pennsylvania', 'Virginia', 'Kentucky', 'New Jersey']
     .map(name => ({ '@type': 'State', 'name': name })),
   sameAs: [
@@ -187,12 +187,38 @@ export const categories: Record<Category, { label: string, description: string }
 }
 
 /**
- * The client review the claim-review band quotes: the site's own, from its reviews page. (The old
+ * Clients' reviews, as the old site quoted them: the band under the steps shows them. (The old
  * site quoted Trey Edwards, as the Charlotte and Atlanta sites did; the sites share no copy now.)
  */
-export const featuredReview: { quote: string, name: string } | null = {
-  quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
-  name: 'Ryan Taclibon',
+export const reviews: readonly { quote: string, name: string, source?: string }[] = [
+  {
+    quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
+    name: 'Ryan Taclibon',
+  },
+]
+
+/**
+ * What the site sells with, in its own words: the header's top line, the three promises under the
+ * hero's heading, the credentials strip under the hero and the steps of a claim.
+ */
+export const promise = 'Zero up-front cost · No-obligation claim review · Contingency pricing'
+
+export const heroPoints: readonly string[] = ['A free second look at your claim', 'No out-of-pocket costs', 'A small fee, only on the overage we win']
+
+export const credentials: readonly { icon: string, title: string, text: string }[] = [
+  { icon: 'icon-[carbon--certificate-check]', title: 'Licensed public adjusters', text: 'For homes and businesses across the states we serve' },
+  { icon: 'icon-[carbon--scales]', title: 'No conflict of interest', text: 'We represent policyholders, not insurers' },
+  { icon: 'icon-[carbon--chart-bar]', title: '20+ years of claims', text: 'Complex fire, water, mold, roof and storm losses' },
+  { icon: 'icon-[carbon--money]', title: 'No flat rates', text: 'No hidden fees, and nothing up front' },
+]
+
+export const howItWorks: { title: string, steps: readonly { title: string, text: string }[] } = {
+  title: 'What happens when you call',
+  steps: [
+    { title: 'A free claim review', text: 'Tell us where your claim stands. We say plainly whether a public adjuster will add value.' },
+    { title: 'Inspection and documentation', text: 'We assess the damage, read the policy line by line and build the estimate.' },
+    { title: 'Negotiation to settlement', text: 'We handle the insurer from start to finish, for a percentage of the overage we negotiate.' },
+  ],
 }
 
 /**
@@ -239,7 +265,7 @@ export const blogPage = {
   metaTitle: 'Insurance Adjuster Blog | Melo Property Claims',
   lead: 'Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let\'s work together.',
   description: 'Learn more about public adjusting and getting the most out of your property damage insurance claim. Experienced & licensed in every state.',
-  image: '/wp-content/uploads/2020/03/Header-10.jpg',
+  image: '/images/photos/team-reviewing-paperwork-at-table.jpg',
 }
 
 /**
