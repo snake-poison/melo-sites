@@ -19,7 +19,9 @@ const label = 'block text-sm font-semibold text-ink'
 </script>
 
 <template>
+  <ClaimIntake v-if="claimForm.action === '/api/claim-review'" :testimonial="props.testimonial" />
   <section
+    v-else
     id="claim-review"
     aria-labelledby="claim-review-heading"
     class="relative isolate scroll-mt-32"
