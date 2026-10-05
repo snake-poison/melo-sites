@@ -7,7 +7,7 @@ image:
   src: "/images/photos/business-owners-clearing-flood-debris.jpg"
   alt: "Business owners clearing flood debris from a main street"
 date: 2019-03-22
-updated: 2023-07-26
+updated: 2026-10-04
 testimonial: true
 claimForm: true
 secondOpinion: true
@@ -15,26 +15,26 @@ secondOpinion: true
 
 ## Our Independent Adjusters Partnering with Reputable Contractors Today!
 
-Are you a reputable contractor in one of [the states we serve](/service-areas/), looking to pair up with a trusted insurance adjuster to boost your business and build your reputation?
+Are you a reputable contractor in one of [the states we serve](/service-areas/), looking to work alongside a trusted public adjuster for the clients you both serve?
 
 ::page-grid{cols="3"}
-:::page-feature{title="FREE Recommendations" icon="carbon--user-multiple"}
-If someone told you that they had an opportunity to get you some free advertising, what would you say? It doesn't happen often, so chances are you would jump at it, right? That's what our independent adjusters do for you when you partner with our public adjuster firm.
+:::page-feature{title="Recommendations on Merit" icon="carbon--user-multiple"}
+Clients often ask us who should do their repairs. When they do, we can suggest contractors whose work we've seen, and the choice is always the client's. A recommendation from us is earned by the work: it isn't bought, sold or traded for referrals.
 :::
-:::page-feature{title="Referral Program That Pays" icon="carbon--money"}
-Do you have your list of satisfied, regular clients? Have they mentioned that they are dealing with an insurance claim? Refer them to [Melo Property Claims](/)! That's what we know, and what we do is advocate for the homeowners you're working with. When they hire us, we pay you for the referral!
+:::page-feature{title="Send Clients Our Way" icon="carbon--partnership"}
+Do you have customers dealing with an insurance claim? You're welcome to send them to [Melo Property Claims](/), and we'll advocate for them with their insurer. Each state sets its own rules on referral fees, and many bar a public adjuster from paying them, so ask us what applies where you work.
 :::
-:::page-feature{title="A Continuous Workflow" icon="carbon--calendar"}
-Without question, you've dealt with some slow periods in your work schedule. As an independent contractor, it's up to you to go out and find jobs. When you partner with us, your calendar will always be full. As long as you're reputable, we have plenty of clients that are looking for contractors just like you.
+:::page-feature{title="Clear Roles" icon="carbon--document"}
+Many states don't let a contractor act as a public adjuster on a property they're repairing, though you can still explain your own estimate. We handle the claim and you handle the repairs, which keeps the client protected, and you.
 :::
 :::page-feature{title="Customer Satisfaction" icon="carbon--certificate-check"}
-One of the most important values we hold as an independent insurance adjuster firm is putting our customers' satisfaction and needs first. When we're partnered up, there's a higher chance of that happening. We've made the process of getting them their property damage repairs even easier, all while you're getting hired for the job.
+One of the most important values we hold is putting our customers' needs first. Our duty is to them alone: we want them back in a sound building, repaired properly at a fair price, and we look for contractors who want the same.
 :::
 :::page-feature{title="Trusted Public Adjusters" icon="carbon--security"}
-Of course, you don't want to take a chance at tarnishing your reputation by pairing up with a company that people don't believe in. Melo Property Claims has been in business for years, and we have a name that people know and trust. We follow all applicable laws and guidelines to protect our clients, you, and ourselves all at the same time.
+Of course, you don't want to take a chance at tarnishing your reputation by pairing up with a company that people don't believe in. Melo Property Claims has been in business for years, and we have a name that people know and trust. We follow the laws of each state we work in, to protect our clients, you, and ourselves all at the same time.
 :::
-:::page-feature{title="Honest & Reasonable Pay" icon="carbon--scales"}
-You've had it happen, or heard of it happening to someone else. You did the work, and then the insurance company didn't pay the claim money. Now you're out your cash, and there's nothing you can do about it but wait longer and hope the homeowner comes through. We get maximum valuations, so you won't ever have to worry about non-payment again!
+:::page-feature{title="Claims Paid in Full" icon="carbon--scales"}
+You've had it happen, or heard of it happening to someone else: you did the work, and the insurance money didn't cover it. When a claim is paid for all the damage that's really there, the repairs it needs are paid for too. Getting the claim paid in full, for the property owner we work for, is our job.
 :::
 ::
 
@@ -45,7 +45,7 @@ You've had it happen, or heard of it happening to someone else. You did the work
 ::page-section{image="/images/photos/roofers-working-on-roof.jpg" alt="Roofers in hard hats and harnesses working on a house roof"}
 ## Independent Adjusters Building Relationships
 
-As one of the [public adjuster firms](/about-our-public-adjuster-firm/) that have taken the time and put in the work to build our brand and reputation, we don't just want to partner with any building contractor out there. What we're looking for is someone that has the desire to grow and give the American people the services they deserve. If you can prove you hold these same values, we want to hear from you:
+As one of the [public adjuster firms](/about-our-public-adjuster-firm/) that have taken the time and put in the work to build our brand and reputation, we don't just want to work alongside any building contractor out there. What we're looking for is someone who wants to give property owners the service they deserve. If you hold these same values, we want to hear from you:
 
 - Honesty
 - Integrity
@@ -54,7 +54,7 @@ As one of the [public adjuster firms](/about-our-public-adjuster-firm/) that hav
 - Fairness
 - Putting the customer first!
 
-Set up an appointment with one of our knowledgeable independent adjusters today. We can meet and discuss how partnering with Melo Property Claims is the best business move you could ever make!
+Set up an appointment with one of our knowledgeable adjusters today. We can meet and discuss how we can work alongside each other for the clients we serve.
 
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::

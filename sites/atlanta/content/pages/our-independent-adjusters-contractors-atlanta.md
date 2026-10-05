@@ -1,13 +1,13 @@
 ---
 title: "Independent Adjusters Partnering with Contractors in Atlanta"
 metaTitle: "Independent Adjusters Atlanta | Top Contractors Partners"
-description: "Learn more about our independent adjusters in Atlanta and how our contractor referral program works to your benefit. Call (404) 467-5755."
-lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
+description: "How our independent adjusters in Atlanta work alongside local contractors, within the rules Georgia law sets for both. Call (404) 467-5755."
+lead: "Atlanta roofers, remodelers and restoration crews: when a claim is paid for all the damage, the repairs it needs are paid for too."
 image:
   src: "/images/photos/house-construction-roof-framing.jpg"
   alt: "Builders working on the roof of a house under construction"
 date: 2019-03-22
-updated: 2021-01-14
+updated: 2026-10-04
 testimonial: true
 claimForm: true
 secondOpinion: true
@@ -18,23 +18,23 @@ secondOpinion: true
 We believe in giving each of our customers a stress-free, straightforward experience when they have to file an insurance claim in Atlanta. If you're a roofer, remodeler or restoration contractor working in Atlanta, Fulton, DeKalb or Cobb County and looking to do the same, we want to hear from you!
 
 ::page-grid{cols="3"}
-:::page-feature{title="Fair & Honest Compensation" icon="carbon--money"}
-Our independent adjusters in Atlanta have worked with all types of contractors over the years. Some of them have been cheated out of their hard-earned money. Only because the insurance company didn't come through with their end of the deal. With our determination, you can expect the compensation you deserve for the property damage repairs you provide our clients.
+:::page-feature{title="Claims Paid in Full" icon="carbon--money"}
+When a claim is underpaid, the repairs it should cover go unfunded, and the contractor doing them is often the one left waiting. We work for the property owner alone, as Georgia law requires, and our job is to get their claim paid for all the damage that's really there. A claim paid in full pays for the work it needs.
 :::
-:::page-feature{title="FREE Recommendations" icon="carbon--user-multiple"}
-There aren't a whole lot of options when it comes to FREE advertising and recommendations these days. Sure, you can splatter your name across social media and other sources, but it's proven that word of mouth is the ideal way to hire a contractor for most homeowners and business owners. If we like the results you provide, we won't have any issues sharing your company name.
+:::page-feature{title="Recommendations on Merit" icon="carbon--user-multiple"}
+Clients often ask us who should do their repairs. When they do, we can suggest contractors whose work we've seen. Georgia law bars a public adjuster from taking anything for recommending a contractor, or from having a stake in a firm that does the repairs, so a recommendation from us is earned by the work alone. The client always chooses their own contractor.
 :::
-:::page-feature{title="Continuous & Streamlined Workflow" icon="carbon--chart-bar"}
-When you started your business as a building contractor, you knew that there were going to be ups and downs. Things get crazy busy, and then you hear nothing for days, weeks, or even longer. We have built a solid list of clients, and our reach is continuing to grow. With your name on our list of contractors, those unbearable slow days will be a thing of the past.
+:::page-feature{title="Send Clients Our Way" icon="carbon--partnership"}
+If you pull up to a job after a spring hailstorm or a tree through the roof and the owner needs help with the claim, you're welcome to give them our name. Georgia law doesn't let a public adjuster pay anyone but another licensed public adjuster for a referral, so we don't pay referral fees or commissions, and we don't trade referrals.
 :::
-:::page-feature{title="100% Satisfaction" icon="carbon--checkmark-outline"}
-The primary objective as independent adjusters in Atlanta is putting our customers and their needs first. Even after we've taken care of their insurance claim in Atlanta, we want to make sure that they get the repairs they need at a fair price and in a sensible amount of time. As long as you're a contractor that believes in 100% satisfaction, we want to find out how we can help each other and our clients all at the same time!
+:::page-feature{title="Clear Roles" icon="carbon--certificate-check"}
+In Georgia, a contractor may not act as a public adjuster, or advertise to adjust claims, on a property they repair or may repair. You can still explain your own bid to the owner and to the insurer. We handle the claim and you handle the repairs, which keeps the client protected, and you.
 :::
-:::page-feature{title="Referral Program" icon="carbon--partnership"}
-Of course, you're still going to be going out into the community and finding your own clients. If you pull in to a job site after a spring hailstorm or a tree through the roof and see that there is a need for an insurance adjuster for a storm damage claim in Atlanta, we hope that you tell them about what [Melo Public Adjusters Atlanta](/) can do for them. If they hire our independent insurance adjusters, we will give you a commission to show you how much we appreciate you sharing our name.
+:::page-feature{title="Estimates That Hold Up" icon="carbon--document"}
+We document the damage in detail, room by room and item by item. When the client asks us to, we work from your estimate, so the insurer sees the full scope of the repairs the loss calls for.
 :::
-:::page-feature{title="Trusted Agents" icon="carbon--certificate-check"}
-Georgia law sets rules about contractors and public adjusters working together on a claim. We want you to know that we follow all the proper protocols and laws to keep our customers protected, as well as our relationship with the contractors we partner with honest. With our reputation in the community, you'll get more new clients the right way.
+:::page-feature{title="Customers First" icon="carbon--checkmark-outline"}
+Our duty is to our clients, from the claim to the repairs: we want them back in a sound building, repaired at a fair price and in a sensible amount of time. If that's how you work too, we'd like to know you.
 :::
 ::
 
@@ -45,11 +45,11 @@ Georgia law sets rules about contractors and public adjusters working together o
 ::page-section{image="/images/photos/georgia-damage-inspectors-clipboards.jpg" alt="Damage inspectors with clipboards at a home in DeKalb County, Georgia"}
 ## Contact Our Independent Adjusters in Atlanta Today!
 
-If you're a local contractor that values honesty, integrity, and putting the customer's needs first, then our independent adjuster in Atlanta wants to hear from you today. We can go over all the details of how our contractor referral program works and how it benefits you, us, and, most importantly, the clients that we serve.
+If you're a local contractor who values honesty, integrity and putting the customer's needs first, our independent adjuster in Atlanta wants to hear from you. We can talk through how we work alongside contractors on a claim, and what Georgia law lets each of us do.
 
-You will have the opportunity to build your reputation, and your profits when you're partnered alongside the most committed [public adjuster firm in Atlanta](/about-our-adjuster-firm-atlanta/). While we can't force our clients to pick you to do their property damage repairs, we can make a strong suggestion as long as the work you provide meets our standards for quality.
+We can't, and won't, choose a client's contractor for them: that choice is theirs. What we can do is get their claim paid for the damage that's really there, so the repairs it needs can be done properly.
 
-We have already built a stable relationship with our consumers, so they trust our judgment when they have received their insurance claim determination and need to hire someone to help get their building back to normal. Do you think you are who we're looking for in a contractor partner? Then call us today to set up an appointment. We're looking forward to meeting you!
+Call us today to set up a meeting with our [public adjuster firm in Atlanta](/about-our-adjuster-firm-atlanta/). We're looking forward to meeting you!
 
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::

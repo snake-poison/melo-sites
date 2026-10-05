@@ -40,7 +40,7 @@ Did you know that when an adjuster firm in Charlotte works with local restoratio
 
 - They deserve to get compensation for all work completed
 - Can be recommended to future clients
-- Can be a part of our contractor referral program
+- Can earn a referral fee for introducing a client to us, as North Carolina allows
 - Help put together estimates in a language policyholders can interpret
 
 If you're a contractor and would like to learn more about what our public adjusters can do for you and your business, please get in touch with us today!

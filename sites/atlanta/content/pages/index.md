@@ -74,7 +74,7 @@ Are you thinking of adding on to your property? Then you need to understand the 
 Property damage insurance claims can get confusing quickly, especially if you don't know what coverage you have. We will talk you through everything so you can put your mind at ease and get your recovery quicker.
 :::
 :::page-feature{title="Partnerships With Local Contractors" icon="carbon--partnership"}
-Are you a local contractor? We want to hear from you! Get commissions for getting us hired by your client, and help us streamline the process for our valuable customers together for satisfaction from every angle.
+Are you a local contractor? We want to hear from you! We handle the claim and you handle the repairs, so the client gets a claim paid for all the damage and work done right.
 :::
 ::
 
@@ -155,11 +155,11 @@ Let us take the guesswork and stress off of your shoulders when it comes to your
 ::page-section{image="/images/photos/roofer-installing-shingles.jpg" alt="A roofer nails down new shingles"}
 ### Our Partnerships with Local Contractors Are Rock Solid
 
-When we work with a property owner that's dealing with damages, they are going to need a contractor that can complete the repairs quickly and at reasonable prices. That's why we work with [local building contractors](/our-independent-adjusters-contractors-atlanta/) through our referral program.
+When we work with a property owner that's dealing with damages, they are going to need a contractor that can complete the repairs quickly and at reasonable prices. That's why we get to know [local building contractors](/our-independent-adjusters-contractors-atlanta/) and the quality of their work.
 
-You can refer your existing clients that need a public claims adjuster in Atlanta to us, and we will pay you commission for getting us hired. In return, we can refer you to the clients that we meet with that don't know who they want for a builder because we have a history, and we feel confident in everyone we partner with.
+If your customers need a public claims adjuster in Atlanta, you're welcome to send them to us. Georgia law bars a public adjuster from paying anyone but another licensed public adjuster for a referral, so we don't pay commissions or referral fees. And when clients ask us who should do their repairs, we can suggest contractors whose work we know, taking nothing from anyone for it; the choice is always the client's.
 
-Reach out to us today if you're a contractor in Atlanta, and we can discuss how working together as a team is going to benefit you, us, and number one, the clients we serve!
+Reach out to us today if you're a contractor in Atlanta, and we can discuss how we work alongside each other for the clients we both serve!
 
 :page-cta{kind="call" label="Call now (404) 467-5755"}
 ::

@@ -63,7 +63,7 @@ Our adjuster for mold damage is highly-trained and educated in what to search fo
 ::page-section{image="/images/photos/volunteers-tearing-out-drywall.jpg" alt="Volunteers in masks tearing out damaged drywall with a wrecking bar" reverse}
 ## We Can Match You with a Qualified Mold Remediator
 
-Mold growth that covers an area of 20 square feet or more cannot merely be cleaned up. It's going to require a professional mold remediation company to get rid of it entirely and for good. Through our contractor referral program, we can give you several options for some of the best mold removal companies in your area. Skip a step and save some time by calling us before you start researching contractors on your own.
+Mold growth that covers an area of 20 square feet or more cannot merely be cleaned up. It's going to require a professional mold remediation company to get rid of it entirely and for good. We can give you the names of several mold removal companies in your area. Skip a step and save some time by calling us before you start researching contractors on your own.
 
 :page-cta{kind="review" label="Get started"}
 ::

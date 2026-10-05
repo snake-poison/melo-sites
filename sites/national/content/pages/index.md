@@ -88,7 +88,7 @@ Our public adjusters have the experience you need to settle your claim. Leave it
 Property damage is stressful enough just to look at, not to mention dealing with an insurance company that doesn't want to pay you for your necessary repairs. We have the authority to get you what you're owed.
 :::
 :::page-feature{title="Partnerships With Contractors" icon="carbon--partnership"}
-Are you a contractor in one of the states we serve, looking to expand your business with a continuous workflow? We want to hear from you! Call now to discuss our contractor referral program, and we can work together to satisfy our property damage clients.
+Are you a contractor in one of the states we serve? We want to hear from you! Call to talk about how we work alongside contractors, so our property damage clients get a claim paid for all the damage and repairs done right.
 :::
 ::
 
