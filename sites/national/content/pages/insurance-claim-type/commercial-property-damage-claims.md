@@ -1,10 +1,10 @@
 ---
 title: "Understanding Commercial Property Damage and Navigating Claims"
 metaTitle: "Commercial Property Damage | Commercial Property Damage Claims"
-description: "Commercial property damage can pose significant challenges to businesses, but a proactive and strategic approach to the claims process can help"
+description: "How commercial property damage claims work, step by step, and how our licensed public adjusters help business owners in the states we serve."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2023/12/shutterstock_1964883604.jpg"
+  src: "/images/photos/storm-damaged-storefronts.jpg"
 date: 2023-12-07
 updated: 2023-12-07
 testimonial: true
@@ -12,11 +12,11 @@ claimForm: true
 claimTypes: true
 claimTypesIntro:
   title: "Discover Our Multitude of Insurance Claim Types"
-  text: "There are plenty of public adjuster firms out there, but not all of them are as comprehensive as we are when it comes to the [types of insurance claims](/insurance-claim-type/) they handle. We do them all, so feel free to call us back whenever you have a need for dealing with an unresponsive insurance company."
+  text: "From a burst pipe in one house to storm damage across a commercial building, we handle every [type of property insurance claim](/insurance-claim-type/) for owners in each of the states we serve, so you can call us back whenever an insurance company stops responding."
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2023/12/shutterstock_3629765.jpg" alt="commercial property damage"}
+::page-section{image="/images/photos/flood-damaged-storefront-boarded.jpg" alt="Flood-damaged brick storefront with boarded windows"}
 ## Commercial Property Damage
 
 Commercial property damage can be a significant setback for businesses, disrupting operations and causing financial strain. Whether it's due to natural disasters, accidents, or other unforeseen events, the aftermath of property damage requires careful attention and strategic action. In this guide, we'll explore the nuances of commercial property damage and the essential steps involved in filing and navigating commercial property damage claims.
@@ -28,7 +28,7 @@ Commercial property damage refers to the harm inflicted on structures, equipment
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2023/12/shutterstock_1714540480.jpg" alt="Burned interiors after fire in an industrial or commercial building" reverse}
+::page-section{image="/images/photos/earthquake-damaged-store.jpg" alt="Store front torn open by earthquake damage, with rubble on the floor" reverse}
 ## Types of Commercial Property Damage
 
 1. Natural Disasters: Events like hurricanes, floods, earthquakes, and tornadoes can cause extensive damage to commercial properties.
@@ -39,7 +39,7 @@ Commercial property damage refers to the harm inflicted on structures, equipment
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-insurance-adjuster.jpg" alt="disaster insurance adjuster doing initial consultation"}
+::page-section{image="/images/photos/damage-assessors-reviewing-notes.jpg" alt="Two damage assessors reviewing notes outside a flood-damaged building"}
 ## Navigating Commercial Property Damage Claims
 
 When faced with commercial property damage, businesses must take prompt and systematic steps to initiate the claims process. This involves working closely with insurance providers, documenting the damage, and understanding the coverage and limitations of the policy.
@@ -62,7 +62,7 @@ When faced with commercial property damage, businesses must take prompt and syst
 
 5. **Working with Adjusters**
 
-   Insurance adjusters will assess the damage on behalf of the insurance company. Cooperate with them, providing access to the damaged areas and any additional information they may require.
+   Insurance adjusters will assess the damage on behalf of the insurance company. Cooperate with them, providing access to the damaged areas and any additional information they may require. You can also hire a licensed public adjuster to represent the business in that process, so someone is measuring the loss on your side too.
 
 6. **Documenting Expenses and Losses**
 
@@ -82,5 +82,7 @@ When faced with commercial property damage, businesses must take prompt and syst
 ## Melo Property Claims Have Years of Experience
 
 Commercial property damage can pose significant challenges to businesses, but a proactive and strategic approach to the claims process can help mitigate the impact. By understanding the basics of commercial property damage and following the necessary steps, businesses can navigate the aftermath more effectively, facilitating a quicker recovery and return to normal operations.
+
+Melo Property Claims represents business owners, landlords and property managers on commercial claims in [each of the states we serve](/service-areas/). We document the damage to the building and its contents, read the commercial policy line by line, and negotiate with the carrier while you keep the business running. Call for a free review of your claim.
 
 :page-cta{kind="review" label="Get started"}

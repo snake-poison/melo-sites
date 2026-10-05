@@ -3,11 +3,11 @@ title: "What To Do With Smoke Damage"
 metaTitle: "Smoke Damage Repair | Smoke Damage Cleaning | Smoke Damage Remediation"
 description: "Comprehensive guide on what to do when your house gets smoke damage, covering immediate actions, mitigation steps, and the process of restoration."
 date: 2024-06-22
-updated: 2024-07-02
+updated: 2026-10-04
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/05/shutterstock_261319688.jpg"
-  alt: "Smoke detector with house and blueprints"
+  src: "/images/photos/firefighters-venting-roof.jpg"
+  alt: "Firefighters cutting a vent in a smoking roof"
 ---
 
 Experiencing smoke damage in your home can be distressing and overwhelming. Whether it's due to a kitchen mishap, a localized fire, or a more widespread incident, knowing how to respond promptly and effectively is crucial to minimizing further damage and ensuring a successful restoration process. This blog provides a comprehensive guide on what to do when your house gets [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), covering immediate actions, mitigation steps, and the process of restoration.
@@ -30,15 +30,15 @@ Minimize movement in the home to prevent soot particles from being embedded into
 
 ### Protect Yourself
 
-Wear personal protective equipment such as gloves, masks, and goggles when inspecting or cleaning up smoke-damaged areas. Soot and smoke residue can be harmful if inhaled or if they come into contact with skin.
+Wear personal protective equipment such as gloves, a well-fitted N95 respirator, and goggles when inspecting or cleaning up smoke-damaged areas. Soot and smoke residue can be harmful if inhaled or if they come into contact with skin.
 
 ### Assess Damage
 
-Evaluate the extent of smoke damage throughout the house. Document areas affected by smoke, including walls, ceilings, furniture, appliances, and personal belongings. Take photographs or videos for insurance purposes.
+Evaluate the extent of smoke damage throughout the house. Document areas affected by smoke, including walls, ceilings, furniture, appliances, and personal belongings. Take photographs or videos for insurance purposes before anything is cleaned, and don’t throw away damaged belongings until your insurer has seen them or agreed in writing that you can.
 
 ### Contact Your Insurance Company
 
-Notify your insurance company about the smoke damage as soon as possible. Review your insurance policy to understand coverage limits and exclusions related to smoke damage and fire incidents. Document communications with your insurance company, including claim numbers and adjuster contacts.
+Notify your insurance company about the smoke damage as soon as possible. Review your insurance policy to understand coverage limits and exclusions related to smoke damage and fire incidents. Document communications with your insurance company, including claim numbers and adjuster contacts. If the smoke makes your home unlivable while it is cleaned, ask about additional living expenses coverage, which many policies include for the added cost of staying elsewhere.
 
 ### Professional Assessment
 
@@ -52,7 +52,7 @@ Professionals will use specialized techniques to clean surfaces affected by smok
 
 ### Deodorization
 
-Smoke odors can linger even after visible damage is cleaned. Professionals use air scrubbers, ozone generators, or thermal fogging equipment to neutralize odors and improve indoor air quality.
+Smoke odors can linger even after visible damage is cleaned. Professionals use air scrubbers, ozone generators, or thermal fogging equipment to neutralize odors and improve indoor air quality. Ozone is harmful to breathe, so people and pets should stay out of the house while an ozone generator runs and until it has aired out.
 
 ### Restoration of Personal Belongings
 
@@ -70,7 +70,7 @@ Consider conducting air quality testing after restoration to ensure that all smo
 
 ### Review Insurance Coverage
 
-Review the insurance settlement and ensure that all eligible expenses related to smoke damage restoration are covered. Keep records of all expenses incurred during the cleanup and restoration process for reimbursement.
+Review the insurance settlement and ensure that all eligible expenses related to smoke damage restoration are covered. Keep records of all expenses incurred during the cleanup and restoration process for reimbursement. If the settlement leaves out damage or doesn’t cover the cost of restoration, you don’t have to accept it: a licensed public adjuster can review it, and Melo Property Claims works in the [states where we are licensed](/service-areas/).
 
 ### Prevent Future Incidents
 

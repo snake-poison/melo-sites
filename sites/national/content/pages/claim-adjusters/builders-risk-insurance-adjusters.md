@@ -1,10 +1,10 @@
 ---
 title: "Builders Risk Insurance Adjusters Keep You Protected"
 metaTitle: "Builders Risk Insurance Adjuster | Builder Claim Adjusters | Melo Property Claims"
-description: "Builders risk insurance adjusters get you the added policy coverage for your reconstruction project. Licensed in all states & experienced."
+description: "Builders risk insurance adjusters get you the added policy coverage for your reconstruction project. Licensed & experienced in the states we serve."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-13.jpg"
+  src: "/images/photos/crew-building-new-house.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -16,7 +16,7 @@ claimTypesIntro:
 secondOpinion: true
 ---
 
-::page-section{image="/wp-content/uploads/2020/04/public-adjuster-for-insurance-claim.jpg" alt="Property owner looking over storm-wrecked debris"}
+::page-section{image="/images/photos/new-house-wood-framing-aerial.jpg" alt="Wood frame of a new house going up on a cleared lot"}
 ## What is a Builders Risk Insurance Adjuster?
 
 Builders risk insurance has been described by professionals involved with it as one of the most confusing policies to understand and alter. It's an additional level of insurance protection that most banks and lenders require you to have if you've taken out a loan to expand, renovate, or remodel an existing structure.
@@ -28,7 +28,7 @@ If you don't have coverage yet and you want to start a project, reach out to us 
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-adjuster.jpg" alt="public adjuster" reverse}
+::page-section{image="/images/photos/volunteers-raising-wall-frame.jpg" alt="Volunteers in work gloves raising a timber wall frame on a new house" reverse}
 ## Never Fall Behind Schedule
 
 After your construction project has been put on hold because of property damages, it's common to feel a sense of defeat because things aren't moving forward as quickly as you would like. With our builders risk insurance adjusters helping you, you have the potential to get additional funds for the losses associated with the delay, and we can help you get back to your renovation faster.
@@ -38,7 +38,7 @@ Determining what the daily dollar amount for your lost time is something your in
 :page-cta{kind="call" label="Call (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="Public adjuster in a hard hat inspecting a fire-damaged window"}
+::page-section{image="/images/photos/builders-measuring-lumber-on-slab.jpg" alt="Builders measuring and cutting lumber on a fresh concrete slab"}
 ## Obtain Builders Risk Insurance Before You Begin
 
 As mentioned, most lenders won't give you any money until they know that you have builders risk insurance in place. They don't want to lose out on their money because you neglected to get the proper coverage. Before you head to the bank, please make an appointment with us. You will have the documentation you need to provide them with to show you're doing your due diligence. Then, when any of these situations unexpectedly occur, you and the bank are both protected:
@@ -58,7 +58,7 @@ Your construction project is a sign of growth and expansion, which should be a h
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/insurance-claims-adjuster-in.jpg" alt="all-inclusive insurance claim adjuster" reverse}
+::page-section{image="/images/photos/raised-house-under-construction.jpg" alt="Raised house under construction with house wrap and new framing" reverse}
 ## Melo Property Claims Will Make Sure You're Covered
 
 When you have builders risk insurance, there are several provisions included that might seem complex and confusing because of the legal explanations given. Like with most insurance policies, your insurance company is going to add more in your policy to protect themselves than what you would think. We answer all the difficult questions for you, such as:

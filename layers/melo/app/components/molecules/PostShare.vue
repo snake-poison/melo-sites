@@ -43,7 +43,7 @@ const links = [
           :href="link.href"
           target="_blank"
           rel="noopener"
-          class="flex items-center justify-center gap-2 border border-rule bg-paper-2 px-3 py-2 text-sm font-semibold text-ink hover:border-accent hover:text-accent"
+          class="flex items-center justify-center gap-2 rounded-lg border border-rule bg-paper-2 px-3 py-2 text-sm font-semibold text-ink hover:border-accent hover:text-accent"
           :aria-label="`${link.label} on ${link.network}`"
         >
           <span :class="link.icon" aria-hidden="true" />

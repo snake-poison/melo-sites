@@ -3,11 +3,11 @@ title: "Immediate Steps to Take After Fire Damage"
 metaTitle: "Fire Damage Tips | Fire Damage Restoration Steps | Melo Property Claims"
 description: "This blog provides essential steps and considerations for business owners facing fire damage, focusing on practical actions to take immediately!"
 date: 2024-06-12
-updated: 2024-07-02
+updated: 2026-10-04
 category: "public-adjusters"
 image:
-  src: "/wp-content/uploads/2024/06/shutterstock_1225805011-scaled.jpg"
-  alt: "A house that will be a fire."
+  src: "/images/photos/burned-out-house-exterior.jpg"
+  alt: "Burned-out house with scorched walls and empty windows"
 ---
 
 Experiencing fire damage at your business can be a devastating and overwhelming experience, impacting operations, finances, and the well-being of employees. Knowing how to respond promptly and effectively is crucial to minimize further damage, ensure safety, and facilitate the recovery process. This blog provides essential steps and considerations for business owners facing [fire damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), focusing on practical actions to take immediately following the incident.
@@ -20,15 +20,15 @@ The safety of employees, customers, and anyone present at the premises is the to
 
 ### Contact Your Insurance Company
 
-Notify your insurance provider as soon as possible to start the claims process. Provide details about the fire, extent of damage, and any immediate needs. Ask about coverage specifics and procedures for documenting losses. Be prepared to provide photos, videos, and a list of damaged or lost items.
+Notify your insurance provider as soon as possible to start the claims process; most commercial policies require prompt notice of a loss. Provide details about the fire, the extent of damage and any immediate needs, and write down the claim number and the name of the adjuster assigned to you. Ask for a complete copy of your policy, including its declarations page and endorsements, so you know what is covered and what deadlines apply. Be prepared to provide photos, videos, and a list of damaged or lost items.
 
 ### Secure the Property
 
-Take measures to prevent further damage to your property. This may include boarding up windows, covering exposed areas with tarps, or arranging for temporary fencing. Protect undamaged inventory and equipment from theft or weather damage.
+Take measures to prevent further damage to your property. This may include boarding up windows, covering exposed areas with tarps, or arranging for temporary fencing. Protect undamaged inventory and equipment from theft or weather damage. Your policy almost certainly requires you to take reasonable steps like these, and the cost of doing so is usually part of the claim, so keep every receipt.
 
 ### Document Everything
 
-Document the damage thoroughly. Take photos and videos of the affected areas, including structural damage, inventory, equipment, and any salvageable items. Keep detailed records of expenses related to emergency repairs, cleanup, and temporary relocation.
+Document the damage thoroughly. Take photos and videos of the affected areas, including structural damage, inventory, equipment, and any salvageable items. Do not throw away damaged inventory or equipment until the insurance company has had a chance to see it or has agreed in writing that you can dispose of it. Keep detailed records of expenses related to emergency repairs, cleanup, and temporary relocation.
 
 ### Mitigate Damage
 
@@ -39,6 +39,8 @@ Work with fire restoration professionals to mitigate damage and begin cleanup ef
 ### Assess Operational Impact
 
 Evaluate the impact of the fire on your [business operations](/blog/fire-damage-insurance-claim/). Determine if you can temporarily relocate operations to continue serving customers or fulfilling orders. Communicate with employees about work arrangements and any changes to schedules.
+
+Check whether your policy includes business income (often called business interruption) or extra expense coverage. These can pay for lost income and the added cost of operating from a temporary location, but they come with their own conditions and waiting periods, and they depend on records: keep your recent financial statements, tax returns and sales records within reach, and track every added cost from the day of the fire.
 
 ### Communicate with Stakeholders
 
@@ -60,4 +62,4 @@ Once restoration is complete, evaluate fire prevention measures to minimize futu
 
 Experiencing [fire damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/) at your business is a challenging ordeal, but taking immediate and strategic actions can help mitigate losses and expedite recovery. By prioritizing safety, promptly contacting your insurance company, documenting damage, mitigating further damage, planning for business continuity, and restoring operations effectively, you can navigate the aftermath of fire damage more effectively.
 
-Remember, seeking assistance from professionals such as fire restoration experts, insurance adjusters, legal advisors, and business continuity planners can provide invaluable support during this difficult time. With careful planning, proactive measures, and perseverance, your business can recover and emerge stronger from the impact of fire damage.
+Remember that the adjuster your insurance company sends works for the insurer. A licensed public adjuster works for you: preparing the claim, documenting the loss and negotiating the settlement. Melo Property Claims handles commercial fire claims in the [states where we are licensed](/service-areas/), alongside the fire restoration experts, legal advisors and business continuity planners who can support you through the recovery. With careful planning and prompt action, your business can get back to work.

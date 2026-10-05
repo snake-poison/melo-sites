@@ -1,11 +1,11 @@
 ---
 title: "Independent Adjusters Partnering with High-Quality Contractors"
 metaTitle: "Independent Adjuster | Independent Claims Adjusters"
-description: "Our independent adjusters partner with reputable contractors nationwide. Find out how to join our team by calling us at (704) 387-3997."
+description: "Our independent adjusters partner with reputable contractors across the states we serve. Find out how to join our team by calling us at (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/03/Header-7.jpg"
-  alt: ""
+  src: "/images/photos/business-owners-clearing-flood-debris.jpg"
+  alt: "Business owners clearing flood debris from a main street"
 date: 2019-03-22
 updated: 2023-07-26
 testimonial: true
@@ -15,9 +15,7 @@ secondOpinion: true
 
 ## Our Independent Adjusters Partnering with Reputable Contractors Today!
 
-![5-Star Rated on Google and Facebook, Trusted Brand](/wp-content/uploads/2020/04/trust-badges-Facebook-Google-1.png)
-
-Are you a reputable contractor looking to pair up with a trusted insurance adjuster to boost your business and build your reputation?
+Are you a reputable contractor in one of [the states we serve](/service-areas/), looking to pair up with a trusted insurance adjuster to boost your business and build your reputation?
 
 ::page-grid{cols="3"}
 :::page-feature{title="FREE Recommendations" icon="carbon--user-multiple"}
@@ -44,7 +42,7 @@ You've had it happen, or heard of it happening to someone else. You did the work
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/10/filing-insurance-claim-with-public-adjuster.jpg" alt="filing insurance claim with public adjuster"}
+::page-section{image="/images/photos/roofers-working-on-roof.jpg" alt="Roofers in hard hats and harnesses working on a house roof"}
 ## Independent Adjusters Building Relationships
 
 As one of the [public adjuster firms](/about-our-public-adjuster-firm/) that have taken the time and put in the work to build our brand and reputation, we don't just want to partner with any building contractor out there. What we're looking for is someone that has the desire to grow and give the American people the services they deserve. If you can prove you hold these same values, we want to hear from you:

@@ -8,13 +8,13 @@
  */
 export const siteUrl = 'https://publicadjustersofatlanta.com'
 export const siteName = 'Melo Public Adjusters Atlanta'
-export const siteDescription = 'Melo Public Adjusters Atlanta is a team of certified, independent public adjusters in Atlanta, GA, open 24/7 with no up-front cost.'
+export const siteDescription = 'Melo Public Adjusters Atlanta is a team of Georgia-licensed, independent public adjusters in Atlanta, GA, open 24/7 with no up-front cost.'
 
 export const business = {
   name: siteName,
   // What WordPress called the site, in its page titles and footer.
   shortName: 'Melo Public Adjusters Atlanta',
-  description: 'Melo Public Adjusters Atlanta is a team of loss adjusters that specialize in property damage claim types that include, but are not limited to water damage, smoke & fire damage, mold damage, wind & storm damage, roof damage, and more. Our certified public adjusters keep our clients\' best interest at heart and we fight in the public arena for those we serve. If you are interested in learning what a public adjuster in Atlanta can do for you, give us a call.',
+  description: 'Melo Public Adjusters Atlanta is a team of loss adjusters that specialize in property damage claim types that include, but are not limited to water damage, smoke & fire damage, mold damage, wind & storm damage, roof damage, and more. Our Georgia-licensed public adjusters keep our clients\' best interest at heart and we fight in the public arena for those we serve, from Atlanta to Alpharetta, Sandy Springs, Marietta, Roswell and Mableton. If you are interested in learning what a public adjuster in Atlanta can do for you, give us a call.',
   phone: '(404) 467-5755',
   phoneHref: 'tel:404-467-5755',
   email: 'atlanta@melopropertyclaims.com',
@@ -31,7 +31,7 @@ export const business = {
   mapUrl: 'https://www.google.com/maps?cid=8798277323873076393',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/Melo-Public-Adjusters-Atlanta-Square.png',
-  image: '/wp-content/uploads/2020/02/insurance-claim-adjusters-Atlanta.jpg',
+  image: '/images/photos/atlanta-midtown-skyline-piedmont-park.jpg',
   areaServed: ['Atlanta', 'Alpharetta', 'Sandy Springs', 'Marietta', 'Roswell', 'Mableton'].map(name => ({ '@type': 'City', 'name': `${name}, GA` })),
   sameAs: [
     'https://www.facebook.com/pg/melopublicadjustersatlanta',
@@ -95,7 +95,7 @@ export const claimTypes = [
     label: 'Water Damage',
     to: '/insurance-claim-type/adjuster-water-damage-atlanta/',
     icon: 'icon-[carbon--rain-drop]',
-    summary: 'Leaking pipes, failed water heaters, overflowing appliances and flooded basements.',
+    summary: 'Pipes burst in a hard freeze, failed water heaters, overflowing appliances and flooded basements.',
   },
   {
     label: 'Mold Damage',
@@ -107,13 +107,13 @@ export const claimTypes = [
     label: 'Storm & Wind Damage',
     to: '/insurance-claim-type/adjuster-wind-storm-damage-atlanta/',
     icon: 'icon-[carbon--rain-heavy]',
-    summary: 'Thunderstorms, tornadoes, downed trees and siding torn loose by the wind.',
+    summary: 'Spring thunderstorms, tornadoes, hurricane remnants and the big oaks and pines they bring down.',
   },
   {
     label: 'Hail & Roof Damage',
     to: '/insurance-claim-type/adjuster-hail-roof-damage-atlanta/',
     icon: 'icon-[carbon--home]',
-    summary: 'Dented shingles, cracked flashing and leaks the insurer calls wear and tear.',
+    summary: 'Hail-bruised shingles, cracked flashing and leaks the insurer calls wear and tear.',
   },
   {
     label: 'Smoke & Fire Damage',
@@ -179,11 +179,43 @@ export const categories: Record<Category, { label: string, description: string }
 }
 
 /**
- * The client review the claim-review band quotes. The old site quoted the Charlotte site's
- * review, and the sites share no copy, so until Atlanta has one of its own to quote the band
- * links to its Google reviews instead.
+ * Clients' reviews to quote, none yet: the old Atlanta site quoted a review the Charlotte site
+ * already had, and the sites share no copy. With none, the band links to the Google reviews.
  */
-export const featuredReview: { quote: string, name: string } | null = null
+export const reviews: readonly { quote: string, name: string, source?: string }[] = []
+
+/**
+ * What the site sells with, in its own words: the header's top line, the three promises under the
+ * hero's heading, the credentials strip under the hero and the steps of a claim.
+ */
+export const promise = 'Atlanta public adjusters on the policyholder’s side · No upfront costs'
+
+export const heroPoints: readonly string[] = ['Free, no-obligation review', 'Nothing to pay up front', 'Paid only when your claim pays more']
+
+export const credentials: readonly { icon: string, title: string, text: string }[] = [
+  { icon: 'icon-[carbon--certificate-check]', title: 'Licensed in Georgia', text: 'Public adjuster license #3308108, held by Ramon Melo' },
+  { icon: 'icon-[carbon--security]', title: 'Your interests only', text: 'We answer to you, never to the insurance company' },
+  { icon: 'icon-[carbon--chart-bar]', title: '16+ years in insurance', text: 'We know the tricks insurers try' },
+  { icon: 'icon-[carbon--location]', title: 'Serving metro Atlanta', text: 'On call around the clock in Fulton, DeKalb and Cobb counties' },
+]
+
+/** Ramon Melo's public adjuster licenses, as the state certificates give them, for the footer. */
+export const licenses: readonly string[] = ['Georgia public adjuster license #3308108']
+
+/**
+ * The star rating on the business's own Google listing, read off Google Maps on `checked`; null
+ * shows no rating. Update it by hand: the sites never claim a rating Google does not show.
+ */
+export const googleRating: { value: number, checked: string } | null = null
+
+export const howItWorks: { title: string, steps: readonly { title: string, text: string }[] } = {
+  title: 'Three steps to a fair settlement',
+  steps: [
+    { title: 'Talk to us about the damage', text: 'A short call or the form tells us whether we can help. It costs you nothing.' },
+    { title: 'We build your claim', text: 'We inspect the property, study your policy and prepare the estimate and proof of loss.' },
+    { title: 'We take on the insurance company', text: 'We negotiate until the claim is paid fairly. Our small fee comes out of the added amount.' },
+  ],
+}
 
 /**
  * The free-second-opinion band over the footer, in the old site's two wordings: the home page's
@@ -192,14 +224,14 @@ export const featuredReview: { quote: string, name: string } | null = null
 export const secondOpinion: Record<'home' | 'page', { title: string, text: string, points: readonly string[], cta: string }> = {
   home: {
     title: 'Receive a FREE Claims Estimate Today',
-    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile. Start now!',
-    points: ['Certified Public Adjusters', 'Locally Owned & Operated', 'No Up-Front Cost'],
+    text: 'Storm, fire or a burst pipe, your insurer has already sent its adjuster. Let an Atlanta public adjuster check their numbers first.',
+    points: ['Licensed in Georgia', 'Metro Atlanta, 24/7', 'No Up-Front Cost'],
     cta: 'Submit an Inquiry',
   },
   page: {
     title: 'Receive a FREE Claims Estimate Today',
-    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile. Start now!',
-    points: ['Certified Public Adjusters', 'Locally Owned & Operated', 'No Up-Front Cost'],
+    text: 'Before you accept your insurer’s offer, have an Atlanta public adjuster take a second look at it. It costs you nothing.',
+    points: ['Licensed in Georgia', 'Metro Atlanta, 24/7', 'No Up-Front Cost'],
     cta: 'Get Help Now',
   },
 }
@@ -209,18 +241,20 @@ export const secondOpinion: Record<'home' | 'page', { title: string, text: strin
  * emails the lead and sends the visitor to /thank-you-page/. Until `action` is set, the form
  * is left out and the block offers the phone and email instead. README.md has the setup.
  */
-export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[] } = {
+export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[], statePlaceholder?: string } = {
   action: '/api/claim-review',
   // Fields the service needs with every submission, such as its access key.
   hidden: {},
   // The checkboxes of the old form's first step.
   lossTypes: ['Fire / Smoke Damage', 'Water Damage', 'Mold Remediation', 'Storm Damage', 'Other'],
+  // The State field's example: this market's state.
+  statePlaceholder: 'e.g. GA',
 }
 
 /** The claim-types block's heading and intro, where a page does not give its own. */
 export const claimTypesIntro = {
   title: 'We Handle All Insurance Claim Types in Atlanta!',
-  text: 'There\'s no telling when disaster is going to strike and no way to predict what type of situation you\'re going to face when it comes to property damage in Atlanta. That\'s why we stay up-to-date and educated in all [insurance claim types](/insurance-claim-type/). Call us today, no matter what you\'re dealing with. We\'re here to assist you!',
+  text: 'A spring hailstorm over Marietta, a tree through the roof in Grant Park, a pipe that bursts in a January freeze in Sandy Springs: there\'s no predicting what property damage in Atlanta will look like. That\'s why we stay up-to-date and educated in all [insurance claim types](/insurance-claim-type/). Call us today, no matter what you\'re dealing with. We\'re here to assist you!',
 }
 
 /** The blog's index at /blog/, with the title and heading WordPress gave it. */
@@ -229,7 +263,7 @@ export const blogPage = {
   metaTitle: 'Our Blog - Melo Public Adjusters Atlanta',
   lead: 'Get the maximum valuation for your insurance claims. We work for you, so let\'s work together.',
   description: 'Articles on public adjusters, insurance claims and appraisals, plus weekend ideas around Atlanta, GA, from Melo Public Adjusters Atlanta.',
-  image: '/wp-content/uploads/2020/02/Header-8.jpg',
+  image: '/images/photos/atlanta-piedmont-park-lake-clara-meer.jpg',
 }
 
 /**

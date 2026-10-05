@@ -4,8 +4,8 @@ metaTitle: "Independent Adjusters Atlanta | Top Contractors Partners"
 description: "Learn more about our independent adjusters in Atlanta and how our contractor referral program works to your benefit. Call (404) 467-5755."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/02/Header-7.jpg"
-  alt: ""
+  src: "/images/photos/house-construction-roof-framing.jpg"
+  alt: "Builders working on the roof of a house under construction"
 date: 2019-03-22
 updated: 2021-01-14
 testimonial: true
@@ -15,9 +15,7 @@ secondOpinion: true
 
 ## Are You A Contractor Looking to Partner with an Independent Adjuster in Atlanta?
 
-![Trust badges: an accredited business with the BBB, Best of Houzz, a trusted brand, and 5-star ratings on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
-
-We believe in giving each of our customers a stress-free, straightforward experience when they have to file an insurance claim in Atlanta. If you're a local contractor looking to do the same, we want to hear from you!
+We believe in giving each of our customers a stress-free, straightforward experience when they have to file an insurance claim in Atlanta. If you're a roofer, remodeler or restoration contractor working in Atlanta, Fulton, DeKalb or Cobb County and looking to do the same, we want to hear from you!
 
 ::page-grid{cols="3"}
 :::page-feature{title="Fair & Honest Compensation" icon="carbon--money"}
@@ -33,10 +31,10 @@ When you started your business as a building contractor, you knew that there wer
 The primary objective as independent adjusters in Atlanta is putting our customers and their needs first. Even after we've taken care of their insurance claim in Atlanta, we want to make sure that they get the repairs they need at a fair price and in a sensible amount of time. As long as you're a contractor that believes in 100% satisfaction, we want to find out how we can help each other and our clients all at the same time!
 :::
 :::page-feature{title="Referral Program" icon="carbon--partnership"}
-Of course, you're still going to be going out into the community and finding your own clients. If you pull in to a job site and see that there is a need for an insurance adjuster for a storm damage claim in Atlanta, we hope that you tell them about what [Melo Public Adjusters Atlanta](/) can do for them. If they hire our independent insurance adjusters, we will give you a commission to show you how much we appreciate you sharing our name.
+Of course, you're still going to be going out into the community and finding your own clients. If you pull in to a job site after a spring hailstorm or a tree through the roof and see that there is a need for an insurance adjuster for a storm damage claim in Atlanta, we hope that you tell them about what [Melo Public Adjusters Atlanta](/) can do for them. If they hire our independent insurance adjusters, we will give you a commission to show you how much we appreciate you sharing our name.
 :::
 :::page-feature{title="Trusted Agents" icon="carbon--certificate-check"}
-There are rules and regulations in place in Atlanta and throughout the United States about contractors and public adjuster firms in Atlanta working together. We want you to know that we follow all the proper protocols and laws to keep our customers protected, as well as our relationship with the contractors we partner with honest. With our reputation in the community, you'll get more new clients the right way.
+Georgia law sets rules about contractors and public adjusters working together on a claim. We want you to know that we follow all the proper protocols and laws to keep our customers protected, as well as our relationship with the contractors we partner with honest. With our reputation in the community, you'll get more new clients the right way.
 :::
 ::
 
@@ -44,7 +42,7 @@ There are rules and regulations in place in Atlanta and throughout the United St
 
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/02/independent-insurance-adjuster-Atlanta.jpg" alt="contractor meeting with independent adjuster in Atlanta"}
+::page-section{image="/images/photos/georgia-damage-inspectors-clipboards.jpg" alt="Damage inspectors with clipboards at a home in DeKalb County, Georgia"}
 ## Contact Our Independent Adjusters in Atlanta Today!
 
 If you're a local contractor that values honesty, integrity, and putting the customer's needs first, then our independent adjuster in Atlanta wants to hear from you today. We can go over all the details of how our contractor referral program works and how it benefits you, us, and, most importantly, the clients that we serve.

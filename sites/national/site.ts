@@ -30,7 +30,7 @@ export const business = {
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=Melo+Property+Claims+5736+N+Tryon+St+%23232+Charlotte+NC+28213',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/melo-property-claims-logo-square@2x.png',
-  image: '/wp-content/uploads/2020/03/insurance-claims-adjuster-charlotte.jpg',
+  image: '/images/photos/inspector-at-house-with-wall-torn-off.jpg',
   areaServed: ['North Carolina', 'South Carolina', 'Georgia', 'Florida', 'Tennessee', 'Texas', 'Louisiana', 'Maryland', 'Pennsylvania', 'Virginia', 'Kentucky', 'New Jersey']
     .map(name => ({ '@type': 'State', 'name': name })),
   sameAs: [
@@ -187,12 +187,63 @@ export const categories: Record<Category, { label: string, description: string }
 }
 
 /**
- * The client review the claim-review band quotes: the site's own, from its reviews page. (The old
+ * Clients' reviews, as the old site quoted them: the band under the steps shows them. (The old
  * site quoted Trey Edwards, as the Charlotte and Atlanta sites did; the sites share no copy now.)
  */
-export const featuredReview: { quote: string, name: string } | null = {
-  quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
-  name: 'Ryan Taclibon',
+export const reviews: readonly { quote: string, name: string, source?: string }[] = [
+  {
+    quote: 'Excellent customer service and a great team to work with. I sent them an urgent issue and they got back to me instantly. Highly recommended.',
+    name: 'Ryan Taclibon',
+  },
+  // From the listing's Google review notices (ramon@), whole where Google sent the whole review.
+  {
+    quote: 'Melo Property Claims deserves more than 5 stars. They took a denied claim and got it approved faster…',
+    name: 'Andres Carrera',
+    source: 'Google review',
+  },
+  {
+    quote: 'Great team to work with. Highly recommend',
+    name: 'Nick Pyshnyuk',
+    source: 'Google review',
+  },
+  {
+    quote: 'Very professional and knowledgeable',
+    name: 'Roxana Vargas',
+    source: 'Google review',
+  },
+]
+
+/**
+ * What the site sells with, in its own words: the header's top line, the three promises under the
+ * hero's heading, the credentials strip under the hero and the steps of a claim.
+ */
+export const promise = 'Zero up-front cost · No-obligation claim review · Contingency pricing'
+
+export const heroPoints: readonly string[] = ['A free second look at your claim', 'No out-of-pocket costs', 'A small fee, only on the overage we win']
+
+export const credentials: readonly { icon: string, title: string, text: string }[] = [
+  { icon: 'icon-[carbon--certificate-check]', title: 'Licensed public adjusters', text: 'Licensed in NC and SC (#8627837) and GA (#3308108), among the states we serve' },
+  { icon: 'icon-[carbon--scales]', title: 'No conflict of interest', text: 'We represent policyholders, not insurers' },
+  { icon: 'icon-[carbon--chart-bar]', title: '20+ years of claims', text: 'Complex fire, water, mold, roof and storm losses' },
+  { icon: 'icon-[carbon--money]', title: 'No flat rates', text: 'No hidden fees, and nothing up front' },
+]
+
+/** Ramon Melo's public adjuster licenses, as the state certificates give them, for the footer. */
+export const licenses: readonly string[] = ['North Carolina public adjuster license #8627837', 'Georgia public adjuster license #3308108']
+
+/**
+ * The star rating on the business's own Google listing, read off Google Maps on `checked`; null
+ * shows no rating. Update it by hand: the sites never claim a rating Google does not show.
+ */
+export const googleRating: { value: number, checked: string } | null = { value: 4.7, checked: '2026-10-04' }
+
+export const howItWorks: { title: string, steps: readonly { title: string, text: string }[] } = {
+  title: 'What happens when you call',
+  steps: [
+    { title: 'A free claim review', text: 'Tell us where your claim stands. We say plainly whether a public adjuster will add value.' },
+    { title: 'Inspection and documentation', text: 'We assess the damage, read the policy line by line and build the estimate.' },
+    { title: 'Negotiation to settlement', text: 'We handle the insurer from start to finish, for a percentage of the overage we negotiate.' },
+  ],
 }
 
 /**
@@ -202,14 +253,14 @@ export const featuredReview: { quote: string, name: string } | null = {
 export const secondOpinion: Record<'home' | 'page', { title: string, text: string, points: readonly string[], cta: string }> = {
   home: {
     title: 'Get a FREE claims review & second opinion',
-    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile.',
+    text: 'Before you accept the insurer\'s number, let a licensed public adjuster tell you what your home or business claim is really worth.',
     points: ['Licensed Public Adjusters', 'Contingency pricing', 'No Up-Front Cost'],
     cta: 'Speak to an Adjuster',
   },
   page: {
     title: 'Receive a FREE Claims Estimate Now',
-    text: 'When dealing with any insurance claim, getting a second opinion is worthwhile. Start now!',
-    points: ['Certified Public Adjusters', 'Locally Owned & Operated', 'No Up-Front Cost'],
+    text: 'Send us the claim, wherever the property is in the states we serve, and we will tell you plainly what it should be worth.',
+    points: ['Licensed in Several States', 'Homes & Businesses', 'No Up-Front Cost'],
     cta: 'Start Your Claims Estimate',
   },
 }
@@ -219,18 +270,19 @@ export const secondOpinion: Record<'home' | 'page', { title: string, text: strin
  * emails the lead and sends the visitor to /thank-you-page/. Until `action` is set, the form
  * is left out and the block offers the phone and email instead. README.md has the setup.
  */
-export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[] } = {
+export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[], statePlaceholder?: string } = {
   action: '/api/claim-review',
   // Fields the service needs with every submission, such as its access key.
   hidden: {},
   // The checkboxes of the old form's first step.
   lossTypes: ['Fire / Smoke Damage', 'Water Damage', 'Mold Remediation', 'Storm Damage', 'Other'],
+  // No State example: clients come from every state the firm serves.
 }
 
 /** The claim-types block's heading and intro, where a page does not give its own. */
 export const claimTypesIntro = {
   title: 'Discover Our Multitude of Insurance Claim Types',
-  text: 'There are plenty of public adjuster firms out there, but not all of them are as comprehensive as we are when it comes to the [types of insurance claims](/insurance-claim-type/) they handle. We do them all, so feel free to call us back whenever you have a need for dealing with an unresponsive insurance company.',
+  text: 'From a burst pipe in one house to storm damage across a commercial building, we handle every [type of property insurance claim](/insurance-claim-type/) for owners in each of the states we serve, so you can call us back whenever an insurance company stops responding.',
 }
 
 /** The blog's index at /blog/, with the title and heading WordPress gave it. */
@@ -238,8 +290,8 @@ export const blogPage = {
   title: 'Our Public Adjuster Blog & Other Resources',
   metaTitle: 'Insurance Adjuster Blog | Melo Property Claims',
   lead: 'Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let\'s work together.',
-  description: 'Learn more about public adjusting and getting the most out of your property damage insurance claim. Experienced & licensed in every state.',
-  image: '/wp-content/uploads/2020/03/Header-10.jpg',
+  description: 'Learn more about public adjusting and getting the most out of your property damage insurance claim. Licensed adjusters in the states we serve.',
+  image: '/images/photos/team-reviewing-paperwork-at-table.jpg',
 }
 
 /**

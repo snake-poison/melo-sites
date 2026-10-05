@@ -4,7 +4,7 @@ metaTitle: "FL Public Adjuster | Best Public Adjuster In Florida | Melo Property
 description: "Need a public adjuster in Florida? Melo Property Claims has qualified public adjusters ready to work for you! Call us at (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/10/Header-48.jpg"
+  src: "/images/photos/south-miami-florida-villa.jpg"
 date: 2020-03-05
 updated: 2023-07-26
 testimonial: true
@@ -22,11 +22,9 @@ Unlike what most believe, you don't have to go up against your powerful insuranc
 
 [Other Areas We Serve](/service-areas/)
 
-![BBB Accredited Business, Best of Houzz, Trusted Brand, and 5-Star Rated on Google and Facebook](/wp-content/uploads/2019/04/trust-badges.png)
-
 :page-claim-review
 
-::page-section{image="/wp-content/uploads/2020/04/best-public-adjusters.jpg" alt="best public adjusters" reverse}
+::page-section{image="/images/photos/hurricane-damaged-beach-homes-florida.jpg" alt="Hurricane-damaged homes and drifted sand on Pensacola Beach, Florida" reverse}
 ## Our Insurance Adjusters in Florida Streamline the Process
 
 From the moment you realize that you have to file an insurance claim, it's clear to see that the insurance policy you've neglected reading through this long wasn't written to protect you. After digging into the details, there are plenty of aspects that help in covering the provider so that they can lower your judgment.
@@ -43,7 +41,7 @@ Our public insurance adjusters in Florida already know how all of this works. We
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-in-Florida.jpg" alt="public adjuster in Florida doing property appraisal"}
+::page-section{image="/images/photos/adjuster-photographing-hurricane-damage.jpg" alt="Insurance adjuster with a camera and clipboard looking up at a storm-damaged house"}
 ## Honest Property Appraisals & Fair Mediation Services
 
 You didn't realize how much your insurance company was going to fight to pay you for your property damages until after they showed you the judgment amount they were willing to pay. You know that it's not fair, and way below what you're going to need to get your building back to its original condition. What you get from Melo Property Claims includes:
@@ -57,7 +55,7 @@ Just because you didn't start with us, doesn't mean that it's too late to hire a
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjuster-Florida.jpg" alt="public adjuster in Florida for pre-loss and disaster planning" reverse}
+::page-section{image="/images/photos/hurricane-shutters-on-building-florida.jpg" alt="Building with hurricane shutters in Melbourne Beach, Florida" reverse}
 ## Pre-Loss & Disaster Planning in Florida For Peace of Mind
 
 Living in the state of Florida, your building is at risk of being slammed with hurricane conditions that result in flooding, strong winds, and disastrous property damages. Chances are if your home has suffered roof damage or other structural issues, everyone around you is dealing with the same problem. If you're debating whether or not this is a service worth paying for, you should understand that Melo Property Claims can:
@@ -72,7 +70,7 @@ By having our [pre-loss disaster insurance](/claim-adjusters/disaster-insurance-
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/03/property-damage-repair-public-adjuster-Florida.jpg" alt="builders risk insurance public adjuster in Florida"}
+::page-section{image="/images/photos/builder-laying-roof-sheathing-florida.jpg" alt="Builder fixing plywood sheathing on the roof of a new home in Atlantic Beach, Florida"}
 ## Hire Our Builders Risk Insurance Adjuster For Added Protection
 
 Are you thinking about building on to your existing property? While it should be an exciting time for you, there is a certain level of stress that lingers, thinking about what could go wrong during the renovations. With our [builder's risk insurance](/claim-adjusters/builders-risk-insurance-adjusters/) adjuster in Florida, you can get the additional coverage you want to protect you from things like:
@@ -88,7 +86,7 @@ There's no reason why you should be held accountable for situations that are out
 :page-cta{kind="review" label="Get a free claims estimate"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/public-insurance-adjuster.jpg" alt="disaster insurance adjuster during initial consultation" reverse}
+::page-section{image="/images/photos/hurricane-tree-and-roof-damage-florida.jpg" alt="Uprooted tree and a tarped roof after a hurricane in Fellsmere, Florida" reverse}
 ## Our Comprehensive Insurance Claim Types Overview
 
 There are plenty of public adjuster firms in Florida, but not all of them are capable of handling the [property damage claim types](/insurance-claim-type/) that we do. Some will only work with you for roof damage. Others specialize in helping with cleaning up after fire and smoke damage. Melo Property Claims wants you to be comfortable calling us for whatever issues you have, and that's why we do it all! Reach out to us for:

@@ -4,20 +4,20 @@ metaTitle: "Insurance Adjusters North Carolina | Melo Property Claims"
 description: "Find out more about our adjuster firm, Melo Property Claims, and what we can do for you and your insurance claim. Call today (704) 387-3997."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 image:
-  src: "/wp-content/uploads/2020/10/Header-45.jpg"
-  alt: ""
+  src: "/images/photos/assessors-with-homeowner-at-house.jpg"
+  alt: "Damage assessors talking with a homeowner outside his house"
 date: 2019-02-15
 updated: 2023-07-26
 ---
 
-::page-section{image="/wp-content/uploads/2020/10/hiring-a-public-adjuster.jpg" alt="public adjusters on your side of the insurance claim"}
+::page-section{image="/images/photos/inspector-checking-kitchen.jpg" alt="Inspector in a hard hat checking a kitchen and its appliances"}
 ## Learn Who Melo Property Claims Are And What We Can Do!
 
 Melo Property Claims is the qualified team you want on your side.
 
 Unless you've been caught in a sticky insurance claim dispute before, you've never needed the services offered by an adjuster firm. Homeowners that file insurance claims think the process is simple until their insurance provider starts fighting back. That's when Melo Property Claims stands in and takes care of you and protects your rights.
 
-We have several qualified [public adjusters](/) on our team with years of experience. Our team has seen and dealt with some of the most elaborate insurance claims out there, so there's nothing that you could bring to us that would make us turn you away. We take pride in being the advocate every person in the United States deserves.
+We have several qualified [public adjusters](/) on our team with years of experience. Our team has seen and dealt with some of the most elaborate insurance claims out there, so there's nothing that you could bring to us that would make us turn you away. We take pride in being the advocate every person in the United States deserves. From our office in Charlotte, we handle residential and commercial claims in [each of the states we serve](/service-areas/), and we travel to the property.
 
 Instead of staring at your insurance claim with no idea where to start, let us take care of the gathering and preparation of your documents, including filing, providing you with an honest and thorough property damage assessment, and maneuver through the difficult to comprehend legal aspects. All it takes is one phone call to us right now, and your seemingly impossible case will be streamlined in a way you never thought possible.
 
@@ -30,14 +30,14 @@ It's unfortunate, but the insurance provider that you've been paying your premiu
 
 We are in the business of giving you time, personal attention, and clarity during some of the most critical times you'll ever face in your life. Instead of being someone that you hire to work for you, we work WITH you to give you peace of mind that you're not alone and that someone does have your best interests at the forefront of whatever is going on.
 
-::page-section{image="/wp-content/uploads/2020/03/public-adjusters.jpg" alt="public adjusters doing a property damage appraisal" reverse}
+::page-section{image="/images/photos/assessors-comparing-notes-by-debris.jpg" alt="Two assessors comparing notes beside a pile of flood debris" reverse}
 ## Public Adjusters With Knowledge and Authority
 
 Get the maximum valuation for your property damage claim.
 
 It's a common misconception that the insurance company you're paying for your coverage is on your side. After they arrive to do their assessment, it's obvious to see that's the exact opposite of what's happening. Melo Property Claims knows how deceitful these massive corporations can be, and we give you what you should receive when it's time to file a claim:
 
-- Experts in local and national laws and guidelines
+- Experts in the insurance laws and guidelines of each state we work in
 - Capable of getting the maximum valuation
 - Expertise that only comes with experience
 - Quick response times and fast settlements
@@ -47,7 +47,7 @@ Your insurance company has a slew of ways to get around paying your claim money.
 :page-cta{kind="call" label="Call now (704) 325-5525"}
 ::
 
-::page-section{image="/wp-content/uploads/2020/10/fire-damage-public-adjuster.jpg" alt="public adjuster assessing fire damage to a home"}
+::page-section{image="/images/photos/investigator-inspecting-charred-beams.jpg" alt="Fire investigator inspecting charred roof beams after a fire"}
 ## Insurance Claims of All Types
 
 There's no insurance claim we can't handle efficiently.

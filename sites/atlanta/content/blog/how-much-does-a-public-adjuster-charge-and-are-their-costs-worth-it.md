@@ -1,67 +1,73 @@
 ---
 title: "How Much Does a Public Adjuster Charge, and Are Their Costs Worth It?"
 metaTitle: "How Much Does a Public Adjuster Charge? | Is It Worth It?"
-description: "Hiring an insurance adjuster is an excellent way to maximize your benefits and receive the most funds possible after a fire, flood, storm, or other such loss."
+description: "How public adjusters charge in Georgia, the limits the state sets on their fees and contracts, and when hiring one is worth it for an Atlanta property owner."
 date: 2020-08-01
-updated: 2021-06-05
+updated: 2026-10-04
 category: "insurance-claim-adjusters"
 image:
-  src: "/wp-content/uploads/2020/02/Header-13.jpg"
-  alt: "storm debris and a fallen power pole across a road after a hurricane"
+  src: "/images/photos/atlanta-downtown-skyline-day.jpg"
+  alt: "Downtown and Midtown Atlanta skyline on a clear day"
 ---
 
-A public adjuster is an independent insurance professional who works on behalf of a claimant, negotiating insurance company payouts and settlements. Hiring an insurance adjuster is an excellent way to maximize your benefits and receive the most funds possible after a fire, flood, storm, or other such loss.
+A public adjuster is an independent, licensed insurance professional who works for the policyholder, preparing the claim and negotiating the settlement with the insurance company. For metro Atlanta homeowners and business owners, hiring one can be a good way to make sure you receive everything your policy owes after a fire, a storm, a fallen tree or a burst pipe.
 
-**Most public adjusters charge a percent of the payout they secure on your behalf and might adjust those percentages according to your settlement. For example, an insurance adjuster might charge 20% for payouts between $10,000 and $100,000 and then 12% or 15% on payouts over $100,000. In Georgia, the law caps a public adjuster's total fee at a third of the settlement, and a percentage fee isn't allowed if the insurer pays or commits to pay the policy limit within 72 hours of the loss being reported. Charging a percentage of your settlement allows an adjuster to work hard to secure a maximum payout on your behalf.**
+**Most public adjusters charge a percentage of the insurance payments on your claim, agreed in a written contract before they start. In Georgia, the Office of Commissioner of Insurance and Safety Fire warns that a public adjuster may charge up to 33 percent of the claim settlement. Georgia also requires the contract to be on a form the Commissioner has approved, and gives you three business days after signing to cancel it in writing. Because the adjuster is paid from what they recover, they have every reason to work for a full and fair settlement.**
 
-While some homeowners might balk at paying out 20% of their settlement, you might note what an insurance adjuster does, how they can maximize that payout for you, and why they’re often worth their fees and charges. It’s also helpful to note a few common mistakes homeowners make after suffering property damage and when dealing with an insurance company, so you can avoid them yourself!
+While some homeowners might balk at giving up part of their settlement, it helps to know what a public adjuster does, how they can increase what the insurance company pays, and why they’re often worth their fee. It also helps to know a few common mistakes homeowners make after property damage and in dealing with an insurance company, so you can avoid them yourself!
 
-::post-photo{src="/wp-content/uploads/2020/02/insurance-claims-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-grant-park-blue-foursquare.jpg" alt="A blue two-story house in Grant Park, Atlanta"}
 ::
 
-Consider, too, that many adjusters offer free or low-cost consultations, so you can ask them any question you have about the insurance settlement process and their work on your behalf. You can then make an informed decision about hiring such a professional and know you’ve done everything possible to secure the highest payout from your insurance company.
+Consider, too, that many public adjusters offer a free consultation, so you can ask any questions you have about the claim and their work for you before you sign anything. You can then make an informed decision about hiring one, knowing you’ve done what you can to get a fair settlement from your insurance company.
 
 ## When to Hire a Public Adjuster and Why Their Fees Are Worth It!
 
-While it’s every property owner’s decision when to hire a [public adjuster](/claims-adjuster/insurance-adjuster-atlanta/), consider some scenarios that might suggest it’s time to call an insurance adjuster and why their work for you is so valuable.
+It’s every property owner’s decision when to hire a [public adjuster](/claims-adjuster/insurance-adjuster-atlanta/), but here are some situations that suggest it’s time to call one, and why their work for you is so valuable.
 
-- When a fire or flood damages building materials, appliances, electronics, and personal belongings so that they need replacing rather than cleanup and repair, you might consider calling a claims adjuster. Since new items are often more expensive than repairing damaged items, an insurance company might not want to reimburse you for any such replacements.
-- Note, too, that a claims adjuster ensures you receive as much compensation as possible but can also explain why you might not receive the full replacement costs you expect. As an example, a stove top fire might destroy your home’s stove; if it’s several years old, you might receive a settlement for its value and not for the price of a brand new appliance!
-- Fires and floods often require professional cleanup and repairs. Soot and ash need heavy-duty vacuum cleaners for proper removal and water-damaged drywall, carpeting, and framing also need full inspection and potential replacement. A public adjuster can negotiate with an insurance company if they hesitate to reimburse you the cost of such professional cleaning.
-- Proper restoration after a flood or fire might also mean odor neutralizing, fresh paint, and other services, including services you might need in the future such as mold removal. Again, your insurance company might not offer to reimburse you for services they claim are not part of the restoration process, and an insurance adjuster can negotiate to have them included, if possible.
-- Homeowners often have difficulty listing and valuing personal belongings destroyed in a flood or fire, including clothing, furniture, artwork, small electronics and appliances, and the like. An insurance adjuster can ensure you’ve included all such items and also help explain the best way to value them when making a claim.
-- In some cases, it’s best that a homeowner and his or her family stay out of the home during repairs and restoration. An insurance adjuster can note if your hotel and travel expenses are covered by your policy and ensure you include them in your claim, when possible.
-- Some homeowners and property owners have very complicated insurance policies with various clauses, exclusions, and the like. If you don’t understand that policy, call a public adjuster! One step in their process is to review the policy itself and understand your coverage and other details; he or she can then explain those details to you, which might help you better understand their process in ensuring you receive the maximum payout possible.
-- While a homeowner might mistakenly assume that their property is worth far more than it is, or might overlook certain exclusions and exceptions in their policy, call an insurance adjuster if you think your insurance company is offering a “lowball” settlement. Your adjuster can review the settlement offer, your policy, and property damage details, and note if they should move forward with negotiations.
+- When a fire or water damages building materials, appliances, electronics and belongings so badly that they need replacing rather than cleaning and repair, consider calling a public adjuster. New items often cost more than repairs, and an insurance company might resist paying for replacements.
+- A public adjuster works to get you everything your policy owes, but can also explain why you might not receive the full replacement cost you expect. For example, a stove top fire might destroy your stove; if your policy pays actual cash value, or holds back depreciation until you replace it, you might first receive what a several-year-old stove was worth rather than the price of a brand new one!
+- Fires and water losses often need professional cleanup and repairs. Soot and ash need specialized equipment to remove properly, and water-damaged drywall, flooring and framing need inspection and often replacement. A public adjuster can negotiate with an insurance company that hesitates to pay for that professional work.
+- Proper restoration after a fire or water loss might also mean odor removal, fresh paint and other work, including mold remediation where the policy covers it. Your insurance company might say some of that work is not part of the repair, and a public adjuster can negotiate to have it included where the policy allows.
+- Homeowners often have trouble listing and valuing personal belongings destroyed in a fire or water loss, including clothing, furniture, artwork, small electronics and appliances. A public adjuster can help make sure you’ve included everything and explain how to value each item in the claim.
+- In some cases it’s best for a family to stay out of the home during repairs. A public adjuster can check whether your policy’s additional living expense, or loss of use, coverage pays for a hotel or rental and the extra costs of living elsewhere, and make sure they’re included in your claim.
+- Some homeowners and business owners have complicated policies with endorsements, exclusions and conditions. If you don’t understand your policy, call a public adjuster! Reviewing the policy is one of the first things they do, and they can explain what it means for your claim.
+- A homeowner might overestimate a loss or overlook an exclusion, but if you think your insurance company is offering a lowball settlement, call a public adjuster. They can review the offer, your policy and the damage, and tell you whether it’s worth negotiating.
 
-## Avoid These Mistakes After a Fire, Flood, or Other Such Disaster!
-
-Hiring a public adjuster is one of the best things you can do after a fire, flood, or other such disaster, as his or her work ensures you receive a maximum payout from your insurance company. One mistake homeowners make when hiring an adjuster, however, is trying to clean their home or do some repairs before he or she arrives! This should be avoided as the adjuster takes into account the extent of damage and potential repair costs when negotiating with an insurance agent.
-
-::post-photo{src="/wp-content/uploads/2020/02/public-adjuster-Atlanta.jpg" alt="insurance adjuster in Atlanta"}
+::post-callout{tone="warn" title="Flooding needs its own policy"}
+A standard homeowners policy does not cover flooding from rising water, such as a creek out of its banks or a flash flood after a heavy storm like Helene in 2024. That takes a separate flood policy, from the National Flood Insurance Program or a private insurer. Water from a burst pipe in a freeze or a storm-damaged roof is a different kind of loss, and a homeowners policy often covers it.
 ::
 
-A homeowner should also understand that an [insurance adjuster](/claims-adjuster/) will work hard to get them the maximum benefits they’re owed but this doesn’t mean they’ll automatically secure the full value of your policy. As said, your policy might include reimbursement for the value of items, not their replacement with something new or more valuable, or there might be exclusions you’re overlooking. Avoid the mistake of overspending on new items or other such purchases while your adjuster is negotiating with the insurance company, lest they return with a disappointing settlement offer.
+## Avoid These Mistakes After a Fire, Storm, or Other Disaster!
 
-While you might be eager to get back into your home after a disaster, you also don’t want to assume you can or should start the cleanup and repair process yourself. Damaged homes are sometimes unsafe for occupancy and breathing in soot, ash, dust, and other airborne contaminants is downright hazardous to your health! Even if you’re not reimbursed the full cost of their services, consider investing in a professional water or fire restoration company after any such disaster, to protect yourself and ensure your home is safe for reoccupation.
+Hiring a public adjuster is one of the best things you can do after a fire, storm or other disaster. One mistake homeowners make, however, is throwing out damaged materials or starting permanent repairs before the damage has been documented. Your public adjuster needs to see and record the full extent of the damage to price it and negotiate with the insurance company.
+
+That doesn’t mean waiting to protect your property. Your policy expects you to take reasonable steps to prevent more damage, so shut off the water, have a tree removed from the roof and the roof tarped, and get standing water extracted. Photograph everything first, keep the damaged items if you safely can, and keep every receipt, as those emergency costs are often part of the claim.
+
+::post-photo{src="/images/photos/atlanta-cabbagetown-red-cottage.jpg" alt="A red cottage on a Cabbagetown street in Atlanta"}
+::
+
+Homeowners should also understand that a [public adjuster](/claims-adjuster/) will work hard to get them every benefit they’re owed, but that doesn’t mean they will collect the full limits of your policy. As said, your policy might pay the depreciated value of items rather than the cost of new ones, or have exclusions you’re overlooking. Avoid overspending on new items or other purchases while your adjuster is negotiating with the insurance company, in case the final settlement is less than you hoped.
+
+While you might be eager to get back into your home after a disaster, don’t assume you can or should do the cleanup and repairs yourself. Damaged homes are sometimes unsafe to occupy, and breathing in soot, ash, dust and other airborne contaminants is downright hazardous to your health! Consider hiring a professional water or fire restoration company to make sure your home is safe to live in again; your public adjuster can tell you whether your policy covers their work.
 
 ## How to Find a Public Adjuster Near You
 
-To choose the best public adjuster near you, ensure you find one with a long track record of successful insurance negotiations. This should include your specific property damage type, whether that’s a fire, flood, storm damage, vandalism, theft, and so on.
+To choose a public adjuster near you, look for one who holds a Georgia public adjuster license and has experience with your type of property damage, whether that’s fire, storm and hail, fallen trees, water damage, vandalism or theft. You can check a license on the website of the Georgia Office of Commissioner of Insurance and Safety Fire.
 
-Note that a qualified public adjuster will ask lots of questions, so don’t be put off by one who wants to know how a fire or flood happened, if your policy is in good standing, and so on. These are not accusations but they allow him or her to do their job properly and ensure a maximum payout without any wasted time or effort on their part.
+A good public adjuster will ask lots of questions, so don’t be put off by one who wants to know how a fire or leak started, whether your policy is in good standing, and so on. These are not accusations; the answers let them do their job properly and build the strongest claim they can.
 
-While a public adjuster can charge whatever fees they wish, be wary of one that asks for a flat fee and not a percentage of a settlement they procure. An adjuster charging a flat rate might work hard on your behalf but someone who is paid a percentage of your settlement is likely to work harder! Consider carefully any contract or agreement with an adjuster that means a flat fee versus a percentage of your payout, so you find an adjuster who does the best job for you.
+Georgia law limits how a public adjuster is paid, and the fee should be written into a contract on a Commissioner-approved form. Their fee should come out of each insurance payment as a percentage of that check, not all at once out of the first check. And if your insurance company pays, or commits in writing to pay, your policy limits within 72 hours of a loss being reported, Georgia does not allow a public adjuster to take a percentage fee on that payment. Read any contract carefully before you sign it, make sure you understand the percentage and what it applies to, and be wary of an adjuster who asks for a large fee up front.
 
-::post-photo{src="/wp-content/uploads/2020/02/Atlanta-public-adjusters.jpg" alt="public insurance adjuster in Atlanta"}
+::post-photo{src="/images/photos/atlanta-cabbagetown-street-houses.jpg" alt="A row of houses on a Cabbagetown street in Atlanta"}
 ::
 
 ## Other Advantages of Hiring a Public Adjuster
 
-After suffering property damage, knowing that your public adjuster will work hard to get you the maximum payout from your insurance company is typically reason enough to hire them! However, you might also consider a few other benefits to working with an insurance adjuster.
+After property damage, knowing your public adjuster will work hard to get you a full and fair settlement is usually reason enough to hire one! However, there are other benefits to working with a public adjuster.
 
-One such advantage is that they can alleviate the stress that comes with filing a claim and negotiating with your insurer. If you’ve gone through any major disaster or even something as frightening as a stove top fire, storm-damaged roof, and the like, no doubt you’re feeling lots of stress and anxiety already! Your time and attention should be spent getting your property and life back in order, not on conversations with an insurance agent.
+One is that they take on the stress of filing a claim and negotiating with your insurer. Whether you’ve been through a major disaster or something as frightening as a stove top fire or a tree through the roof in a summer thunderstorm, you’re no doubt feeling plenty of stress already! Your time and attention should go to getting your property and life back in order, not to calls and emails with the insurance company.
 
-A public adjuster is also an experienced insurance professional, knowledgeable about insurance clauses, exclusions, and other such details. Rather than trying to understand your policy on your own and making the mistake of thinking it should pay out more than it outlines, hiring an [adjuster](https://en.wikipedia.org/wiki/Claims_adjuster) means having their expertise at your fingertips. Whatever questions you have about that policy and how it affects your claim, an experienced adjuster can answer!
+A public adjuster is also an experienced insurance professional who knows policy clauses, exclusions and conditions. Rather than trying to make sense of your policy on your own, hiring an [adjuster](https://en.wikipedia.org/wiki/Claims_adjuster) puts that knowledge at your fingertips. Whatever questions you have about your policy and how it affects your claim, an experienced public adjuster can answer them!
 
-Keep all these points in mind when considering the cost for a public adjuster and if their charges are worth it! He or she can ensure you don’t overlook any detail when filing a claim and will also manage all the stress of discussing that claim with your agent. You can then rest assured that your claim is in the best hands and you’re sure to receive the highest settlement when you choose to work with a public adjuster.
+Keep all these points in mind when you weigh what a public adjuster costs and whether it’s worth it. A public adjuster can make sure no detail is overlooked in your claim and take on the work of negotiating it, so you can rest assured that your claim is in capable hands.

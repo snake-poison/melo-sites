@@ -3,11 +3,11 @@ title: "Smoke Damage Cleanup: A Comprehensive Guide to Restoring Your Space"
 metaTitle: "How to Clean Smoke Damage | Clean Smoke Damage | Melo Property Claims"
 description: "Here’s a detailed guide on how to clean smoke damage and restore your space to its pre-damage condition. Learn more!"
 date: 2024-07-16
-updated: 2024-08-02
+updated: 2026-10-04
 category: "uncategorized"
 image:
-  src: "/wp-content/uploads/2024/08/shutterstock_1220119999.jpg"
-  alt: "Smoke damage cleanup"
+  src: "/images/photos/firefighter-in-smoke-filled-room.jpg"
+  alt: "Firefighter in breathing gear moving through a smoke-filled room"
 ---
 
 Smoke damage is a pervasive and stubborn problem that arises after a fire. Even a minor fire can leave behind a significant mess, impacting not just the immediate area but also spreading soot and odors throughout your home. If you find yourself dealing with [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/), understanding the steps for effective cleanup is crucial. Here’s a detailed guide on how to clean smoke damage and restore your space to its pre-damage condition.
@@ -16,9 +16,11 @@ Smoke damage is a pervasive and stubborn problem that arises after a fire. Even 
 
 Before diving into the cleanup process, it's essential to understand what smoke damage entails. Smoke from a fire can settle on various surfaces and materials, leaving behind soot, discoloration, and lingering odors. The residue can penetrate into porous materials, making it challenging to remove. This can impact ceilings, walls, furniture, and even HVAC systems.
 
+If the smoke came from a fire, the cleanup is usually part of an insurance claim. Report the damage to your insurer and photograph everything before you start cleaning, so the insurer can see the damage as it was. Professional smoke cleaning is usually covered when the smoke damage is, so check with your insurer before taking on a large job yourself.
+
 ## How to Clean Smoke Damage
 
-1. **Safety First:** Before you start cleaning, ensure the area is safe. Smoke damage cleanup often requires dealing with structural issues or hazardous materials, so wearing protective gear like masks, gloves, and goggles is crucial.
+1. **Safety First:** Before you start cleaning, ensure the area is safe. Smoke damage cleanup often requires dealing with structural issues or hazardous materials, so wearing protective gear like a well-fitted N95 respirator, gloves, and goggles is crucial. Don’t run your heating or air conditioning until the system has been inspected, as it can spread soot through the house.
 
 2. **Assess the Damage:** Examine the extent of the smoke damage. Identify areas affected by soot and smoke, and determine whether they can be cleaned or if professional intervention is required.
 
@@ -42,8 +44,8 @@ Cleaning smoke damage from the ceiling can be particularly challenging due to th
 
 4. **Rinse and Dry:** After cleaning, rinse the ceiling with a clean, damp cloth to remove any soap residue. Ensure the ceiling is thoroughly dried to prevent mold growth.
 
-5. **Consider Professional Help:** If the smoke damage is extensive or if you have difficulty reaching certain areas, hiring a professional restoration service may be necessary. They have specialized equipment and expertise to handle severe damage and ensure thorough cleanup.
+5. **Consider Professional Help:** If the smoke damage is extensive or if you have difficulty reaching certain areas, hiring a professional restoration service may be necessary. They have specialized equipment and expertise to handle severe damage and ensure thorough cleanup. Get a written estimate, and share it with your insurer before the work starts.
 
 ## Conclusion
 
-Smoke damage cleanup is a meticulous process, but with the right approach, you can restore your space effectively. Start by ensuring safety and ventilation, then proceed with soot removal and surface cleaning. Special attention is required for cleaning [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/) from ceilings due to their height and accessibility challenges. For significant damage or persistent issues, don’t hesitate to seek professional assistance. By following these steps, you can mitigate the effects of smoke damage and return your home to a clean, comfortable state.
+Smoke damage cleanup is a meticulous process, but with the right approach, you can restore your space effectively. Start by ensuring safety and ventilation, then proceed with soot removal and surface cleaning. Special attention is required for cleaning [smoke damage](/insurance-claim-type/public-adjuster-smoke-fire-damage-claim/) from ceilings due to their height and accessibility challenges. For significant damage or persistent issues, don’t hesitate to seek professional assistance. By following these steps, you can mitigate the effects of smoke damage and return your home to a clean, comfortable state. If your insurer won’t pay for the cleaning your home needs, Melo Property Claims handles [smoke damage claims](/blog/smoke-damage-claim/) in the [states where we are licensed](/service-areas/).

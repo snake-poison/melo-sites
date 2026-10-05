@@ -14,8 +14,8 @@ const iconClass = props.icon == null ? undefined : `icon-[${props.icon}]`
 </script>
 
 <template>
-  <UICard as="article" padding="lg" class="page-feature relative h-full border-0 shadow-lg shadow-ink/8 transition-shadow" :class="props.to ? 'hover:shadow-xl hover:shadow-ink/14' : ''">
-    <span v-if="iconClass" class="block text-4xl text-accent" aria-hidden="true">
+  <UICard as="article" padding="lg" class="page-feature relative h-full shadow-sm shadow-ink/5 transition" :class="props.to ? 'hover:-translate-y-0.5 hover:shadow-xl hover:shadow-ink/10' : ''">
+    <span v-if="iconClass" class="flex size-12 items-center justify-center rounded-xl bg-accent-soft text-[1.75rem] text-accent" aria-hidden="true">
       <span :class="iconClass" />
     </span>
     <h3 class="mt-4 font-heading text-xl/snug font-bold text-ink">

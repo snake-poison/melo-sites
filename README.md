@@ -29,8 +29,11 @@ cost rankings, so do it on purpose:
 - **Business details.** The name, address and phone in the site's `site.ts` match the
   Google Business Profile character for character. They feed the header, the footer and the
   `LocalBusiness` structured data on every page.
-- **Photos** stay at their WordPress paths (`sites/<site>/public/wp-content/uploads/...`), so image search
-  and old links keep working.
+- **Photos.** The old stock photos are replaced by public-domain and CC0 photos, a different set
+  per site, in `sites/<site>/public/images/photos/`. Each one's source, author and licence is in
+  `sites/<site>/photo-credits.json`. Only use photos whose own licence page says public domain,
+  Public Domain Mark or CC0 (US federal works such as FEMA and NOAA count). Pixabay, Unsplash and
+  Pexels do not. The logos, badges and chart keep their WordPress paths.
 
 ## Editing a page
 
@@ -47,8 +50,8 @@ image:
   src: /wp-content/uploads/2020/02/Header-15.jpg   # the hero's background photo
 date: 2020-02-17
 updated: 2021-01-14
-testimonial: true      # a client review beside the claim form
-claimForm: true        # the free claims review block
+testimonial: true      # the how-it-works steps and client reviews band
+claimForm: true        # the free claim review form, in the hero
 claimTypes: true       # the four claim types, each linking to its page
 services: true         # the adjuster services in the claim types' place (site.ts)
 claimTypesIntro:       # optional; that block's own heading and intro on this page
@@ -202,11 +205,13 @@ layers/
     public/fonts        the brand's web fonts
 sites/
   charlotte/, national/, atlanta/
-    site.ts             the business, menus, claim types, categories and page texts
+    site.ts             the business, menus, claim types, categories and page texts, and what
+                        the site sells with: its promise, credentials, steps and reviews
     nuxt.config.ts      the layer, plus meloSite()
     content/pages/      every page but the blog, at its WordPress URL
     content/blog/       posts
-    public/             photos at their WordPress paths, the logo, favicons, the IndexNow key
+    public/             photos (images/photos/), the logo, favicons, the IndexNow key
+    photo-credits.json  each photo's source, author and licence
 test/
   unit/                 pure functions
   site/                 a built site (run once per site)

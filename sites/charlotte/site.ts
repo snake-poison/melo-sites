@@ -29,7 +29,7 @@ export const business = {
   mapUrl: 'https://www.google.com/maps/search/?api=1&query=Melo+Public+Adjusters+Charlotte+2128+Remount+Rd+STE+B+Charlotte+NC+28208',
   hours: 'Open 24/7',
   logo: '/wp-content/uploads/2020/04/Melo-Public-Adjusters-Charlotte-square.png',
-  image: '/wp-content/uploads/2020/02/insurance-claim-adjusters-charlotte.jpg',
+  image: '/images/photos/charlotte-skyline-spring.jpg',
   areaServed: ['Charlotte', 'Huntersville', 'Concord', 'Gastonia', 'Monroe', 'Matthews'].map(name => ({ '@type': 'City', 'name': `${name}, NC` })),
   sameAs: [
     'https://www.facebook.com/melopublicadjusterscharlotte/',
@@ -92,19 +92,19 @@ export const claimTypes = [
     label: 'Mold & Water Damage',
     to: '/insurance-claim-type/adjuster-mold-water-damage-charlotte/',
     icon: 'icon-[carbon--rain-drop]',
-    summary: 'Burst pipes, roof and appliance leaks, flooding and the mold that follows.',
+    summary: 'Pipes that burst in a hard freeze, roof and appliance leaks, creek flooding and the mold that follows.',
   },
   {
     label: 'Storm & Wind Damage',
     to: '/insurance-claim-type/adjuster-wind-storm-damage-charlotte/',
     icon: 'icon-[carbon--rain-heavy]',
-    summary: 'Hurricanes, tornadoes, fallen trees and wind-driven rain.',
+    summary: 'Hurricane remnants, tornadoes, ice storms, fallen trees and wind-driven rain.',
   },
   {
     label: 'Hail & Roof Damage',
     to: '/insurance-claim-type/adjuster-hail-roof-damage-charlotte/',
     icon: 'icon-[carbon--home]',
-    summary: 'Hail strikes, missing shingles and roofs the insurer would rather patch.',
+    summary: 'Spring hailstorms, missing shingles and roofs the insurer would rather patch than replace.',
   },
   {
     label: 'Smoke & Fire Damage',
@@ -169,10 +169,49 @@ export const categories: Record<Category, { label: string, description: string }
   },
 }
 
-/** The client review the claim-review band quotes, as the old site's did. */
-export const featuredReview: { quote: string, name: string } | null = {
-  quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
-  name: 'Trey Edwards',
+/** Clients' reviews, as the old site quoted them: the band under the steps shows them. */
+export const reviews: readonly { quote: string, name: string, source?: string }[] = [
+  {
+    quote: 'Fast, professional, and highly informed. I was happy with all aspects of the job. Would absolutely recommend to any friends and family.',
+    name: 'Trey Edwards',
+  },
+  {
+    quote: 'These guys are the BEST! Totally saved my life after a water line in my home got busted. They go above and beyond and really care. Thank you so much!!',
+    name: 'Bethany Simonetti',
+  },
+]
+
+/**
+ * What the site sells with, in its own words: the header's top line, the three promises under the
+ * hero's heading, the credentials strip under the hero and the steps of a claim.
+ */
+export const promise = 'Licensed public adjusters in Charlotte · Free claim reviews, 24/7'
+
+export const heroPoints: readonly string[] = ['Free claim review', 'No up-front fees', 'Our fee comes only from the extra we recover']
+
+export const credentials: readonly { icon: string, title: string, text: string }[] = [
+  { icon: 'icon-[carbon--certificate-check]', title: 'Licensed in North Carolina', text: 'Public adjuster license #8627837, held by Ramon Melo' },
+  { icon: 'icon-[carbon--user-multiple]', title: 'For policyholders only', text: 'We never work for an insurance company' },
+  { icon: 'icon-[carbon--time]', title: 'Licensed since 2011', text: 'Ramon Melo has been a licensed adjuster since 2011 and a public adjuster since 2019' },
+  { icon: 'icon-[carbon--phone]', title: 'Open 24/7', text: 'A local Charlotte office, answered day and night' },
+]
+
+/** Ramon Melo's public adjuster licenses, as the state certificates give them, for the footer. */
+export const licenses: readonly string[] = ['North Carolina public adjuster license #8627837']
+
+/**
+ * The star rating on the business's own Google listing, read off Google Maps on `checked`; null
+ * shows no rating. Update it by hand: the sites never claim a rating Google does not show.
+ */
+export const googleRating: { value: number, checked: string } | null = null
+
+export const howItWorks: { title: string, steps: readonly { title: string, text: string }[] } = {
+  title: 'How we get your claim paid',
+  steps: [
+    { title: 'Tell us what happened', text: 'Call or send the form. The review is free and there is no obligation.' },
+    { title: 'We document the whole loss', text: 'We inspect the damage, read your policy and price every line of the repair.' },
+    { title: 'We negotiate with your insurer', text: 'You stop chasing the adjuster. Our fee is a share of what we add to the settlement.' },
+  ],
 }
 
 /**
@@ -183,7 +222,7 @@ export const secondOpinion: Record<'home' | 'page', { title: string, text: strin
   home: {
     title: 'Get a Second Opinion on Your Claim, for FREE!',
     text: 'It never hurts to have another expert on your side, especially with large insurance claims.',
-    points: ['Licensed Public Adjusters', 'Experienced & Skilled', 'No Up-Front Fees'],
+    points: ['Licensed in North Carolina', 'Based in Charlotte', 'No Up-Front Fees'],
     cta: 'Get Started Now',
   },
   page: {
@@ -198,27 +237,29 @@ export const secondOpinion: Record<'home' | 'page', { title: string, text: strin
  * The free claim review form posts to the Charlotte Pages Worker, which verifies Turnstile,
  * saves the intake in Pipedrive, and redirects to /thank-you-page/. README.md has the setup.
  */
-export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[] } = {
+export const claimForm: { action: string, hidden: Record<string, string>, lossTypes: readonly string[], statePlaceholder?: string } = {
   action: '/api/claim-review',
   // Fields the service needs with every submission, such as its access key.
   hidden: {},
   // The checkboxes of the old form's first step.
   lossTypes: ['Fire / Smoke Damage', 'Water Damage', 'Mold Remediation', 'Storm Damage', 'Other'],
+  // The State field's example: this market's state.
+  statePlaceholder: 'e.g. NC',
 }
 
 /** The claim-types block's heading and intro, where a page does not give its own. */
 export const claimTypesIntro = {
   title: 'Insurance Adjuster for Many Types of Claims',
-  text: 'Do you have a property loss claim that needs to be filed but your insurance policy makes no sense? No worries! Melo Public Adjusters Charlotte is here to help. We offer a series of different [insurance claim types](/insurance-claim-type/) that range from storm & wind damage to losses from house fires. Call us today to get the compensation you\'re paying for.',
+  text: 'Do you have a property loss claim to file but your insurance policy makes no sense? No worries! Melo Public Adjusters Charlotte helps homeowners and businesses across Charlotte and the nearby towns with many [insurance claim types](/insurance-claim-type/), from storm & wind damage to losses from house fires. Call us today to get the compensation you\'re paying for.',
 }
 
 /** The blog's index at /blog/, with the title and heading WordPress gave it. */
 export const blogPage = {
   title: 'Our Blog & Other Resources',
   metaTitle: 'Our Blog - Public Adjusters of Charlotte',
-  lead: 'Get the maximum valuation for any insurance claim type. We work for you, so let\'s work together!',
+  lead: 'Claim tips for Charlotte homeowners and business owners, and news and things to do around the Queen City.',
   description: 'Tips on insurance claims and public adjusters, and news and things to do around Charlotte, NC, from Melo Public Adjusters Charlotte.',
-  image: '/wp-content/uploads/2020/02/Header-8.jpg',
+  image: '/images/photos/charlotte-park-road-park-pond.jpg',
 }
 
 /**

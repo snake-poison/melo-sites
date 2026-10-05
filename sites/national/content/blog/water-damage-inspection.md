@@ -3,11 +3,11 @@ title: "Do Flood Damage Inspections Help? Understanding the Importance of Water 
 metaTitle: "Flood Damage House | Flood Damage Services | Water Flood Damage"
 description: "Explore the significance of water flood damage inspections, their role in repairing flood damage, and the services offered by flood damage professionals"
 date: 2023-10-23
-updated: 2023-10-27
+updated: 2026-10-04
 category: "water-damage-claim"
 image:
-  src: "/wp-content/uploads/2023/10/shutterstock_739129789.jpg"
-  alt: "flood damage inspections"
+  src: "/images/photos/assessors-inspecting-opened-wall.jpg"
+  alt: "Building assessors inspecting a wall opened up after flooding"
 ---
 
 Flood damage can wreak havoc on homes and properties, causing immense destruction and financial stress. To mitigate these risks, flood damage inspections play a crucial role. These inspections are instrumental in assessing the extent of damage, guiding the repair process, and helping homeowners make informed decisions. In this blog, we will explore the significance of water flood damage inspections, their role in repairing flood damage, and the services offered by [flood damage professionals](/blog/water-damage-insurance-adjuster-tips/).
@@ -18,7 +18,7 @@ Flood damage inspections are comprehensive evaluations conducted by professional
 
 ## Services Offered by Flood Damage Professionals
 
-1. **Assessment of Damage:** [Flood damage](/insurance-claim-type/public-adjuster-wind-storm-damage-claim/) professionals thoroughly examine the affected property to identify the extent of damage. They look for structural issues, electrical damage, water infiltration, and potential health hazards. This assessment is a crucial first step in addressing the aftermath of a flood.
+1. **Assessment of Damage:** [Flood and water damage](/insurance-claim-type/water-damage-claims-adjuster/) professionals thoroughly examine the affected property to identify the extent of damage. They look for structural issues, electrical damage, water infiltration, and potential health hazards. This assessment is a crucial first step in addressing the aftermath of a flood.
 
 2. **Documentation for Insurance Claims:** Accurate documentation of the damage is vital for insurance claims. Flood damage professionals create detailed reports and photographs, which can be invaluable when filing claims to recover losses.
 
@@ -26,7 +26,7 @@ Flood damage inspections are comprehensive evaluations conducted by professional
 
 4. **Mold and Mildew Prevention:** One of the significant concerns after a flood is the growth of mold and mildew. Flood damage experts take measures to prevent and mitigate mold infestations, safeguarding the health of the property's inhabitants.
 
-::post-photo{src="/wp-content/uploads/2023/10/shutterstock_1395158567.jpg" alt="flood damage inspection"}
+::post-photo{src="/images/photos/drying-fans-on-wet-carpet.jpg" alt="Blowers and dehumidifiers drying wet carpet in a flooded building"}
 ::
 
 ## The Role of Water Flood Damage Inspections in Repairing Flood Damage
@@ -38,6 +38,12 @@ Flood damage inspections are comprehensive evaluations conducted by professional
 3. **Prioritizing Repairs:** An inspection report helps prioritize repairs based on their urgency. Some damage may pose immediate safety risks, while other issues can be addressed in a more phased approach.
 
 4. **Insurance Claim Assistance:** When dealing with insurance claims, an inspection report is invaluable. It serves as documented evidence of the damage and the need for repairs, helping to expedite the claims process.
+
+## Which Policy Pays for Flood Damage?
+
+Before relying on an inspection to support a claim, know which policy the claim belongs to. Standard homeowners and most commercial property policies exclude flood, meaning surface water, overflowing rivers and storm surge. Flood damage is covered only by a separate flood policy, from the National Flood Insurance Program or a private flood insurer, and those policies have their own coverage limits and their own deadline for a signed proof of loss. Water that comes from inside the building, such as a burst pipe or a failed water heater, is usually a homeowners claim instead.
+
+The distinction shapes the inspection, too. The report should record where the water came from, how high it rose and how long it stood, because the source decides which policy responds. If the cause is disputed, or the insurer's estimate falls short of what the inspection found, a licensed public adjuster can help you present the claim. Public adjuster licensing and fee rules vary by state; Melo Property Claims works across the [states we serve](/service-areas/).
 
 ## Do Flood Damage Inspections Help?
 

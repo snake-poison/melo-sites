@@ -2,9 +2,12 @@
 /**
  * A client's review. In Markdown:
  *
- *   ::page-quote{name="Bethany Simonetti" source="Verified Google Review"}
+ *   ::page-quote{name="Jane Doe" source="Google review"}
  *   The review.
  *   ::
+ *
+ * The stars are decoration, hidden from screen readers: a quote does not say what the client
+ * rated. A star rating is only ever stated where Google's listing gives one (`googleRating`).
  */
 const props = withDefaults(defineProps<{
   name: string
@@ -17,7 +20,7 @@ const props = withDefaults(defineProps<{
 <template>
   <figure class="page-quote">
     <UICard padding="lg" class="shadow-lg shadow-ink/8">
-      <p class="text-2xl tracking-[0.15em] text-star" role="img" aria-label="Five stars">
+      <p class="text-2xl tracking-[0.15em] text-star" aria-hidden="true">
         ★★★★★
       </p>
       <blockquote class="mt-3 text-lg/relaxed text-ink [&_p]:m-0">
