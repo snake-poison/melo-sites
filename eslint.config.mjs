@@ -2,7 +2,7 @@ import antfu from '@antfu/eslint-config'
 import betterTailwind from 'eslint-plugin-better-tailwindcss'
 import { getDefaultSelectors } from 'eslint-plugin-better-tailwindcss/defaults'
 import { MatcherType, SelectorKind } from 'eslint-plugin-better-tailwindcss/types'
-// Both sites build from the one layer, so either site's generated config lints the whole repo.
+// All three sites build from the one layer, so either site's generated config lints the whole repo.
 import { withNuxt } from './sites/charlotte/.nuxt/eslint.config.mjs'
 
 // Avow's lint rules (~/Code/Avow/eslint.config.mjs), less the ones about its own domains.

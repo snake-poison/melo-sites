@@ -90,8 +90,8 @@ export function meloContent(categoryIds: readonly [string, ...string[]]) {
       image: image.optional(),
       // Kept out of search results and the sitemap, as WordPress had them (the thank-you page).
       noindex: z.boolean().default(false),
-      // The blocks every service page shares (app/components/organisms): the claim form in the
-      // hero, and the steps and reviews band after the body or at its `:page-claim-review`.
+      // The blocks every service page shares (app/components): the claim form in the
+      // hero, and the steps and reviews band after the body.
       testimonial: z.boolean().default(false),
       claimForm: z.boolean().default(false),
       claimTypes: z.boolean().default(false),
