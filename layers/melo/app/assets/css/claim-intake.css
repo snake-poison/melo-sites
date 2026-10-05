@@ -1,5 +1,5 @@
 /*
- * The claim form's card (components/organisms/ClaimIntake.vue). Loaded with the site's other
+ * The claim form's card (components/ClaimIntake.vue). Loaded with the site's other
  * styles, so every page has it inline: as the component's own styles, the hero shared by most
  * pages would carry them in a stylesheet of its own, a request more.
  */

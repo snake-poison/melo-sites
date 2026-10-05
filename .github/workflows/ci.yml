@@ -57,7 +57,7 @@ jobs:
           if [ -n "$TOKEN" ] && [ -n "$ACCOUNT" ]; then
             echo "ready=true" >> "$GITHUB_OUTPUT"
           else
-            echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (README.md, Going live)."
+            echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (docs/operations.md, Configuration)."
           fi
 
       # What the tests passed is what ships: the deploy job publishes these builds as they are.

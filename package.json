@@ -24,9 +24,9 @@
     "test:unit": "vitest --run --project=unit",
     "test:site": "vitest --run --project='site-*'",
     "test:w": "vitest",
-    "check": "pnpm lint --fix & pnpm typecheck & pnpm test:unit & wait",
+    "check": "pnpm lint && pnpm typecheck && pnpm test:unit",
     "ds:diff": "bash scripts/ds-diff.sh",
-    "clean": "git clean -fdxn -e .env"
+    "clean:dry-run": "git clean -fdxn -e .env"
   },
   "dependencies": {
     "@iconify-json/carbon": "^1.2.27",
