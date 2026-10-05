@@ -23,7 +23,7 @@ The professional insurance adjusters from Melo Public Adjusters Atlanta know how
 
 Our insurance adjuster for mold damage in Atlanta knows that mold is often the result of water damage or other issues that ARE covered under your insurance policy. We do the assessment that your insurance provider didn't to provide you with your options and the best course of action.
 
-Even if your mold damage can't be covered under your policy, we can help you with our contractor referral program by giving you the names of mold remediation specialists in the Atlanta area. Don't let your mold problem get any worse. Call us today to find the answers you're looking for.
+Even if your mold damage can't be covered under your policy, we can give you the names of mold remediation specialists in the Atlanta area, and we take nothing from them for it. Don't let your mold problem get any worse. Call us today to find the answers you're looking for.
 
 :page-cta{kind="review" label="Get a claims estimate"}
 ::
