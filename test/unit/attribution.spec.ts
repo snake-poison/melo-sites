@@ -84,6 +84,7 @@ describe('Website attribution and consent', () => {
     const sameSession = captured(browse.submit().Attribution)
     expect(sameSession.current.source).toBe('google')
     expect(sameSession.current.landing).toBe(`${origin}/contact/`)
+    expect(sameSession.lastNonDirect.landing).toBe(`${origin}/`)
     const storage = browse.storage()
     const old = captured(storage['melo.attribution.v1'])
     old.lastSeen = Date.now() - 2 * 86400000
@@ -93,6 +94,9 @@ describe('Website attribution and consent', () => {
     expect(a.first.source).toBe('google')
     expect(a.lastNonDirect.gclid).toBe('click-123')
     expect(a.current.source).toBe('direct')
+    browse.choose('denied')
+    expect(captured(browse.submit().Attribution).current.source).toBe('direct')
+    expect(captured(browse.submit().Attribution).current).not.toHaveProperty('gclid')
   })
   it.each([['https://www.google.com/search?q=private', 'organic'], ['https://partner.example/private?email=private', 'referral']])('classifies %s without retaining private referrer URLs', (referrer, medium) => {
     const b = browser('/', { referrer })

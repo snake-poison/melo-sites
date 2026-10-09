@@ -36,6 +36,7 @@
     current.source = current.utm_source
     current.medium = current.utm_medium || 'unknown'
   }
+  const pageTouch = { ...current }
   function read(key) {
     try {
       return JSON.parse(localStorage.getItem(key))
@@ -96,13 +97,14 @@
     if (previous?.expiresAt > now && previous.first) {
       // Internal page browsing stays in the same acquisition session. After 30 minutes
       // of inactivity a direct return is a new direct session, while first/last persist.
-      if (current.source === 'direct' && previous.lastSeen > now - 30 * 60 * 1000 && previous.current) {
+      const carriesSession = current.source === 'direct' && previous.lastSeen > now - 30 * 60 * 1000 && previous.current
+      if (carriesSession) {
         const landing = current.landing
         const at = current.at
         Object.assign(current, previous.current, { landing, at })
       }
       state.first = previous.first
-      state.lastNonDirect = current.source === 'direct' ? previous.lastNonDirect : current
+      state.lastNonDirect = carriesSession || current.source === 'direct' ? previous.lastNonDirect : current
     }
     save(attributionKey, state)
     loadGoogle()
@@ -127,7 +129,7 @@
       input(form, 'Intake ID', existing || crypto.randomUUID())
       const granted = consent?.choice === 'granted'
       input(form, 'Measurement consent', granted ? 'granted' : (consent?.choice || 'unset'))
-      input(form, 'Attribution', JSON.stringify(granted ? state : { current }))
+      input(form, 'Attribution', JSON.stringify(granted ? state : { current: pageTouch }))
     })
   }
   function choose(choice) {
@@ -137,6 +139,9 @@
       accept()
     }
     else {
+      for (const key of Object.keys(current))
+        delete current[key]
+      Object.assign(current, pageTouch)
       state = { first: current, lastNonDirect: null, current, lastSeen: now, expiresAt: now + lifetime }
       window[`ga-disable-${measurementId}`] = true
       remove(attributionKey)
