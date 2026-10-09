@@ -21,8 +21,10 @@ contacts after reviewing the claim.
 The server derives source from the request hostname: `Website: Charlotte`, `Website: Atlanta`,
 or `Website: Melo Property Claims` lead labels, the Web forms marketing channel, and a structured
 Website source field. Charlotte/Atlanta use Lead Gen Site; the national site uses MPC Website.
-The same-origin referrer supplies the structured Website landing page and any UTM/click IDs in
-the note. These tracking values are visitor supplied; the website source and owner are server controlled.
+The browser supplies bounded attribution to the worker; cached forms fall back to the same-origin
+referrer. Earlier touches and ad click IDs require measurement consent. These tracking values are
+visitor supplied; the website source and legacy Pipedrive owner are server controlled. See
+[attribution and Twenty delivery](attribution.md) for the consent panel, optional durable queue and rollout.
 
 Pipedrive's existing Insurance Company field links to a person. Only one exact name match with
 the INSURANCE label is linked automatically. The new Insurance Company (intake) text field always
@@ -46,6 +48,9 @@ production credentials, CRM delivery or live CAPTCHA behavior.
 | `PIPEDRIVE_API_TOKEN` | Each Pages project | Server-side CRM writes |
 | `TURNSTILE_SECRET_KEY` | Each Pages project | Server-side CAPTCHA verification |
 | `TURNSTILE_SITE_KEY` | Each Pages project | Public widget key injected into HTML |
+| `GA4_MEASUREMENT_ID` | Each Pages project, optional | Public GA4 ID; tags load only after consent |
+| `INTAKE_DB` | Each Pages project, opt-in D1 binding | Durable intake outbox instead of Pipedrive delivery |
+| `INTAKE_OUTBOX_TOKEN` | Each Pages project, private secret | Authenticated agent import; required with D1 |
 | `NUXT_SITE_URL` | Optional build environment | Override canonical origin for a build |
 | `NUXT_APP_BASE_URL` | Optional build environment | Override the app’s base path |
 
@@ -88,5 +93,5 @@ all published URLs: `pnpm generate:<site>` then
 ## Failures and rollback
 
 - Build failure: inspect the first failed CI step; deployment depends on all checks passing.
-- Form failure: verify Pages secrets, allowed Turnstile hostnames, CRM access and worker logs. The worker uses bounded requests and handles partial writes, but has no durable retry queue or notification channel. Visitor retries can create duplicate contacts.
+- Form failure: verify Pages secrets, allowed Turnstile hostnames, CRM access and worker logs. The legacy Pipedrive path uses bounded requests and handles partial writes but has no durable retry queue. The opt-in D1 path preserves pending inquiries for Twenty import and deduplicates same-form retries; monitor importer errors and queue backlog. Neither path supplies automatic staff notifications.
 - Bad release: revert the offending commit on `main` and let CI rebuild/deploy. For an urgent incident, restore a previous production deployment in Cloudflare, then reconcile `main` before its next scheduled deploy. Rollback does not undo CRM records or configuration changes.

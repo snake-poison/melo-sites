@@ -22,6 +22,124 @@ function siteFor(host) {
 }
 const apiBase = 'https://melopropertyclaims.pipedrive.com'
 
+const clickKeys = ['gclid', 'gbraid', 'wbraid', 'fbclid', 'msclkid']
+const campaignKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']
+const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
+
+export function intakeAttribution(form, url, referer, siteId) {
+  const consent = ['granted', 'denied'].includes(form.get('Measurement consent')) ? form.get('Measurement consent') : 'unset'
+  let supplied = null
+  try {
+    const value = form.get('Attribution') || ''
+    if (value.length <= 7000)
+      supplied = JSON.parse(value)
+  }
+  catch { /* Cached forms still work with same-origin referrer attribution. */ }
+  function touch(value) {
+    if (!value || typeof value !== 'object')
+      return null
+    const out = {}
+    try {
+      const landing = new URL(value.landing)
+      if (siteFor(landing.hostname)?.[0] !== siteId || landing.protocol !== 'https:')
+        return null
+      out.landing = url.origin + landing.pathname.slice(0, 500)
+    }
+    catch { return null }
+    const timestamp = Date.parse(value.at)
+    if (!Number.isFinite(timestamp) || timestamp < Date.now() - 90 * 86400000 || timestamp > Date.now() + 300000)
+      return null
+    out.at = new Date(timestamp).toISOString()
+    for (const key of ['source', 'medium', ...campaignKeys, ...(consent === 'granted' ? clickKeys : [])]) {
+      if (typeof value[key] === 'string')
+        out[key] = Array.from(value[key]).filter(char => char.charCodeAt(0) >= 32).join('').slice(0, 200)
+    }
+    try {
+      const referrer = new URL(value.referrer)
+      if (['http:', 'https:'].includes(referrer.protocol))
+        out.referrer = referrer.origin
+    }
+    catch { /* Never retain referrer paths or queries. */ }
+    return out
+  }
+  let current = touch(supplied?.current)
+  if (!current) {
+    current = { landing: url.origin, at: new Date().toISOString(), source: 'unknown', medium: 'unknown' }
+    try {
+      const page = new URL(referer)
+      if (page.origin === url.origin) {
+        current.landing += page.pathname.slice(0, 500)
+        for (const key of [...campaignKeys, ...(consent === 'granted' ? clickKeys : [])]) {
+          if (page.searchParams.has(key))
+            current[key] = page.searchParams.get(key).slice(0, 200)
+        }
+        if (current.utm_source) {
+          current.source = current.utm_source
+          current.medium = current.utm_medium || 'unknown'
+        }
+      }
+    }
+    catch { /* An absent referrer is unknown. */ }
+  }
+  return { version: 1, consent, provenance: 'visitor-supplied', current, first: consent === 'granted' ? touch(supplied?.first) || current : null, lastNonDirect: consent === 'granted' ? touch(supplied?.lastNonDirect) : null }
+}
+
+function saved(id) {
+  return new Response(null, { status: 303, headers: {
+    'Location': '/thank-you-page/',
+    'Cache-Control': 'no-store',
+    'Set-Cookie': `__Host-melo_receipt=${id}; Max-Age=600; Path=/; Secure; SameSite=Strict`,
+  } })
+}
+
+async function digest(text) {
+  const hash = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(text))
+  return Array.from(new Uint8Array(hash), value => value.toString(16).padStart(2, '0')).join('')
+}
+
+export async function intakeOutbox(request, env) {
+  const url = new URL(request.url)
+  const siteId = siteFor(url.hostname)?.[0]
+  const headers = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' }
+  if (!env.INTAKE_DB || !env.INTAKE_OUTBOX_TOKEN || !siteId)
+    return new Response('Unavailable', { status: 503, headers })
+  const supplied = request.headers.get('Authorization') || ''
+  if (supplied.length > 1000 || await digest(supplied) !== await digest(`Bearer ${env.INTAKE_OUTBOX_TOKEN}`))
+    return new Response('Unauthorized', { status: 401, headers })
+  if (request.method === 'GET') {
+    const result = await env.INTAKE_DB.prepare('SELECT id, payload FROM website_intakes WHERE site = ? AND delivered_at IS NULL ORDER BY received_at, id LIMIT 50').bind(siteId).all()
+    return Response.json({ intakes: result.results.map(row => JSON.parse(row.payload)) }, { headers })
+  }
+  if (request.method === 'POST') {
+    const reader = request.body?.getReader()
+    if (!reader)
+      return new Response('Invalid acknowledgement', { status: 400, headers })
+    const chunks = []
+    let size = 0
+    while (true) {
+      const { done, value } = await reader.read()
+      if (done)
+        break
+      size += value.length
+      if (size > 1000) {
+        await reader.cancel()
+        return new Response('Too large', { status: 413, headers })
+      }
+      chunks.push(value)
+    }
+    let ack
+    try {
+      ack = JSON.parse(new TextDecoder().decode(new Uint8Array(chunks.flatMap(chunk => Array.from(chunk)))))
+    }
+    catch { return new Response('Invalid acknowledgement', { status: 400, headers }) }
+    if (!ack || typeof ack !== 'object' || !uuid.test(ack.id) || !uuid.test(ack.twentyId))
+      return new Response('Invalid acknowledgement', { status: 400, headers })
+    const result = await env.INTAKE_DB.prepare('UPDATE website_intakes SET delivered_at = ?, twenty_id = ? WHERE id = ? AND site = ? AND (twenty_id IS NULL OR twenty_id = ?)').bind(new Date().toISOString(), ack.twentyId, ack.id, siteId, ack.twentyId).run()
+    return Response.json({ acknowledged: result.meta.changes === 1 }, { headers })
+  }
+  return new Response('Method not allowed', { status: 405, headers: { ...headers, Allow: 'GET, POST' } })
+}
+
 function escapeHtml(value) {
   return String(value).replace(/[&<>"']/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', '\'': '&#39;' })[char])
 }
@@ -54,7 +172,7 @@ export async function handleSubmission(request, env) {
   if (!matchedSite || request.headers.get('Origin') !== url.origin)
     return failure('Please submit the form from our website.', 403)
   const [siteId, site] = matchedSite
-  if (!env.PIPEDRIVE_API_TOKEN || !env.TURNSTILE_SECRET_KEY)
+  if ((!env.INTAKE_DB && !env.PIPEDRIVE_API_TOKEN) || !env.TURNSTILE_SECRET_KEY || (env.INTAKE_DB && !env.INTAKE_OUTBOX_TOKEN))
     return failure('The form is temporarily unavailable. Please call us.', 503)
   if (!request.headers.get('Content-Type')?.startsWith('application/x-www-form-urlencoded'))
     return failure('Please use the form on our website.', 415)
@@ -109,17 +227,13 @@ export async function handleSubmission(request, env) {
     return failure('Please shorten the description.')
   if ((fields.State && !/^[A-Z]{2}$/.test(fields.State)) || (fields['ZIP code'] && !/^\d{5}(?:-\d{4})?$/.test(fields['ZIP code'])))
     return failure('Please enter a two-letter state and valid ZIP code.')
-  const referer = request.headers.get('Referer')
-  let landing = url.origin
-  let attribution = ''
-  try {
-    const page = new URL(referer)
-    if (page.origin === url.origin) {
-      landing += page.pathname.slice(0, 500)
-      attribution = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'fbclid'].map(key => page.searchParams.has(key) ? `${key}: ${page.searchParams.get(key).slice(0, 200)}` : '').filter(Boolean).join('\n')
-    }
-  }
-  catch { /* The website host still identifies the source without a referrer. */ }
+  const captured = intakeAttribution(form, url, request.headers.get('Referer'), siteId)
+  const landing = captured.current.landing
+  const attribution = Object.entries(captured.current).map(([key, value]) => `${key}: ${value}`).join('\n')
+  const requestedId = form.get('Intake ID')
+  if (requestedId && !uuid.test(requestedId))
+    return failure('Please refresh the form and try again.')
+  const intakeId = requestedId || crypto.randomUUID()
   const captcha = form.get('cf-turnstile-response')
   if (!captcha || captcha.length > 2048)
     return failure('Please complete the spam check and try again.')
@@ -135,8 +249,23 @@ export async function handleSubmission(request, env) {
     const check = await verification.json()
     if (!verification.ok || !check.success || check.hostname !== url.hostname || check.action !== 'claim-review')
       return failure('The spam check expired or failed. Go back, refresh the form, and try again.', 403)
+    if (env.INTAKE_DB) {
+      const payload = { version: 1, id: intakeId, site: siteId, website: site.domain, receivedAt: new Date().toISOString(), name, fields, description, attribution: captured }
+      // Receipt time is server controlled; it is excluded from the retry fingerprint.
+      const retryAttribution = JSON.parse(JSON.stringify(captured))
+      for (const key of ['first', 'lastNonDirect', 'current']) {
+        if (retryAttribution[key])
+          delete retryAttribution[key].at
+      }
+      const fingerprint = await digest(JSON.stringify({ siteId, name, fields, description, captured: retryAttribution }))
+      await env.INTAKE_DB.prepare('INSERT INTO website_intakes (id, site, received_at, fingerprint, payload) VALUES (?, ?, ?, ?, ?) ON CONFLICT(id) DO NOTHING').bind(intakeId, siteId, payload.receivedAt, fingerprint, JSON.stringify(payload)).run()
+      const existing = await env.INTAKE_DB.prepare('SELECT fingerprint, site FROM website_intakes WHERE id = ?').bind(intakeId).first()
+      if (existing?.fingerprint !== fingerprint || existing?.site !== siteId)
+        return failure('This request changed after submission. Refresh the form to send a new request.', 409)
+      return saved(intakeId)
+    }
     const address = [fields['Street address'], form.get('Address line 2')?.trim(), fields.City, fields.State, fields['ZIP code']].filter(Boolean).join(', ')
-    const content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property:</b> ${escapeHtml(address || 'Not provided')}<br><b>Date of loss:</b> ${escapeHtml(date || 'Not provided')}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'] || 'Not provided')}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'] || 'Not provided')}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'] || 'Not provided')}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'] || 'Not provided')}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p>`
+    const content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property:</b> ${escapeHtml(address || 'Not provided')}<br><b>Date of loss:</b> ${escapeHtml(date || 'Not provided')}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'] || 'Not provided')}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'] || 'Not provided')}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'] || 'Not provided')}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'] || 'Not provided')}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p><p><b>Intake ID:</b> ${intakeId}</p><pre>${escapeHtml(JSON.stringify(captured))}</pre>`
     const leadFields = {
       [crmFields.claim]: fields['Claim Number'],
       [crmFields.policy]: fields['Policy Number'],
@@ -175,13 +304,13 @@ export async function handleSubmission(request, env) {
     note = await pipedrive(env, '/api/v1/notes', 'POST', { person_id: person.id, content })
     lead = await pipedrive(env, '/api/v1/leads', 'POST', { title: `${site.name} website — ${name}`, person_id: person.id, owner_id: 11555257, label_ids: [labels[siteId]], channel: 77, channel_id: site.domain, origin_id: 'melo-sites-claim-intake', ...leadFields })
     await pipedrive(env, `/api/v1/notes/${note.id}`, 'PUT', { lead_id: lead.id, person_id: person.id, content })
-    return new Response(null, { status: 303, headers: { 'Location': '/thank-you-page/', 'Cache-Control': 'no-store' } })
+    return saved(intakeId)
   }
   catch {
     // Never delete existing CRM data. These IDs belong only to this incomplete submission.
     // If a lead was saved, its linked person's note already preserves the entire request.
     if (lead)
-      return new Response(null, { status: 303, headers: { 'Location': '/thank-you-page/', 'Cache-Control': 'no-store' } })
+      return saved(intakeId)
     if (person) {
       try {
         if (note)
@@ -238,16 +367,25 @@ const turnstileLoader = `(function (slot) {
 export default {
   async fetch(request, env) {
     const url = new URL(request.url)
+    if (url.pathname === '/api/intake-outbox')
+      return intakeOutbox(request, env)
     if (url.pathname === '/api/claim-review')
       return handleSubmission(request, env)
     const response = await env.ASSETS.fetch(request)
     const site = siteFor(url.hostname)?.[1]
-    if (!response.headers.get('Content-Type')?.includes('text/html') || !env.TURNSTILE_SITE_KEY || !site)
+    if (!response.headers.get('Content-Type')?.includes('text/html') || !site)
       return response
     // Only form-bearing pages gain the Turnstile slot, and its script stays small until a
     // visitor touches the form: see turnstileLoader.
-    return new HTMLRewriter().on('[data-claim-captcha]', {
+    return new HTMLRewriter().on('body', {
       element(element) {
+        const ga4 = /^G-[A-Z0-9]+$/.test(env.GA4_MEASUREMENT_ID || '') ? env.GA4_MEASUREMENT_ID : ''
+        element.append(`<script src="/melo-attribution.js" defer data-ga4="${ga4}"></script>`, { html: true })
+      },
+    }).on('[data-claim-captcha]', {
+      element(element) {
+        if (!env.TURNSTILE_SITE_KEY)
+          return
         element.setInnerContent(`<div class="cf-turnstile" data-sitekey="${escapeHtml(env.TURNSTILE_SITE_KEY)}"></div><script>${turnstileLoader}</script><noscript>Please enable JavaScript for the spam check, or call ${escapeHtml(site.phone)}.</noscript>`, { html: true })
       },
     }).transform(response)

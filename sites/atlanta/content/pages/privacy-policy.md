@@ -4,11 +4,11 @@ metaTitle: "Privacy Policy - Melo Public Adjusters Atlanta"
 description: "What personal details the Melo Public Adjusters Atlanta website collects, such as log data and cookies, and how we use and protect them."
 lead: "Get the maximum valuation for your insurance claims. We work for you, so let's work together."
 date: 2019-03-27
-updated: 2020-01-05
+updated: 2026-10-09
 secondOpinion: true
 ---
 
-Last updated: January 5, 2020
+Last updated: October 9, 2026
 
 Melo Public Adjusters Atlanta ("us", "we", or "our") operates the Melo Public Adjusters Atlanta website (the "Service").
 
@@ -16,7 +16,7 @@ This page informs you of our policies regarding the collection, use and disclosu
 
 We will not use or share your information with anyone except as described in this Privacy Policy.
 
-We use your Personal Information for providing and improving the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [publicadjustersofatlanta.com](/)
+We use your Personal Information for providing and improving the Service. Optional website measurement follows the preference you choose on this site. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [publicadjustersofatlanta.com](/)
 
 ## Information Collection And Use
 
@@ -31,15 +31,17 @@ While using our Service, we may ask you to provide us with certain personally id
 
 We collect information that your browser sends whenever you visit our Service ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics.
 
-## Google AdSense & DoubleClick Cookie
+## Optional Measurement on This Site
 
-Google, as a third party vendor, uses cookies to serve ads on our Service.
+The Atlanta site offers an **Allow measurement** or **Decline** choice. With permission, browser storage remembers how you found us, campaign labels, ad click identifiers, landing-page paths and visit times for up to 90 days. Your contact information and claim description are not included in that browser record.
 
-## Cookies
+Use **Measurement settings** in the footer to change your preference. You can request a claim review after declining. In that case, Google measurement tags stay unloaded and marketing history is not saved between pages or return visits. An inquiry may include the current page's source and campaign labels, but not advertising click identifiers.
 
-Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+If Google Analytics is enabled and you agree to measurement, it receives page visits and events for saved inquiries. Those events exclude the answers entered in the claim form. This implementation does not enable advertising personalization or upload customer contact data to advertising platforms.
 
-We use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+## How We Receive Your Inquiry
+
+Cloudflare hosts our intake endpoint. The contact information and loss details you submit are stored for follow-up and delivered to our configured CRM with any captured source information. A first-party receipt cookie expires within ten minutes and identifies a saved submission on the confirmation page. Submitted inquiry records are retained separately from your browser's measurement choice.
 
 ## Service Providers
 
