@@ -2,9 +2,14 @@
 (function () {
   const script = document.currentScript
   const measurementId = script?.getAttribute('data-ga4') || ''
-  const consentKey = 'melo.measurement-consent.v1'
-  const attributionKey = 'melo.attribution.v1'
+  // Safari erases storage written by page scripts after 7 days without a visit. The choice and
+  // first/last touches therefore live in a cookie only the server sets (POST /api/measurement);
+  // localStorage keeps just the 30-minute session, which that limit cannot outlast.
+  const cookieName = '__Host-melo_measurement'
+  const sessionKey = 'melo.attribution-session.v1'
+  const legacyKeys = { consent: 'melo.measurement-consent.v1', attribution: 'melo.attribution.v1' }
   const lifetime = 90 * 24 * 60 * 60 * 1000
+  const sessionLength = 30 * 60 * 1000
   const now = Date.now()
   const keys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term', 'gclid', 'gbraid', 'wbraid', 'fbclid', 'msclkid']
   const page = new URL(location.href)
@@ -55,13 +60,38 @@
     }
     catch { /* Storage can be unavailable. */ }
   }
-  let consent = read(consentKey)
-  if (!consent || consent.expiresAt <= now || !['granted', 'denied'].includes(consent.choice)) {
-    consent = null
-    remove(consentKey)
-    remove(attributionKey)
+  function readCookie() {
+    try {
+      const raw = document.cookie.split(';').map(v => v.trim()).find(v => v.startsWith(`${cookieName}=`))
+      return raw ? JSON.parse(decodeURIComponent(raw.slice(cookieName.length + 1))) : null
+    }
+    catch { return null }
   }
-  let state = { first: current, lastNonDirect: current.source === 'direct' ? null : current, current, lastSeen: now, expiresAt: now + lifetime }
+  function valid(choice) {
+    return Boolean(choice) && ['granted', 'denied'].includes(choice.choice) && Date.parse(choice.at) + lifetime > now
+  }
+  let stored = readCookie()
+  if (!valid(stored)) {
+    // Carry over a choice made before the cookie existed, keeping its original 90 days.
+    const legacy = read(legacyKeys.consent)
+    const history = read(legacyKeys.attribution)
+    stored = legacy?.expiresAt > now && valid(legacy) ? { choice: legacy.choice, at: legacy.at, migrated: true } : null
+    if (stored?.choice === 'granted' && history?.expiresAt > now)
+      Object.assign(stored, { first: history.first || null, lastNonDirect: history.lastNonDirect || null })
+  }
+  remove(legacyKeys.consent)
+  remove(legacyKeys.attribution)
+  let consent = stored && { choice: stored.choice, at: stored.at }
+  let state = { first: current, lastNonDirect: current.source === 'direct' ? null : current, current }
+  function persist() {
+    try {
+      const body = { choice: consent.choice, at: consent.at }
+      if (consent.choice === 'granted')
+        Object.assign(body, { first: state.first, lastNonDirect: state.lastNonDirect })
+      fetch('/api/measurement', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body), keepalive: true, credentials: 'same-origin' }).catch(() => {})
+    }
+    catch { /* Without the cookie the visitor is simply asked again; the form still works. */ }
+  }
   let googleLoaded = false
   let panel
   window.dataLayer = window.dataLayer || []
@@ -92,27 +122,33 @@
     loader.src = `https://www.googletagmanager.com/gtag/js?id=${measurementId}`
     document.head.appendChild(loader)
   }
-  function accept() {
-    const previous = read(attributionKey)
-    if (previous?.expiresAt > now && previous.first) {
-      // Internal page browsing stays in the same acquisition session. After 30 minutes
-      // of inactivity a direct return is a new direct session, while first/last persist.
-      const carriesSession = current.source === 'direct' && previous.lastSeen > now - 30 * 60 * 1000 && previous.current
-      if (carriesSession) {
-        const landing = current.landing
-        const at = current.at
-        Object.assign(current, previous.current, { landing, at })
-      }
-      state.first = previous.first
-      state.lastNonDirect = carriesSession || current.source === 'direct' ? previous.lastNonDirect : current
+  function accept(chosen) {
+    const previous = chosen ? null : stored
+    const session = read(sessionKey)
+    // Internal page browsing stays in the same acquisition session. After 30 minutes
+    // of inactivity a direct return is a new direct session, while first/last persist.
+    const carriesSession = current.source === 'direct' && session?.lastSeen > now - sessionLength && session.current
+    if (carriesSession) {
+      const landing = current.landing
+      const at = current.at
+      Object.assign(current, session.current, { landing, at })
     }
-    save(attributionKey, state)
+    if (previous?.first) {
+      state.first = previous.first
+      state.lastNonDirect = carriesSession || current.source === 'direct' ? previous.lastNonDirect || null : current
+    }
+    save(sessionKey, { current, lastSeen: now })
+    // Write the cookie only when the long-lived touches change, not on every page view.
+    if (chosen || previous?.migrated || JSON.stringify([state.first, state.lastNonDirect]) !== JSON.stringify([previous?.first, previous?.lastNonDirect]))
+      persist()
     loadGoogle()
   }
   if (consent?.choice === 'granted')
-    accept()
+    accept(false)
   else
-    remove(attributionKey)
+    remove(sessionKey)
+  if (consent?.choice === 'denied' && stored.migrated)
+    persist()
   function input(form, name, value) {
     let field = form.querySelector(`input[name="${name}"]`)
     if (!field) {
@@ -133,18 +169,18 @@
     })
   }
   function choose(choice) {
-    consent = { choice, expiresAt: Date.now() + lifetime, at: new Date().toISOString() }
-    save(consentKey, consent)
+    consent = { choice, at: new Date().toISOString() }
     if (choice === 'granted') {
-      accept()
+      accept(true)
     }
     else {
       for (const key of Object.keys(current))
         delete current[key]
       Object.assign(current, pageTouch)
-      state = { first: current, lastNonDirect: null, current, lastSeen: now, expiresAt: now + lifetime }
+      state = { first: current, lastNonDirect: null, current }
+      persist()
       window[`ga-disable-${measurementId}`] = true
-      remove(attributionKey)
+      remove(sessionKey)
       tag('consent', 'update', { analytics_storage: 'denied', ad_storage: 'denied', ad_user_data: 'denied', ad_personalization: 'denied' })
       // Clear measurement cookies set by this integration, including parent-domain cookies.
       for (const cookie of document.cookie.split(';')) {

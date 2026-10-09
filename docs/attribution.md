@@ -5,10 +5,18 @@ script; Vue hydration remains off. A consent panel offers equally accessible all
 choices and the footer reopens preferences. No Google tag loads before permission, or at
 all until `GA4_MEASUREMENT_ID` is configured. Customer form values never enter analytics.
 
-With permission, per-domain browser storage preserves first touch, the latest non-direct
-touch, and the submission session. Internal browsing retains its acquisition session;
-30 minutes of inactivity starts a new one. Choices expire after 90 days. Withdrawal clears
-attribution and disables the configured GA tag. Without permission, only current-page source
+With permission, the site remembers first touch, the latest non-direct touch, and the
+submission session. Internal browsing retains its acquisition session; 30 minutes of
+inactivity starts a new one. Choices expire 90 days after they are made. Withdrawal clears
+attribution and disables the configured GA tag.
+
+Safari (and every iPhone browser) erases storage written by page scripts after 7 days without
+a visit, so the choice and the first/last touches live in a `__Host-melo_measurement` cookie
+that only the worker sets: the script posts them to `POST /api/measurement`, which validates
+them like an intake and replies with `Set-Cookie`. Server-set cookies keep their full lifetime.
+The script reads the cookie but never writes it, and posts only when the choice or a long-lived
+touch changes. `localStorage` holds just the 30-minute session. Choices saved by the earlier
+`localStorage`-only version move into the cookie on the next visit, keeping their original date. Without permission, only current-page source
 and campaign tags accompany a submitted inquiry; ad click IDs and earlier touches are omitted.
 Storage failures must not stop the form. Each domain has independent consent and history;
 cross-device and cross-domain visitor matching are not implemented.

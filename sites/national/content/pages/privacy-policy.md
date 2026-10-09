@@ -33,7 +33,7 @@ We collect information that your browser sends whenever you visit our Service ("
 
 ## Campaign Attribution and Your Choice
 
-Melo Property Claims uses optional website measurement to understand where inquiries originate. Choosing **Allow measurement** lets this site remember first and later non-direct traffic sources, campaign parameters, ad click identifiers, page paths and visit timestamps in browser storage for up to 90 days. That attribution record does not contain your name, email, phone, property address or loss narrative.
+Melo Property Claims uses optional website measurement to understand where inquiries originate. Choosing **Allow measurement** lets this site remember first and later non-direct traffic sources, campaign parameters, ad click identifiers, page paths and visit timestamps in a first-party cookie for up to 90 days, plus browser storage that carries the current visit's source between pages for 30 minutes. That attribution record does not contain your name, email, phone, property address or loss narrative.
 
 Choosing **Decline** keeps the claim form available while preventing Google measurement tags from loading and marketing history from being remembered across pages or later visits. The current page's source and campaign information can accompany your submitted inquiry; ad click identifiers are removed. You can revisit the choice through **Measurement settings** in the footer.
 
