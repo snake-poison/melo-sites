@@ -4,11 +4,11 @@ metaTitle: "Privacy Policy - Public Adjusters of Charlotte"
 description: "How Melo Public Adjusters Charlotte collects, uses and protects the personal information you share on our website, including log data and cookies."
 lead: "Get the maximum valuation for any insurance claim type. We work for you, so let's work together!"
 date: 2019-03-27
-updated: 2020-01-05
+updated: 2026-10-09
 secondOpinion: true
 ---
 
-Last updated: January 5, 2020
+Last updated: October 9, 2026
 
 Melo Public Adjusters Charlotte ("us", "we", or "our") operates the Melo Public Adjusters Charlotte website (the "Service").
 
@@ -16,7 +16,7 @@ This page informs you of our policies regarding the collection, use and disclosu
 
 We will not use or share your information with anyone except as described in this Privacy Policy.
 
-We use your Personal Information for providing and improving the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [publicadjusterscharlotte.com](/)
+We use your Personal Information for providing and improving the Service. Optional website measurement follows the preference you choose on this site. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [publicadjusterscharlotte.com](/)
 
 ## Information Collection And Use
 
@@ -31,15 +31,17 @@ While using our Service, we may ask you to provide us with certain personally id
 
 We collect information that your browser sends whenever you visit our Service ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics.
 
-## Google AdSense & DoubleClick Cookie
+## Website Measurement Choices
 
-Google, as a third party vendor, uses cookies to serve ads on our Service.
+On this Charlotte website, you can allow or decline optional measurement. If you allow it, we store campaign tags, advertising click identifiers, the first source that brought you here, later non-direct sources, page paths and visit times in your browser for up to 90 days. This helps us understand which campaigns bring useful claim inquiries. We do not store your name, phone, email, property address or loss description in this browser attribution record.
 
-## Cookies
+You can change your choice with **Measurement settings** in the footer. Declining does not prevent a claim review. Without permission, we do not load Google measurement tags or remember marketing sources across pages and return visits. The current page's source and campaign tags may still accompany an inquiry; advertising click identifiers are omitted.
 
-Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+When Google Analytics is configured and you allow measurement, it receives website visit and successful-inquiry events. Customer form answers are excluded from those analytics events. Advertising personalization and customer-data uploads are disabled in this implementation.
 
-We use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+## Inquiry Delivery
+
+When you submit a claim inquiry, we store the contact and loss details you provide for follow-up. Our Cloudflare-hosted intake service and our configured CRM process the inquiry and its source information. A short-lived first-party receipt cookie, lasting up to ten minutes, distinguishes a successfully saved inquiry from an ordinary visit to the confirmation page. We retain submitted inquiry details separately from browser measurement preferences.
 
 ## Service Providers
 

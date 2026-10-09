@@ -103,6 +103,7 @@ they do not verify live DNS, credentials, search rankings or CRM delivery.
 
 - [Content editing, frontmatter, photos and scheduling](docs/content.md)
 - [Deployment, environment settings, claim intake and rollback](docs/operations.md)
+- [Consent, campaign attribution and durable Twenty intake](docs/attribution.md)
 - [WordPress parity and recommended follow-up work](docs/wordpress-parity.md)
 - [Repository conventions](CLAUDE.md)
 - [Upstream UI sync rules](layers/ui/README.md) — upstream notes refer to a root app;

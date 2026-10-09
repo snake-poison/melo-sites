@@ -104,6 +104,11 @@ const year = new Date().getFullYear()
         <p>Copyright © {{ business.shortName }} {{ year }}</p>
         <ul class="flex gap-4">
           <li>
+            <button type="button" data-measurement-settings hidden class="hover:text-on-dark hover:underline">
+              Measurement settings
+            </button>
+          </li>
+          <li>
             <NuxtLink to="/privacy-policy/" class="hover:text-on-dark hover:underline">
               Privacy
             </NuxtLink>

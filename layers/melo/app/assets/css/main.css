@@ -5,6 +5,7 @@
  */
 @import 'tailwindcss' source('../../../../..');
 @import '../../../../ui/app/assets/css/tailwind-theme.css';
+@import './measurement.css';
 
 /*
  * Avow's icon map names every icon the app uses; the site keeps it for the atoms' types only.

@@ -4,11 +4,11 @@ metaTitle: "Privacy Policy - Melo Property Claims"
 description: "How Melo Property Claims collects, uses and protects the personal information you share on our website, including log data and cookies."
 lead: "Ready to truly hold your insurance company accountable and get the valuation you deserve? We work for you, so let's work together."
 date: 2019-03-27
-updated: 2020-01-05
+updated: 2026-10-09
 secondOpinion: true
 ---
 
-Last updated: January 5, 2020
+Last updated: October 9, 2026
 
 Melo Property Claims ("us", "we", or "our") operates the Melo Property Claims website (the "Service").
 
@@ -16,7 +16,7 @@ This page informs you of our policies regarding the collection, use and disclosu
 
 We will not use or share your information with anyone except as described in this Privacy Policy.
 
-We use your Personal Information for providing and improving the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [melopropertyclaimsadjusting.com](/)
+We use your Personal Information for providing and improving the Service. Optional website measurement follows the preference you choose on this site. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, accessible at [melopropertyclaimsadjusting.com](/)
 
 ## Information Collection And Use
 
@@ -31,15 +31,17 @@ While using our Service, we may ask you to provide us with certain personally id
 
 We collect information that your browser sends whenever you visit our Service ("Log Data"). This Log Data may include information such as your computer's Internet Protocol ("IP") address, browser type, browser version, the pages of our Service that you visit, the time and date of your visit, the time spent on those pages and other statistics.
 
-## Google AdSense & DoubleClick Cookie
+## Campaign Attribution and Your Choice
 
-Google, as a third party vendor, uses cookies to serve ads on our Service.
+Melo Property Claims uses optional website measurement to understand where inquiries originate. Choosing **Allow measurement** lets this site remember first and later non-direct traffic sources, campaign parameters, ad click identifiers, page paths and visit timestamps in browser storage for up to 90 days. That attribution record does not contain your name, email, phone, property address or loss narrative.
 
-## Cookies
+Choosing **Decline** keeps the claim form available while preventing Google measurement tags from loading and marketing history from being remembered across pages or later visits. The current page's source and campaign information can accompany your submitted inquiry; ad click identifiers are removed. You can revisit the choice through **Measurement settings** in the footer.
 
-Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
+When configured, Google Analytics receives visit and saved-inquiry measurements only after permission. The integration excludes customer form answers from analytics events, and leaves advertising personalization and customer-data uploads disabled.
 
-We use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.
+## Claim Inquiry Processing
+
+Our Cloudflare-hosted intake service stores the information you submit so the team can follow up through our configured CRM. Source information is kept with the inquiry. A first-party submission receipt cookie lasts no longer than ten minutes and prevents an ordinary confirmation-page visit from being counted as a saved inquiry. Browser measurement retention is separate from the operational inquiry record.
 
 ## Service Providers
 
