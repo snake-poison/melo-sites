@@ -33,7 +33,7 @@ We collect information that your browser sends whenever you visit our Service ("
 
 ## Website Measurement Choices
 
-On this Charlotte website, you can allow or decline optional measurement. If you allow it, we store campaign tags, advertising click identifiers, the first source that brought you here, later non-direct sources, page paths and visit times in your browser for up to 90 days. This helps us understand which campaigns bring useful claim inquiries. We do not store your name, phone, email, property address or loss description in this browser attribution record.
+On this Charlotte website, you can allow or decline optional measurement. If you allow it, we store campaign tags, advertising click identifiers, the first source that brought you here, later non-direct sources, page paths and visit times in a first-party cookie in your browser for up to 90 days. The current visit's source is kept in browser storage for 30 minutes so it carries across pages. This helps us understand which campaigns bring useful claim inquiries. We do not store your name, phone, email, property address or loss description in this browser attribution record.
 
 You can change your choice with **Measurement settings** in the footer. Declining does not prevent a claim review. Without permission, we do not load Google measurement tags or remember marketing sources across pages and return visits. The current page's source and campaign tags may still accompany an inquiry; advertising click identifiers are omitted.
 

@@ -24,7 +24,37 @@ const apiBase = 'https://melopropertyclaims.pipedrive.com'
 
 const clickKeys = ['gclid', 'gbraid', 'wbraid', 'fbclid', 'msclkid']
 const campaignKeys = ['utm_source', 'utm_medium', 'utm_campaign', 'utm_content', 'utm_term']
+const measurementLifetime = 90 * 86400000
 const uuid = /^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i
+
+// Visitor-supplied touches are bounded to this site's own HTTPS landing paths and the last 90 days.
+function sanitizeTouch(value, url, siteId, withClicks) {
+  if (!value || typeof value !== 'object')
+    return null
+  const out = {}
+  try {
+    const landing = new URL(value.landing)
+    if (siteFor(landing.hostname)?.[0] !== siteId || landing.protocol !== 'https:')
+      return null
+    out.landing = url.origin + landing.pathname.slice(0, 500)
+  }
+  catch { return null }
+  const timestamp = Date.parse(value.at)
+  if (!Number.isFinite(timestamp) || timestamp < Date.now() - measurementLifetime || timestamp > Date.now() + 300000)
+    return null
+  out.at = new Date(timestamp).toISOString()
+  for (const key of ['source', 'medium', ...campaignKeys, ...(withClicks ? clickKeys : [])]) {
+    if (typeof value[key] === 'string')
+      out[key] = Array.from(value[key]).filter(char => char.charCodeAt(0) >= 32).join('').slice(0, 200)
+  }
+  try {
+    const referrer = new URL(value.referrer)
+    if (['http:', 'https:'].includes(referrer.protocol))
+      out.referrer = referrer.origin
+  }
+  catch { /* Never retain referrer paths or queries. */ }
+  return out
+}
 
 export function intakeAttribution(form, url, referer, siteId) {
   const consent = ['granted', 'denied'].includes(form.get('Measurement consent')) ? form.get('Measurement consent') : 'unset'
@@ -35,33 +65,7 @@ export function intakeAttribution(form, url, referer, siteId) {
       supplied = JSON.parse(value)
   }
   catch { /* Cached forms still work with same-origin referrer attribution. */ }
-  function touch(value) {
-    if (!value || typeof value !== 'object')
-      return null
-    const out = {}
-    try {
-      const landing = new URL(value.landing)
-      if (siteFor(landing.hostname)?.[0] !== siteId || landing.protocol !== 'https:')
-        return null
-      out.landing = url.origin + landing.pathname.slice(0, 500)
-    }
-    catch { return null }
-    const timestamp = Date.parse(value.at)
-    if (!Number.isFinite(timestamp) || timestamp < Date.now() - 90 * 86400000 || timestamp > Date.now() + 300000)
-      return null
-    out.at = new Date(timestamp).toISOString()
-    for (const key of ['source', 'medium', ...campaignKeys, ...(consent === 'granted' ? clickKeys : [])]) {
-      if (typeof value[key] === 'string')
-        out[key] = Array.from(value[key]).filter(char => char.charCodeAt(0) >= 32).join('').slice(0, 200)
-    }
-    try {
-      const referrer = new URL(value.referrer)
-      if (['http:', 'https:'].includes(referrer.protocol))
-        out.referrer = referrer.origin
-    }
-    catch { /* Never retain referrer paths or queries. */ }
-    return out
-  }
+  const touch = value => sanitizeTouch(value, url, siteId, consent === 'granted')
   let current = touch(supplied?.current)
   if (!current) {
     current = { landing: url.origin, at: new Date().toISOString(), source: 'unknown', medium: 'unknown' }
@@ -97,6 +101,67 @@ async function digest(text) {
   return Array.from(new Uint8Array(hash), value => value.toString(16).padStart(2, '0')).join('')
 }
 
+// Reads at most `limit` bytes of a request body as text; null when absent or too large.
+async function readText(request, limit) {
+  const reader = request.body?.getReader()
+  if (!reader)
+    return null
+  const chunks = []
+  let size = 0
+  while (true) {
+    const { done, value } = await reader.read()
+    if (done)
+      break
+    size += value.length
+    if (size > limit) {
+      await reader.cancel()
+      return null
+    }
+    chunks.push(value)
+  }
+  return new TextDecoder().decode(new Uint8Array(chunks.flatMap(chunk => Array.from(chunk))))
+}
+
+// Safari erases storage written by page scripts after 7 days without a visit, but not cookies
+// set by the server, so the consent choice and long-lived touches live in this cookie. It is
+// readable by melo-attribution.js; only this endpoint writes it.
+export async function measurementPreference(request) {
+  const url = new URL(request.url)
+  const siteId = siteFor(url.hostname)?.[0]
+  const headers = { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' }
+  if (request.method !== 'POST')
+    return new Response('Method not allowed', { status: 405, headers: { ...headers, Allow: 'POST' } })
+  if (!siteId || request.headers.get('Origin') !== url.origin)
+    return new Response('Forbidden', { status: 403, headers })
+  let body
+  try {
+    body = JSON.parse(await readText(request, 8000))
+  }
+  catch { /* Rejected below. */ }
+  if (!body || typeof body !== 'object' || !['granted', 'denied'].includes(body.choice))
+    return new Response('Invalid preference', { status: 400, headers })
+  // The choice lasts 90 days from when it was made, however often the touches are updated.
+  let at = Date.parse(body.at)
+  if (!Number.isFinite(at) || at < Date.now() - measurementLifetime || at > Date.now() + 300000)
+    at = Date.now()
+  const value = { version: 1, choice: body.choice, at: new Date(at).toISOString() }
+  if (body.choice === 'granted') {
+    value.first = sanitizeTouch(body.first, url, siteId, true)
+    value.lastNonDirect = sanitizeTouch(body.lastNonDirect, url, siteId, true)
+  }
+  let encoded = encodeURIComponent(JSON.stringify(value))
+  // Stay well inside the 4 KB cookie limit: the latest source goes first, then the first touch.
+  for (const key of ['lastNonDirect', 'first']) {
+    if (encoded.length > 3000) {
+      value[key] = null
+      encoded = encodeURIComponent(JSON.stringify(value))
+    }
+  }
+  const maxAge = Math.floor((at + measurementLifetime - Date.now()) / 1000)
+  headers['Set-Cookie'] = `__Host-melo_measurement=${encoded}; Max-Age=${maxAge}; Path=/; Secure; SameSite=Lax`
+  return new Response(null, { status: 204, headers })
+}
+
 export async function intakeOutbox(request, env) {
   const url = new URL(request.url)
   const siteId = siteFor(url.hostname)?.[0]
@@ -111,25 +176,12 @@ export async function intakeOutbox(request, env) {
     return Response.json({ intakes: result.results.map(row => JSON.parse(row.payload)) }, { headers })
   }
   if (request.method === 'POST') {
-    const reader = request.body?.getReader()
-    if (!reader)
-      return new Response('Invalid acknowledgement', { status: 400, headers })
-    const chunks = []
-    let size = 0
-    while (true) {
-      const { done, value } = await reader.read()
-      if (done)
-        break
-      size += value.length
-      if (size > 1000) {
-        await reader.cancel()
-        return new Response('Too large', { status: 413, headers })
-      }
-      chunks.push(value)
-    }
+    const text = await readText(request, 1000)
+    if (text === null)
+      return request.body ? new Response('Too large', { status: 413, headers }) : new Response('Invalid acknowledgement', { status: 400, headers })
     let ack
     try {
-      ack = JSON.parse(new TextDecoder().decode(new Uint8Array(chunks.flatMap(chunk => Array.from(chunk)))))
+      ack = JSON.parse(text)
     }
     catch { return new Response('Invalid acknowledgement', { status: 400, headers }) }
     if (!ack || typeof ack !== 'object' || !uuid.test(ack.id) || !uuid.test(ack.twentyId))
@@ -369,6 +421,8 @@ export default {
     const url = new URL(request.url)
     if (url.pathname === '/api/intake-outbox')
       return intakeOutbox(request, env)
+    if (url.pathname === '/api/measurement')
+      return measurementPreference(request)
     if (url.pathname === '/api/claim-review')
       return handleSubmission(request, env)
     const response = await env.ASSETS.fetch(request)

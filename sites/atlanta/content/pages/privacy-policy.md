@@ -33,7 +33,7 @@ We collect information that your browser sends whenever you visit our Service ("
 
 ## Optional Measurement on This Site
 
-The Atlanta site offers an **Allow measurement** or **Decline** choice. With permission, browser storage remembers how you found us, campaign labels, ad click identifiers, landing-page paths and visit times for up to 90 days. Your contact information and claim description are not included in that browser record.
+The Atlanta site offers an **Allow measurement** or **Decline** choice. With permission, a first-party cookie remembers how you found us, campaign labels, ad click identifiers, landing-page paths and visit times for up to 90 days, and browser storage keeps the current visit's source for 30 minutes as you move between pages. Your contact information and claim description are not included in that browser record.
 
 Use **Measurement settings** in the footer to change your preference. You can request a claim review after declining. In that case, Google measurement tags stay unloaded and marketing history is not saved between pages or return visits. An inquiry may include the current page's source and campaign labels, but not advertising click identifiers.
 
