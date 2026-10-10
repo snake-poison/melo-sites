@@ -16,6 +16,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -75,6 +79,25 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Image cache date
+        id: cache-date
+        run: echo "day=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore generated images
+        uses: actions/cache@v5
+        with:
+          path: sites/${{ matrix.site }}/.image-cache
+          key: ${{ runner.os }}-melo-images-v1-${{ matrix.site }}-${{ github.sha }}-${{ steps.cache-date.outputs.day }}
+          restore-keys: ${{ runner.os }}-melo-images-v1-${{ matrix.site }}-
+
+      # Bootstrap from a tested main artifact when a branch cannot see the cache yet.
+      # Source hashes and encoder settings are checked before any image is reused.
+      - name: Seed images from the last tested release
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: node scripts/seed-image-cache.mjs ${{ matrix.site }}
+
       # Builds the production site with publication fixtures, then checks URLs, SEO, forms,
       # sitemaps, drafts and page-weight budgets. No checks or generated assets are skipped.
       - name: Site tests
@@ -87,6 +110,15 @@ jobs:
         with:
           name: site-${{ matrix.site }}
           path: sites/${{ matrix.site }}/.output/public
+          retention-days: 3
+
+      - name: Keep the validated image cache
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: image-cache-${{ matrix.site }}
+          path: sites/${{ matrix.site }}/.image-cache
+          include-hidden-files: true
           retention-days: 3
 
   # Cloudflare Pages, from main only: on a push, the daily schedule or a run by hand. Each site is

@@ -10,6 +10,8 @@ tsconfig.tsbuildinfo
 .claude/settings.local.json
 coverage
 .data
+.image-cache
+*.cpuprofile
 
 # Added by the test build for a moment (test/setup/buildSite.ts).
 sites/*/content/blog/test-*-fixture.md
