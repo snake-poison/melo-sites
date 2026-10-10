@@ -39,12 +39,26 @@ the Turnstile widget. Test the complete form on a configured Cloudflare deployme
 `test/unit/claim-intake.spec.ts` mocks the external APIs; passing it does not confirm
 production credentials, CRM delivery or live CAPTCHA behavior.
 
+## Property Claims Consulting inquiries
+
+The consulting app also packages the shared worker. Its assignment form offers
+appraisal, umpire, claims consulting, expert witness, or help choosing a service.
+The server validates that selection and saves it in the lead title and linked note,
+along with property city/state, review questions, parties, and timing. It uses the
+existing Ramon owner ID and website fields, without borrowing another site’s CRM
+label or lead-source option. It delivers directly to Pipedrive even when a Twenty
+outbox is bound. Existing public-adjuster form behavior is unchanged.
+
+The `propertyclaimsconsulting` Pages project must configure the Pipedrive and
+Turnstile secrets and allowed hostnames separately.
+See [consulting setup](../sites/consulting/README.md#inquiry-delivery).
+
 ## Configuration
 
 | Setting | Where | Purpose |
 | --- | --- | --- |
 | `CLOUDFLARE_API_TOKEN` | GitHub Actions secret | Deploy permission: Cloudflare Pages Edit |
-| `CLOUDFLARE_ACCOUNT_ID` | GitHub Actions secret | Account containing the three projects |
+| `CLOUDFLARE_ACCOUNT_ID` | GitHub Actions secret | Account containing the Pages projects |
 | `PIPEDRIVE_API_TOKEN` | Each Pages project | Server-side CRM writes |
 | `TURNSTILE_SECRET_KEY` | Each Pages project | Server-side CAPTCHA verification |
 | `TURNSTILE_SITE_KEY` | Each Pages project | Public widget key injected into HTML |
@@ -61,7 +75,7 @@ The Turnstile site key is public; the API token and CAPTCHA secret are private.
 
 [CI](../.github/workflows/ci.yml) runs on pull requests, pushes to `main`, manual
 runs and daily at 10:30 UTC. It installs the lockfile, lints, typechecks, runs
-unit tests and builds/tests all three sites. Only `main` deploys. The deploy job
+unit tests, builds/tests the three public-adjuster sites and builds the consulting site. Only `main` deploys. The deploy job
 uploads the exact tested artifacts to these Direct Upload Pages projects:
 
 | Site | Pages project |
@@ -69,10 +83,11 @@ uploads the exact tested artifacts to these Direct Upload Pages projects:
 | Charlotte | `publicadjusterscharlotte` |
 | National | `melopropertyclaimsadjusting` |
 | Atlanta | `publicadjustersofatlanta` |
+| Property Claims Consulting | `propertyclaimsconsulting` (pages.dev until the domain moves; no IndexNow) |
 
 Missing GitHub Cloudflare secrets skips deployment with a warning. Passing CI
-alone therefore does not establish that a site deployed. Check all three deploy
-jobs and production URLs after a merge. A manual run on `main` can publish a due
+alone therefore does not establish that a site deployed. Check every deploy
+job and production URLs after a merge. A manual run on `main` can publish a due
 post or redeploy; a manual run on another branch cannot deploy.
 
 For a new project, create the Direct Upload Pages project in Cloudflare, configure

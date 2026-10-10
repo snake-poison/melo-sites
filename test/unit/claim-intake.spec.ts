@@ -45,6 +45,47 @@ function mockApi(options: { captcha?: boolean, hostname?: string, failLead?: boo
 }
 
 describe('Multi-site claim intake', () => {
+  function consultingRequest(values: Record<string, string> = {}, host = 'propertyclaimsconsulting.net') {
+    return new Request(`https://${host}/api/claim-review`, {
+      method: 'POST',
+      headers: { 'Origin': `https://${host}`, 'Content-Type': 'application/x-www-form-urlencoded', 'Referer': `https://${host}/umpire-services/` },
+      body: new URLSearchParams({ 'Name': 'Assignment Test', 'Phone': '7045550100', 'Requested service': 'Umpire services', 'City': 'Cary', 'State': 'NC', 'Parties involved': 'Owner <script> and carrier', 'Timing': 'Before November', 'Where they are with the loss': 'Review the disputed repair scope.', 'cf-turnstile-response': 'valid-token', ...values }),
+    })
+  }
+
+  it.each(['Insurance appraisal', 'Umpire services', 'Claims consulting', 'Expert witness', 'Help me choose'])('preserves a consulting %s inquiry in its own lead and conflict-review note', async (service) => {
+    const calls = mockApi({ hostname: 'propertyclaimsconsulting.net' })
+    expect((await handleSubmission(consultingRequest({ 'Requested service': service }), env)).status).toBe(303)
+    const lead = calls.find(call => call.url.endsWith('/leads'))?.body
+    expect(lead).toMatchObject({ title: `Property Claims Consulting — ${service} — Assignment Test`, owner_id: 11555257, channel_id: 'propertyclaimsconsulting.net', f86d52c6d340fd5e4a316d3e9a8b401d975c633c: 'propertyclaimsconsulting.net' })
+    expect(lead).not.toHaveProperty('label_ids')
+    expect(lead).not.toHaveProperty('a1334637cc7cbce838edc0d6c50df95a22929bb9')
+    const note = calls.find(call => call.url.endsWith('/notes'))?.body.content
+    expect(note).toContain(service)
+    expect(note).toContain('Cary, NC')
+    expect(note).toContain('Owner &lt;script&gt; and carrier')
+    expect(note).toContain('Before November')
+    expect(note).toContain('Review the disputed repair scope.')
+    expect(note).not.toContain('Policyholder:')
+    expect(note).not.toContain('Commission:')
+  })
+  it.each(['www.propertyclaimsconsulting.net', 'propertyclaimsconsulting.pages.dev'])('accepts the consulting host %s', async (hostname) => {
+    mockApi({ hostname })
+    expect((await handleSubmission(consultingRequest({}, hostname), env)).status).toBe(303)
+  })
+  it.each([['Requested service', ''], ['Requested service', 'Public adjusting'], ['Parties involved', 'x'.repeat(1001)], ['Timing', 'x'.repeat(1001)]])('rejects invalid consulting inquiry %s before CRM writes', async (key, value) => {
+    const calls = mockApi({ hostname: 'propertyclaimsconsulting.net' })
+    expect((await handleSubmission(consultingRequest({ [key]: value }), env)).status).toBe(400)
+    expect(calls).toHaveLength(0)
+  })
+  it('requires Pipedrive configuration for consulting even when a Twenty outbox is bound', async () => {
+    const calls = mockApi({ hostname: 'propertyclaimsconsulting.net' })
+    const outboxEnv = { TURNSTILE_SECRET_KEY: 'captcha-secret', INTAKE_DB: {}, INTAKE_OUTBOX_TOKEN: 'outbox-secret' }
+    expect((await handleSubmission(consultingRequest(), outboxEnv)).status).toBe(503)
+    expect(calls).toHaveLength(0)
+    expect((await handleSubmission(consultingRequest(), { ...outboxEnv, ...env })).status).toBe(303)
+    expect(calls.some(call => call.url.endsWith('/leads'))).toBe(true)
+  })
   it('saves contact details, a lead and an escaped loss note before redirecting', async () => {
     const calls = mockApi()
     const response = await handleSubmission(request(), env)

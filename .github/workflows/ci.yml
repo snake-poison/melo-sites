@@ -46,6 +46,10 @@ jobs:
       - name: Site tests
         run: pnpm run test:site
 
+      # The consulting site is not in the site-test projects; building it still checks it compiles.
+      - name: Build the consulting site
+        run: pnpm run generate:consulting
+
       # Until the Cloudflare secrets are set, main builds and tests but does not deploy.
       - name: Check for the Cloudflare secrets
         id: cloudflare
@@ -85,6 +89,14 @@ jobs:
           path: sites/atlanta/.output/public
           retention-days: 3
 
+      - name: Keep the consulting build
+        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        uses: actions/upload-artifact@v7
+        with:
+          name: site-consulting
+          path: sites/consulting/.output/public
+          retention-days: 3
+
   # Cloudflare Pages, from main only: on a push, the daily schedule or a run by hand. Each site is
   # a Direct Upload project of its own; the repo's CLOUDFLARE_API_TOKEN (permission: Account >
   # Cloudflare Pages > Edit) and CLOUDFLARE_ACCOUNT_ID secrets let wrangler publish to them.
@@ -105,6 +117,10 @@ jobs:
           - site: atlanta
             project: publicadjustersofatlanta
             url: https://publicadjustersofatlanta.com
+          # On pages.dev until propertyclaimsconsulting.net points at the project.
+          - site: consulting
+            project: propertyclaimsconsulting
+            url: https://propertyclaimsconsulting.pages.dev
     environment:
       name: ${{ matrix.site }}
       url: ${{ matrix.url }}
@@ -121,6 +137,7 @@ jobs:
 
       # What the site serves before this deploy, so IndexNow hears only about what changed.
       - name: Save the live sitemap
+        if: matrix.site != 'consulting'
         run: curl -fsS ${{ matrix.url }}/sitemap.xml -o "$RUNNER_TEMP/live-sitemap.xml" || touch "$RUNNER_TEMP/live-sitemap.xml"
 
       - name: Deploy to Cloudflare Pages
@@ -130,6 +147,8 @@ jobs:
         run: npx --yes wrangler@4 pages deploy sites/${{ matrix.site }}/.output/public --project-name=${{ matrix.project }} --branch=main --commit-hash=${{ github.sha }}
 
       # The site is live; a failed ping is worth a look but does not undo the deploy.
+      # Consulting has no IndexNow key yet, and pages.dev is not its canonical host.
       - name: Tell IndexNow what changed
+        if: matrix.site != 'consulting'
         continue-on-error: true
         run: node scripts/indexnow.mjs ${{ matrix.site }} "$RUNNER_TEMP/live-sitemap.xml"
