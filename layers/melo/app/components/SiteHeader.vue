@@ -17,7 +17,7 @@ function isCurrent(to: string): boolean {
   <header class="sticky top-0 z-40 text-ink">
     <!-- A top line that sells: the site's promise, and the phone, answered around the clock.
          A phone has the call bar at its foot instead. -->
-    <div v-if="!quiet" class="hidden bg-navy-2 text-on-dark sm:block">
+    <div class="hidden bg-navy-2 text-on-dark sm:block">
       <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2 text-[0.8125rem] sm:px-6">
         <p class="hidden items-center gap-1.5 md:flex">
           <span class="icon-[carbon--checkmark-filled] shrink-0 text-brand" aria-hidden="true" />
