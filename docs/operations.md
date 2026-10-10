@@ -61,7 +61,8 @@ The Turnstile site key is public; the API token and CAPTCHA secret are private.
 
 [CI](../.github/workflows/ci.yml) runs on pull requests, pushes to `main`, manual
 runs and daily at 10:30 UTC. It installs the lockfile, lints, typechecks, runs
-unit tests and builds/tests all three sites. Only `main` deploys. The deploy job
+unit tests and builds/tests all three sites on separate runners in parallel.
+Deployment waits for every site to pass. Only `main` deploys. The deploy job
 uploads the exact tested artifacts to these Direct Upload Pages projects:
 
 | Site | Pages project |
