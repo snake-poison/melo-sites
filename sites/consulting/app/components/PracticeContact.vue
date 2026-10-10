@@ -14,14 +14,9 @@ withDefaults(defineProps<{ service?: string }>(), { service: 'Assignment' })
         <UIHeading :level="2">
           Tell us what needs a closer look.
         </UIHeading>
-        <p>Start with the service you need, the property location, and a brief description of the matter. Our team will review your inquiry and discuss the next step.</p>
-        <ol class="next-steps">
-          <li><strong>We review your inquiry</strong>Including the parties involved, for an initial conflict check.</li>
-          <li><strong>We discuss the engagement</strong>Role, scope, timing, and fees—before any work begins.</li>
-          <li><strong>You decide</strong>An inquiry creates no obligation and no engagement.</li>
-        </ol>
+        <p>Share the service, property location, and a brief description.</p>
         <div class="direct-contact">
-          <a class="direct-phone" :href="practice.phoneHref"><PracticeIcon kind="phone" /><span>Prefer to talk it through?<strong>{{ practice.phone }}</strong></span></a>
+          <a class="direct-phone" :href="practice.phoneHref"><PracticeIcon kind="phone" /><span>Phone<strong>{{ practice.phone }}</strong></span></a>
           <p>Or email <a class="email-link" :href="`mailto:${practice.email}`">{{ practice.email }}</a></p>
         </div>
         <p class="inquiry-note">

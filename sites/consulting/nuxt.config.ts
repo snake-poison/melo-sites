@@ -15,7 +15,7 @@ export default defineNuxtConfig({
   features: { inlineStyles: true },
   vite: { plugins: [tailwindcss() as unknown as never] },
   nitro: { publicAssets: [{ dir: fileURLToPath(new URL('../../layers/melo/public', import.meta.url)) }] },
-  css: ['~/assets/css/site.css'],
+  css: [fileURLToPath(new URL('../../layers/melo/app/assets/css/measurement.css', import.meta.url)), '~/assets/css/site.css'],
   routeRules: { '/**': { prerender: true, noScripts: true } },
   app: { head: { htmlAttrs: { lang: 'en' }, link: [{ rel: 'icon', type: 'image/svg+xml', href: '/logo-mark.svg' }], meta: [{ name: 'theme-color', content: '#102a68' }] } },
   typescript: { tsConfig: { compilerOptions: { paths: {

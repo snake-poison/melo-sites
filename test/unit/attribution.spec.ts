@@ -27,13 +27,14 @@ function preferenceCookie(response: Response): Preference {
 async function preference(body: unknown, headers: Record<string, string> = { Origin: origin }) {
   return measurementPreference(new Request(`${origin}/api/measurement`, { method: 'POST', headers, body: JSON.stringify(body) }))
 }
-function browser(path = '/', options: { referrer?: string, storage?: Record<string, string>, cookies?: string[], receipt?: boolean, ga4?: string } = {}) {
+function browser(path = '/', options: { referrer?: string, storage?: Record<string, string>, cookies?: string[], receipt?: boolean, ga4?: string, formKind?: string } = {}) {
   const window = new Window({ url: origin + path, settings: { disableJavaScriptFileLoading: true } })
   const document = window.document
   document.body.innerHTML = '<form action="/api/claim-review"><input name="Name" value="Private Name"><input name="Phone" value="7045550100"></form><button data-measurement-settings hidden>Settings</button><a href="tel:+17045550100">Call</a>'
   Object.defineProperty(document, 'referrer', { value: options.referrer ?? '' })
   const script = document.createElement('script')
   script.setAttribute('data-ga4', options.ga4 ?? '')
+  script.setAttribute('data-form-kind', options.formKind ?? 'claim')
   Object.defineProperty(document, 'currentScript', { value: script })
   for (const [key, value] of Object.entries(options.storage ?? {}))
     window.localStorage.setItem(key, value)
@@ -97,6 +98,20 @@ function captcha() {
 }
 
 describe('Website attribution and consent', () => {
+  it('uses assignment wording and lets consulting visitors reopen and change a saved choice', async () => {
+    const b = browser('/', { formKind: 'assignment', ga4: 'G-TEST123' })
+    expect(b.window.document.querySelector('.measurement-consent')?.textContent).toContain('Your assignment inquiry works either way.')
+    await b.choose('denied')
+    const returning = browser('/', { formKind: 'assignment', cookies: b.cookies(), ga4: 'G-TEST123' })
+    expect(returning.panelHidden()).toBe(true)
+    expect(returning.window.document.querySelector('script[src*="googletagmanager"]')).toBeNull()
+    returning.window.document.querySelector<HTMLButtonElement>('[data-measurement-settings]')!.click()
+    expect(returning.panelHidden()).toBe(false)
+    await returning.choose('granted')
+    expect(returning.preference()?.choice).toBe('granted')
+    expect(returning.window.document.querySelector('script[src*="googletagmanager"]')).not.toBeNull()
+  })
+
   it('does not save marketing data or load Google before consent; declining keeps the form usable', async () => {
     const b = browser('/?gclid=ad-click&utm_source=google', { ga4: 'G-TEST123' })
     expect(b.window.localStorage.length).toBe(0)

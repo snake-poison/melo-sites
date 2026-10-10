@@ -2,6 +2,7 @@
 import { practice, services } from '../data/practice'
 
 const route = useRoute()
+const isConfirmation = computed(() => route.path.startsWith('/thank-you-page'))
 const showMobileCta = computed(() => !route.path.startsWith('/contact') && !route.path.startsWith('/thank-you-page'))
 const mobileCtaHref = computed(() => route.path.startsWith('/privacy-policy') ? '/contact/' : '#contact')
 </script>
@@ -16,7 +17,7 @@ const mobileCtaHref = computed(() => route.path.startsWith('/privacy-policy') ? 
           <a href="/#services">Our services</a><a href="/#ramon">Ramon Melo</a><a href="/#questions">FAQs</a>
         </nav>
         <div class="header-actions">
-          <a class="header-phone" :href="practice.phoneHref"><PracticeIcon kind="phone" />{{ practice.phone }}</a><a class="button header-cta" href="/contact/">Discuss an assignment</a>
+          <a class="header-phone" :href="practice.phoneHref"><PracticeIcon kind="phone" />{{ practice.phone }}</a><a v-if="!isConfirmation" class="button header-cta" href="/contact/">Discuss an assignment</a>
         </div>
         <details class="mobile-menu">
           <summary aria-label="Open navigation">
@@ -30,8 +31,8 @@ const mobileCtaHref = computed(() => route.path.startsWith('/privacy-policy') ? 
     <main id="main">
       <slot />
     </main>
-    <footer class="site-footer">
-      <div class="wrap footer-grid">
+    <footer class="site-footer" :class="{ 'confirmation-footer': isConfirmation }">
+      <div v-if="!isConfirmation" class="wrap footer-grid">
         <div><PracticeLogo /><p>Property insurance appraisal, umpire services, claims consulting, and expert witness support.</p><a :href="practice.phoneHref">{{ practice.phone }}</a><a :href="`mailto:${practice.email}`">{{ practice.email }}</a></div>
         <nav aria-label="Services">
           <UIHeading :level="2">
@@ -41,12 +42,14 @@ const mobileCtaHref = computed(() => route.path.startsWith('/privacy-policy') ? 
         <div>
           <UIHeading :level="2">
             Assignment inquiries
-          </UIHeading><p>Tell us the service you need, the property location, and the questions to be reviewed.</p><a href="/contact/">Discuss an assignment <span aria-hidden="true">→</span></a><p class="footer-note">
+          </UIHeading><a href="/contact/">Discuss an assignment <span aria-hidden="true">→</span></a><p class="footer-note">
             Each engagement has its own role, scope, and conflict review.
           </p>
         </div>
       </div><div class="wrap footer-bottom">
-        <span>© {{ new Date().getFullYear() }} Property Claims Consulting</span><a href="/privacy-policy/">Privacy policy</a><a href="#main">Back to top ↑</a>
+        <span>© {{ new Date().getFullYear() }} Property Claims Consulting</span><a href="/privacy-policy/">Privacy policy</a><button type="button" data-measurement-settings hidden>
+          Cookie settings
+        </button><a v-if="!isConfirmation" href="#main">Back to top ↑</a>
       </div>
     </footer>
     <div v-if="showMobileCta" class="mobile-cta">

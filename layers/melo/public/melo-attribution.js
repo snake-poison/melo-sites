@@ -198,7 +198,8 @@
   panel = document.createElement('section')
   panel.className = 'measurement-consent'
   panel.setAttribute('aria-label', 'Website measurement preferences')
-  panel.innerHTML = '<p>May we save how you found us and measure visits to improve our website and campaigns? Your claim review works either way. <a href="/privacy-policy/">Privacy policy</a></p><div><button type="button" data-choice="granted">Allow measurement</button><button type="button" data-choice="denied">Decline</button></div>'
+  const formName = script?.getAttribute('data-form-kind') === 'assignment' ? 'assignment inquiry' : 'claim review'
+  panel.innerHTML = `<p>May we save how you found us and measure visits to improve our website and campaigns? Your ${formName} works either way. <a href="/privacy-policy/">Privacy policy</a></p><div><button type="button" data-choice="granted">Allow measurement</button><button type="button" data-choice="denied">Decline</button></div>`
   panel.hidden = Boolean(consent)
   for (const button of panel.querySelectorAll('button'))
     button.addEventListener('click', () => choose(button.getAttribute('data-choice')))

@@ -16,6 +16,10 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+permissions:
+  contents: read
+  actions: read
+
 jobs:
   check:
     runs-on: ubuntu-latest
@@ -41,15 +45,6 @@ jobs:
       - name: Unit tests
         run: pnpm run test:unit
 
-      # Builds each site, with a draft added, and checks the output: SEO tags, structured data,
-      # sitemap, llms.txt, drafts and the page-weight budgets.
-      - name: Site tests
-        run: pnpm run test:site
-
-      # The consulting site is not in the site-test projects; building it still checks it compiles.
-      - name: Build the consulting site
-        run: pnpm run generate:consulting
-
       # Until the Cloudflare secrets are set, main builds and tests but does not deploy.
       - name: Check for the Cloudflare secrets
         id: cloudflare
@@ -64,37 +59,69 @@ jobs:
             echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (docs/operations.md, Configuration)."
           fi
 
-      # What the tests passed is what ships: the deploy job publishes these builds as they are.
-      - name: Keep the Charlotte build
+  # Separate runners build and test all four sites concurrently. A single Vitest invocation
+  # runs the synchronous global setups one after another, making CI wait for their total time.
+  site-tests:
+    needs: check
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [charlotte, national, atlanta, consulting]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6.1.0
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .node-version
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Image cache date
+        if: matrix.site != 'consulting'
+        id: cache-date
+        run: echo "day=$(date -u +%F)" >> "$GITHUB_OUTPUT"
+
+      - name: Restore generated images
+        if: matrix.site != 'consulting'
+        uses: actions/cache@v5
+        with:
+          path: sites/${{ matrix.site }}/.image-cache
+          key: ${{ runner.os }}-melo-images-v1-${{ matrix.site }}-${{ github.sha }}-${{ steps.cache-date.outputs.day }}
+          restore-keys: ${{ runner.os }}-melo-images-v1-${{ matrix.site }}-
+
+      # Bootstrap from a tested main artifact when a branch cannot see the cache yet.
+      # Source hashes and encoder settings are checked before any image is reused.
+      - name: Seed images from the last tested release
+        if: matrix.site != 'consulting'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        run: node scripts/seed-image-cache.mjs ${{ matrix.site }}
+
+      # Builds the production site with publication fixtures, then checks URLs, SEO, forms,
+      # sitemaps, drafts and page-weight budgets. No checks or generated assets are skipped.
+      - name: Site tests
+        run: pnpm exec vitest --run --project=site-${{ matrix.site }}
+
+      # What the tests passed is what ships: deployment downloads this exact tested build.
+      - name: Keep the tested build
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7
         with:
-          name: site-charlotte
-          path: sites/charlotte/.output/public
+          name: site-${{ matrix.site }}
+          path: sites/${{ matrix.site }}/.output/public
           retention-days: 3
 
-      - name: Keep the national build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+      - name: Keep the validated image cache
+        if: matrix.site != 'consulting' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7
         with:
-          name: site-national
-          path: sites/national/.output/public
-          retention-days: 3
-
-      - name: Keep the Atlanta build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v7
-        with:
-          name: site-atlanta
-          path: sites/atlanta/.output/public
-          retention-days: 3
-
-      - name: Keep the consulting build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v7
-        with:
-          name: site-consulting
-          path: sites/consulting/.output/public
+          name: image-cache-${{ matrix.site }}
+          path: sites/${{ matrix.site }}/.image-cache
+          include-hidden-files: true
           retention-days: 3
 
   # Cloudflare Pages, from main only: on a push, the daily schedule or a run by hand. Each site is
@@ -102,7 +129,7 @@ jobs:
   # Cloudflare Pages > Edit) and CLOUDFLARE_ACCOUNT_ID secrets let wrangler publish to them.
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.check.outputs.cloudflare == 'true'
-    needs: check
+    needs: [check, site-tests]
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false

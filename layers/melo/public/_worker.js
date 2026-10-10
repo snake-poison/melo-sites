@@ -452,7 +452,7 @@ export default {
     return new HTMLRewriter().on('body', {
       element(element) {
         const ga4 = /^G-[A-Z0-9]+$/.test(env.GA4_MEASUREMENT_ID || '') ? env.GA4_MEASUREMENT_ID : ''
-        element.append(`<script src="/melo-attribution.js" defer data-ga4="${ga4}"></script>`, { html: true })
+        element.append(`<script src="/melo-attribution.js" defer data-form-kind="${site?.domain === 'propertyclaimsconsulting.net' ? 'assignment' : 'claim'}" data-ga4="${ga4}"></script>`, { html: true })
       },
     }).on('[data-claim-captcha]', {
       element(element) {

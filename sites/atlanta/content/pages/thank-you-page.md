@@ -1,11 +1,10 @@
 ---
-title: "Thank You For Contacting Us"
+title: "Request received"
 metaTitle: "Thank You Page - Melo Public Adjusters Atlanta"
-description: "Your message reached Melo Public Adjusters Atlanta and our team will reply shortly. For urgent help with a claim, call (404) 467-5755."
-lead: "We will get back to you as soon as possible!"
+description: "Melo Public Adjusters Atlanta has received your claim review request. Our team will review what you sent and contact you to discuss your situation."
 date: 2018-10-10
-updated: 2020-01-05
+updated: 2026-10-10
 noindex: true
 ---
 
-[Go home](/)
+We’ll follow up by phone or email about your property claim.

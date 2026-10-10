@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { defineNuxtConfig } from 'nuxt/config'
 import { themeScript } from './app/constants/themeScript'
 import { readingMinutes } from './app/utils/readingTime'
+import imageCache from './image-cache-module'
 
 /*
  * What every Melo site shares: the modules, the static build, the design and the components.
@@ -35,6 +36,7 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     // Satori is slow to start and nothing in a test reads a share card.
     ...(process.env.VITEST == null ? ['nuxt-og-image'] : []),
+    imageCache,
   ],
 
   devtools: { enabled: true },

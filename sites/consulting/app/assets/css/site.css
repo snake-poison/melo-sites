@@ -1785,3 +1785,35 @@ summary:focus-visible {
     border-color: var(--pcc-line);
   }
 }
+
+/* Consent is injected by the Pages worker outside the app's root element. */
+.measurement-consent {
+  --color-panel: var(--pcc-paper);
+  --color-ink: var(--pcc-ink);
+  --color-rule-soft: var(--pcc-line);
+  --color-brand: var(--pcc-accent);
+  max-height: calc(100dvh - 2rem);
+  overflow-y: auto;
+}
+body:has(.measurement-consent:not([hidden])) .mobile-cta {
+  visibility: hidden;
+}
+.footer-bottom button {
+  border: 0;
+  padding: 0;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+}
+.footer-bottom button[hidden] {
+  display: none;
+}
+.confirmation-footer {
+  padding-block: 1.5rem;
+}
+.confirmation-footer .footer-bottom {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
