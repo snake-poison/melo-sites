@@ -41,11 +41,6 @@ jobs:
       - name: Unit tests
         run: pnpm run test:unit
 
-      # Builds each site, with a draft added, and checks the output: SEO tags, structured data,
-      # sitemap, llms.txt, drafts and the page-weight budgets.
-      - name: Site tests
-        run: pnpm run test:site
-
       # Until the Cloudflare secrets are set, main builds and tests but does not deploy.
       - name: Check for the Cloudflare secrets
         id: cloudflare
@@ -60,29 +55,38 @@ jobs:
             echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (docs/operations.md, Configuration)."
           fi
 
-      # What the tests passed is what ships: the deploy job publishes these builds as they are.
-      - name: Keep the Charlotte build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v7
+  # Separate runners build and test all three sites concurrently. A single Vitest invocation
+  # runs the synchronous global setups one after another, making CI wait for their total time.
+  site-tests:
+    needs: check
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        site: [charlotte, national, atlanta]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: pnpm/action-setup@v6.1.0
+      - uses: actions/setup-node@v7
         with:
-          name: site-charlotte
-          path: sites/charlotte/.output/public
-          retention-days: 3
+          node-version-file: .node-version
+          cache: pnpm
 
-      - name: Keep the national build
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
-        uses: actions/upload-artifact@v7
-        with:
-          name: site-national
-          path: sites/national/.output/public
-          retention-days: 3
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
 
-      - name: Keep the Atlanta build
+      # Builds the production site with publication fixtures, then checks URLs, SEO, forms,
+      # sitemaps, drafts and page-weight budgets. No checks or generated assets are skipped.
+      - name: Site tests
+        run: pnpm exec vitest --run --project=site-${{ matrix.site }}
+
+      # What the tests passed is what ships: deployment downloads this exact tested build.
+      - name: Keep the tested build
         if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7
         with:
-          name: site-atlanta
-          path: sites/atlanta/.output/public
+          name: site-${{ matrix.site }}
+          path: sites/${{ matrix.site }}/.output/public
           retention-days: 3
 
   # Cloudflare Pages, from main only: on a push, the daily schedule or a run by hand. Each site is
@@ -90,7 +94,7 @@ jobs:
   # Cloudflare Pages > Edit) and CLOUDFLARE_ACCOUNT_ID secrets let wrangler publish to them.
   deploy:
     if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request' && needs.check.outputs.cloudflare == 'true'
-    needs: check
+    needs: [check, site-tests]
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
