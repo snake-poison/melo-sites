@@ -10,7 +10,7 @@ const reviewHref = await useClaimFormHref()
     <div class="grid grid-cols-2 gap-2">
       <a :href="business.phoneHref" class="flex items-center justify-center gap-2 rounded-xl bg-brand py-3 text-base font-bold text-charcoal">
         <span class="icon-[carbon--phone-filled]" aria-hidden="true" />
-        Call now, free
+        Call our team
       </a>
       <a :href="reviewHref" class="flex items-center justify-center rounded-xl py-3 text-base font-bold text-on-dark ring-1 ring-on-dark/40">
         Free claim review

@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { business, mainNav, promise, siteName } from '#site'
 
+defineProps<{ quiet?: boolean }>()
+
 // The pages ship no script, so the menus open with CSS alone: the desktop dropdowns on hover
 // and on keyboard focus inside them, the phone menu as a <details>.
 const route = useRoute()
@@ -15,7 +17,7 @@ function isCurrent(to: string): boolean {
   <header class="sticky top-0 z-40 text-ink">
     <!-- A top line that sells: the site's promise, and the phone, answered around the clock.
          A phone has the call bar at its foot instead. -->
-    <div class="hidden bg-navy-2 text-on-dark sm:block">
+    <div v-if="!quiet" class="hidden bg-navy-2 text-on-dark sm:block">
       <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-2 text-[0.8125rem] sm:px-6">
         <p class="hidden items-center gap-1.5 md:flex">
           <span class="icon-[carbon--checkmark-filled] shrink-0 text-brand" aria-hidden="true" />
@@ -70,11 +72,12 @@ function isCurrent(to: string): boolean {
 
         <div class="flex shrink-0 items-center gap-1.5">
           <a :href="business.phoneHref" class="mr-2 hidden flex-col items-end leading-tight xl:flex">
-            <span class="text-xs text-ink-faint">Call 24/7, free</span>
+            <span class="text-xs text-ink-faint">Call our team</span>
             <span class="font-heading text-lg font-bold text-ink hover:text-accent">{{ business.phone }}</span>
           </a>
           <UIThemeToggle />
           <a
+            v-if="!quiet"
             :href="reviewHref"
             class="hidden rounded-xl bg-brand px-5 py-3 text-[0.9375rem] font-bold text-charcoal transition-colors hover:bg-navy hover:text-on-dark focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent sm:inline-flex"
           >
@@ -101,7 +104,7 @@ function isCurrent(to: string): boolean {
                   </ul>
                 </li>
               </ul>
-              <a :href="reviewHref" class="mt-4 flex justify-center rounded-xl bg-brand px-4 py-3 text-base font-bold text-charcoal">
+              <a v-if="!quiet" :href="reviewHref" class="mt-4 flex justify-center rounded-xl bg-brand px-4 py-3 text-base font-bold text-charcoal">
                 Free claim review
               </a>
               <a :href="business.phoneHref" class="mt-2 flex items-center justify-center gap-2 rounded-xl px-4 py-3 text-base font-bold text-ink ring-1 ring-rule">
