@@ -1,7 +1,7 @@
 /* global HTMLRewriter */
 const consultingServices = ['Insurance appraisal', 'Umpire services', 'Claims consulting', 'Expert witness', 'Help me choose']
 const sites = {
-  consulting: { domain: 'propertyclaimsconsulting.net', project: 'propertyclaimsconsulting', name: 'Property Claims Consulting', phone: '(704) 325-5525', phoneHref: 'tel:+17043255525' },
+  consulting: { domain: 'propertyclaimsconsulting.net', project: 'propertyclaimsconsulting', name: 'Property Claims Consulting', phone: '(704) 305-2338', phoneHref: 'tel:+17043052338' },
   charlotte: { domain: 'publicadjusterscharlotte.com', project: 'publicadjusterscharlotte', name: 'Charlotte', phone: '(704) 286-0707', phoneHref: 'tel:+17042860707', source: 41 },
   atlanta: { domain: 'publicadjustersofatlanta.com', project: 'publicadjustersofatlanta', name: 'Atlanta', phone: '(404) 467-5755', phoneHref: 'tel:+14044675755', source: 41 },
   national: { domain: 'melopropertyclaimsadjusting.com', project: 'melopropertyclaimsadjusting', name: 'Melo Property Claims', phone: '(704) 325-5525', phoneHref: 'tel:+17043255525', source: 37 },
