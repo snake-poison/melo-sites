@@ -32,7 +32,7 @@ const trust = [
           </nav>
         </div>
         <div class="hero-visual">
-          <img src="/images/property-review.jpg" width="1200" height="800" alt="An insurance professional inspecting a storm-damaged property"><div class="photo-label">
+          <NuxtPicture src="/images/property-review.jpg" width="1200" height="800" :quality="45" sizes="xs:100vw md:720px lg:920px" :img-attrs="{ alt: 'An insurance professional inspecting a storm-damaged property', fetchpriority: 'high' }" preload /><div class="photo-label">
             <span>THE PROPERTY. THE SCOPE. THE EVIDENCE.</span><p>Good analysis starts<br>with the details.</p>
           </div><span class="image-caption">Illustrative property inspection</span>
         </div>
@@ -69,7 +69,7 @@ const trust = [
     <section id="ramon" class="section about-section">
       <div class="wrap about-grid">
         <div class="profile-panel scroll-reveal">
-          <img class="profile-photo" src="/images/ramon-melo.jpg" width="720" height="897" alt="Ramon Melo" loading="lazy"><UIText variant="kicker" class="eyebrow">
+          <NuxtPicture src="/images/ramon-melo.jpg" width="912" height="1136" sizes="xs:100vw md:720px lg:420px" loading="lazy" :img-attrs="{ class: 'profile-photo', alt: 'Ramon Melo' }" /><UIText variant="kicker" class="eyebrow">
             THE EXPERIENCE BEHIND THE WORK
           </UIText><UIHeading :level="2">
             Ramon Melo
