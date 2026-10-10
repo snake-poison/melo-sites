@@ -59,7 +59,7 @@ jobs:
             echo "::warning::Not deploying: add the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID secrets (docs/operations.md, Configuration)."
           fi
 
-  # Separate runners build and test all three sites concurrently. A single Vitest invocation
+  # Separate runners build and test all four sites concurrently. A single Vitest invocation
   # runs the synchronous global setups one after another, making CI wait for their total time.
   site-tests:
     needs: check
@@ -67,7 +67,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        site: [charlotte, national, atlanta]
+        site: [charlotte, national, atlanta, consulting]
     steps:
       - uses: actions/checkout@v7
       - uses: pnpm/action-setup@v6.1.0
@@ -80,10 +80,12 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Image cache date
+        if: matrix.site != 'consulting'
         id: cache-date
         run: echo "day=$(date -u +%F)" >> "$GITHUB_OUTPUT"
 
       - name: Restore generated images
+        if: matrix.site != 'consulting'
         uses: actions/cache@v5
         with:
           path: sites/${{ matrix.site }}/.image-cache
@@ -93,6 +95,7 @@ jobs:
       # Bootstrap from a tested main artifact when a branch cannot see the cache yet.
       # Source hashes and encoder settings are checked before any image is reused.
       - name: Seed images from the last tested release
+        if: matrix.site != 'consulting'
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -113,7 +116,7 @@ jobs:
           retention-days: 3
 
       - name: Keep the validated image cache
-        if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+        if: matrix.site != 'consulting' && github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
         uses: actions/upload-artifact@v7
         with:
           name: image-cache-${{ matrix.site }}
@@ -141,6 +144,10 @@ jobs:
           - site: atlanta
             project: publicadjustersofatlanta
             url: https://publicadjustersofatlanta.com
+          # On pages.dev until propertyclaimsconsulting.net points at the project.
+          - site: consulting
+            project: propertyclaimsconsulting
+            url: https://propertyclaimsconsulting.pages.dev
     environment:
       name: ${{ matrix.site }}
       url: ${{ matrix.url }}
@@ -157,6 +164,7 @@ jobs:
 
       # What the site serves before this deploy, so IndexNow hears only about what changed.
       - name: Save the live sitemap
+        if: matrix.site != 'consulting'
         run: curl -fsS ${{ matrix.url }}/sitemap.xml -o "$RUNNER_TEMP/live-sitemap.xml" || touch "$RUNNER_TEMP/live-sitemap.xml"
 
       - name: Deploy to Cloudflare Pages
@@ -166,6 +174,8 @@ jobs:
         run: npx --yes wrangler@4 pages deploy sites/${{ matrix.site }}/.output/public --project-name=${{ matrix.project }} --branch=main --commit-hash=${{ github.sha }}
 
       # The site is live; a failed ping is worth a look but does not undo the deploy.
+      # Consulting has no IndexNow key yet, and pages.dev is not its canonical host.
       - name: Tell IndexNow what changed
+        if: matrix.site != 'consulting'
         continue-on-error: true
         run: node scripts/indexnow.mjs ${{ matrix.site }} "$RUNNER_TEMP/live-sitemap.xml"

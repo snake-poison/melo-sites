@@ -1,6 +1,6 @@
 # Melo websites
 
-Three independent public-adjusting websites built with **Nuxt 4, Nuxt Content and
+Three public-adjusting websites and a dedicated umpire-services website built with **Nuxt 4, Nuxt Content and
 Cloudflare Pages**. They share application code and a design system; each site
 owns its business details, Markdown content and public assets.
 
@@ -8,6 +8,7 @@ owns its business details, Markdown content and public assets.
 | --- | --- | --- |
 | Charlotte | `sites/charlotte` | [publicadjusterscharlotte.com](https://publicadjusterscharlotte.com) |
 | National | `sites/national` | [melopropertyclaimsadjusting.com](https://melopropertyclaimsadjusting.com) |
+| Property Claims Consulting | `sites/consulting` | [propertyclaimsconsulting.net](https://propertyclaimsconsulting.net) |
 | Atlanta | `sites/atlanta` | [publicadjustersofatlanta.com](https://publicadjustersofatlanta.com) |
 
 The WordPress migration retains the URLs and titles recorded in the migration
@@ -24,6 +25,7 @@ pnpm install --frozen-lockfile  # also prepares all three Nuxt apps
 pnpm dev                      # Charlotte; localhost:3000 by default
 pnpm dev:national             # national site
 pnpm dev:atlanta               # Atlanta
+pnpm dev:consulting            # appraisal umpire services
 ```
 
 Run one dev server at a time to use the default port. Development includes draft

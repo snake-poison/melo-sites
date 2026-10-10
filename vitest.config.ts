@@ -46,6 +46,16 @@ export default defineConfig({
       siteProject('charlotte'),
       siteProject('national'),
       siteProject('atlanta'),
+      {
+        extends: true,
+        test: {
+          name: 'site-consulting',
+          include: ['test/consulting/**/*.spec.ts'],
+          environment: 'happy-dom',
+          globalSetup: ['test/setup/buildConsulting.ts'],
+          testTimeout: 20_000,
+        },
+      },
     ],
   },
 })

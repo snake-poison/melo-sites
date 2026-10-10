@@ -1,5 +1,7 @@
 /* global HTMLRewriter */
+const consultingServices = ['Insurance appraisal', 'Umpire services', 'Claims consulting', 'Expert witness', 'Help me choose']
 const sites = {
+  consulting: { domain: 'propertyclaimsconsulting.net', project: 'propertyclaimsconsulting', name: 'Property Claims Consulting', phone: '(704) 305-2338', phoneHref: 'tel:+17043052338' },
   charlotte: { domain: 'publicadjusterscharlotte.com', project: 'publicadjusterscharlotte', name: 'Charlotte', phone: '(704) 286-0707', phoneHref: 'tel:+17042860707', source: 41 },
   atlanta: { domain: 'publicadjustersofatlanta.com', project: 'publicadjustersofatlanta', name: 'Atlanta', phone: '(404) 467-5755', phoneHref: 'tel:+14044675755', source: 41 },
   national: { domain: 'melopropertyclaimsadjusting.com', project: 'melopropertyclaimsadjusting', name: 'Melo Property Claims', phone: '(704) 325-5525', phoneHref: 'tel:+17043255525', source: 37 },
@@ -224,7 +226,8 @@ export async function handleSubmission(request, env) {
   if (!matchedSite || request.headers.get('Origin') !== url.origin)
     return failure('Please submit the form from our website.', 403)
   const [siteId, site] = matchedSite
-  if ((!env.INTAKE_DB && !env.PIPEDRIVE_API_TOKEN) || !env.TURNSTILE_SECRET_KEY || (env.INTAKE_DB && !env.INTAKE_OUTBOX_TOKEN))
+  const useOutbox = Boolean(env.INTAKE_DB && siteId !== 'consulting')
+  if ((!useOutbox && !env.PIPEDRIVE_API_TOKEN) || !env.TURNSTILE_SECRET_KEY || (useOutbox && !env.INTAKE_OUTBOX_TOKEN))
     return failure('The form is temporarily unavailable. Please call us.', 503)
   if (!request.headers.get('Content-Type')?.startsWith('application/x-www-form-urlencoded'))
     return failure('Please use the form on our website.', 415)
@@ -279,6 +282,18 @@ export async function handleSubmission(request, env) {
     return failure('Please shorten the description.')
   if ((fields.State && !/^[A-Z]{2}$/.test(fields.State)) || (fields['ZIP code'] && !/^\d{5}(?:-\d{4})?$/.test(fields['ZIP code'])))
     return failure('Please enter a two-letter state and valid ZIP code.')
+  if (siteId === 'consulting') {
+    const service = form.get('Requested service')?.trim() || ''
+    if (!consultingServices.includes(service))
+      return failure('Please select a service.')
+    fields['Requested service'] = service
+    for (const key of ['Parties involved', 'Timing']) {
+      const value = form.get(key)?.trim() || ''
+      if (value.length > 1000)
+        return failure(`Please shorten the ${key.toLowerCase()} field.`)
+      fields[key] = value
+    }
+  }
   const captured = intakeAttribution(form, url, request.headers.get('Referer'), siteId)
   const landing = captured.current.landing
   const attribution = Object.entries(captured.current).map(([key, value]) => `${key}: ${value}`).join('\n')
@@ -301,7 +316,7 @@ export async function handleSubmission(request, env) {
     const check = await verification.json()
     if (!verification.ok || !check.success || check.hostname !== url.hostname || check.action !== 'claim-review')
       return failure('The spam check expired or failed. Go back, refresh the form, and try again.', 403)
-    if (env.INTAKE_DB) {
+    if (useOutbox) {
       const payload = { version: 1, id: intakeId, site: siteId, website: site.domain, receivedAt: new Date().toISOString(), name, fields, description, attribution: captured }
       // Receipt time is server controlled; it is excluded from the retry fingerprint.
       const retryAttribution = JSON.parse(JSON.stringify(captured))
@@ -317,7 +332,10 @@ export async function handleSubmission(request, env) {
       return saved(intakeId)
     }
     const address = [fields['Street address'], form.get('Address line 2')?.trim(), fields.City, fields.State, fields['ZIP code']].filter(Boolean).join(', ')
-    const content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property:</b> ${escapeHtml(address || 'Not provided')}<br><b>Date of loss:</b> ${escapeHtml(date || 'Not provided')}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'] || 'Not provided')}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'] || 'Not provided')}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'] || 'Not provided')}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'] || 'Not provided')}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p><p><b>Intake ID:</b> ${intakeId}</p><pre>${escapeHtml(JSON.stringify(captured))}</pre>`
+    let content = `<h2>${escapeHtml(site.name)} website — claim intake</h2><p><b>Source:</b> ${escapeHtml(landing)}</p><p><b>Policyholder:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property:</b> ${escapeHtml(address || 'Not provided')}<br><b>Date of loss:</b> ${escapeHtml(date || 'Not provided')}<br><b>Cause:</b> ${escapeHtml(fields['Cause of Loss'] || 'Not provided')}<br><b>Insurance company:</b> ${escapeHtml(fields['Insurance Company'] || 'Not provided')}<br><b>Policy:</b> ${escapeHtml(fields['Policy Number'] || 'Not provided')}<br><b>Claim:</b> ${escapeHtml(fields['Claim Number'] || 'Not provided')}</p><p><b>Commission:</b> To be set by the team before preparing the contract.</p><p><b>Additional details:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p>${escapeHtml(attribution).replace(/\n/g, '<br>')}</p><p><b>Intake ID:</b> ${intakeId}</p><pre>${escapeHtml(JSON.stringify(captured))}</pre>`
+    if (siteId === 'consulting') {
+      content = `<h2>Property Claims Consulting — assignment inquiry</h2><p><b>Requested service:</b> ${escapeHtml(fields['Requested service'])}</p><p><b>Contact:</b> ${escapeHtml(name)}<br><b>Phone:</b> ${escapeHtml(fields.Phone)}<br><b>Email:</b> ${escapeHtml(fields.Email || 'Not provided')}</p><p><b>Property location:</b> ${escapeHtml(address || 'Not provided')}<br><b>Parties involved:</b> ${escapeHtml(fields['Parties involved'] || 'Not provided')}<br><b>Timing:</b> ${escapeHtml(fields.Timing || 'Not provided')}</p><p><b>Questions to review:</b><br>${escapeHtml(description).replace(/\n/g, '<br>')}</p><p><b>Source:</b> ${escapeHtml(landing)}<br><b>Intake ID:</b> ${intakeId}</p><p>Inquiry only. Availability, conflicts, qualifications, scope, and fees require review before engagement.</p>`
+    }
     const leadFields = {
       [crmFields.claim]: fields['Claim Number'],
       [crmFields.policy]: fields['Policy Number'],
@@ -354,7 +372,7 @@ export async function handleSubmission(request, env) {
     person = await pipedrive(env, '/api/v2/persons', 'POST', { name, owner_id: 11555257, emails: fields.Email ? [{ value: fields.Email, primary: true }] : [], phones: [{ value: fields.Phone, primary: true }] })
     // Save the loss details before creating the lead, then link the note to both records.
     note = await pipedrive(env, '/api/v1/notes', 'POST', { person_id: person.id, content })
-    lead = await pipedrive(env, '/api/v1/leads', 'POST', { title: `${site.name} website — ${name}`, person_id: person.id, owner_id: 11555257, label_ids: [labels[siteId]], channel: 77, channel_id: site.domain, origin_id: 'melo-sites-claim-intake', ...leadFields })
+    lead = await pipedrive(env, '/api/v1/leads', 'POST', { title: siteId === 'consulting' ? `${site.name} — ${fields['Requested service']} — ${name}` : `${site.name} website — ${name}`, person_id: person.id, owner_id: 11555257, ...(labels[siteId] ? { label_ids: [labels[siteId]] } : {}), channel: 77, channel_id: site.domain, origin_id: 'melo-sites-claim-intake', ...leadFields })
     await pipedrive(env, `/api/v1/notes/${note.id}`, 'PUT', { lead_id: lead.id, person_id: person.id, content })
     return saved(intakeId)
   }
@@ -434,7 +452,7 @@ export default {
     return new HTMLRewriter().on('body', {
       element(element) {
         const ga4 = /^G-[A-Z0-9]+$/.test(env.GA4_MEASUREMENT_ID || '') ? env.GA4_MEASUREMENT_ID : ''
-        element.append(`<script src="/melo-attribution.js" defer data-ga4="${ga4}"></script>`, { html: true })
+        element.append(`<script src="/melo-attribution.js" defer data-form-kind="${site?.domain === 'propertyclaimsconsulting.net' ? 'assignment' : 'claim'}" data-ga4="${ga4}"></script>`, { html: true })
       },
     }).on('[data-claim-captcha]', {
       element(element) {
