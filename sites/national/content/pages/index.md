@@ -176,9 +176,9 @@ Don't waste your time and energy trying to sort through confusing legal document
 
 Some public adjuster firms stick to one city. We handle residential and commercial claims across several states, and we travel to the property to give you the level of care your claim needs. Ramon Melo is licensed as a public adjuster in North Carolina, South Carolina and Georgia, and the firm serves the states below. Even if you don't find your state here, call us and ask.
 
-- [North Carolina](/service-areas/nc-public-adjusters/)
-- [South Carolina](/service-areas/public-adjuster-south-carolina/)
-- [Georgia](/service-areas/public-adjuster-georgia/)
+- North Carolina
+- South Carolina
+- Georgia
 - Pennsylvania
 - Maryland
 - Texas
