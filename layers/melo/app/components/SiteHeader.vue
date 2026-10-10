@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { business, mainNav, promise, siteName } from '#site'
 
+defineProps<{ quiet?: boolean }>()
+
 // The pages ship no script, so the menus open with CSS alone: the desktop dropdowns on hover
 // and on keyboard focus inside them, the phone menu as a <details>.
 const route = useRoute()
@@ -23,7 +25,7 @@ function isCurrent(to: string): boolean {
         </p>
         <a :href="business.phoneHref" class="ml-auto flex shrink-0 items-center gap-1.5 font-semibold hover:underline xl:hidden">
           <span class="icon-[carbon--phone] text-brand" aria-hidden="true" />
-          Call 24/7: {{ business.phone }}
+          {{ business.phone }}
         </a>
         <a :href="business.mapUrl" rel="noopener" class="hidden shrink-0 items-center gap-1.5 text-on-dark/80 hover:text-on-dark hover:underline xl:flex">
           <span class="icon-[carbon--location] text-brand" aria-hidden="true" />
@@ -69,12 +71,12 @@ function isCurrent(to: string): boolean {
         </nav>
 
         <div class="flex shrink-0 items-center gap-1.5">
-          <a :href="business.phoneHref" class="mr-2 hidden flex-col items-end leading-tight xl:flex">
-            <span class="text-xs text-ink-faint">Call 24/7, free</span>
-            <span class="font-heading text-lg font-bold text-ink hover:text-accent">{{ business.phone }}</span>
+          <a :href="business.phoneHref" :aria-label="`Call ${business.phone}`" class="mr-2 hidden font-heading text-lg font-bold text-ink hover:text-accent xl:block">
+            {{ business.phone }}
           </a>
           <UIThemeToggle />
           <a
+            v-if="!quiet"
             :href="reviewHref"
             class="hidden rounded-xl bg-brand px-5 py-3 text-[0.9375rem] font-bold text-charcoal transition-colors hover:bg-navy hover:text-on-dark focus-visible:outline-2 focus-visible:outline-offset-3 focus-visible:outline-accent sm:inline-flex"
           >
@@ -101,7 +103,7 @@ function isCurrent(to: string): boolean {
                   </ul>
                 </li>
               </ul>
-              <a :href="reviewHref" class="mt-4 flex justify-center rounded-xl bg-brand px-4 py-3 text-base font-bold text-charcoal">
+              <a v-if="!quiet" :href="reviewHref" class="mt-4 flex justify-center rounded-xl bg-brand px-4 py-3 text-base font-bold text-charcoal">
                 Free claim review
               </a>
               <a :href="business.phoneHref" class="mt-2 flex items-center justify-center gap-2 rounded-xl px-4 py-3 text-base font-bold text-ink ring-1 ring-rule">

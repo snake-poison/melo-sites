@@ -58,8 +58,7 @@ defineOgImage('MeloPage', { title: content.title, kicker: content.kicker ?? busi
 // form in its hero when it has one.
 provide(claimFormHrefKey, content.claimForm ? '#claim-review' : '/contact/#claim-review')
 
-// The thank-you page sells nothing, so it opens without the call-to-action buttons.
-const quiet = path === '/thank-you-page'
+const isConfirmation = path === '/thank-you-page'
 
 /*
  * The steps and reviews (`testimonial`) are a band the page's width, so they cannot sit in the
@@ -74,13 +73,15 @@ const bodyParts = reviewAt === -1
 </script>
 
 <template>
-  <div>
+  <ClaimConfirmation v-if="isConfirmation" :title="content.title">
+    <ContentRenderer :value="content" />
+  </ClaimConfirmation>
+  <div v-else>
     <PageHero
       :title="content.title"
       :kicker="content.kicker"
       :lead="content.lead"
       :image="content.image?.src"
-      :actions="!quiet"
       :form="content.claimForm"
     />
     <TrustStrip v-if="content.claimForm" />

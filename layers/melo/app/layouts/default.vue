@@ -1,3 +1,8 @@
+<script setup lang="ts">
+const route = useRoute()
+const isConfirmation = computed(() => route.path.replace(/\/$/, '') === '/thank-you-page')
+</script>
+
 <template>
   <div class="machine-root flex min-h-screen flex-col">
     <a
@@ -7,13 +12,13 @@
       Skip to content
     </a>
 
-    <SiteHeader />
+    <SiteHeader :quiet="isConfirmation" />
 
     <main id="main" class="flex-1">
       <slot />
     </main>
 
-    <SiteFooter />
-    <CallBar />
+    <SiteFooter :compact="isConfirmation" />
+    <CallBar v-if="!isConfirmation" />
   </div>
 </template>

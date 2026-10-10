@@ -1,11 +1,10 @@
 ---
-title: "Thank You For Contacting Us"
+title: "Request received"
 metaTitle: "Thank You Page - Public Adjusters of Charlotte"
-description: "Thank you for contacting Melo Public Adjusters Charlotte. We will get back to you as soon as possible. Need help now? Call us 24/7 at (704) 286-0707."
-lead: "We will get back to you as soon as possible!"
+description: "Your request has reached Melo Public Adjusters Charlotte. Our team will review your claim details and follow up using the contact information you sent."
 date: 2018-10-10
-updated: 2020-01-05
+updated: 2026-10-10
 noindex: true
 ---
 
-Thank you for contacting Melo Public Adjusters Charlotte. We will get back to you as soon as possible! [Go home](/)
+Our Charlotte team will contact you about your claim.

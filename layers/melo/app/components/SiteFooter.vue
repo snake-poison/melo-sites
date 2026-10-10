@@ -1,6 +1,8 @@
 <script setup lang="ts">
 import { addressLine, business, claimTypes, footerNav, footerSocial, licenses, promise, serviceAreas } from '#site'
 
+defineProps<{ compact?: boolean }>()
+
 // Navy in both modes. Name, address and phone are written the same way on every page: local
 // search reads them as one business.
 const year = new Date().getFullYear()
@@ -8,7 +10,7 @@ const year = new Date().getFullYear()
 
 <template>
   <footer class="bg-navy-2 text-on-dark">
-    <div class="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))]">
+    <div v-if="!compact" class="mx-auto grid max-w-6xl gap-10 px-4 py-16 sm:grid-cols-2 sm:px-6 lg:grid-cols-[minmax(0,1.4fr)_repeat(3,minmax(0,1fr))]">
       <div>
         <NuxtLink to="/" :aria-label="`${business.name} home`" class="inline-block">
           <SiteLogo :height="44" on-dark />
