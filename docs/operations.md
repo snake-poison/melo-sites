@@ -62,6 +62,13 @@ The Turnstile site key is public; the API token and CAPTCHA secret are private.
 [CI](../.github/workflows/ci.yml) runs on pull requests, pushes to `main`, manual
 runs and daily at 10:30 UTC. It installs the lockfile, lints, typechecks, runs
 unit tests and builds/tests all three sites on separate runners in parallel.
+Generated IPX image variants are reused from each site's `.image-cache`. Every
+entry is checked against the source photo, encoder settings and encoded bytes;
+changed or missing images are regenerated. HTML, share cards and all site tests
+still run on every build. Actions restores the cache or seeds it from the last
+successful `main` artifact. With neither available, the build encodes everything
+normally, which takes longer. The daily cache key lets scheduled publications
+save newly generated variants. Delete `.image-cache` to force a full image rebuild.
 Deployment waits for every site to pass. Only `main` deploys. The deploy job
 uploads the exact tested artifacts to these Direct Upload Pages projects:
 
