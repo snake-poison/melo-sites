@@ -25,7 +25,7 @@ function isCurrent(to: string): boolean {
         </p>
         <a :href="business.phoneHref" class="ml-auto flex shrink-0 items-center gap-1.5 font-semibold hover:underline xl:hidden">
           <span class="icon-[carbon--phone] text-brand" aria-hidden="true" />
-          Call 24/7: {{ business.phone }}
+          {{ business.phone }}
         </a>
         <a :href="business.mapUrl" rel="noopener" class="hidden shrink-0 items-center gap-1.5 text-on-dark/80 hover:text-on-dark hover:underline xl:flex">
           <span class="icon-[carbon--location] text-brand" aria-hidden="true" />
@@ -71,9 +71,8 @@ function isCurrent(to: string): boolean {
         </nav>
 
         <div class="flex shrink-0 items-center gap-1.5">
-          <a :href="business.phoneHref" class="mr-2 hidden flex-col items-end leading-tight xl:flex">
-            <span class="text-xs text-ink-faint">Call our team</span>
-            <span class="font-heading text-lg font-bold text-ink hover:text-accent">{{ business.phone }}</span>
+          <a :href="business.phoneHref" :aria-label="`Call ${business.phone}`" class="mr-2 hidden font-heading text-lg font-bold text-ink hover:text-accent xl:block">
+            {{ business.phone }}
           </a>
           <UIThemeToggle />
           <a

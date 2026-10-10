@@ -73,7 +73,7 @@ const bodyParts = reviewAt === -1
 </script>
 
 <template>
-  <ClaimConfirmation v-if="isConfirmation" :title="content.title" :lead="content.lead">
+  <ClaimConfirmation v-if="isConfirmation" :title="content.title">
     <ContentRenderer :value="content" />
   </ClaimConfirmation>
   <div v-else>
